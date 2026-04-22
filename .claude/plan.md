@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #7
+# Implementation Plan: Feature #10
 
 **Category:** Voice
-**Description:** Wake word engine abstraction with openWakeWord and Porcupine backends
+**Description:** Microphone capture with cross-platform backends (PipeWire/CoreAudio/WASAPI) via sounddevice
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Saying wake word fires trigger event with either backend
+**Criteria:** 16kHz mono stream captured on Linux/macOS/Windows
 **Type:** manual

@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 10,
+  "current_feature_id": 7,
   "session": {
-    "count": 6,
-    "last_started_at": "2026-04-22T12:02:49.824802Z",
+    "count": 5,
+    "last_started_at": "2026-04-22T11:56:10.560550Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 5,
+    "passed": 4,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 138,
-    "completion_percentage": 3.5
+    "pending": 139,
+    "completion_percentage": 2.8
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 1,
+      "passed": 0,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -452,38 +452,15 @@
       "verification": {
         "type": "manual",
         "criteria": "Saying wake word fires trigger event with either backend",
-        "completed": true,
-        "evidence": "mypy clean; 16 tests pass; WakeWordEngine Protocol + registry + openwakeword/porcupine lazy adapters",
-        "requirements_addressed": [],
-        "verified_at": "2026-04-22T12:02:49.542042Z",
-        "alignment_score": {
-          "score": 0.01,
-          "drifted": true,
-          "matched_keywords": [
-            "abstraction",
-            "backend",
-            "backends",
-            "either",
-            "engine",
-            "event",
-            "fires",
-            "openwakeword",
-            "porcupine",
-            "saying",
-            "trigger",
-            "voice",
-            "wake",
-            "word"
-          ],
-          "unmatched_keywords": [],
-          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
-        }
+        "completed": false,
+        "evidence": null,
+        "requirements_addressed": []
       },
-      "status": "passed",
+      "status": "in_progress",
       "status_reason": null,
       "started_at": "2026-04-22T11:56:10.560531Z",
-      "completed_at": "2026-04-22T12:02:49.553022Z",
-      "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
+      "completed_at": null,
+      "commit_hash": null,
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -493,13 +470,7 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta",
-      "loc_stats": {
-        "added": 9230,
-        "removed": 40,
-        "net": 9190,
-        "files_changed": 13
-      }
+      "verification_level": "beta"
     },
     {
       "id": 8,
@@ -569,9 +540,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "in_progress",
+      "status": "pending",
       "status_reason": null,
-      "started_at": "2026-04-22T12:02:49.824785Z",
+      "started_at": null,
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4488,37 +4459,6 @@
           "feedback": [
             "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
           ]
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-22T12:02:49.553064Z",
-      "operation": "feature_passed",
-      "feature_id": 7,
-      "details": {
-        "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
-        "loc_stats": {
-          "added": 9230,
-          "removed": 40,
-          "net": 9190,
-          "files_changed": 13
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T12:02:49.824818Z",
-      "operation": "feature_started",
-      "feature_id": 10,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 9.5,
-          "average": 8.6,
-          "feedback": []
         },
         "depth": 1
       }

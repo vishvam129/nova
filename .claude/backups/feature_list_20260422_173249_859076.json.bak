@@ -15,25 +15,25 @@
   },
   "current_feature_id": null,
   "session": {
-    "count": 0,
-    "last_started_at": null,
+    "count": 5,
+    "last_started_at": "2026-04-22T11:56:10.560550Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 0,
+    "passed": 5,
     "failed": 0,
     "skipped": 0,
     "in_progress": 0,
     "paused": 0,
-    "pending": 144,
-    "completion_percentage": 0.0
+    "pending": 139,
+    "completion_percentage": 3.5
   },
   "categories": [
     {
       "name": "Setup",
       "total": 6,
-      "passed": 0,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 0,
+      "passed": 1,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -184,15 +184,23 @@
       "verification": {
         "type": "manual",
         "criteria": "uv run python -c 'import nova' succeeds, mypy passes",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "uv sync OK; import nova OK; mypy strict passes; pytest 1/1",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T10:15:10.169220Z",
+        "alignment_score": {
+          "score": 1.0,
+          "drifted": false,
+          "matched_keywords": [],
+          "unmatched_keywords": [],
+          "message": "No git data — alignment check skipped"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T10:05:16.117641Z",
+      "completed_at": "2026-04-22T10:15:10.169431Z",
+      "commit_hash": "8827f1182730f25a1a68ea593752f269c6dde53b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -202,7 +210,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 0,
+        "removed": 0,
+        "net": 0,
+        "files_changed": 0
+      }
     },
     {
       "id": 2,
@@ -212,15 +226,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Typed Config object; defaults used when file missing",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy strict clean (3 files); pytest 4/4 (defaults, TOML, env-over-TOML)",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T11:17:31.783514Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "config",
+            "defaults",
+            "env",
+            "file",
+            "loader",
+            "missing",
+            "nova",
+            "object",
+            "overrides",
+            "pydantic-settings",
+            "reading",
+            "setup",
+            "toml",
+            "typed"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T10:55:47.227365Z",
+      "completed_at": "2026-04-22T11:17:31.795421Z",
+      "commit_hash": "80a860938a46b398cda2a75caf98b9ad6216f62b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -230,7 +267,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 8978,
+        "removed": 42,
+        "net": 8936,
+        "files_changed": 15
+      }
     },
     {
       "id": 3,
@@ -268,15 +311,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Migrations run; schema versioned",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 8 tests pass (incl 4 db tests: tables, WAL, idempotent, FK)",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T11:33:24.936005Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "alembic",
+            "conversations",
+            "devices",
+            "events",
+            "migrations",
+            "run",
+            "schema",
+            "setup",
+            "sqlite",
+            "state",
+            "store",
+            "tasks",
+            "versioned",
+            "wal"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T11:18:48.172851Z",
+      "completed_at": "2026-04-22T11:33:24.946161Z",
+      "commit_hash": "3ef9574c068e73b9909acf197cc4acf3c0bf666b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -286,7 +352,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 8912,
+        "removed": 40,
+        "net": 8872,
+        "files_changed": 12
+      }
     },
     {
       "id": 5,
@@ -324,15 +396,37 @@
       "verification": {
         "type": "manual",
         "criteria": "nova --help lists all subcommands",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "12 tests pass; mypy clean; nova/devices/mcp/memory/config/eval/run subcommands wired",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T11:56:10.217999Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "cli",
+            "config",
+            "devices",
+            "entrypoint",
+            "eval",
+            "help",
+            "lists",
+            "mcp",
+            "memory",
+            "nova",
+            "run",
+            "setup",
+            "subcommands"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T11:33:25.250066Z",
+      "completed_at": "2026-04-22T11:56:10.227959Z",
+      "commit_hash": "582c584ab9544cb7a5c480ddd0b2b6791c63e8be",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -342,7 +436,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9067,
+        "removed": 48,
+        "net": 9019,
+        "files_changed": 12
+      }
     },
     {
       "id": 7,
@@ -352,15 +452,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Saying wake word fires trigger event with either backend",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 16 tests pass; WakeWordEngine Protocol + registry + openwakeword/porcupine lazy adapters",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:02:49.542042Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "abstraction",
+            "backend",
+            "backends",
+            "either",
+            "engine",
+            "event",
+            "fires",
+            "openwakeword",
+            "porcupine",
+            "saying",
+            "trigger",
+            "voice",
+            "wake",
+            "word"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T11:56:10.560531Z",
+      "completed_at": "2026-04-22T12:02:49.553022Z",
+      "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -370,7 +493,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9230,
+        "removed": 40,
+        "net": 9190,
+        "files_changed": 13
+      }
     },
     {
       "id": 8,
@@ -4216,6 +4345,165 @@
       "details": {
         "count": 144,
         "summary": "Nova: cross-device AI assistant"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T10:05:16.117676Z",
+      "operation": "feature_started",
+      "feature_id": 1,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T10:15:10.169457Z",
+      "operation": "feature_passed",
+      "feature_id": 1,
+      "details": {
+        "commit_hash": "8827f1182730f25a1a68ea593752f269c6dde53b",
+        "loc_stats": {
+          "added": 0,
+          "removed": 0,
+          "net": 0,
+          "files_changed": 0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T10:55:47.227400Z",
+      "operation": "feature_started",
+      "feature_id": 2,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:17:31.795461Z",
+      "operation": "feature_passed",
+      "feature_id": 2,
+      "details": {
+        "commit_hash": "80a860938a46b398cda2a75caf98b9ad6216f62b",
+        "loc_stats": {
+          "added": 8978,
+          "removed": 42,
+          "net": 8936,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:18:48.172883Z",
+      "operation": "feature_started",
+      "feature_id": 4,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:33:24.946202Z",
+      "operation": "feature_passed",
+      "feature_id": 4,
+      "details": {
+        "commit_hash": "3ef9574c068e73b9909acf197cc4acf3c0bf666b",
+        "loc_stats": {
+          "added": 8912,
+          "removed": 40,
+          "net": 8872,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:33:25.250105Z",
+      "operation": "feature_started",
+      "feature_id": 6,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:56:10.228005Z",
+      "operation": "feature_passed",
+      "feature_id": 6,
+      "details": {
+        "commit_hash": "582c584ab9544cb7a5c480ddd0b2b6791c63e8be",
+        "loc_stats": {
+          "added": 9067,
+          "removed": 48,
+          "net": 9019,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T11:56:10.560566Z",
+      "operation": "feature_started",
+      "feature_id": 7,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:02:49.553064Z",
+      "operation": "feature_passed",
+      "feature_id": 7,
+      "details": {
+        "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
+        "loc_stats": {
+          "added": 9230,
+          "removed": 40,
+          "net": 9190,
+          "files_changed": 13
+        }
       }
     }
   ]

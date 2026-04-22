@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-5",
-      "text": "Implementing feature 7: Wake word engine abstraction with openWakeWord and Porcupine backends",
+      "id": "f2d00bd75f7e-6",
+      "text": "Implementing feature 10: Microphone capture with cross-platform backends (PipeWire/CoreAudio/WASAPI) via sounddevice",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776858970.6355753,
-      "updated_at": 1776858970.6355755,
+      "created_at": 1776859369.8968866,
+      "updated_at": 1776859369.8968868,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 7
+        "feature_id": 10
       },
       "keywords": []
     },
@@ -94,9 +94,24 @@
         "feature_id": 7
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-6",
+      "text": "Implementing feature 10: Microphone capture with cross-platform backends (PipeWire/CoreAudio/WASAPI) via sounddevice",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776859369.8968866,
+      "updated_at": 1776859369.8968868,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 10
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 5,
+  "intent_counter": 6,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776858970.635581
+  "updated_at": 1776859369.8968914
 }
