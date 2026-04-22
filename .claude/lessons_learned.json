@@ -1,0 +1,11 @@
+{
+  "lessons": [
+    {
+      "feature_id": 1,
+      "error": "File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 1026, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/home/vpa-rdflex/.local/share/uv/tools/platxa-code-agent/lib/python3.13/site-packages/platxa_code_agent/orchestration/__init__.py\", line 23, in <module>\n    from .catalog_formatter import AgentC",
+      "fix": "",
+      "category": "dependency",
+      "timestamp": 1776852316.3178604
+    }
+  ]
+}

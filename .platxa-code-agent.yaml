@@ -1,0 +1,5 @@
+quality:
+  src_dir: "src/"
+  test_dir: "tests/"
+  verification_level: "beta"
+  min_coverage: 0
