@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #52
+# Implementation Plan: Feature #53
 
 **Category:** Safety
-**Description:** Allowlist/denylist engine for paths, domains, commands, and MCP tools
+**Description:** Secret redaction middleware (regex + ML detector) before storing or sending transcripts
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Denied action blocked with audit entry
+**Criteria:** Sample text with sk-xxx redacted in stored record
 **Type:** manual

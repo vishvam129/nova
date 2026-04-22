@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #52 [Safety] Allowlist/denylist engine for paths, domains, commands, and MCP tools
-   Started: 2026-04-22T19:42:12.847788Z
+**In Progress:** #53 [Safety] Secret redaction middleware (regex + ML detector) before storing or sending transcripts
+   Started: 2026-04-22T19:43:01.139401Z
 
 ## Summary
 
-Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 22.2%
+Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 22.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 32 | 22.2% |
+| Passed | 33 | 22.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 111 | 77.1% |
+| Pending | 110 | 76.4% |
 
 ## Session Statistics
 
-- **Sessions:** 33
-- **Last Started:** 2026-04-22T19:42:12.847818Z
+- **Sessions:** 34
+- **Last Started:** 2026-04-22T19:43:01.139426Z
 
 ## Categories
 
@@ -31,7 +31,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
-| Safety | █░░░░░░░░░ 12% | 1 | 0 | 0 |
+| Safety | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #52 | passed | 48s | 12601 | 11718 | 883 | 14 | 0 | yes |
 | #51 | passed | 1m 10s | 12437 | 11599 | 838 | 14 | 0 | yes |
 | #49 | passed | 1m 56s | 12445 | 11480 | 965 | 15 | 0 | yes |
 | #43 | passed | 47s | 12234 | 11359 | 875 | 14 | 0 | yes |
@@ -89,6 +90,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
 | 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 | 2026-04-22T19:41 | #49 Claude Computer Use integration for vision-driven  | P | bc1b69e |
 | 2026-04-22T19:39 | #43 Built-in tool: file_search using local vector inde | P | b679513 |
@@ -98,8 +100,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:34 | #37 Per-tool approval policy: auto, quiet-confirm, req | P | be1e700 |
 | 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
 | 2026-04-22T19:31 | #35 MCP server registry: install/enable/disable/update | P | cd6e8f1 |
-| 2026-04-22T19:30 | #34 MCP client (stdio + HTTP/SSE + Streamable HTTP tra | P | 1e686eb |
 
 ---
-*Last updated: 2026-04-22T19:42:12.898967Z*
-*Session 33*
+*Last updated: 2026-04-22T19:43:01.186218Z*
+*Session 34*

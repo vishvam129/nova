@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-33",
-      "text": "Implementing feature 52: Allowlist/denylist engine for paths, domains, commands, and MCP tools",
+      "id": "f2d00bd75f7e-34",
+      "text": "Implementing feature 53: Secret redaction middleware (regex + ML detector) before storing or sending transcripts",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886932.9297829,
-      "updated_at": 1776886932.9297829,
+      "created_at": 1776886981.213859,
+      "updated_at": 1776886981.2138593,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 52
+        "feature_id": 53
       },
       "keywords": []
     },
@@ -514,9 +514,24 @@
         "feature_id": 52
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-34",
+      "text": "Implementing feature 53: Secret redaction middleware (regex + ML detector) before storing or sending transcripts",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886981.213859,
+      "updated_at": 1776886981.2138593,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 53
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 33,
+  "intent_counter": 34,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886932.929787
+  "updated_at": 1776886981.2138627
 }
