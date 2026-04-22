@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-32",
-      "text": "Implementing feature 51: Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)",
+      "id": "f2d00bd75f7e-33",
+      "text": "Implementing feature 52: Allowlist/denylist engine for paths, domains, commands, and MCP tools",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886861.8732028,
-      "updated_at": 1776886861.873203,
+      "created_at": 1776886932.9297829,
+      "updated_at": 1776886932.9297829,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 51
+        "feature_id": 52
       },
       "keywords": []
     },
@@ -499,9 +499,24 @@
         "feature_id": 51
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-33",
+      "text": "Implementing feature 52: Allowlist/denylist engine for paths, domains, commands, and MCP tools",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886932.9297829,
+      "updated_at": 1776886932.9297829,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 52
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 32,
+  "intent_counter": 33,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886861.8732066
+  "updated_at": 1776886932.929787
 }

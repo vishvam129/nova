@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #51
+# Implementation Plan: Feature #52
 
 **Category:** Safety
-**Description:** Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)
+**Description:** Allowlist/denylist engine for paths, domains, commands, and MCP tools
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Tapping within 1s cancels action
+**Criteria:** Denied action blocked with audit entry
 **Type:** manual

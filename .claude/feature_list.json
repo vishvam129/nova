@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 51,
+  "current_feature_id": 52,
   "session": {
-    "count": 32,
-    "last_started_at": "2026-04-22T19:41:01.791006Z",
+    "count": 33,
+    "last_started_at": "2026-04-22T19:42:12.847818Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 31,
+    "passed": 32,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 112,
-    "completion_percentage": 21.5
+    "pending": 111,
+    "completion_percentage": 22.2
   },
   "categories": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Safety",
       "total": 8,
-      "passed": 0,
+      "passed": 1,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -2492,15 +2492,36 @@
       "verification": {
         "type": "manual",
         "criteria": "Tapping within 1s cancels action",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 192 tests; QuietConfirmToast + threaded_presenter + ToastOutcome enum + pluggable presenter",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:42:12.536946Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action",
+            "actions",
+            "cancellable",
+            "cancels",
+            "desktop",
+            "destructive",
+            "mobile",
+            "quiet-confirm",
+            "safety",
+            "tapping",
+            "toast",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:41:01.790986Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:42:12.563136Z",
+      "commit_hash": "0672a622ccd72803221f7ad4a4e11b05151a71bb",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2510,7 +2531,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12437,
+        "removed": 11599,
+        "net": 838,
+        "files_changed": 14
+      }
     },
     {
       "id": 52,
@@ -2524,9 +2551,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:42:12.847788Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6110,6 +6137,39 @@
           "bounded": 8.5,
           "average": 8.5,
           "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:42:12.563176Z",
+      "operation": "feature_passed",
+      "feature_id": 51,
+      "details": {
+        "commit_hash": "0672a622ccd72803221f7ad4a4e11b05151a71bb",
+        "loc_stats": {
+          "added": 12437,
+          "removed": 11599,
+          "net": 838,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:42:12.847844Z",
+      "operation": "feature_started",
+      "feature_id": 52,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
         },
         "depth": 1
       }

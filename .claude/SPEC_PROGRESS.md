@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #51 [Safety] Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)
-   Started: 2026-04-22T19:41:01.790986Z
+**In Progress:** #52 [Safety] Allowlist/denylist engine for paths, domains, commands, and MCP tools
+   Started: 2026-04-22T19:42:12.847788Z
 
 ## Summary
 
-Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 21.5%
+Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 22.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 31 | 21.5% |
+| Passed | 32 | 22.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 112 | 77.8% |
+| Pending | 111 | 77.1% |
 
 ## Session Statistics
 
-- **Sessions:** 32
-- **Last Started:** 2026-04-22T19:41:01.791006Z
+- **Sessions:** 33
+- **Last Started:** 2026-04-22T19:42:12.847818Z
 
 ## Categories
 
@@ -31,7 +31,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
-| Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Safety | █░░░░░░░░░ 12% | 1 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #51 | passed | 1m 10s | 12437 | 11599 | 838 | 14 | 0 | yes |
 | #49 | passed | 1m 56s | 12445 | 11480 | 965 | 15 | 0 | yes |
 | #43 | passed | 47s | 12234 | 11359 | 875 | 14 | 0 | yes |
 | #42 | passed | 2m 2s | 12137 | 11235 | 902 | 15 | 0 | yes |
@@ -88,6 +89,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 | 2026-04-22T19:41 | #49 Claude Computer Use integration for vision-driven  | P | bc1b69e |
 | 2026-04-22T19:39 | #43 Built-in tool: file_search using local vector inde | P | b679513 |
 | 2026-04-22T19:38 | #42 Built-in tool: browser_control via Playwright (nav | P | d7bbf5c |
@@ -97,8 +99,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
 | 2026-04-22T19:31 | #35 MCP server registry: install/enable/disable/update | P | cd6e8f1 |
 | 2026-04-22T19:30 | #34 MCP client (stdio + HTTP/SSE + Streamable HTTP tra | P | 1e686eb |
-| 2026-04-22T19:29 | #33 Context window manager: auto-summarize old turns w | P | 0500656 |
 
 ---
-*Last updated: 2026-04-22T19:41:01.842791Z*
-*Session 32*
+*Last updated: 2026-04-22T19:42:12.898967Z*
+*Session 33*
