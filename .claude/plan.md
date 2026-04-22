@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #41
+# Implementation Plan: Feature #42
 
 **Category:** Tools
-**Description:** Built-in tool: open_app cross-platform (xdg-open/open/start)
+**Description:** Built-in tool: browser_control via Playwright (navigate, click, fill, extract, screenshot)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Launches named app on all three OSes
+**Criteria:** Completes multi-step web task end-to-end
 **Type:** manual

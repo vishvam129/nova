@@ -64,6 +64,7 @@ module = [
     "psutil",
     "mcp",
     "mcp.*",
+    "playwright.*",
 ]
 ignore_missing_imports = true
 
