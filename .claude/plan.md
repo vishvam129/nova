@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #4
+# Implementation Plan: Feature #6
 
 **Category:** Setup
-**Description:** SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks
+**Description:** CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Migrations run; schema versioned
+**Criteria:** nova --help lists all subcommands
 **Type:** manual

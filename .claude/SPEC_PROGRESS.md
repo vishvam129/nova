@@ -2,32 +2,32 @@
 
 ## Current Status
 
-**In Progress:** #4 [Setup] SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks
-   Started: 2026-04-22T11:18:48.172851Z
+**In Progress:** #6 [Setup] CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config
+   Started: 2026-04-22T11:33:25.250066Z
 
 ## Summary
 
-Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.4%
+Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 2 | 1.4% |
+| Passed | 3 | 2.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 141 | 97.9% |
+| Pending | 140 | 97.2% |
 
 ## Session Statistics
 
-- **Sessions:** 3
-- **Last Started:** 2026-04-22T11:18:48.172868Z
+- **Sessions:** 4
+- **Last Started:** 2026-04-22T11:33:25.250088Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
-| Setup | ███░░░░░░░ 33% | 2 | 0 | 0 |
+| Setup | █████░░░░░ 50% | 3 | 0 | 0 |
 | Voice | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #4 | passed | 14m 36s | 8912 | 40 | 8872 | 12 | 0 | yes |
 | #2 | passed | 21m 44s | 8978 | 42 | 8936 | 15 | 0 | yes |
 | #1 | passed | 9m 54s | 0 | 0 | 0 | 0 | 0 | yes |
 
@@ -59,9 +60,10 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T11:33 | #4 SQLite+WAL state store with Alembic migrations for | P | 3ef9574 |
 | 2026-04-22T11:17 | #2 Config loader reading ~/.config/nova/config.toml w | P | 80a8609 |
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T11:18:48.218381Z*
-*Session 3*
+*Last updated: 2026-04-22T11:33:25.291744Z*
+*Session 4*

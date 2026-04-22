@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-3",
-      "text": "Implementing feature 4: SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks",
+      "id": "f2d00bd75f7e-4",
+      "text": "Implementing feature 6: CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776856728.2641242,
-      "updated_at": 1776856728.2641244,
+      "created_at": 1776857605.32273,
+      "updated_at": 1776857605.3227303,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 4
+        "feature_id": 6
       },
       "keywords": []
     },
@@ -64,9 +64,24 @@
         "feature_id": 4
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-4",
+      "text": "Implementing feature 6: CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776857605.32273,
+      "updated_at": 1776857605.3227303,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 6
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 3,
+  "intent_counter": 4,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776856728.2641284
+  "updated_at": 1776857605.3227348
 }

@@ -13,10 +13,10 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 6,
+  "current_feature_id": null,
   "session": {
-    "count": 4,
-    "last_started_at": "2026-04-22T11:33:25.250088Z",
+    "count": 3,
+    "last_started_at": "2026-04-22T11:18:48.172868Z",
     "total_duration_minutes": 0
   },
   "stats": {
@@ -24,9 +24,9 @@
     "passed": 3,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "paused": 0,
-    "pending": 140,
+    "pending": 141,
     "completion_percentage": 2.1
   },
   "categories": [
@@ -400,9 +400,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "in_progress",
+      "status": "pending",
       "status_reason": null,
-      "started_at": "2026-04-22T11:33:25.250066Z",
+      "started_at": null,
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4383,23 +4383,6 @@
           "net": 8872,
           "files_changed": 12
         }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T11:33:25.250105Z",
-      "operation": "feature_started",
-      "feature_id": 6,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
       }
     }
   ]
