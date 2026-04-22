@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #2
+# Implementation Plan: Feature #4
 
 **Category:** Setup
-**Description:** Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides
+**Description:** SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Typed Config object; defaults used when file missing
+**Criteria:** Migrations run; schema versioned
 **Type:** manual

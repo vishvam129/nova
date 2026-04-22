@@ -1,0 +1,49 @@
+{
+  "instincts": [
+    {
+      "id": "user_correction:Edit follows Write on /home/vpa-rdflex/Desktop/nova/src/nova",
+      "description": "Edit follows Write on /home/vpa-rdflex/Desktop/nova/src/nova/__init__.py",
+      "domain": "quality",
+      "confidence": 0.5,
+      "evidence": [
+        "2026-04-22T10:56:17.024400+00:00",
+        "2026-04-22T10:56:23.777726+00:00"
+      ],
+      "created_at": "2026-04-22T11:17:31.882814+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "user_correction:Edit follows Write on /home/vpa-rdflex/Desktop/nova/tests/te",
+      "description": "Edit follows Write on /home/vpa-rdflex/Desktop/nova/tests/test_config.py",
+      "domain": "quality",
+      "confidence": 0.5,
+      "evidence": [
+        "2026-04-22T10:58:27.622896+00:00",
+        "2026-04-22T10:58:39.993480+00:00"
+      ],
+      "created_at": "2026-04-22T11:17:31.882831+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "error_resolution:Error resolved for Edit",
+      "description": "Error resolved for Edit",
+      "domain": "debugging",
+      "confidence": 0.5,
+      "evidence": [
+        "2026-04-22T10:56:31.154762+00:00",
+        "2026-04-22T10:56:37.941593+00:00"
+      ],
+      "created_at": "2026-04-22T11:17:31.882835+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Write -> Write -> Write (3x)",
+      "description": "Repeated sequence: Write -> Write -> Write -> Write (3x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T11:17:31.882838+00:00",
+      "last_triggered": ""
+    }
+  ]
+}

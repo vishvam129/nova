@@ -1,9 +1,9 @@
 {
   "data": {
-    "session.tool_call_count": 49,
+    "session.tool_call_count": 56,
     "session.compact_recommended": false,
-    "session.compact_reason": "Tool calls (37) below threshold (80)."
+    "session.compact_reason": "Tool calls (51) below threshold (80)."
   },
   "created_at": 1776851795.089304,
-  "updated_at": 1776856286.5378823
+  "updated_at": 1776857549.2966423
 }

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-2",
-      "text": "Implementing feature 2: Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides",
+      "id": "f2d00bd75f7e-3",
+      "text": "Implementing feature 4: SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776855347.3245122,
-      "updated_at": 1776855347.3245122,
+      "created_at": 1776856728.2641242,
+      "updated_at": 1776856728.2641244,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 2
+        "feature_id": 4
       },
       "keywords": []
     },
@@ -49,9 +49,24 @@
         "feature_id": 2
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-3",
+      "text": "Implementing feature 4: SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776856728.2641242,
+      "updated_at": 1776856728.2641244,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 4
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 2,
+  "intent_counter": 3,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776855347.3245168
+  "updated_at": 1776856728.2641284
 }

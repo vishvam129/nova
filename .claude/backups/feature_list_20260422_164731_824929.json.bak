@@ -13,27 +13,27 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 4,
+  "current_feature_id": 2,
   "session": {
-    "count": 3,
-    "last_started_at": "2026-04-22T11:18:48.172868Z",
+    "count": 2,
+    "last_started_at": "2026-04-22T10:55:47.227383Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 2,
+    "passed": 1,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 141,
-    "completion_percentage": 1.4
+    "pending": 142,
+    "completion_percentage": 0.7
   },
   "categories": [
     {
       "name": "Setup",
       "total": 6,
-      "passed": 2,
+      "passed": 1,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -226,38 +226,15 @@
       "verification": {
         "type": "manual",
         "criteria": "Typed Config object; defaults used when file missing",
-        "completed": true,
-        "evidence": "mypy strict clean (3 files); pytest 4/4 (defaults, TOML, env-over-TOML)",
-        "requirements_addressed": [],
-        "verified_at": "2026-04-22T11:17:31.783514Z",
-        "alignment_score": {
-          "score": 0.01,
-          "drifted": true,
-          "matched_keywords": [
-            "config",
-            "defaults",
-            "env",
-            "file",
-            "loader",
-            "missing",
-            "nova",
-            "object",
-            "overrides",
-            "pydantic-settings",
-            "reading",
-            "setup",
-            "toml",
-            "typed"
-          ],
-          "unmatched_keywords": [],
-          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
-        }
+        "completed": false,
+        "evidence": null,
+        "requirements_addressed": []
       },
-      "status": "passed",
+      "status": "in_progress",
       "status_reason": null,
       "started_at": "2026-04-22T10:55:47.227365Z",
-      "completed_at": "2026-04-22T11:17:31.795421Z",
-      "commit_hash": "80a860938a46b398cda2a75caf98b9ad6216f62b",
+      "completed_at": null,
+      "commit_hash": null,
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -267,13 +244,7 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta",
-      "loc_stats": {
-        "added": 8978,
-        "removed": 42,
-        "net": 8936,
-        "files_changed": 15
-      }
+      "verification_level": "beta"
     },
     {
       "id": 3,
@@ -315,9 +286,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "in_progress",
+      "status": "pending",
       "status_reason": null,
-      "started_at": "2026-04-22T11:18:48.172851Z",
+      "started_at": null,
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4307,37 +4278,6 @@
           "feedback": [
             "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
           ]
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-22T11:17:31.795461Z",
-      "operation": "feature_passed",
-      "feature_id": 2,
-      "details": {
-        "commit_hash": "80a860938a46b398cda2a75caf98b9ad6216f62b",
-        "loc_stats": {
-          "added": 8978,
-          "removed": 42,
-          "net": 8936,
-          "files_changed": 15
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T11:18:48.172883Z",
-      "operation": "feature_started",
-      "feature_id": 4,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
         },
         "depth": 1
       }

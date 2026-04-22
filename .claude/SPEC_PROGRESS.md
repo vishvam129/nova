@@ -2,32 +2,32 @@
 
 ## Current Status
 
-**In Progress:** #2 [Setup] Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides
-   Started: 2026-04-22T10:55:47.227365Z
+**In Progress:** #4 [Setup] SQLite+WAL state store with Alembic migrations for conversations, events, devices, tasks
+   Started: 2026-04-22T11:18:48.172851Z
 
 ## Summary
 
-Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.7%
+Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 1 | 0.7% |
+| Passed | 2 | 1.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 142 | 98.6% |
+| Pending | 141 | 97.9% |
 
 ## Session Statistics
 
-- **Sessions:** 2
-- **Last Started:** 2026-04-22T10:55:47.227383Z
+- **Sessions:** 3
+- **Last Started:** 2026-04-22T11:18:48.172868Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
-| Setup | █░░░░░░░░░ 17% | 1 | 0 | 0 |
+| Setup | ███░░░░░░░ 33% | 2 | 0 | 0 |
 | Voice | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #2 | passed | 21m 44s | 8978 | 42 | 8936 | 15 | 0 | yes |
 | #1 | passed | 9m 54s | 0 | 0 | 0 | 0 | 0 | yes |
 
 
@@ -58,8 +59,9 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T11:17 | #2 Config loader reading ~/.config/nova/config.toml w | P | 80a8609 |
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T10:55:47.264392Z*
-*Session 2*
+*Last updated: 2026-04-22T11:18:48.218381Z*
+*Session 3*
