@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 26,
+  "current_feature_id": 28,
   "session": {
-    "count": 18,
-    "last_started_at": "2026-04-22T19:24:06.473834Z",
+    "count": 19,
+    "last_started_at": "2026-04-22T19:25:14.172891Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 17,
+    "passed": 18,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 126,
-    "completion_percentage": 11.8
+    "pending": 125,
+    "completion_percentage": 12.5
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 3,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1376,15 +1376,44 @@
       "verification": {
         "type": "manual",
         "criteria": "Chat routed local; 'book a flight' routed cloud; logs reason",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 95 tests; HybridRouter + Privacy enum + cost cap + decision log; 9 routing tests",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:25:13.860582Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "book",
+            "brain",
+            "chat",
+            "cloud",
+            "cost",
+            "decisions",
+            "difficulty",
+            "flight",
+            "hybrid",
+            "local",
+            "logs",
+            "privacy",
+            "reason",
+            "request",
+            "required",
+            "routed",
+            "router",
+            "scoring",
+            "tag",
+            "tools"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 20/20 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:24:06.473816Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:25:13.880529Z",
+      "commit_hash": "4a4551fb8bc614670b5b226642eb7fab33bb88f9",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1394,7 +1423,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10828,
+        "removed": 9863,
+        "net": 965,
+        "files_changed": 14
+      }
     },
     {
       "id": 27,
@@ -1436,9 +1471,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:25:14.172872Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5249,6 +5284,37 @@
       "timestamp": "2026-04-22T19:24:06.473850Z",
       "operation": "feature_started",
       "feature_id": 26,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:25:13.880570Z",
+      "operation": "feature_passed",
+      "feature_id": 26,
+      "details": {
+        "commit_hash": "4a4551fb8bc614670b5b226642eb7fab33bb88f9",
+        "loc_stats": {
+          "added": 10828,
+          "removed": 9863,
+          "net": 965,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:25:14.172910Z",
+      "operation": "feature_started",
+      "feature_id": 28,
       "details": {
         "from_status": "pending",
         "avib": {

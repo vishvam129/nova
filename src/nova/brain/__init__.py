@@ -1,5 +1,6 @@
 """LLM brain: model adapters, routing, agent loops."""
 
+from nova.brain import agent as _agent
 from nova.brain import cloud as _cloud
 from nova.brain import llm as _llm
 from nova.brain import models as _models
@@ -20,6 +21,12 @@ create_claude_opus = _cloud.create_claude_opus
 create_cloud_backend = _cloud.create_cloud_backend
 first_available_provider = _cloud.first_available_provider
 
+AgentResult = _agent.AgentResult
+AgentStep = _agent.AgentStep
+ReactAgent = _agent.ReactAgent
+Tool = _agent.Tool
+ToolHandler = _agent.ToolHandler
+
 HybridRouter = _router.HybridRouter
 Privacy = _router.Privacy
 RouteDecision = _router.RouteDecision
@@ -34,6 +41,8 @@ recommended_for_host = _models.recommended_for_host
 __all__ = [
     "CLAUDE_OPUS_MODEL",
     "DEFAULT_MODELS",
+    "AgentResult",
+    "AgentStep",
     "ChatMessage",
     "ChatResponse",
     "CloudProvider",

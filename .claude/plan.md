@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #26
+# Implementation Plan: Feature #28
 
 **Category:** Brain
-**Description:** Hybrid router scoring each request: difficulty, tools required, privacy tag, cost; logs decisions
+**Description:** ReAct agent loop for exploratory dialog (reason, act, observe)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Chat routed local; 'book a flight' routed cloud; logs reason
+**Criteria:** Tool-use dialog completes in under 7 LLM calls
 **Type:** manual

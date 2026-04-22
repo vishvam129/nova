@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #26 [Brain] Hybrid router scoring each request: difficulty, tools required, privacy tag, cost; logs decisions
-   Started: 2026-04-22T19:24:06.473816Z
+**In Progress:** #28 [Brain] ReAct agent loop for exploratory dialog (reason, act, observe)
+   Started: 2026-04-22T19:25:14.172872Z
 
 ## Summary
 
-Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 11.8%
+Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 17 | 11.8% |
+| Passed | 18 | 12.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 126 | 87.5% |
+| Pending | 125 | 86.8% |
 
 ## Session Statistics
 
-- **Sessions:** 18
-- **Last Started:** 2026-04-22T19:24:06.473834Z
+- **Sessions:** 19
+- **Last Started:** 2026-04-22T19:25:14.172891Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ██░░░░░░░░ 27% | 3 | 0 | 0 |
+| Brain | ███░░░░░░░ 36% | 4 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #26 | passed | 1m 7s | 10828 | 9863 | 965 | 14 | 0 | yes |
 | #25 | passed | 55s | 10613 | 9745 | 868 | 14 | 0 | yes |
 | #24 | passed | 1m 17s | 153 | 2 | 151 | 6 | 0 | yes |
 | #23 | passed | 1m 12s | 10725 | 9504 | 1221 | 15 | 0 | yes |
@@ -74,6 +75,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
 | 2026-04-22T19:24 | #25 Cloud fallback: Claude Opus 4.7 for computer-use a | P | c580304 |
 | 2026-04-22T19:23 | #24 Default local models: Gemma 3 4B (tool calling), P | P | ed550b9 |
 | 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
@@ -83,8 +85,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
 | 2026-04-22T16:51 | #17 TTS engine abstraction with Piper, Kokoro-82M, Sty | P | cf12c19 |
 | 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
-| 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 
 ---
-*Last updated: 2026-04-22T19:24:06.516142Z*
-*Session 18*
+*Last updated: 2026-04-22T19:25:14.224892Z*
+*Session 19*
