@@ -36,6 +36,7 @@ available_ttses = _tts.available_ttses
 create_tts = _tts.create_tts
 register_tts = _tts.register_tts
 split_sentences = _tts.split_sentences
+time_to_first_sound_ms = _tts.time_to_first_sound_ms
 
 __all__ = [
     "AdaptiveVad",
@@ -64,4 +65,5 @@ __all__ = [
     "register_stt",
     "register_tts",
     "split_sentences",
+    "time_to_first_sound_ms",
 ]

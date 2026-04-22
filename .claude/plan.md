@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #17
+# Implementation Plan: Feature #18
 
 **Category:** Voice
-**Description:** TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends
+**Description:** Kokoro-82M as default TTS for fast, high-quality voice (<300ms TTFS)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Any backend selectable via config; same audio API
+**Criteria:** Time-to-first-sound under 300ms on 16GB laptop
 **Type:** manual

@@ -9,6 +9,7 @@ actually selected.
 from __future__ import annotations
 
 import re
+import time
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from typing import Any, Protocol, runtime_checkable
@@ -73,6 +74,21 @@ _SENTENCE_RE = re.compile(r"([^.!?\n]+[.!?\n]?)")
 def split_sentences(text: str) -> list[str]:
     """Rough sentence splitter good enough for TTS chunking."""
     return [s.strip() for s in _SENTENCE_RE.findall(text) if s.strip()]
+
+
+# --- Benchmarking -----------------------------------------------------------
+
+
+def time_to_first_sound_ms(engine: TtsEngine, text: str = "Hello, this is a test.") -> float:
+    """Measure time from calling ``stream`` to receiving the first audio chunk.
+
+    Used to gate TTS backend choice against the configured TTFS budget
+    (default 300ms for Kokoro on a 16GB laptop).
+    """
+    start = time.perf_counter()
+    first = next(iter(engine.stream(text)))
+    assert first.pcm16  # first chunk must contain audio
+    return (time.perf_counter() - start) * 1000
 
 
 # --- Built-in backends ------------------------------------------------------

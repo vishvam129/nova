@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 7,
+  "current_feature_id": null,
   "session": {
-    "count": 5,
-    "last_started_at": "2026-04-22T11:56:10.560550Z",
+    "count": 10,
+    "last_started_at": "2026-04-22T16:49:10.892735Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 4,
+    "passed": 10,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "paused": 0,
-    "pending": 139,
-    "completion_percentage": 2.8
+    "pending": 134,
+    "completion_percentage": 6.9
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 0,
+      "passed": 6,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -452,15 +452,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Saying wake word fires trigger event with either backend",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 16 tests pass; WakeWordEngine Protocol + registry + openwakeword/porcupine lazy adapters",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:02:49.542042Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "abstraction",
+            "backend",
+            "backends",
+            "either",
+            "engine",
+            "event",
+            "fires",
+            "openwakeword",
+            "porcupine",
+            "saying",
+            "trigger",
+            "voice",
+            "wake",
+            "word"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T11:56:10.560531Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T12:02:49.553022Z",
+      "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -470,7 +493,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9230,
+        "removed": 40,
+        "net": 9190,
+        "files_changed": 13
+      }
     },
     {
       "id": 8,
@@ -536,15 +565,40 @@
       "verification": {
         "type": "manual",
         "criteria": "16kHz mono stream captured on Linux/macOS/Windows",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 20 tests pass; MicStream with PortAudio callback, frame sizing, backpressure drop, AudioChunk dataclass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:21:22.967087Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "backends",
+            "capture",
+            "captured",
+            "coreaudio",
+            "cross-platform",
+            "khz",
+            "linux",
+            "macos",
+            "microphone",
+            "mono",
+            "pipewire",
+            "sounddevice",
+            "stream",
+            "voice",
+            "wasapi",
+            "windows"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T12:02:49.824785Z",
+      "completed_at": "2026-04-22T12:21:22.981952Z",
+      "commit_hash": "20c633a0bae6154bca1ef35aab16da6b592d46c6",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -554,7 +608,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9442,
+        "removed": 4261,
+        "net": 5181,
+        "files_changed": 15
+      }
     },
     {
       "id": 11,
@@ -564,15 +624,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Speech segments correctly bounded in noisy environment",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 27 tests; EnergyVad + lazy SileroVad + AdaptiveVad EMA noise floor",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:31:52.608418Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "adaptive",
+            "bounded",
+            "correctly",
+            "detection",
+            "environment",
+            "noisy",
+            "per",
+            "segments",
+            "silence",
+            "silero",
+            "speech",
+            "threshold",
+            "vad",
+            "voice"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T12:30:10.202103Z",
+      "completed_at": "2026-04-22T12:31:52.628183Z",
+      "commit_hash": "9fae30acac306a06ad4b895238fc9c8676507759",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -582,7 +665,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9468,
+        "removed": 8546,
+        "net": 922,
+        "files_changed": 14
+      }
     },
     {
       "id": 12,
@@ -620,15 +709,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Swap backend via config; same transcript API",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 32 tests pass; 5 backends registered (whisper, faster-whisper, distil-whisper, moonshine, parakeet)",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:36:11.683141Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "abstraction",
+            "api",
+            "backend",
+            "backends",
+            "config",
+            "distil-whisper",
+            "engine",
+            "faster-whisper",
+            "moonshine",
+            "parakeet",
+            "same",
+            "stt",
+            "swap",
+            "transcript",
+            "voice",
+            "whisper"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T12:32:44.733498Z",
+      "completed_at": "2026-04-22T12:36:11.701462Z",
+      "commit_hash": "05e938b6f4bf79c6ce80b6736b0862d391cabdf8",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -638,7 +752,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9690,
+        "removed": 8658,
+        "net": 1032,
+        "files_changed": 18
+      }
     },
     {
       "id": 14,
@@ -648,15 +768,36 @@
       "verification": {
         "type": "manual",
         "criteria": "Streaming transcript latency <200ms for 5s utterance",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 36 tests; sliding-window StreamingTranscriber + Moonshine 150ms partials; first-partial <200ms budget test passes",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T12:58:54.137839Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "edge",
+            "hardware",
+            "integration",
+            "latency",
+            "moonshine",
+            "streaming",
+            "stt",
+            "sub-200ms",
+            "transcript",
+            "transcription",
+            "utterance",
+            "voice"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T12:56:32.787469Z",
+      "completed_at": "2026-04-22T12:58:54.158246Z",
+      "commit_hash": "d8026087149fe2ec53df38953962b2db71f71fc2",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -666,7 +807,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9633,
+        "removed": 8778,
+        "net": 855,
+        "files_changed": 14
+      }
     },
     {
       "id": 15,
@@ -732,15 +879,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Any backend selectable via config; same audio API",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 42 tests; Piper/Kokoro/StyleTTS2/XTTS/ElevenLabs lazy adapters + sentence splitter",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T16:51:21.459230Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "abstraction",
+            "api",
+            "audio",
+            "backend",
+            "backends",
+            "config",
+            "elevenlabs",
+            "engine",
+            "kokoro-82m",
+            "piper",
+            "same",
+            "selectable",
+            "styletts2",
+            "tts",
+            "voice",
+            "xtts-v2"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T16:49:10.892715Z",
+      "completed_at": "2026-04-22T16:51:21.480029Z",
+      "commit_hash": "cf12c196fba48fd0971c8b86cb6156ce28f47118",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -750,7 +922,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9935,
+        "removed": 8893,
+        "net": 1042,
+        "files_changed": 15
+      }
     },
     {
       "id": 18,
@@ -4461,6 +4639,177 @@
           ]
         },
         "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:02:49.553064Z",
+      "operation": "feature_passed",
+      "feature_id": 7,
+      "details": {
+        "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
+        "loc_stats": {
+          "added": 9230,
+          "removed": 40,
+          "net": 9190,
+          "files_changed": 13
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:02:49.824818Z",
+      "operation": "feature_started",
+      "feature_id": 10,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:21:22.981991Z",
+      "operation": "feature_passed",
+      "feature_id": 10,
+      "details": {
+        "commit_hash": "20c633a0bae6154bca1ef35aab16da6b592d46c6",
+        "loc_stats": {
+          "added": 9442,
+          "removed": 4261,
+          "net": 5181,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:30:10.202180Z",
+      "operation": "feature_started",
+      "feature_id": 11,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:31:52.628224Z",
+      "operation": "feature_passed",
+      "feature_id": 11,
+      "details": {
+        "commit_hash": "9fae30acac306a06ad4b895238fc9c8676507759",
+        "loc_stats": {
+          "added": 9468,
+          "removed": 8546,
+          "net": 922,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:32:44.733543Z",
+      "operation": "feature_started",
+      "feature_id": 13,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:36:11.701499Z",
+      "operation": "feature_passed",
+      "feature_id": 13,
+      "details": {
+        "commit_hash": "05e938b6f4bf79c6ce80b6736b0862d391cabdf8",
+        "loc_stats": {
+          "added": 9690,
+          "removed": 8658,
+          "net": 1032,
+          "files_changed": 18
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:56:32.787507Z",
+      "operation": "feature_started",
+      "feature_id": 14,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T12:58:54.158286Z",
+      "operation": "feature_passed",
+      "feature_id": 14,
+      "details": {
+        "commit_hash": "d8026087149fe2ec53df38953962b2db71f71fc2",
+        "loc_stats": {
+          "added": 9633,
+          "removed": 8778,
+          "net": 855,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T16:49:10.892754Z",
+      "operation": "feature_started",
+      "feature_id": 17,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T16:51:21.480069Z",
+      "operation": "feature_passed",
+      "feature_id": 17,
+      "details": {
+        "commit_hash": "cf12c196fba48fd0971c8b86cb6156ce28f47118",
+        "loc_stats": {
+          "added": 9935,
+          "removed": 8893,
+          "net": 1042,
+          "files_changed": 15
+        }
       }
     }
   ]

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-10",
-      "text": "Implementing feature 17: TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends",
+      "id": "f2d00bd75f7e-11",
+      "text": "Implementing feature 18: Kokoro-82M as default TTS for fast, high-quality voice (<300ms TTFS)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776876550.980766,
-      "updated_at": 1776876550.9807663,
+      "created_at": 1776876718.5927496,
+      "updated_at": 1776876718.5927498,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 17
+        "feature_id": 18
       },
       "keywords": []
     },
@@ -169,9 +169,24 @@
         "feature_id": 17
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-11",
+      "text": "Implementing feature 18: Kokoro-82M as default TTS for fast, high-quality voice (<300ms TTFS)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776876718.5927496,
+      "updated_at": 1776876718.5927498,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 18
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 10,
+  "intent_counter": 11,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776876550.98077
+  "updated_at": 1776876718.592754
 }

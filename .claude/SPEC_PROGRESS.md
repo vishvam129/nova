@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #17 [Voice] TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends
-   Started: 2026-04-22T16:49:10.892715Z
+**In Progress:** #18 [Voice] Kokoro-82M as default TTS for fast, high-quality voice (<300ms TTFS)
+   Started: 2026-04-22T16:51:58.519457Z
 
 ## Summary
 
-Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.2%
+Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 9 | 6.2% |
+| Passed | 10 | 6.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 134 | 93.1% |
+| Pending | 133 | 92.4% |
 
 ## Session Statistics
 
-- **Sessions:** 10
-- **Last Started:** 2026-04-22T16:49:10.892735Z
+- **Sessions:** 11
+- **Last Started:** 2026-04-22T16:51:58.519475Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | ███░░░░░░░ 31% | 5 | 0 | 0 |
+| Voice | ███░░░░░░░ 38% | 6 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #17 | passed | 2m 10s | 9935 | 8893 | 1042 | 15 | 0 | yes |
 | #14 | passed | 2m 21s | 9633 | 8778 | 855 | 14 | 0 | yes |
 | #13 | passed | 3m 26s | 9690 | 8658 | 1032 | 18 | 0 | yes |
 | #11 | passed | 1m 42s | 9468 | 8546 | 922 | 14 | 0 | yes |
@@ -66,6 +67,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T16:51 | #17 TTS engine abstraction with Piper, Kokoro-82M, Sty | P | cf12c19 |
 | 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
 | 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
@@ -77,5 +79,5 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T16:49:10.936328Z*
-*Session 10*
+*Last updated: 2026-04-22T16:51:58.564008Z*
+*Session 11*

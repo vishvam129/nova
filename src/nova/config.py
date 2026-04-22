@@ -26,8 +26,10 @@ def default_data_dir() -> Path:
 
 class VoiceConfig(BaseModel):
     wake_word: str = "hey_nova"
-    stt_backend: str = "faster-whisper"
-    tts_backend: str = "piper"
+    stt_backend: str = "moonshine"
+    tts_backend: str = "kokoro"
+    tts_voice: str = "af_sky"
+    tts_ttfs_budget_ms: int = 300
 
 
 class BrainConfig(BaseModel):
