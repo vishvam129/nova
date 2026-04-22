@@ -76,6 +76,52 @@ def split_sentences(text: str) -> list[str]:
     return [s.strip() for s in _SENTENCE_RE.findall(text) if s.strip()]
 
 
+# --- Streaming synthesis ----------------------------------------------------
+
+
+_SENTENCE_END_RE = re.compile(r"[.!?\n]")
+
+
+class StreamingSynthesizer:
+    """Synthesize audio from an LLM token stream sentence-by-sentence.
+
+    Buffers incoming text chunks until a sentence boundary (``. ? !
+    \\n``) is seen, then hands the complete sentence to the underlying
+    ``TtsEngine`` and yields the resulting audio. The tail (any text
+    after the last boundary) is flushed when the input iterator is
+    exhausted. This keeps playback latency bounded by the time it takes
+    the LLM to emit the *first sentence*, not the full response.
+    """
+
+    def __init__(self, engine: TtsEngine, min_chars: int = 4) -> None:
+        self.engine = engine
+        self.min_chars = min_chars
+
+    def stream(self, tokens: Iterable[str]) -> Iterable[AudioBytes]:
+        buf: list[str] = []
+
+        def _flush() -> Iterable[AudioBytes]:
+            text = "".join(buf).strip()
+            buf.clear()
+            if text:
+                yield self.engine.synth(text)
+
+        for token in tokens:
+            buf.append(token)
+            combined = "".join(buf)
+            m = _SENTENCE_END_RE.search(combined)
+            if m and len(combined.strip()) >= self.min_chars:
+                # emit everything up to and including the boundary
+                head = combined[: m.end()]
+                tail = combined[m.end() :]
+                buf.clear()
+                buf.append(tail)
+                text = head.strip()
+                if text:
+                    yield self.engine.synth(text)
+        yield from _flush()
+
+
 # --- Benchmarking -----------------------------------------------------------
 
 

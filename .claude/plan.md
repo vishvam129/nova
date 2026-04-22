@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #18
+# Implementation Plan: Feature #20
 
 **Category:** Voice
-**Description:** Kokoro-82M as default TTS for fast, high-quality voice (<300ms TTFS)
+**Description:** Streaming TTS with sentence-level chunking so playback begins before full response
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Time-to-first-sound under 300ms on 16GB laptop
+**Criteria:** Speech starts within 500ms of first LLM token
 **Type:** manual

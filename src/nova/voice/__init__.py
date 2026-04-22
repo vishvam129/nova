@@ -31,6 +31,7 @@ create_stt = _stt.create_stt
 register_stt = _stt.register_stt
 
 AudioBytes = _tts.AudioBytes
+StreamingSynthesizer = _tts.StreamingSynthesizer
 TtsEngine = _tts.TtsEngine
 available_ttses = _tts.available_ttses
 create_tts = _tts.create_tts
@@ -45,6 +46,7 @@ __all__ = [
     "EnergyVad",
     "MicStream",
     "SileroVad",
+    "StreamingSynthesizer",
     "StreamingTranscriber",
     "SttEngine",
     "Transcript",
