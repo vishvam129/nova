@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #43
+# Implementation Plan: Feature #49
 
 **Category:** Tools
-**Description:** Built-in tool: file_search using local vector index over opt-in directories
+**Description:** Claude Computer Use integration for vision-driven arbitrary GUI control
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Natural-language file lookup returns correct path
+**Criteria:** Completes 'open settings, change wallpaper'
 **Type:** manual

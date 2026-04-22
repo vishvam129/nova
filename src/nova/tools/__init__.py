@@ -1,10 +1,15 @@
 """Tool plane: MCP client + built-in tools."""
 
 from nova.tools import approval as _approval
+from nova.tools import computer_use as _computer_use
 from nova.tools import filter as _filter
 from nova.tools import mcp as _mcp
 from nova.tools import registry as _registry
 from nova.tools.builtin import shell as _shell
+
+ComputerAction = _computer_use.ComputerAction
+ComputerExecutor = _computer_use.ComputerExecutor
+ComputerSession = _computer_use.ComputerSession
 
 RunShellResult = _shell.RunShellResult
 classify_command = _shell.classify_command

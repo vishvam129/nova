@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 43,
+  "current_feature_id": 49,
   "session": {
-    "count": 30,
-    "last_started_at": "2026-04-22T19:38:17.794400Z",
+    "count": 31,
+    "last_started_at": "2026-04-22T19:39:05.323002Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 29,
+    "passed": 30,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 114,
-    "completion_percentage": 20.1
+    "pending": 113,
+    "completion_percentage": 20.8
   },
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Tools",
       "total": 17,
-      "passed": 7,
+      "passed": 8,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -2209,15 +2209,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Natural-language file lookup returns correct path",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 182 tests; FileIndex + TEXT_EXTENSIONS whitelist + size cap + semantic search",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:39:05.029995Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "built-in",
+            "correct",
+            "directories",
+            "file",
+            "file_search",
+            "index",
+            "local",
+            "lookup",
+            "natural-language",
+            "opt-in",
+            "over",
+            "path",
+            "returns",
+            "tool",
+            "tools",
+            "vector"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:38:17.794382Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:39:05.051464Z",
+      "commit_hash": "b6795138afaada43db3c137aab411aa3abbb0c72",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2227,7 +2252,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12234,
+        "removed": 11359,
+        "net": 875,
+        "files_changed": 14
+      }
     },
     {
       "id": 44,
@@ -2381,9 +2412,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:39:05.322969Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5980,6 +6011,37 @@
       "timestamp": "2026-04-22T19:38:17.794417Z",
       "operation": "feature_started",
       "feature_id": 43,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:39:05.051528Z",
+      "operation": "feature_passed",
+      "feature_id": 43,
+      "details": {
+        "commit_hash": "b6795138afaada43db3c137aab411aa3abbb0c72",
+        "loc_stats": {
+          "added": 12234,
+          "removed": 11359,
+          "net": 875,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:39:05.323021Z",
+      "operation": "feature_started",
+      "feature_id": 49,
       "details": {
         "from_status": "pending",
         "avib": {

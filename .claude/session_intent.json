@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-30",
-      "text": "Implementing feature 43: Built-in tool: file_search using local vector index over opt-in directories",
+      "id": "f2d00bd75f7e-31",
+      "text": "Implementing feature 49: Claude Computer Use integration for vision-driven arbitrary GUI control",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886697.8666372,
-      "updated_at": 1776886697.8666372,
+      "created_at": 1776886745.399009,
+      "updated_at": 1776886745.3990092,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 43
+        "feature_id": 49
       },
       "keywords": []
     },
@@ -469,9 +469,24 @@
         "feature_id": 43
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-31",
+      "text": "Implementing feature 49: Claude Computer Use integration for vision-driven arbitrary GUI control",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886745.399009,
+      "updated_at": 1776886745.3990092,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 49
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 30,
+  "intent_counter": 31,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886697.8666415
+  "updated_at": 1776886745.3990133
 }

@@ -65,6 +65,10 @@ module = [
     "mcp",
     "mcp.*",
     "playwright.*",
+    "pyautogui",
+    "mss",
+    "PIL",
+    "PIL.*",
 ]
 ignore_missing_imports = true
 
