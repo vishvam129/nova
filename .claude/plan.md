@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #14
+# Implementation Plan: Feature #17
 
 **Category:** Voice
-**Description:** Moonshine STT integration for sub-200ms streaming transcription on edge hardware
+**Description:** TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Streaming transcript latency <200ms for 5s utterance
+**Criteria:** Any backend selectable via config; same audio API
 **Type:** manual

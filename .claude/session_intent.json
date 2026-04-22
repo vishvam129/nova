@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-9",
-      "text": "Implementing feature 14: Moonshine STT integration for sub-200ms streaming transcription on edge hardware",
+      "id": "f2d00bd75f7e-10",
+      "text": "Implementing feature 17: TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776862592.891008,
-      "updated_at": 1776862592.891008,
+      "created_at": 1776876550.980766,
+      "updated_at": 1776876550.9807663,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 14
+        "feature_id": 17
       },
       "keywords": []
     },
@@ -154,9 +154,24 @@
         "feature_id": 14
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-10",
+      "text": "Implementing feature 17: TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776876550.980766,
+      "updated_at": 1776876550.9807663,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 17
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 9,
+  "intent_counter": 10,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776862592.891012
+  "updated_at": 1776876550.98077
 }

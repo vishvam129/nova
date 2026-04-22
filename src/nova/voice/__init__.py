@@ -2,6 +2,7 @@
 
 from nova.voice import mic as _mic
 from nova.voice import stt as _stt
+from nova.voice import tts as _tts
 from nova.voice import vad as _vad
 from nova.voice import wake_word as _wake_word
 
@@ -29,8 +30,16 @@ available_stts = _stt.available_stts
 create_stt = _stt.create_stt
 register_stt = _stt.register_stt
 
+AudioBytes = _tts.AudioBytes
+TtsEngine = _tts.TtsEngine
+available_ttses = _tts.available_ttses
+create_tts = _tts.create_tts
+register_tts = _tts.register_tts
+split_sentences = _tts.split_sentences
+
 __all__ = [
     "AdaptiveVad",
+    "AudioBytes",
     "AudioChunk",
     "EnergyVad",
     "MicStream",
@@ -38,16 +47,21 @@ __all__ = [
     "StreamingTranscriber",
     "SttEngine",
     "Transcript",
+    "TtsEngine",
     "Vad",
     "VadFrame",
     "WakeEvent",
     "WakeWordEngine",
     "available_backends",
     "available_stts",
+    "available_ttses",
     "available_vads",
     "create_engine",
     "create_stt",
+    "create_tts",
     "create_vad",
     "register_backend",
     "register_stt",
+    "register_tts",
+    "split_sentences",
 ]

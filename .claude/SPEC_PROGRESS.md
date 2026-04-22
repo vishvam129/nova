@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #14 [Voice] Moonshine STT integration for sub-200ms streaming transcription on edge hardware
-   Started: 2026-04-22T12:56:32.787469Z
+**In Progress:** #17 [Voice] TTS engine abstraction with Piper, Kokoro-82M, StyleTTS2, XTTS-v2, and ElevenLabs backends
+   Started: 2026-04-22T16:49:10.892715Z
 
 ## Summary
 
-Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.6%
+Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 6.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 8 | 5.6% |
+| Passed | 9 | 6.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 135 | 93.8% |
+| Pending | 134 | 93.1% |
 
 ## Session Statistics
 
-- **Sessions:** 9
-- **Last Started:** 2026-04-22T12:56:32.787490Z
+- **Sessions:** 10
+- **Last Started:** 2026-04-22T16:49:10.892735Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | ██░░░░░░░░ 25% | 4 | 0 | 0 |
+| Voice | ███░░░░░░░ 31% | 5 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #14 | passed | 2m 21s | 9633 | 8778 | 855 | 14 | 0 | yes |
 | #13 | passed | 3m 26s | 9690 | 8658 | 1032 | 18 | 0 | yes |
 | #11 | passed | 1m 42s | 9468 | 8546 | 922 | 14 | 0 | yes |
 | #10 | passed | 18m 33s | 9442 | 4261 | 5181 | 15 | 0 | yes |
@@ -65,6 +66,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
 | 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
 | 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
@@ -75,5 +77,5 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T12:56:32.832035Z*
-*Session 9*
+*Last updated: 2026-04-22T16:49:10.936328Z*
+*Session 10*

@@ -44,3 +44,8 @@
 {"timestamp":"2026-04-22T12:57:23.110335+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":14,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_streaming_stt.py: .py"}
 {"timestamp":"2026-04-22T12:57:32.073655+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":14,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
 {"timestamp":"2026-04-22T12:58:15.412976+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":14,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T16:49:43.254778+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":17,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/tts.py: .py"}
+{"timestamp":"2026-04-22T16:49:58.117503+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":17,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_tts.py: .py"}
+{"timestamp":"2026-04-22T16:50:04.228088+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":17,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T16:50:10.797697+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":17,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T16:50:18.990506+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":17,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}

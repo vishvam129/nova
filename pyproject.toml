@@ -49,6 +49,11 @@ module = [
     "nemo.*",
     "silero_vad",
     "torch",
+    "piper",
+    "kokoro",
+    "styletts2",
+    "TTS.*",
+    "elevenlabs.*",
 ]
 ignore_missing_imports = true
 
