@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #31
+# Implementation Plan: Feature #33
 
 **Category:** Brain
-**Description:** System prompt template with personality, date/time, location, active device, active window
+**Description:** Context window manager: auto-summarize old turns when near model limit
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Agent references correct context values
+**Criteria:** 50-turn dialog stays under 80% context budget
 **Type:** manual

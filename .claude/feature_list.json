@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 31,
+  "current_feature_id": 33,
   "session": {
-    "count": 21,
-    "last_started_at": "2026-04-22T19:27:34.662713Z",
+    "count": 22,
+    "last_started_at": "2026-04-22T19:28:29.654089Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 20,
+    "passed": 21,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 123,
-    "completion_percentage": 13.9
+    "pending": 122,
+    "completion_percentage": 14.6
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 6,
+      "passed": 7,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1611,15 +1611,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Agent references correct context values",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 115 tests; PromptContext + render_system_prompt with timezone-aware time, device, window, notes",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:28:29.357410Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "active",
+            "agent",
+            "brain",
+            "context",
+            "correct",
+            "date",
+            "device",
+            "location",
+            "personality",
+            "prompt",
+            "references",
+            "system",
+            "template",
+            "time",
+            "values",
+            "window"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:27:34.662694Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:28:29.381734Z",
+      "commit_hash": "09690ec590610f429da3eccd2b9b9678e0d7a2d5",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1629,7 +1654,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 11150,
+        "removed": 10241,
+        "net": 909,
+        "files_changed": 17
+      }
     },
     {
       "id": 32,
@@ -1671,9 +1702,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:28:29.654070Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5445,6 +5476,37 @@
           "independent": 9.0,
           "bounded": 8.5,
           "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:28:29.381789Z",
+      "operation": "feature_passed",
+      "feature_id": 31,
+      "details": {
+        "commit_hash": "09690ec590610f429da3eccd2b9b9678e0d7a2d5",
+        "loc_stats": {
+          "added": 11150,
+          "removed": 10241,
+          "net": 909,
+          "files_changed": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:28:29.654106Z",
+      "operation": "feature_started",
+      "feature_id": 33,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 8.0,
+          "bounded": 8.5,
+          "average": 8.1,
           "feedback": []
         },
         "depth": 1

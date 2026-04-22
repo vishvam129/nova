@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #31 [Brain] System prompt template with personality, date/time, location, active device, active window
-   Started: 2026-04-22T19:27:34.662694Z
+**In Progress:** #33 [Brain] Context window manager: auto-summarize old turns when near model limit
+   Started: 2026-04-22T19:28:29.654070Z
 
 ## Summary
 
-Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.9%
+Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 14.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 20 | 13.9% |
+| Passed | 21 | 14.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 123 | 85.4% |
+| Pending | 122 | 84.7% |
 
 ## Session Statistics
 
-- **Sessions:** 21
-- **Last Started:** 2026-04-22T19:27:34.662713Z
+- **Sessions:** 22
+- **Last Started:** 2026-04-22T19:28:29.654089Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | █████░░░░░ 55% | 6 | 0 | 0 |
+| Brain | ██████░░░░ 64% | 7 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #31 | passed | 54s | 11150 | 10241 | 909 | 17 | 0 | yes |
 | #29 | passed | 1m 9s | 11071 | 10113 | 958 | 14 | 0 | yes |
 | #28 | passed | 1m 10s | 10963 | 9989 | 974 | 14 | 0 | yes |
 | #26 | passed | 1m 7s | 10828 | 9863 | 965 | 14 | 0 | yes |
@@ -77,6 +78,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:28 | #31 System prompt template with personality, date/time | P | 09690ec |
 | 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
 | 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
 | 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
@@ -86,8 +88,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
 | 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
-| 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
 
 ---
-*Last updated: 2026-04-22T19:27:34.707247Z*
-*Session 21*
+*Last updated: 2026-04-22T19:28:29.695020Z*
+*Session 22*

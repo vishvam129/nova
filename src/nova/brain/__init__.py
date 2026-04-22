@@ -2,6 +2,7 @@
 
 from nova.brain import agent as _agent
 from nova.brain import cloud as _cloud
+from nova.brain import context as _context
 from nova.brain import llm as _llm
 from nova.brain import models as _models
 from nova.brain import planner as _planner
@@ -33,6 +34,10 @@ PlanExecuteAgent = _planner.PlanExecuteAgent
 PlanResult = _planner.PlanResult
 StepResult = _planner.StepResult
 parse_plan = _planner.parse_plan
+
+ContextWindow = _context.ContextWindow
+estimate_history_tokens = _context.estimate_history_tokens
+estimate_tokens = _context.estimate_tokens
 
 DeviceContext = _prompt.DeviceContext
 PromptContext = _prompt.PromptContext
