@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-13",
-      "text": "Implementing feature 21: Barge-in: detect user speech while TTS plays; duck volume then stop",
+      "id": "f2d00bd75f7e-14",
+      "text": "Implementing feature 22: Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885501.8139467,
-      "updated_at": 1776885501.813947,
+      "created_at": 1776885574.542567,
+      "updated_at": 1776885574.5425673,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 21
+        "feature_id": 22
       },
       "keywords": []
     },
@@ -214,9 +214,24 @@
         "feature_id": 21
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-14",
+      "text": "Implementing feature 22: Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885574.542567,
+      "updated_at": 1776885574.5425673,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 22
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 13,
+  "intent_counter": 14,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885501.8139508
+  "updated_at": 1776885574.5425713
 }

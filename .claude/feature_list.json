@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 21,
+  "current_feature_id": 22,
   "session": {
-    "count": 13,
-    "last_started_at": "2026-04-22T19:18:21.736405Z",
+    "count": 14,
+    "last_started_at": "2026-04-22T19:19:34.468874Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 12,
+    "passed": 13,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 131,
-    "completion_percentage": 8.3
+    "pending": 130,
+    "completion_percentage": 9.0
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 8,
+      "passed": 9,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1078,15 +1078,42 @@
       "verification": {
         "type": "manual",
         "criteria": "Saying anything during playback halts TTS within 300ms",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 59 tests; BargeInPlayer: PLAYING->DUCKED@120ms->STOPPED@300ms, recovery on silence",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:19:34.177794Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "anything",
+            "barge-in",
+            "detect",
+            "duck",
+            "during",
+            "halts",
+            "playback",
+            "plays",
+            "saying",
+            "speech",
+            "stop",
+            "then",
+            "tts",
+            "user",
+            "voice",
+            "volume",
+            "while",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 18/18 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:18:21.736385Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:19:34.197560Z",
+      "commit_hash": "f2afea5d6627168c8e9c40799ee34698de8df81f",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1096,7 +1123,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10164,
+        "removed": 9261,
+        "net": 903,
+        "files_changed": 14
+      }
     },
     {
       "id": 22,
@@ -1110,9 +1143,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:19:34.468852Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4942,6 +4975,37 @@
           "independent": 9.0,
           "bounded": 8.5,
           "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:19:34.197600Z",
+      "operation": "feature_passed",
+      "feature_id": 21,
+      "details": {
+        "commit_hash": "f2afea5d6627168c8e9c40799ee34698de8df81f",
+        "loc_stats": {
+          "added": 10164,
+          "removed": 9261,
+          "net": 903,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:19:34.468894Z",
+      "operation": "feature_started",
+      "feature_id": 22,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
           "feedback": []
         },
         "depth": 1

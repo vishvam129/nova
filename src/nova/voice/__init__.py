@@ -1,5 +1,6 @@
 """Voice pipeline: wake word, VAD, STT, TTS."""
 
+from nova.voice import aec as _aec
 from nova.voice import bargein as _bargein
 from nova.voice import mic as _mic
 from nova.voice import stt as _stt
@@ -43,12 +44,25 @@ time_to_first_sound_ms = _tts.time_to_first_sound_ms
 BargeInPlayer = _bargein.BargeInPlayer
 PlaybackState = _bargein.PlaybackState
 
+EchoCanceller = _aec.EchoCanceller
+NullEchoCanceller = _aec.NullEchoCanceller
+WebRtcAec = _aec.WebRtcAec
+apply_aec = _aec.apply_aec
+available_aecs = _aec.available_aecs
+create_aec = _aec.create_aec
+
 __all__ = [
     "AdaptiveVad",
     "AudioBytes",
     "AudioChunk",
     "BargeInPlayer",
+    "EchoCanceller",
     "EnergyVad",
+    "NullEchoCanceller",
+    "WebRtcAec",
+    "apply_aec",
+    "available_aecs",
+    "create_aec",
     "MicStream",
     "PlaybackState",
     "SileroVad",

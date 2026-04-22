@@ -54,6 +54,7 @@ module = [
     "styletts2",
     "TTS.*",
     "elevenlabs.*",
+    "webrtc_audio_processing",
 ]
 ignore_missing_imports = true
 

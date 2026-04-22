@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #21
+# Implementation Plan: Feature #22
 
 **Category:** Voice
-**Description:** Barge-in: detect user speech while TTS plays; duck volume then stop
+**Description:** Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Saying anything during playback halts TTS within 300ms
+**Criteria:** Playing TTS doesn't cause false wake word trigger
 **Type:** manual
