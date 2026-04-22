@@ -34,6 +34,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776861314.4915812
+    },
+    {
+      "feature_id": 24,
+      "error": "src/nova/brain/llm.py:342: error: Cannot find implementation or library stub for module named \"google\"  [import-not-found]\nFound 1 error in 1 file (checked 15 source files)",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776885723.2041094
     }
   ]
 }

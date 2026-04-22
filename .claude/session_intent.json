@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-15",
-      "text": "Implementing feature 23: LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface",
+      "id": "f2d00bd75f7e-16",
+      "text": "Implementing feature 24: Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885641.0360365,
-      "updated_at": 1776885641.036037,
+      "created_at": 1776885713.357776,
+      "updated_at": 1776885713.3577762,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 23
+        "feature_id": 24
       },
       "keywords": []
     },
@@ -244,9 +244,24 @@
         "feature_id": 23
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-16",
+      "text": "Implementing feature 24: Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885713.357776,
+      "updated_at": 1776885713.3577762,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 24
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 15,
+  "intent_counter": 16,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885641.0360405
+  "updated_at": 1776885713.3577807
 }

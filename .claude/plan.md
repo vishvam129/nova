@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #23
+# Implementation Plan: Feature #24
 
 **Category:** Brain
-**Description:** LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface
+**Description:** Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Same chat API returns completions from each backend
+**Criteria:** First-run pulls models via Ollama; inference works offline
 **Type:** manual

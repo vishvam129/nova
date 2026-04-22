@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #23 [Brain] LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface
-   Started: 2026-04-22T19:20:40.964434Z
+**In Progress:** #24 [Brain] Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)
+   Started: 2026-04-22T19:21:53.269864Z
 
 ## Summary
 
-Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.7%
+Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 10.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 14 | 9.7% |
+| Passed | 15 | 10.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 129 | 89.6% |
+| Pending | 128 | 88.9% |
 
 ## Session Statistics
 
-- **Sessions:** 15
-- **Last Started:** 2026-04-22T19:20:40.964453Z
+- **Sessions:** 16
+- **Last Started:** 2026-04-22T19:21:53.269882Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Brain | ░░░░░░░░░░ 9% | 1 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #23 | passed | 1m 12s | 10725 | 9504 | 1221 | 15 | 0 | yes |
 | #22 | passed | 1m 6s | 10274 | 9383 | 891 | 15 | 0 | yes |
 | #21 | passed | 1m 12s | 10164 | 9261 | 903 | 14 | 0 | yes |
 | #20 | passed | 56s | 9988 | 9139 | 849 | 14 | 0 | yes |
@@ -71,6 +72,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
 | 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
 | 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
@@ -80,8 +82,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
 | 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
-| 2026-04-22T12:02 | #7 Wake word engine abstraction with openWakeWord and | P | 02035e7 |
 
 ---
-*Last updated: 2026-04-22T19:20:41.005626Z*
-*Session 15*
+*Last updated: 2026-04-22T19:21:53.323380Z*
+*Session 16*
