@@ -485,6 +485,51 @@
       "evidence": [],
       "created_at": "2026-04-22T19:25:13.969851+00:00",
       "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Write -> Edit -> Edit (10x)",
+      "description": "Repeated sequence: Write -> Write -> Edit -> Edit (10x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:26:24.536605+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Edit -> Edit -> Edit (9x)",
+      "description": "Repeated sequence: Write -> Edit -> Edit -> Edit (9x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:26:24.536608+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Edit -> Edit -> Write (8x)",
+      "description": "Repeated sequence: Edit -> Edit -> Edit -> Write (8x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:26:24.536610+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Edit -> Write -> Write (8x)",
+      "description": "Repeated sequence: Edit -> Edit -> Write -> Write (8x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:26:24.536624+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Write -> Write -> Edit (6x)",
+      "description": "Repeated sequence: Edit -> Write -> Write -> Edit (6x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:26:24.536626+00:00",
+      "last_triggered": ""
     }
   ]
 }

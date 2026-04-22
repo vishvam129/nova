@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #28
+# Implementation Plan: Feature #29
 
 **Category:** Brain
-**Description:** ReAct agent loop for exploratory dialog (reason, act, observe)
+**Description:** Plan-and-Execute agent for multi-step tasks (plan, execute steps, replan on failure)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Tool-use dialog completes in under 7 LLM calls
+**Criteria:** Multi-step task completes in under 4 LLM calls when plan is valid
 **Type:** manual

@@ -4,6 +4,7 @@ from nova.brain import agent as _agent
 from nova.brain import cloud as _cloud
 from nova.brain import llm as _llm
 from nova.brain import models as _models
+from nova.brain import planner as _planner
 from nova.brain import router as _router
 
 ChatMessage = _llm.ChatMessage
@@ -26,6 +27,11 @@ AgentStep = _agent.AgentStep
 ReactAgent = _agent.ReactAgent
 Tool = _agent.Tool
 ToolHandler = _agent.ToolHandler
+
+PlanExecuteAgent = _planner.PlanExecuteAgent
+PlanResult = _planner.PlanResult
+StepResult = _planner.StepResult
+parse_plan = _planner.parse_plan
 
 HybridRouter = _router.HybridRouter
 Privacy = _router.Privacy

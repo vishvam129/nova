@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 28,
+  "current_feature_id": 29,
   "session": {
-    "count": 19,
-    "last_started_at": "2026-04-22T19:25:14.172891Z",
+    "count": 20,
+    "last_started_at": "2026-04-22T19:26:24.730626Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 18,
+    "passed": 19,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 125,
-    "completion_percentage": 12.5
+    "pending": 124,
+    "completion_percentage": 13.2
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 4,
+      "passed": 5,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1467,15 +1467,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Tool-use dialog completes in under 7 LLM calls",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 101 tests; ReactAgent reason->act->observe loop, step cap, tool exception handling",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:26:24.429736Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "act",
+            "agent",
+            "brain",
+            "calls",
+            "completes",
+            "dialog",
+            "exploratory",
+            "llm",
+            "loop",
+            "observe",
+            "react",
+            "reason",
+            "tool-use",
+            "under"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:25:14.172872Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:26:24.455780Z",
+      "commit_hash": "896189627548fc4a3357cec43f725c2179df5ab6",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1485,7 +1508,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10963,
+        "removed": 9989,
+        "net": 974,
+        "files_changed": 14
+      }
     },
     {
       "id": 29,
@@ -1499,9 +1528,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:26:24.730606Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5323,6 +5352,37 @@
           "independent": 9.0,
           "bounded": 8.5,
           "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:26:24.455826Z",
+      "operation": "feature_passed",
+      "feature_id": 28,
+      "details": {
+        "commit_hash": "896189627548fc4a3357cec43f725c2179df5ab6",
+        "loc_stats": {
+          "added": 10963,
+          "removed": 9989,
+          "net": 974,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:26:24.730641Z",
+      "operation": "feature_started",
+      "feature_id": 29,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
           "feedback": []
         },
         "depth": 1

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #28 [Brain] ReAct agent loop for exploratory dialog (reason, act, observe)
-   Started: 2026-04-22T19:25:14.172872Z
+**In Progress:** #29 [Brain] Plan-and-Execute agent for multi-step tasks (plan, execute steps, replan on failure)
+   Started: 2026-04-22T19:26:24.730606Z
 
 ## Summary
 
-Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 12.5%
+Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 18 | 12.5% |
+| Passed | 19 | 13.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 125 | 86.8% |
+| Pending | 124 | 86.1% |
 
 ## Session Statistics
 
-- **Sessions:** 19
-- **Last Started:** 2026-04-22T19:25:14.172891Z
+- **Sessions:** 20
+- **Last Started:** 2026-04-22T19:26:24.730626Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ███░░░░░░░ 36% | 4 | 0 | 0 |
+| Brain | ████░░░░░░ 45% | 5 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #28 | passed | 1m 10s | 10963 | 9989 | 974 | 14 | 0 | yes |
 | #26 | passed | 1m 7s | 10828 | 9863 | 965 | 14 | 0 | yes |
 | #25 | passed | 55s | 10613 | 9745 | 868 | 14 | 0 | yes |
 | #24 | passed | 1m 17s | 153 | 2 | 151 | 6 | 0 | yes |
@@ -75,6 +76,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
 | 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
 | 2026-04-22T19:24 | #25 Cloud fallback: Claude Opus 4.7 for computer-use a | P | c580304 |
 | 2026-04-22T19:23 | #24 Default local models: Gemma 3 4B (tool calling), P | P | ed550b9 |
@@ -84,8 +86,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
 | 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
 | 2026-04-22T16:51 | #17 TTS engine abstraction with Piper, Kokoro-82M, Sty | P | cf12c19 |
-| 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
 
 ---
-*Last updated: 2026-04-22T19:25:14.224892Z*
-*Session 19*
+*Last updated: 2026-04-22T19:26:24.778445Z*
+*Session 20*
