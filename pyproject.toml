@@ -61,6 +61,7 @@ module = [
     "anthropic",
     "google",
     "google.*",
+    "psutil",
 ]
 ignore_missing_imports = true
 
