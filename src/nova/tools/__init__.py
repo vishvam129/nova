@@ -1,8 +1,14 @@
 """Tool plane: MCP client + built-in tools."""
 
+from nova.tools import approval as _approval
 from nova.tools import filter as _filter
 from nova.tools import mcp as _mcp
 from nova.tools import registry as _registry
+
+ApprovalManager = _approval.ApprovalManager
+ConfirmRequest = _approval.ConfirmRequest
+Policy = _approval.Policy
+in_memory_confirmer = _approval.in_memory_confirmer
 
 Embedder = _filter.Embedder
 HashingEmbedder = _filter.HashingEmbedder

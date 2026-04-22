@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #36 [Tools] Embedding-based tool filtering: only top-K tools reach LLM context per turn
-   Started: 2026-04-22T19:31:48.711643Z
+**In Progress:** #37 [Tools] Per-tool approval policy: auto, quiet-confirm, require-confirm, denied
+   Started: 2026-04-22T19:32:54.679854Z
 
 ## Summary
 
-Progress: █████░░░░░░░░░░░░░░░░░░░░░░░░░ 16.7%
+Progress: █████░░░░░░░░░░░░░░░░░░░░░░░░░ 17.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 24 | 16.7% |
+| Passed | 25 | 17.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 119 | 82.6% |
+| Pending | 118 | 81.9% |
 
 ## Session Statistics
 
-- **Sessions:** 25
-- **Last Started:** 2026-04-22T19:31:48.711670Z
+- **Sessions:** 26
+- **Last Started:** 2026-04-22T19:32:54.679873Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
-| Tools | █░░░░░░░░░ 12% | 2 | 0 | 0 |
+| Tools | █░░░░░░░░░ 18% | 3 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #36 | passed | 1m 5s | 11650 | 10747 | 903 | 14 | 0 | yes |
 | #35 | passed | 1m 2s | 11542 | 10621 | 921 | 14 | 0 | yes |
 | #34 | passed | 59s | 11489 | 10496 | 993 | 15 | 0 | yes |
 | #33 | passed | 1m 15s | 11315 | 10367 | 948 | 14 | 0 | yes |
@@ -81,6 +82,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
 | 2026-04-22T19:31 | #35 MCP server registry: install/enable/disable/update | P | cd6e8f1 |
 | 2026-04-22T19:30 | #34 MCP client (stdio + HTTP/SSE + Streamable HTTP tra | P | 1e686eb |
 | 2026-04-22T19:29 | #33 Context window manager: auto-summarize old turns w | P | 0500656 |
@@ -90,8 +92,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
 | 2026-04-22T19:24 | #25 Cloud fallback: Claude Opus 4.7 for computer-use a | P | c580304 |
 | 2026-04-22T19:23 | #24 Default local models: Gemma 3 4B (tool calling), P | P | ed550b9 |
-| 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
 
 ---
-*Last updated: 2026-04-22T19:31:48.757169Z*
-*Session 25*
+*Last updated: 2026-04-22T19:32:54.723691Z*
+*Session 26*

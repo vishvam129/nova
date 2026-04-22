@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #36
+# Implementation Plan: Feature #37
 
 **Category:** Tools
-**Description:** Embedding-based tool filtering: only top-K tools reach LLM context per turn
+**Description:** Per-tool approval policy: auto, quiet-confirm, require-confirm, denied
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 200+ tools installed; at most 20 shown per turn
+**Criteria:** Policy enforced per tool; changeable in settings
 **Type:** manual

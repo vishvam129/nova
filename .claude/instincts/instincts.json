@@ -710,6 +710,33 @@
       "evidence": [],
       "created_at": "2026-04-22T19:31:48.515741+00:00",
       "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Write -> Edit -> Write (3x)",
+      "description": "Repeated sequence: Edit -> Write -> Edit -> Write (3x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:32:54.482603+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Edit -> Write -> Write (3x)",
+      "description": "Repeated sequence: Write -> Edit -> Write -> Write (3x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:32:54.482606+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Write -> Write -> Edit (9x)",
+      "description": "Repeated sequence: Edit -> Write -> Write -> Edit (9x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:32:54.482613+00:00",
+      "last_triggered": ""
     }
   ]
 }
