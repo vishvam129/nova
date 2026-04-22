@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #13 [Voice] STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends
-   Started: 2026-04-22T12:32:44.733498Z
+**In Progress:** #14 [Voice] Moonshine STT integration for sub-200ms streaming transcription on edge hardware
+   Started: 2026-04-22T12:56:32.787469Z
 
 ## Summary
 
-Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.9%
+Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 5.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 7 | 4.9% |
+| Passed | 8 | 5.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 136 | 94.4% |
+| Pending | 135 | 93.8% |
 
 ## Session Statistics
 
-- **Sessions:** 8
-- **Last Started:** 2026-04-22T12:32:44.733524Z
+- **Sessions:** 9
+- **Last Started:** 2026-04-22T12:56:32.787490Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | █░░░░░░░░░ 19% | 3 | 0 | 0 |
+| Voice | ██░░░░░░░░ 25% | 4 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #13 | passed | 3m 26s | 9690 | 8658 | 1032 | 18 | 0 | yes |
 | #11 | passed | 1m 42s | 9468 | 8546 | 922 | 14 | 0 | yes |
 | #10 | passed | 18m 33s | 9442 | 4261 | 5181 | 15 | 0 | yes |
 | #7 | passed | 6m 38s | 9230 | 40 | 9190 | 13 | 0 | yes |
@@ -64,6 +65,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
 | 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
 | 2026-04-22T12:02 | #7 Wake word engine abstraction with openWakeWord and | P | 02035e7 |
@@ -73,5 +75,5 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T12:32:44.775020Z*
-*Session 8*
+*Last updated: 2026-04-22T12:56:32.832035Z*
+*Session 9*

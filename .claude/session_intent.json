@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-8",
-      "text": "Implementing feature 13: STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends",
+      "id": "f2d00bd75f7e-9",
+      "text": "Implementing feature 14: Moonshine STT integration for sub-200ms streaming transcription on edge hardware",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776861164.8376548,
-      "updated_at": 1776861164.837655,
+      "created_at": 1776862592.891008,
+      "updated_at": 1776862592.891008,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 13
+        "feature_id": 14
       },
       "keywords": []
     },
@@ -139,9 +139,24 @@
         "feature_id": 13
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-9",
+      "text": "Implementing feature 14: Moonshine STT integration for sub-200ms streaming transcription on edge hardware",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776862592.891008,
+      "updated_at": 1776862592.891008,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 14
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 8,
+  "intent_counter": 9,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776861164.8376591
+  "updated_at": 1776862592.891012
 }

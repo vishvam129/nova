@@ -72,6 +72,52 @@ def _pcm16_to_float32(pcm16: bytes) -> Any:
     return np.frombuffer(pcm16, dtype=np.int16).astype("float32") / 32768.0
 
 
+# --- Streaming helpers ------------------------------------------------------
+
+
+class StreamingTranscriber:
+    """Sliding-window partial-transcript helper built on any ``SttEngine``.
+
+    Audio frames are appended to a ring buffer up to ``window_ms``
+    milliseconds; a partial transcript is emitted every
+    ``partial_every_ms`` milliseconds of fresh audio. Useful for pushing
+    ASR latency toward the 100–200ms range when paired with Moonshine or
+    Distil-Whisper.
+    """
+
+    def __init__(
+        self,
+        engine: SttEngine,
+        sample_rate: int = 16000,
+        window_ms: int = 1000,
+        partial_every_ms: int = 150,
+    ) -> None:
+        self.engine = engine
+        self.sample_rate = sample_rate
+        self.window_ms = window_ms
+        self.partial_every_ms = partial_every_ms
+
+    @property
+    def _bytes_per_ms(self) -> int:
+        return self.sample_rate // 500  # int16 -> 2 bytes per sample
+
+    def stream(self, frames: Iterable[bytes]) -> Iterable[Transcript]:
+        window_bytes = self.window_ms * self._bytes_per_ms
+        emit_every = self.partial_every_ms * self._bytes_per_ms
+        buffer = bytearray()
+        since_emit = 0
+        for frame in frames:
+            buffer.extend(frame)
+            since_emit += len(frame)
+            if len(buffer) > window_bytes:
+                del buffer[: len(buffer) - window_bytes]
+            if since_emit >= emit_every and buffer:
+                yield self.engine.transcribe(bytes(buffer))
+                since_emit = 0
+        if buffer:
+            yield self.engine.transcribe(bytes(buffer))
+
+
 # --- Built-in backends ------------------------------------------------------
 
 
@@ -146,11 +192,25 @@ class _FasterWhisperEngine:
 
 
 class _MoonshineEngine:
-    """Sub-200ms streaming ASR for edge devices."""
+    """Moonshine ASR — tuned for <200ms streaming on edge hardware.
 
-    def __init__(self, model: str = "moonshine/tiny", sample_rate: int = 16000) -> None:
+    ``transcribe`` runs once on a full utterance. ``stream`` uses a
+    sliding window (default 1s) that emits a partial every
+    ``partial_every_ms`` milliseconds of new audio, matching Moonshine's
+    design sweet spot for real-time voice applications.
+    """
+
+    def __init__(
+        self,
+        model: str = "moonshine/tiny",
+        sample_rate: int = 16000,
+        window_ms: int = 1000,
+        partial_every_ms: int = 150,
+    ) -> None:
         self.model_name = model
         self.sample_rate = sample_rate
+        self.window_ms = window_ms
+        self.partial_every_ms = partial_every_ms
         self._tok: Any | None = None
         self._model: Any | None = None
 
@@ -169,8 +229,12 @@ class _MoonshineEngine:
         return Transcript(text=tok.decode(tokens).strip(), language=None)
 
     def stream(self, frames: Iterable[bytes]) -> Iterable[Transcript]:
-        for frame in frames:
-            yield self.transcribe(frame)
+        yield from StreamingTranscriber(
+            self,
+            sample_rate=self.sample_rate,
+            window_ms=self.window_ms,
+            partial_every_ms=self.partial_every_ms,
+        ).stream(frames)
 
 
 class _ParakeetEngine:

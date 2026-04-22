@@ -23,6 +23,7 @@ available_vads = _vad.available_vads
 create_vad = _vad.create_vad
 
 SttEngine = _stt.SttEngine
+StreamingTranscriber = _stt.StreamingTranscriber
 Transcript = _stt.Transcript
 available_stts = _stt.available_stts
 create_stt = _stt.create_stt
@@ -34,6 +35,7 @@ __all__ = [
     "EnergyVad",
     "MicStream",
     "SileroVad",
+    "StreamingTranscriber",
     "SttEngine",
     "Transcript",
     "Vad",

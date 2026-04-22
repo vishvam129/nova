@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #13
+# Implementation Plan: Feature #14
 
 **Category:** Voice
-**Description:** STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends
+**Description:** Moonshine STT integration for sub-200ms streaming transcription on edge hardware
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Swap backend via config; same transcript API
+**Criteria:** Streaming transcript latency <200ms for 5s utterance
 **Type:** manual
