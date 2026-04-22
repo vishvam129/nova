@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #49
+# Implementation Plan: Feature #51
 
-**Category:** Tools
-**Description:** Claude Computer Use integration for vision-driven arbitrary GUI control
+**Category:** Safety
+**Description:** Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Completes 'open settings, change wallpaper'
+**Criteria:** Tapping within 1s cancels action
 **Type:** manual

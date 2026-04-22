@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-31",
-      "text": "Implementing feature 49: Claude Computer Use integration for vision-driven arbitrary GUI control",
+      "id": "f2d00bd75f7e-32",
+      "text": "Implementing feature 51: Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886745.399009,
-      "updated_at": 1776886745.3990092,
+      "created_at": 1776886861.8732028,
+      "updated_at": 1776886861.873203,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 49
+        "feature_id": 51
       },
       "keywords": []
     },
@@ -484,9 +484,24 @@
         "feature_id": 49
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-32",
+      "text": "Implementing feature 51: Quiet-confirm UX: 1s cancellable toast for destructive actions (desktop + mobile)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886861.8732028,
+      "updated_at": 1776886861.873203,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 51
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 31,
+  "intent_counter": 32,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886745.3990133
+  "updated_at": 1776886861.8732066
 }
