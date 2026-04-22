@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #29 [Brain] Plan-and-Execute agent for multi-step tasks (plan, execute steps, replan on failure)
-   Started: 2026-04-22T19:26:24.730606Z
+**In Progress:** #31 [Brain] System prompt template with personality, date/time, location, active device, active window
+   Started: 2026-04-22T19:27:34.662694Z
 
 ## Summary
 
-Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.2%
+Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 13.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 19 | 13.2% |
+| Passed | 20 | 13.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 124 | 86.1% |
+| Pending | 123 | 85.4% |
 
 ## Session Statistics
 
-- **Sessions:** 20
-- **Last Started:** 2026-04-22T19:26:24.730626Z
+- **Sessions:** 21
+- **Last Started:** 2026-04-22T19:27:34.662713Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ████░░░░░░ 45% | 5 | 0 | 0 |
+| Brain | █████░░░░░ 55% | 6 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #29 | passed | 1m 9s | 11071 | 10113 | 958 | 14 | 0 | yes |
 | #28 | passed | 1m 10s | 10963 | 9989 | 974 | 14 | 0 | yes |
 | #26 | passed | 1m 7s | 10828 | 9863 | 965 | 14 | 0 | yes |
 | #25 | passed | 55s | 10613 | 9745 | 868 | 14 | 0 | yes |
@@ -76,6 +77,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
 | 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
 | 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
 | 2026-04-22T19:24 | #25 Cloud fallback: Claude Opus 4.7 for computer-use a | P | c580304 |
@@ -85,8 +87,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
 | 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
 | 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
-| 2026-04-22T16:51 | #17 TTS engine abstraction with Piper, Kokoro-82M, Sty | P | cf12c19 |
 
 ---
-*Last updated: 2026-04-22T19:26:24.778445Z*
-*Session 20*
+*Last updated: 2026-04-22T19:27:34.707247Z*
+*Session 21*

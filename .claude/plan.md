@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #29
+# Implementation Plan: Feature #31
 
 **Category:** Brain
-**Description:** Plan-and-Execute agent for multi-step tasks (plan, execute steps, replan on failure)
+**Description:** System prompt template with personality, date/time, location, active device, active window
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Multi-step task completes in under 4 LLM calls when plan is valid
+**Criteria:** Agent references correct context values
 **Type:** manual

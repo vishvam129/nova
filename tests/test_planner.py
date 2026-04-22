@@ -45,8 +45,13 @@ def test_parse_plan_falls_back_to_lines() -> None:
     assert parse_plan(text) == ["step one", "step two", "step three"]
 
 
-def test_parse_plan_empty_on_non_list_json() -> None:
-    assert parse_plan('{"plan": ["a"]}') == []
+def test_parse_plan_extracts_inner_array_when_wrapped() -> None:
+    # parse_plan greedily extracts the first JSON array it finds.
+    assert parse_plan('{"plan": ["a", "b"]}') == ["a", "b"]
+
+
+def test_parse_plan_empty_on_unparseable() -> None:
+    assert parse_plan("no json here") == ["no json here"]
 
 
 def test_plan_execute_runs_each_step() -> None:

@@ -41,6 +41,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776885723.2041094
+    },
+    {
+      "feature_id": 31,
+      "error": "Success: no issues found in 20 source files\n=========================== short test summary info ============================\nFAILED tests/test_planner.py::test_parse_plan_empty_on_non_list_json - Assert...\n1 failed, 107 passed in 0.44s\nNext: #31 [Brain]\nRun 'spec-next' to continue\n  Description: System prompt template with personality, date/time, location, active device, active window",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776886054.8698695
     }
   ]
 }

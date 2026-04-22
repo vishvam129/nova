@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-20",
-      "text": "Implementing feature 29: Plan-and-Execute agent for multi-step tasks (plan, execute steps, replan on failure)",
+      "id": "f2d00bd75f7e-21",
+      "text": "Implementing feature 31: System prompt template with personality, date/time, location, active device, active window",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885984.810847,
-      "updated_at": 1776885984.8108473,
+      "created_at": 1776886054.7384453,
+      "updated_at": 1776886054.7384455,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 29
+        "feature_id": 31
       },
       "keywords": []
     },
@@ -319,9 +319,24 @@
         "feature_id": 29
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-21",
+      "text": "Implementing feature 31: System prompt template with personality, date/time, location, active device, active window",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886054.7384453,
+      "updated_at": 1776886054.7384455,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 31
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 20,
+  "intent_counter": 21,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885984.810851
+  "updated_at": 1776886054.7384512
 }
