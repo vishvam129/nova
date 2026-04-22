@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #11
+# Implementation Plan: Feature #13
 
 **Category:** Voice
-**Description:** VAD (Silero) for silence detection with adaptive threshold per environment
+**Description:** STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Speech segments correctly bounded in noisy environment
+**Criteria:** Swap backend via config; same transcript API
 **Type:** manual

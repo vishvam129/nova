@@ -27,6 +27,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776855598.2717712
+    },
+    {
+      "feature_id": 13,
+      "error": "Installed 1 package in 0.69ms\n ~ nova==0.1.0 (from file:///home/vpa-rdflex/Desktop/nova)\nsrc/nova/voice/vad.py:68: error: Unused \"type: ignore\" comment  [unused-ignore]\nsrc/nova/voice/stt.py:88: error: Unused \"type: ignore\" comment  [unused-ignore]\nsrc/nova/voice/stt.py:125: error: Unused \"type: ignore\" comment  [unused-ignore]\nsrc/nova/voice/stt.py:159: error: Unused \"type: ignore\" comment  [unused-ignore]\nFound 5 errors in 2 files (checked 10 source files)",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776861314.4915812
     }
   ]
 }

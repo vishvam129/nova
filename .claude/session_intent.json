@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-7",
-      "text": "Implementing feature 11: VAD (Silero) for silence detection with adaptive threshold per environment",
+      "id": "f2d00bd75f7e-8",
+      "text": "Implementing feature 13: STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776861010.2976146,
-      "updated_at": 1776861010.2976148,
+      "created_at": 1776861164.8376548,
+      "updated_at": 1776861164.837655,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 11
+        "feature_id": 13
       },
       "keywords": []
     },
@@ -124,9 +124,24 @@
         "feature_id": 11
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-8",
+      "text": "Implementing feature 13: STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776861164.8376548,
+      "updated_at": 1776861164.837655,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 13
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 7,
+  "intent_counter": 8,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776861010.297618
+  "updated_at": 1776861164.8376591
 }

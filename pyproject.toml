@@ -38,7 +38,18 @@ files = ["src/nova"]
 warn_unused_configs = true
 
 [[tool.mypy.overrides]]
-module = ["openwakeword.*", "pvporcupine", "numpy", "sounddevice"]
+module = [
+    "openwakeword.*",
+    "pvporcupine",
+    "numpy",
+    "sounddevice",
+    "whisper",
+    "faster_whisper",
+    "moonshine",
+    "nemo.*",
+    "silero_vad",
+    "torch",
+]
 ignore_missing_imports = true
 
 [tool.ruff]

@@ -58,14 +58,14 @@ class SileroVad:
 
     def _ensure(self) -> Any:
         if self._model is None:
-            from silero_vad import load_silero_vad  # type: ignore[import-not-found]
+            from silero_vad import load_silero_vad
 
             self._model = load_silero_vad()
         return self._model
 
     def probability(self, pcm16: bytes) -> float:
         import numpy as np
-        import torch  # type: ignore[import-not-found]
+        import torch
 
         model = self._ensure()
         samples = np.frombuffer(pcm16, dtype=np.int16).astype(np.float32) / 32768.0

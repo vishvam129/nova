@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #11 [Voice] VAD (Silero) for silence detection with adaptive threshold per environment
-   Started: 2026-04-22T12:30:10.202103Z
+**In Progress:** #13 [Voice] STT engine abstraction with Whisper, faster-whisper, Distil-Whisper, Moonshine, Parakeet backends
+   Started: 2026-04-22T12:32:44.733498Z
 
 ## Summary
 
-Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.2%
+Progress: █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 4.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 6 | 4.2% |
+| Passed | 7 | 4.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 137 | 95.1% |
+| Pending | 136 | 94.4% |
 
 ## Session Statistics
 
-- **Sessions:** 7
-- **Last Started:** 2026-04-22T12:30:10.202129Z
+- **Sessions:** 8
+- **Last Started:** 2026-04-22T12:32:44.733524Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | █░░░░░░░░░ 12% | 2 | 0 | 0 |
+| Voice | █░░░░░░░░░ 19% | 3 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #11 | passed | 1m 42s | 9468 | 8546 | 922 | 14 | 0 | yes |
 | #10 | passed | 18m 33s | 9442 | 4261 | 5181 | 15 | 0 | yes |
 | #7 | passed | 6m 38s | 9230 | 40 | 9190 | 13 | 0 | yes |
 | #6 | passed | 22m 44s | 9067 | 48 | 9019 | 12 | 0 | yes |
@@ -63,6 +64,7 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
 | 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
 | 2026-04-22T12:02 | #7 Wake word engine abstraction with openWakeWord and | P | 02035e7 |
 | 2026-04-22T11:56 | #6 CLI entrypoint 'nova' with subcommands: run, devic | P | 582c584 |
@@ -71,5 +73,5 @@ Progress: █░░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T12:30:10.245750Z*
-*Session 7*
+*Last updated: 2026-04-22T12:32:44.775020Z*
+*Session 8*
