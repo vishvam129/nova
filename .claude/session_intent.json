@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-27",
-      "text": "Implementing feature 40: Built-in tool: run_shell with allowlist + quiet-confirm for destructive verbs (rm, dd, mkfs)",
+      "id": "f2d00bd75f7e-28",
+      "text": "Implementing feature 41: Built-in tool: open_app cross-platform (xdg-open/open/start)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886449.257084,
-      "updated_at": 1776886449.257084,
+      "created_at": 1776886515.2785647,
+      "updated_at": 1776886515.2785647,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 40
+        "feature_id": 41
       },
       "keywords": []
     },
@@ -424,9 +424,24 @@
         "feature_id": 40
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-28",
+      "text": "Implementing feature 41: Built-in tool: open_app cross-platform (xdg-open/open/start)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886515.2785647,
+      "updated_at": 1776886515.2785647,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 41
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 27,
+  "intent_counter": 28,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886449.2570899
+  "updated_at": 1776886515.278569
 }

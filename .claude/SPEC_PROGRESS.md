@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #40 [Tools] Built-in tool: run_shell with allowlist + quiet-confirm for destructive verbs (rm, dd, mkfs)
-   Started: 2026-04-22T19:34:09.179999Z
+**In Progress:** #41 [Tools] Built-in tool: open_app cross-platform (xdg-open/open/start)
+   Started: 2026-04-22T19:35:15.202115Z
 
 ## Summary
 
-Progress: █████░░░░░░░░░░░░░░░░░░░░░░░░░ 18.1%
+Progress: █████░░░░░░░░░░░░░░░░░░░░░░░░░ 18.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 26 | 18.1% |
+| Passed | 27 | 18.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 117 | 81.2% |
+| Pending | 116 | 80.6% |
 
 ## Session Statistics
 
-- **Sessions:** 27
-- **Last Started:** 2026-04-22T19:34:09.180020Z
+- **Sessions:** 28
+- **Last Started:** 2026-04-22T19:35:15.202136Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
-| Tools | ██░░░░░░░░ 24% | 4 | 0 | 0 |
+| Tools | ██░░░░░░░░ 29% | 5 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #40 | passed | 1m 5s | 11922 | 10993 | 929 | 15 | 0 | yes |
 | #37 | passed | 1m 14s | 11784 | 10869 | 915 | 14 | 0 | yes |
 | #36 | passed | 1m 5s | 11650 | 10747 | 903 | 14 | 0 | yes |
 | #35 | passed | 1m 2s | 11542 | 10621 | 921 | 14 | 0 | yes |
@@ -83,6 +84,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:35 | #40 Built-in tool: run_shell with allowlist + quiet-co | P | 627b20a |
 | 2026-04-22T19:34 | #37 Per-tool approval policy: auto, quiet-confirm, req | P | be1e700 |
 | 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
 | 2026-04-22T19:31 | #35 MCP server registry: install/enable/disable/update | P | cd6e8f1 |
@@ -92,8 +94,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
 | 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
 | 2026-04-22T19:25 | #26 Hybrid router scoring each request: difficulty, to | P | 4a4551f |
-| 2026-04-22T19:24 | #25 Cloud fallback: Claude Opus 4.7 for computer-use a | P | c580304 |
 
 ---
-*Last updated: 2026-04-22T19:34:09.226158Z*
-*Session 27*
+*Last updated: 2026-04-22T19:35:15.249937Z*
+*Session 28*

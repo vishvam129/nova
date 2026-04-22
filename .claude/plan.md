@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #40
+# Implementation Plan: Feature #41
 
 **Category:** Tools
-**Description:** Built-in tool: run_shell with allowlist + quiet-confirm for destructive verbs (rm, dd, mkfs)
+**Description:** Built-in tool: open_app cross-platform (xdg-open/open/start)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** ls runs silently; rm -rf triggers cancel toast
+**Criteria:** Launches named app on all three OSes
 **Type:** manual
