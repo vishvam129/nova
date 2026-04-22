@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-1",
-      "text": "Implementing feature 1: Initialize Python monorepo with uv, src/ layout named 'nova', typed with mypy strict",
+      "id": "f2d00bd75f7e-2",
+      "text": "Implementing feature 2: Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776852316.1977375,
-      "updated_at": 1776852316.1977382,
+      "created_at": 1776855347.3245122,
+      "updated_at": 1776855347.3245122,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 1
+        "feature_id": 2
       },
       "keywords": []
     },
@@ -34,9 +34,24 @@
         "feature_id": 1
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-2",
+      "text": "Implementing feature 2: Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776855347.3245122,
+      "updated_at": 1776855347.3245122,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 2
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 1,
+  "intent_counter": 2,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776852316.1977477
+  "updated_at": 1776855347.3245168
 }

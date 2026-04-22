@@ -13,27 +13,27 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 2,
+  "current_feature_id": 1,
   "session": {
-    "count": 2,
-    "last_started_at": "2026-04-22T10:55:47.227383Z",
+    "count": 1,
+    "last_started_at": "2026-04-22T10:05:16.117660Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 1,
+    "passed": 0,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 142,
-    "completion_percentage": 0.7
+    "pending": 143,
+    "completion_percentage": 0.0
   },
   "categories": [
     {
       "name": "Setup",
       "total": 6,
-      "passed": 1,
+      "passed": 0,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -184,23 +184,15 @@
       "verification": {
         "type": "manual",
         "criteria": "uv run python -c 'import nova' succeeds, mypy passes",
-        "completed": true,
-        "evidence": "uv sync OK; import nova OK; mypy strict passes; pytest 1/1",
-        "requirements_addressed": [],
-        "verified_at": "2026-04-22T10:15:10.169220Z",
-        "alignment_score": {
-          "score": 1.0,
-          "drifted": false,
-          "matched_keywords": [],
-          "unmatched_keywords": [],
-          "message": "No git data — alignment check skipped"
-        }
+        "completed": false,
+        "evidence": null,
+        "requirements_addressed": []
       },
-      "status": "passed",
+      "status": "in_progress",
       "status_reason": null,
       "started_at": "2026-04-22T10:05:16.117641Z",
-      "completed_at": "2026-04-22T10:15:10.169431Z",
-      "commit_hash": "8827f1182730f25a1a68ea593752f269c6dde53b",
+      "completed_at": null,
+      "commit_hash": null,
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -210,13 +202,7 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta",
-      "loc_stats": {
-        "added": 0,
-        "removed": 0,
-        "net": 0,
-        "files_changed": 0
-      }
+      "verification_level": "beta"
     },
     {
       "id": 2,
@@ -230,9 +216,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "in_progress",
+      "status": "pending",
       "status_reason": null,
-      "started_at": "2026-04-22T10:55:47.227365Z",
+      "started_at": null,
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4245,39 +4231,6 @@
           "bounded": 8.5,
           "average": 8.4,
           "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-22T10:15:10.169457Z",
-      "operation": "feature_passed",
-      "feature_id": 1,
-      "details": {
-        "commit_hash": "8827f1182730f25a1a68ea593752f269c6dde53b",
-        "loc_stats": {
-          "added": 0,
-          "removed": 0,
-          "net": 0,
-          "files_changed": 0
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T10:55:47.227400Z",
-      "operation": "feature_started",
-      "feature_id": 2,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 6.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 7.9,
-          "feedback": [
-            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
-          ]
         },
         "depth": 1
       }

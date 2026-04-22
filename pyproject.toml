@@ -6,7 +6,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Nova contributors" }]
-dependencies = []
+dependencies = [
+    "pydantic>=2.7",
+    "pydantic-settings>=2.4",
+]
 
 [project.scripts]
 nova = "nova.cli:main"

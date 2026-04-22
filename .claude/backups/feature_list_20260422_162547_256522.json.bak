@@ -13,10 +13,10 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 2,
+  "current_feature_id": null,
   "session": {
-    "count": 2,
-    "last_started_at": "2026-04-22T10:55:47.227383Z",
+    "count": 1,
+    "last_started_at": "2026-04-22T10:05:16.117660Z",
     "total_duration_minutes": 0
   },
   "stats": {
@@ -24,9 +24,9 @@
     "passed": 1,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "paused": 0,
-    "pending": 142,
+    "pending": 143,
     "completion_percentage": 0.7
   },
   "categories": [
@@ -230,9 +230,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "in_progress",
+      "status": "pending",
       "status_reason": null,
-      "started_at": "2026-04-22T10:55:47.227365Z",
+      "started_at": null,
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4261,25 +4261,6 @@
           "net": 0,
           "files_changed": 0
         }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T10:55:47.227400Z",
-      "operation": "feature_started",
-      "feature_id": 2,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 6.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 7.9,
-          "feedback": [
-            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
-          ]
-        },
-        "depth": 1
       }
     }
   ]

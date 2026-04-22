@@ -2,32 +2,32 @@
 
 ## Current Status
 
-**In Progress:** #1 [Setup] Initialize Python monorepo with uv, src/ layout named 'nova', typed with mypy strict
-   Started: 2026-04-22T10:05:16.117641Z
+**In Progress:** #2 [Setup] Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides
+   Started: 2026-04-22T10:55:47.227365Z
 
 ## Summary
 
-Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.0%
+Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 0 | 0.0% |
+| Passed | 1 | 0.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 143 | 99.3% |
+| Pending | 142 | 98.6% |
 
 ## Session Statistics
 
-- **Sessions:** 1
-- **Last Started:** 2026-04-22T10:05:16.117660Z
+- **Sessions:** 2
+- **Last Started:** 2026-04-22T10:55:47.227383Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
-| Setup | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Setup | █░░░░░░░░░ 17% | 1 | 0 | 0 |
 | Voice | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -46,10 +46,20 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 
+## Feature Metrics
+
+| ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
+|----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #1 | passed | 9m 54s | 0 | 0 | 0 | 0 | 0 | yes |
 
 
 
+## Recent Activity
+
+| Time | Feature | Status | Commit |
+|------|---------|--------|--------|
+| 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T10:05:16.160221Z*
-*Session 1*
+*Last updated: 2026-04-22T10:55:47.264392Z*
+*Session 2*

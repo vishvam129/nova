@@ -6,6 +6,27 @@
       "fix": "",
       "category": "dependency",
       "timestamp": 1776852316.3178604
+    },
+    {
+      "feature_id": 1,
+      "error": "to set your account's default identity.\nOmit --global to set the identity only in this repository.\n\nfatal: unable to auto-detect email address (got 'vpa-rdflex@vpa-rdflex.(none)')",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776852785.4994102
+    },
+    {
+      "feature_id": 1,
+      "error": "Suggested agents for beta verification:\n  - risk-assessor (haiku) \u2014 Pre-merge blast radius and risk scoring\n\n## Reviewer Invocation (for Task tool)\n  subagent_type: feature-dev:code-reviewer\n  model: haiku\n  description: code-reviewer: review feature #1\n  prompt: Review the code changes for this feature. Report any CRITICAL issues that must be fixed before merging. Report non-critical issues as WARNINGS.\n\nFeature: Initialize Python monorepo with uv, src/ layout named 'nova', typed with mypy stri",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776852900.9061701
+    },
+    {
+      "feature_id": 2,
+      "error": "+ pydantic-settings==2.14.0\n + python-dotenv==1.2.2\n + typing-inspection==0.4.2\n---\nSuccess: no issues found in 3 source files\n---\n\ntests/test_config.py:46: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_config.py::test_env_overrides_toml - AssertionError: assert...\n1 failed, 3 passed in 0.37s",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776855598.2717712
     }
   ]
 }

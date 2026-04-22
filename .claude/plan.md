@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #1
+# Implementation Plan: Feature #2
 
 **Category:** Setup
-**Description:** Initialize Python monorepo with uv, src/ layout named 'nova', typed with mypy strict
+**Description:** Config loader reading ~/.config/nova/config.toml with pydantic-settings and env overrides
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** uv run python -c 'import nova' succeeds, mypy passes
+**Criteria:** Typed Config object; defaults used when file missing
 **Type:** manual
