@@ -4,6 +4,11 @@ from nova.tools import approval as _approval
 from nova.tools import filter as _filter
 from nova.tools import mcp as _mcp
 from nova.tools import registry as _registry
+from nova.tools.builtin import shell as _shell
+
+RunShellResult = _shell.RunShellResult
+classify_command = _shell.classify_command
+run_shell = _shell.run_shell
 
 ApprovalManager = _approval.ApprovalManager
 ConfirmRequest = _approval.ConfirmRequest

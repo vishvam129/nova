@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #37
+# Implementation Plan: Feature #40
 
 **Category:** Tools
-**Description:** Per-tool approval policy: auto, quiet-confirm, require-confirm, denied
+**Description:** Built-in tool: run_shell with allowlist + quiet-confirm for destructive verbs (rm, dd, mkfs)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Policy enforced per tool; changeable in settings
+**Criteria:** ls runs silently; rm -rf triggers cancel toast
 **Type:** manual

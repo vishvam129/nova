@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 37,
+  "current_feature_id": 40,
   "session": {
-    "count": 26,
-    "last_started_at": "2026-04-22T19:32:54.679873Z",
+    "count": 27,
+    "last_started_at": "2026-04-22T19:34:09.180020Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 25,
+    "passed": 26,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 118,
-    "completion_percentage": 17.4
+    "pending": 117,
+    "completion_percentage": 18.1
   },
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Tools",
       "total": 17,
-      "passed": 3,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1926,15 +1926,37 @@
       "verification": {
         "type": "manual",
         "criteria": "Policy enforced per tool; changeable in settings",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 154 tests; ApprovalManager AUTO/QUIET/REQUIRE/DENIED + Confirmer callback + JSON persistence",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:34:08.884228Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "approval",
+            "auto",
+            "changeable",
+            "denied",
+            "enforced",
+            "per",
+            "per-tool",
+            "policy",
+            "quiet-confirm",
+            "require-confirm",
+            "settings",
+            "tool",
+            "tools"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:32:54.679854Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:34:08.905097Z",
+      "commit_hash": "be1e7009f4e5072c04e6d9bc8aee1f7ea949f4bc",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1944,7 +1966,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 11784,
+        "removed": 10869,
+        "net": 915,
+        "files_changed": 14
+      }
     },
     {
       "id": 38,
@@ -2014,9 +2042,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:34:09.179999Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5741,6 +5769,37 @@
       "timestamp": "2026-04-22T19:32:54.679890Z",
       "operation": "feature_started",
       "feature_id": 37,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:34:08.905147Z",
+      "operation": "feature_passed",
+      "feature_id": 37,
+      "details": {
+        "commit_hash": "be1e7009f4e5072c04e6d9bc8aee1f7ea949f4bc",
+        "loc_stats": {
+          "added": 11784,
+          "removed": 10869,
+          "net": 915,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:34:09.180039Z",
+      "operation": "feature_started",
+      "feature_id": 40,
       "details": {
         "from_status": "pending",
         "avib": {
