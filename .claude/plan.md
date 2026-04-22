@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #6
+# Implementation Plan: Feature #7
 
-**Category:** Setup
-**Description:** CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config
+**Category:** Voice
+**Description:** Wake word engine abstraction with openWakeWord and Porcupine backends
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** nova --help lists all subcommands
+**Criteria:** Saying wake word fires trigger event with either backend
 **Type:** manual

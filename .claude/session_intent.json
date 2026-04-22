@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-4",
-      "text": "Implementing feature 6: CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config",
+      "id": "f2d00bd75f7e-5",
+      "text": "Implementing feature 7: Wake word engine abstraction with openWakeWord and Porcupine backends",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776857605.32273,
-      "updated_at": 1776857605.3227303,
+      "created_at": 1776858970.6355753,
+      "updated_at": 1776858970.6355755,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 6
+        "feature_id": 7
       },
       "keywords": []
     },
@@ -79,9 +79,24 @@
         "feature_id": 6
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-5",
+      "text": "Implementing feature 7: Wake word engine abstraction with openWakeWord and Porcupine backends",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776858970.6355753,
+      "updated_at": 1776858970.6355755,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 7
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 4,
+  "intent_counter": 5,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776857605.3227348
+  "updated_at": 1776858970.635581
 }

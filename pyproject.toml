@@ -35,6 +35,10 @@ python_version = "3.11"
 files = ["src/nova"]
 warn_unused_configs = true
 
+[[tool.mypy.overrides]]
+module = ["openwakeword.*", "pvporcupine", "numpy", "sounddevice"]
+ignore_missing_imports = true
+
 [tool.ruff]
 line-length = 100
 target-version = "py311"

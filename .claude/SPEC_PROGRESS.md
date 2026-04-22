@@ -2,32 +2,32 @@
 
 ## Current Status
 
-**In Progress:** #6 [Setup] CLI entrypoint 'nova' with subcommands: run, devices, mcp, memory, eval, config
-   Started: 2026-04-22T11:33:25.250066Z
+**In Progress:** #7 [Voice] Wake word engine abstraction with openWakeWord and Porcupine backends
+   Started: 2026-04-22T11:56:10.560531Z
 
 ## Summary
 
-Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.1%
+Progress: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 3 | 2.1% |
+| Passed | 4 | 2.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 140 | 97.2% |
+| Pending | 139 | 96.5% |
 
 ## Session Statistics
 
-- **Sessions:** 4
-- **Last Started:** 2026-04-22T11:33:25.250088Z
+- **Sessions:** 5
+- **Last Started:** 2026-04-22T11:56:10.560550Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
-| Setup | █████░░░░░ 50% | 3 | 0 | 0 |
+| Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #6 | passed | 22m 44s | 9067 | 48 | 9019 | 12 | 0 | yes |
 | #4 | passed | 14m 36s | 8912 | 40 | 8872 | 12 | 0 | yes |
 | #2 | passed | 21m 44s | 8978 | 42 | 8936 | 15 | 0 | yes |
 | #1 | passed | 9m 54s | 0 | 0 | 0 | 0 | 0 | yes |
@@ -60,10 +61,11 @@ Progress: ░░░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T11:56 | #6 CLI entrypoint 'nova' with subcommands: run, devic | P | 582c584 |
 | 2026-04-22T11:33 | #4 SQLite+WAL state store with Alembic migrations for | P | 3ef9574 |
 | 2026-04-22T11:17 | #2 Config loader reading ~/.config/nova/config.toml w | P | 80a8609 |
 | 2026-04-22T10:15 | #1 Initialize Python monorepo with uv, src/ layout na | P | 8827f11 |
 
 ---
-*Last updated: 2026-04-22T11:33:25.291744Z*
-*Session 4*
+*Last updated: 2026-04-22T11:56:10.601964Z*
+*Session 5*
