@@ -395,6 +395,24 @@
       "evidence": [],
       "created_at": "2026-04-22T19:21:53.086066+00:00",
       "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Write -> Write -> Write (8x)",
+      "description": "Repeated sequence: Write -> Write -> Write -> Write (8x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:23:10.593320+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Write -> Write -> Edit (5x)",
+      "description": "Repeated sequence: Write -> Write -> Write -> Edit (5x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-22T19:23:10.593323+00:00",
+      "last_triggered": ""
     }
   ]
 }

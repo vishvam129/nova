@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #24
+# Implementation Plan: Feature #25
 
 **Category:** Brain
-**Description:** Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)
+**Description:** Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** First-run pulls models via Ollama; inference works offline
+**Criteria:** Designated tasks route to Claude when API key set
 **Type:** manual

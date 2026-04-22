@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 24,
+  "current_feature_id": 25,
   "session": {
-    "count": 16,
-    "last_started_at": "2026-04-22T19:21:53.269882Z",
+    "count": 17,
+    "last_started_at": "2026-04-22T19:23:10.786675Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 15,
+    "passed": 16,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 128,
-    "completion_percentage": 10.4
+    "pending": 127,
+    "completion_percentage": 11.1
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1258,15 +1258,42 @@
       "verification": {
         "type": "manual",
         "criteria": "First-run pulls models via Ollama; inference works offline",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 79 tests; 9 ModelSpec tiers across chat/tools/reasoning/coding/vision; RAM-gated picker",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:23:10.506639Z",
+        "alignment_score": {
+          "score": 0.05,
+          "drifted": true,
+          "matched_keywords": [
+            "brain",
+            "calling",
+            "coding",
+            "default",
+            "gemma",
+            "local",
+            "models",
+            "ollama",
+            "phi-4",
+            "qwen",
+            "reasoning",
+            "tool"
+          ],
+          "unmatched_keywords": [
+            "first-run",
+            "inference",
+            "offline",
+            "pulls",
+            "works"
+          ],
+          "message": "Low alignment (5%): 12/17 spec keywords found. Missing: first-run, inference, offline, pulls, works"
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:21:53.269864Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:23:10.507367Z",
+      "commit_hash": "ed550b9cd689de9356750fe8c4a94766e8220852",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1276,7 +1303,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 153,
+        "removed": 2,
+        "net": 151,
+        "files_changed": 6
+      }
     },
     {
       "id": 25,
@@ -1290,9 +1323,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:23:10.786655Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5132,6 +5165,39 @@
           "bounded": 8.5,
           "average": 8.4,
           "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:23:10.507396Z",
+      "operation": "feature_passed",
+      "feature_id": 24,
+      "details": {
+        "commit_hash": "ed550b9cd689de9356750fe8c4a94766e8220852",
+        "loc_stats": {
+          "added": 153,
+          "removed": 2,
+          "net": 151,
+          "files_changed": 6
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:23:10.786691Z",
+      "operation": "feature_started",
+      "feature_id": 25,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
         },
         "depth": 1
       }

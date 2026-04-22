@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #24 [Brain] Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)
-   Started: 2026-04-22T19:21:53.269864Z
+**In Progress:** #25 [Brain] Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks
+   Started: 2026-04-22T19:23:10.786655Z
 
 ## Summary
 
-Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 10.4%
+Progress: ███░░░░░░░░░░░░░░░░░░░░░░░░░░░ 11.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 15 | 10.4% |
+| Passed | 16 | 11.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 128 | 88.9% |
+| Pending | 127 | 88.2% |
 
 ## Session Statistics
 
-- **Sessions:** 16
-- **Last Started:** 2026-04-22T19:21:53.269882Z
+- **Sessions:** 17
+- **Last Started:** 2026-04-22T19:23:10.786675Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ░░░░░░░░░░ 9% | 1 | 0 | 0 |
+| Brain | █░░░░░░░░░ 18% | 2 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #24 | passed | 1m 17s | 153 | 2 | 151 | 6 | 0 | yes |
 | #23 | passed | 1m 12s | 10725 | 9504 | 1221 | 15 | 0 | yes |
 | #22 | passed | 1m 6s | 10274 | 9383 | 891 | 15 | 0 | yes |
 | #21 | passed | 1m 12s | 10164 | 9261 | 903 | 14 | 0 | yes |
@@ -72,6 +73,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:23 | #24 Default local models: Gemma 3 4B (tool calling), P | P | ed550b9 |
 | 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
 | 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
@@ -81,8 +83,7 @@ Progress: ███░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
 | 2026-04-22T12:36 | #13 STT engine abstraction with Whisper, faster-whispe | P | 05e938b |
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
-| 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
 
 ---
-*Last updated: 2026-04-22T19:21:53.323380Z*
-*Session 16*
+*Last updated: 2026-04-22T19:23:10.829766Z*
+*Session 17*

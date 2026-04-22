@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-16",
-      "text": "Implementing feature 24: Default local models: Gemma 3 4B (tool calling), Phi-4 14B (reasoning), Qwen 3 (coding)",
+      "id": "f2d00bd75f7e-17",
+      "text": "Implementing feature 25: Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885713.357776,
-      "updated_at": 1776885713.3577762,
+      "created_at": 1776885790.8599513,
+      "updated_at": 1776885790.8599517,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 24
+        "feature_id": 25
       },
       "keywords": []
     },
@@ -259,9 +259,24 @@
         "feature_id": 24
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-17",
+      "text": "Implementing feature 25: Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885790.8599513,
+      "updated_at": 1776885790.8599517,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 25
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 16,
+  "intent_counter": 17,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885713.3577807
+  "updated_at": 1776885790.859956
 }
