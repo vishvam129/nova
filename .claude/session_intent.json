@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-12",
-      "text": "Implementing feature 20: Streaming TTS with sentence-level chunking so playback begins before full response",
+      "id": "f2d00bd75f7e-13",
+      "text": "Implementing feature 21: Barge-in: detect user speech while TTS plays; duck volume then stop",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885377.9609988,
-      "updated_at": 1776885377.960999,
+      "created_at": 1776885501.8139467,
+      "updated_at": 1776885501.813947,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 20
+        "feature_id": 21
       },
       "keywords": []
     },
@@ -199,9 +199,24 @@
         "feature_id": 20
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-13",
+      "text": "Implementing feature 21: Barge-in: detect user speech while TTS plays; duck volume then stop",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885501.8139467,
+      "updated_at": 1776885501.813947,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 21
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 12,
+  "intent_counter": 13,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885377.9610033
+  "updated_at": 1776885501.8139508
 }

@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 20,
+  "current_feature_id": 21,
   "session": {
-    "count": 12,
-    "last_started_at": "2026-04-22T19:16:17.850929Z",
+    "count": 13,
+    "last_started_at": "2026-04-22T19:18:21.736405Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 11,
+    "passed": 12,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 132,
-    "completion_percentage": 7.6
+    "pending": 131,
+    "completion_percentage": 8.3
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 7,
+      "passed": 8,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1019,15 +1019,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Speech starts within 500ms of first LLM token",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 52 tests; StreamingSynthesizer emits per-sentence from token iterator; first-audio <500ms budget test passes",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:17:14.416947Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "before",
+            "begins",
+            "chunking",
+            "first",
+            "full",
+            "llm",
+            "playback",
+            "response",
+            "sentence-level",
+            "speech",
+            "starts",
+            "streaming",
+            "token",
+            "tts",
+            "voice",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:16:17.850908Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:17:14.438427Z",
+      "commit_hash": "5eb67d2d28729a8672253aa57f45af173cf35495",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1037,7 +1062,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9988,
+        "removed": 9139,
+        "net": 849,
+        "files_changed": 14
+      }
     },
     {
       "id": 21,
@@ -1051,9 +1082,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:18:21.736385Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4872,6 +4903,37 @@
       "timestamp": "2026-04-22T19:16:17.850946Z",
       "operation": "feature_started",
       "feature_id": 20,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:17:14.438469Z",
+      "operation": "feature_passed",
+      "feature_id": 20,
+      "details": {
+        "commit_hash": "5eb67d2d28729a8672253aa57f45af173cf35495",
+        "loc_stats": {
+          "added": 9988,
+          "removed": 9139,
+          "net": 849,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:18:21.736421Z",
+      "operation": "feature_started",
+      "feature_id": 21,
       "details": {
         "from_status": "pending",
         "avib": {

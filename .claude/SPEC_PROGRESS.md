@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #20 [Voice] Streaming TTS with sentence-level chunking so playback begins before full response
-   Started: 2026-04-22T19:16:17.850908Z
+**In Progress:** #21 [Voice] Barge-in: detect user speech while TTS plays; duck volume then stop
+   Started: 2026-04-22T19:18:21.736385Z
 
 ## Summary
 
-Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 7.6%
+Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 8.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 11 | 7.6% |
+| Passed | 12 | 8.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 132 | 91.7% |
+| Pending | 131 | 91.0% |
 
 ## Session Statistics
 
-- **Sessions:** 12
-- **Last Started:** 2026-04-22T19:16:17.850929Z
+- **Sessions:** 13
+- **Last Started:** 2026-04-22T19:18:21.736405Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | ████░░░░░░ 44% | 7 | 0 | 0 |
+| Voice | █████░░░░░ 50% | 8 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #20 | passed | 56s | 9988 | 9139 | 849 | 14 | 0 | yes |
 | #18 | passed | 3m 36s | 9837 | 9018 | 819 | 15 | 0 | yes |
 | #17 | passed | 2m 10s | 9935 | 8893 | 1042 | 15 | 0 | yes |
 | #14 | passed | 2m 21s | 9633 | 8778 | 855 | 14 | 0 | yes |
@@ -68,6 +69,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
 | 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
 | 2026-04-22T16:51 | #17 TTS engine abstraction with Piper, Kokoro-82M, Sty | P | cf12c19 |
 | 2026-04-22T12:58 | #14 Moonshine STT integration for sub-200ms streaming  | P | d802608 |
@@ -77,8 +79,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T12:02 | #7 Wake word engine abstraction with openWakeWord and | P | 02035e7 |
 | 2026-04-22T11:56 | #6 CLI entrypoint 'nova' with subcommands: run, devic | P | 582c584 |
 | 2026-04-22T11:33 | #4 SQLite+WAL state store with Alembic migrations for | P | 3ef9574 |
-| 2026-04-22T11:17 | #2 Config loader reading ~/.config/nova/config.toml w | P | 80a8609 |
 
 ---
-*Last updated: 2026-04-22T19:16:17.896216Z*
-*Session 12*
+*Last updated: 2026-04-22T19:18:21.784978Z*
+*Session 13*

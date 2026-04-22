@@ -1,5 +1,6 @@
 """Voice pipeline: wake word, VAD, STT, TTS."""
 
+from nova.voice import bargein as _bargein
 from nova.voice import mic as _mic
 from nova.voice import stt as _stt
 from nova.voice import tts as _tts
@@ -39,12 +40,17 @@ register_tts = _tts.register_tts
 split_sentences = _tts.split_sentences
 time_to_first_sound_ms = _tts.time_to_first_sound_ms
 
+BargeInPlayer = _bargein.BargeInPlayer
+PlaybackState = _bargein.PlaybackState
+
 __all__ = [
     "AdaptiveVad",
     "AudioBytes",
     "AudioChunk",
+    "BargeInPlayer",
     "EnergyVad",
     "MicStream",
+    "PlaybackState",
     "SileroVad",
     "StreamingSynthesizer",
     "StreamingTranscriber",

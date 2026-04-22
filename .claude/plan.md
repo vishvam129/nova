@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #20
+# Implementation Plan: Feature #21
 
 **Category:** Voice
-**Description:** Streaming TTS with sentence-level chunking so playback begins before full response
+**Description:** Barge-in: detect user speech while TTS plays; duck volume then stop
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Speech starts within 500ms of first LLM token
+**Criteria:** Saying anything during playback halts TTS within 300ms
 **Type:** manual

@@ -59,3 +59,11 @@
 {"timestamp":"2026-04-22T19:16:44.232341+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":20,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_streaming_tts.py: .py"}
 {"timestamp":"2026-04-22T19:16:49.263450+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":20,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
 {"timestamp":"2026-04-22T19:16:53.067493+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":20,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:18:36.298450+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/bargein.py: .py"}
+{"timestamp":"2026-04-22T19:18:39.972402+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/bargein.py: .py"}
+{"timestamp":"2026-04-22T19:18:44.737348+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/bargein.py: .py"}
+{"timestamp":"2026-04-22T19:19:01.805609+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_bargein.py: .py"}
+{"timestamp":"2026-04-22T19:19:06.592455+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:19:11.287929+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:19:16.869219+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:19:21.137858+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":21,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
