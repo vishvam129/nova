@@ -1,8 +1,12 @@
 """Safety primitives: quiet-confirm toasts, audit log, redaction."""
 
+from nova.safety import audit as _audit
 from nova.safety import policy as _policy
 from nova.safety import quiet_confirm as _qc
 from nova.safety import redaction as _redaction
+
+AuditEntry = _audit.AuditEntry
+AuditLog = _audit.AuditLog
 
 Pattern = _redaction.Pattern
 RedactionReport = _redaction.RedactionReport

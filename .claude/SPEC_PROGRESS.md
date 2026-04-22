@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #53 [Safety] Secret redaction middleware (regex + ML detector) before storing or sending transcripts
-   Started: 2026-04-22T19:43:01.139401Z
+**In Progress:** #54 [Safety] Audit log: append-only record of every tool call, arguments, and outcome
+   Started: 2026-04-22T19:44:34.152187Z
 
 ## Summary
 
-Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 22.9%
+Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 23.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 33 | 22.9% |
+| Passed | 34 | 23.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 110 | 76.4% |
+| Pending | 109 | 75.7% |
 
 ## Session Statistics
 
-- **Sessions:** 34
-- **Last Started:** 2026-04-22T19:43:01.139426Z
+- **Sessions:** 35
+- **Last Started:** 2026-04-22T19:44:34.152216Z
 
 ## Categories
 
@@ -31,7 +31,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
-| Safety | ██░░░░░░░░ 25% | 2 | 0 | 0 |
+| Safety | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #53 | passed | 1m 32s | 12737 | 11836 | 901 | 14 | 0 | yes |
 | #52 | passed | 48s | 12601 | 11718 | 883 | 14 | 0 | yes |
 | #51 | passed | 1m 10s | 12437 | 11599 | 838 | 14 | 0 | yes |
 | #49 | passed | 1m 56s | 12445 | 11480 | 965 | 15 | 0 | yes |
@@ -90,6 +91,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
 | 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
 | 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 | 2026-04-22T19:41 | #49 Claude Computer Use integration for vision-driven  | P | bc1b69e |
@@ -99,8 +101,7 @@ Progress: ██████░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:35 | #40 Built-in tool: run_shell with allowlist + quiet-co | P | 627b20a |
 | 2026-04-22T19:34 | #37 Per-tool approval policy: auto, quiet-confirm, req | P | be1e700 |
 | 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
-| 2026-04-22T19:31 | #35 MCP server registry: install/enable/disable/update | P | cd6e8f1 |
 
 ---
-*Last updated: 2026-04-22T19:43:01.186218Z*
-*Session 34*
+*Last updated: 2026-04-22T19:44:34.203204Z*
+*Session 35*

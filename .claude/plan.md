@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #53
+# Implementation Plan: Feature #54
 
 **Category:** Safety
-**Description:** Secret redaction middleware (regex + ML detector) before storing or sending transcripts
+**Description:** Audit log: append-only record of every tool call, arguments, and outcome
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Sample text with sk-xxx redacted in stored record
+**Criteria:** nova audit tail shows latest 50 events
 **Type:** manual

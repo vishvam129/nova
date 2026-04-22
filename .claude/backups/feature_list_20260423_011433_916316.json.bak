@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": null,
+  "current_feature_id": 53,
   "session": {
-    "count": 29,
-    "last_started_at": "2026-04-22T19:36:15.055638Z",
+    "count": 34,
+    "last_started_at": "2026-04-22T19:43:01.139426Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 29,
+    "passed": 33,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 0,
+    "in_progress": 1,
     "paused": 0,
-    "pending": 115,
-    "completion_percentage": 20.1
+    "pending": 110,
+    "completion_percentage": 22.9
   },
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Tools",
       "total": 17,
-      "passed": 7,
+      "passed": 9,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -65,7 +65,7 @@
     {
       "name": "Safety",
       "total": 8,
-      "passed": 0,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -2209,15 +2209,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Natural-language file lookup returns correct path",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 182 tests; FileIndex + TEXT_EXTENSIONS whitelist + size cap + semantic search",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:39:05.029995Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "built-in",
+            "correct",
+            "directories",
+            "file",
+            "file_search",
+            "index",
+            "local",
+            "lookup",
+            "natural-language",
+            "opt-in",
+            "over",
+            "path",
+            "returns",
+            "tool",
+            "tools",
+            "vector"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:38:17.794382Z",
+      "completed_at": "2026-04-22T19:39:05.051464Z",
+      "commit_hash": "b6795138afaada43db3c137aab411aa3abbb0c72",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2227,7 +2252,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12234,
+        "removed": 11359,
+        "net": 875,
+        "files_changed": 14
+      }
     },
     {
       "id": 44,
@@ -2377,15 +2408,37 @@
       "verification": {
         "type": "manual",
         "criteria": "Completes 'open settings, change wallpaper'",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 187 tests; ComputerSession orchestrator + PyAutoGuiExecutor + FakeExecutor tests cover tool-use loop",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:41:01.479682Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "arbitrary",
+            "change",
+            "claude",
+            "completes",
+            "computer",
+            "control",
+            "gui",
+            "integration",
+            "open",
+            "settings",
+            "tools",
+            "vision-driven",
+            "wallpaper"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:39:05.322969Z",
+      "completed_at": "2026-04-22T19:41:01.500650Z",
+      "commit_hash": "bc1b69eecbcff62ef96b6d1d048bf1d32a5e90d8",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2395,7 +2448,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12445,
+        "removed": 11480,
+        "net": 965,
+        "files_changed": 15
+      }
     },
     {
       "id": 50,
@@ -2433,15 +2492,36 @@
       "verification": {
         "type": "manual",
         "criteria": "Tapping within 1s cancels action",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 192 tests; QuietConfirmToast + threaded_presenter + ToastOutcome enum + pluggable presenter",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:42:12.536946Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action",
+            "actions",
+            "cancellable",
+            "cancels",
+            "desktop",
+            "destructive",
+            "mobile",
+            "quiet-confirm",
+            "safety",
+            "tapping",
+            "toast",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:41:01.790986Z",
+      "completed_at": "2026-04-22T19:42:12.563136Z",
+      "commit_hash": "0672a622ccd72803221f7ad4a4e11b05151a71bb",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2451,7 +2531,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12437,
+        "removed": 11599,
+        "net": 838,
+        "files_changed": 14
+      }
     },
     {
       "id": 52,
@@ -2461,15 +2547,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Denied action blocked with audit entry",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 200 tests; PolicyEngine with 4 resource kinds, deny-beats-allow precedence, fnmatch/domain-suffix/first-token matchers",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:43:00.827775Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action",
+            "allowlist",
+            "audit",
+            "blocked",
+            "commands",
+            "denied",
+            "denylist",
+            "domains",
+            "engine",
+            "entry",
+            "mcp",
+            "paths",
+            "safety",
+            "tools"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:42:12.847788Z",
+      "completed_at": "2026-04-22T19:43:00.854004Z",
+      "commit_hash": "46196a735a1dc080717b1fac392e2a4cd9daf1ac",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2479,7 +2588,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12601,
+        "removed": 11718,
+        "net": 883,
+        "files_changed": 14
+      }
     },
     {
       "id": 53,
@@ -2493,9 +2608,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:43:01.139401Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5974,6 +6089,149 @@
           "net": 902,
           "files_changed": 15
         }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:38:17.794417Z",
+      "operation": "feature_started",
+      "feature_id": 43,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:39:05.051528Z",
+      "operation": "feature_passed",
+      "feature_id": 43,
+      "details": {
+        "commit_hash": "b6795138afaada43db3c137aab411aa3abbb0c72",
+        "loc_stats": {
+          "added": 12234,
+          "removed": 11359,
+          "net": 875,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:39:05.323021Z",
+      "operation": "feature_started",
+      "feature_id": 49,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:41:01.500721Z",
+      "operation": "feature_passed",
+      "feature_id": 49,
+      "details": {
+        "commit_hash": "bc1b69eecbcff62ef96b6d1d048bf1d32a5e90d8",
+        "loc_stats": {
+          "added": 12445,
+          "removed": 11480,
+          "net": 965,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:41:01.791024Z",
+      "operation": "feature_started",
+      "feature_id": 51,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:42:12.563176Z",
+      "operation": "feature_passed",
+      "feature_id": 51,
+      "details": {
+        "commit_hash": "0672a622ccd72803221f7ad4a4e11b05151a71bb",
+        "loc_stats": {
+          "added": 12437,
+          "removed": 11599,
+          "net": 838,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:42:12.847844Z",
+      "operation": "feature_started",
+      "feature_id": 52,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:43:00.854048Z",
+      "operation": "feature_passed",
+      "feature_id": 52,
+      "details": {
+        "commit_hash": "46196a735a1dc080717b1fac392e2a4cd9daf1ac",
+        "loc_stats": {
+          "added": 12601,
+          "removed": 11718,
+          "net": 883,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:43:01.139442Z",
+      "operation": "feature_started",
+      "feature_id": 53,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
       }
     }
   ]

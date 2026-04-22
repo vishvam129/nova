@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-34",
-      "text": "Implementing feature 53: Secret redaction middleware (regex + ML detector) before storing or sending transcripts",
+      "id": "f2d00bd75f7e-35",
+      "text": "Implementing feature 54: Audit log: append-only record of every tool call, arguments, and outcome",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886981.213859,
-      "updated_at": 1776886981.2138593,
+      "created_at": 1776887074.2310793,
+      "updated_at": 1776887074.2310796,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 53
+        "feature_id": 54
       },
       "keywords": []
     },
@@ -529,9 +529,24 @@
         "feature_id": 53
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-35",
+      "text": "Implementing feature 54: Audit log: append-only record of every tool call, arguments, and outcome",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776887074.2310793,
+      "updated_at": 1776887074.2310796,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 54
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 34,
+  "intent_counter": 35,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886981.2138627
+  "updated_at": 1776887074.2310867
 }
