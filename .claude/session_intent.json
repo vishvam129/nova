@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-23",
-      "text": "Implementing feature 34: MCP client (stdio + HTTP/SSE + Streamable HTTP transports)",
+      "id": "f2d00bd75f7e-24",
+      "text": "Implementing feature 35: MCP server registry: install/enable/disable/update via CLI and GUI",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886185.7408404,
-      "updated_at": 1776886185.7408407,
+      "created_at": 1776886245.9567535,
+      "updated_at": 1776886245.9567535,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 34
+        "feature_id": 35
       },
       "keywords": []
     },
@@ -364,9 +364,24 @@
         "feature_id": 34
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-24",
+      "text": "Implementing feature 35: MCP server registry: install/enable/disable/update via CLI and GUI",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886245.9567535,
+      "updated_at": 1776886245.9567535,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 35
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 23,
+  "intent_counter": 24,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886185.7408452
+  "updated_at": 1776886245.956759
 }

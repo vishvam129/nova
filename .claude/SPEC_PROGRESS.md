@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #34 [Tools] MCP client (stdio + HTTP/SSE + Streamable HTTP transports)
-   Started: 2026-04-22T19:29:45.668812Z
+**In Progress:** #35 [Tools] MCP server registry: install/enable/disable/update via CLI and GUI
+   Started: 2026-04-22T19:30:45.872789Z
 
 ## Summary
 
-Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 15.3%
+Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 16.0%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 22 | 15.3% |
+| Passed | 23 | 16.0% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 121 | 84.0% |
+| Pending | 120 | 83.3% |
 
 ## Session Statistics
 
-- **Sessions:** 23
-- **Last Started:** 2026-04-22T19:29:45.668832Z
+- **Sessions:** 24
+- **Last Started:** 2026-04-22T19:30:45.872806Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
-| Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Tools | ░░░░░░░░░░ 6% | 1 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #34 | passed | 59s | 11489 | 10496 | 993 | 15 | 0 | yes |
 | #33 | passed | 1m 15s | 11315 | 10367 | 948 | 14 | 0 | yes |
 | #31 | passed | 54s | 11150 | 10241 | 909 | 17 | 0 | yes |
 | #29 | passed | 1m 9s | 11071 | 10113 | 958 | 14 | 0 | yes |
@@ -79,6 +80,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:30 | #34 MCP client (stdio + HTTP/SSE + Streamable HTTP tra | P | 1e686eb |
 | 2026-04-22T19:29 | #33 Context window manager: auto-summarize old turns w | P | 0500656 |
 | 2026-04-22T19:28 | #31 System prompt template with personality, date/time | P | 09690ec |
 | 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
@@ -88,8 +90,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:23 | #24 Default local models: Gemma 3 4B (tool calling), P | P | ed550b9 |
 | 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
 | 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
-| 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
 
 ---
-*Last updated: 2026-04-22T19:29:45.711887Z*
-*Session 23*
+*Last updated: 2026-04-22T19:30:45.921209Z*
+*Session 24*

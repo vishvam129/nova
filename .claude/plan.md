@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #34
+# Implementation Plan: Feature #35
 
 **Category:** Tools
-**Description:** MCP client (stdio + HTTP/SSE + Streamable HTTP transports)
+**Description:** MCP server registry: install/enable/disable/update via CLI and GUI
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Discovers and invokes tools from sample MCP server
+**Criteria:** nova mcp add URL and nova mcp list both work
 **Type:** manual

@@ -1,6 +1,11 @@
 """Tool plane: MCP client + built-in tools."""
 
 from nova.tools import mcp as _mcp
+from nova.tools import registry as _registry
+
+McpRegistry = _registry.McpRegistry
+McpServerEntry = _registry.McpServerEntry
+registry_for = _registry.registry_for
 
 McpClient = _mcp.McpClient
 McpTool = _mcp.McpTool
