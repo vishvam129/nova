@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #22 [Voice] Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word
-   Started: 2026-04-22T19:19:34.468852Z
+**In Progress:** #23 [Brain] LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface
+   Started: 2026-04-22T19:20:40.964434Z
 
 ## Summary
 
-Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.0%
+Progress: ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 9.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 13 | 9.0% |
+| Passed | 14 | 9.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 130 | 90.3% |
+| Pending | 129 | 89.6% |
 
 ## Session Statistics
 
-- **Sessions:** 14
-- **Last Started:** 2026-04-22T19:19:34.468874Z
+- **Sessions:** 15
+- **Last Started:** 2026-04-22T19:20:40.964453Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | █████░░░░░ 56% | 9 | 0 | 0 |
+| Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #22 | passed | 1m 6s | 10274 | 9383 | 891 | 15 | 0 | yes |
 | #21 | passed | 1m 12s | 10164 | 9261 | 903 | 14 | 0 | yes |
 | #20 | passed | 56s | 9988 | 9139 | 849 | 14 | 0 | yes |
 | #18 | passed | 3m 36s | 9837 | 9018 | 819 | 15 | 0 | yes |
@@ -70,6 +71,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
 | 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
 | 2026-04-22T16:55 | #18 Kokoro-82M as default TTS for fast, high-quality v | P | 39b7f0d |
@@ -79,8 +81,7 @@ Progress: ██░░░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T12:31 | #11 VAD (Silero) for silence detection with adaptive t | P | 9fae30a |
 | 2026-04-22T12:21 | #10 Microphone capture with cross-platform backends (P | P | 20c633a |
 | 2026-04-22T12:02 | #7 Wake word engine abstraction with openWakeWord and | P | 02035e7 |
-| 2026-04-22T11:56 | #6 CLI entrypoint 'nova' with subcommands: run, devic | P | 582c584 |
 
 ---
-*Last updated: 2026-04-22T19:19:34.511304Z*
-*Session 14*
+*Last updated: 2026-04-22T19:20:41.005626Z*
+*Session 15*

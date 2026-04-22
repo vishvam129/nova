@@ -55,6 +55,11 @@ module = [
     "TTS.*",
     "elevenlabs.*",
     "webrtc_audio_processing",
+    "ollama",
+    "llama_cpp",
+    "openai",
+    "anthropic",
+    "google.generativeai",
 ]
 ignore_missing_imports = true
 

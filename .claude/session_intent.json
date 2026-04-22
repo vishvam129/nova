@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-14",
-      "text": "Implementing feature 22: Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word",
+      "id": "f2d00bd75f7e-15",
+      "text": "Implementing feature 23: LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885574.542567,
-      "updated_at": 1776885574.5425673,
+      "created_at": 1776885641.0360365,
+      "updated_at": 1776885641.036037,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 22
+        "feature_id": 23
       },
       "keywords": []
     },
@@ -229,9 +229,24 @@
         "feature_id": 22
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-15",
+      "text": "Implementing feature 23: LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885641.0360365,
+      "updated_at": 1776885641.036037,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 23
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 14,
+  "intent_counter": 15,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885574.5425713
+  "updated_at": 1776885641.0360405
 }

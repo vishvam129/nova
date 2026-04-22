@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 22,
+  "current_feature_id": 23,
   "session": {
-    "count": 14,
-    "last_started_at": "2026-04-22T19:19:34.468874Z",
+    "count": 15,
+    "last_started_at": "2026-04-22T19:20:40.964453Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 13,
+    "passed": 14,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 130,
-    "completion_percentage": 9.0
+    "pending": 129,
+    "completion_percentage": 9.7
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 9,
+      "passed": 10,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1139,15 +1139,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Playing TTS doesn't cause false wake word trigger",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 65 tests; null/webrtc EchoCanceller + apply_aec stream pairing",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:20:40.665885Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "aec3",
+            "cancellation",
+            "cause",
+            "doesn",
+            "echo",
+            "false",
+            "output",
+            "playing",
+            "trigger",
+            "tts",
+            "voice",
+            "wake",
+            "webrtc",
+            "word"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:19:34.468852Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:20:40.692942Z",
+      "commit_hash": "4f763df3b5c952d360fd9064896cc7ffc530018a",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1157,7 +1180,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10274,
+        "removed": 9383,
+        "net": 891,
+        "files_changed": 15
+      }
     },
     {
       "id": 23,
@@ -1171,9 +1200,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:20:40.964434Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5006,6 +5035,37 @@
           "independent": 9.0,
           "bounded": 8.5,
           "average": 8.5,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:20:40.692986Z",
+      "operation": "feature_passed",
+      "feature_id": 22,
+      "details": {
+        "commit_hash": "4f763df3b5c952d360fd9064896cc7ffc530018a",
+        "loc_stats": {
+          "added": 10274,
+          "removed": 9383,
+          "net": 891,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:20:40.964471Z",
+      "operation": "feature_started",
+      "feature_id": 23,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
           "feedback": []
         },
         "depth": 1

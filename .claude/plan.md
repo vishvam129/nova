@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #22
+# Implementation Plan: Feature #23
 
-**Category:** Voice
-**Description:** Echo cancellation (WebRTC AEC3) so TTS output doesn't trigger wake word
+**Category:** Brain
+**Description:** LLM adapter with Ollama, llama.cpp, vLLM, Claude, OpenAI, Gemini backends via one interface
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Playing TTS doesn't cause false wake word trigger
+**Criteria:** Same chat API returns completions from each backend
 **Type:** manual
