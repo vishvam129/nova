@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #35
+# Implementation Plan: Feature #36
 
 **Category:** Tools
-**Description:** MCP server registry: install/enable/disable/update via CLI and GUI
+**Description:** Embedding-based tool filtering: only top-K tools reach LLM context per turn
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** nova mcp add URL and nova mcp list both work
+**Criteria:** 200+ tools installed; at most 20 shown per turn
 **Type:** manual

@@ -1,7 +1,12 @@
 """Tool plane: MCP client + built-in tools."""
 
+from nova.tools import filter as _filter
 from nova.tools import mcp as _mcp
 from nova.tools import registry as _registry
+
+Embedder = _filter.Embedder
+HashingEmbedder = _filter.HashingEmbedder
+ToolFilter = _filter.ToolFilter
 
 McpRegistry = _registry.McpRegistry
 McpServerEntry = _registry.McpServerEntry

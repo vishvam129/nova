@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 35,
+  "current_feature_id": 36,
   "session": {
-    "count": 24,
-    "last_started_at": "2026-04-22T19:30:45.872806Z",
+    "count": 25,
+    "last_started_at": "2026-04-22T19:31:48.711670Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 23,
+    "passed": 24,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 120,
-    "completion_percentage": 16.0
+    "pending": 119,
+    "completion_percentage": 16.7
   },
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "name": "Tools",
       "total": 17,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1811,15 +1811,40 @@
       "verification": {
         "type": "manual",
         "criteria": "nova mcp add URL and nova mcp list both work",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 139 tests; McpRegistry json-persisted CRUD + to_transport dispatcher",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:31:48.412817Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "add",
+            "both",
+            "cli",
+            "disable",
+            "enable",
+            "gui",
+            "install",
+            "list",
+            "mcp",
+            "nova",
+            "registry",
+            "server",
+            "tools",
+            "update",
+            "url",
+            "work"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:30:45.872789Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:31:48.436945Z",
+      "commit_hash": "cd6e8f12d69fe8dede2851b6d7e4f5f818cec8fa",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1829,7 +1854,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 11542,
+        "removed": 10621,
+        "net": 921,
+        "files_changed": 14
+      }
     },
     {
       "id": 36,
@@ -1843,9 +1874,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:31:48.711643Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5629,6 +5660,37 @@
           "feedback": [
             "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
           ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:31:48.436992Z",
+      "operation": "feature_passed",
+      "feature_id": 35,
+      "details": {
+        "commit_hash": "cd6e8f12d69fe8dede2851b6d7e4f5f818cec8fa",
+        "loc_stats": {
+          "added": 11542,
+          "removed": 10621,
+          "net": 921,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:31:48.711688Z",
+      "operation": "feature_started",
+      "feature_id": 36,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
+          "feedback": []
         },
         "depth": 1
       }

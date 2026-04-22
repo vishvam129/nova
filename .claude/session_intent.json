@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-24",
-      "text": "Implementing feature 35: MCP server registry: install/enable/disable/update via CLI and GUI",
+      "id": "f2d00bd75f7e-25",
+      "text": "Implementing feature 36: Embedding-based tool filtering: only top-K tools reach LLM context per turn",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776886245.9567535,
-      "updated_at": 1776886245.9567535,
+      "created_at": 1776886308.7858903,
+      "updated_at": 1776886308.7858906,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 35
+        "feature_id": 36
       },
       "keywords": []
     },
@@ -379,9 +379,24 @@
         "feature_id": 35
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-25",
+      "text": "Implementing feature 36: Embedding-based tool filtering: only top-K tools reach LLM context per turn",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776886308.7858903,
+      "updated_at": 1776886308.7858906,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 36
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 24,
+  "intent_counter": 25,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776886245.956759
+  "updated_at": 1776886308.7858949
 }
