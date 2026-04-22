@@ -28,3 +28,7 @@
 {"timestamp":"2026-04-22T12:19:35.484418+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":10,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/mic.py: .py"}
 {"timestamp":"2026-04-22T12:20:46.978076+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":10,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_mic.py: .py"}
 {"timestamp":"2026-04-22T12:20:55.493266+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":10,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T12:30:30.443932+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":11,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/vad.py: .py"}
+{"timestamp":"2026-04-22T12:30:52.969619+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":11,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_vad.py: .py"}
+{"timestamp":"2026-04-22T12:31:02.061461+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":11,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}
+{"timestamp":"2026-04-22T12:31:19.675813+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":11,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/__init__.py: .py"}

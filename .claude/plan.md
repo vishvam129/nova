@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #10
+# Implementation Plan: Feature #11
 
 **Category:** Voice
-**Description:** Microphone capture with cross-platform backends (PipeWire/CoreAudio/WASAPI) via sounddevice
+**Description:** VAD (Silero) for silence detection with adaptive threshold per environment
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 16kHz mono stream captured on Linux/macOS/Windows
+**Criteria:** Speech segments correctly bounded in noisy environment
 **Type:** manual

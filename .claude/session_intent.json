@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-6",
-      "text": "Implementing feature 10: Microphone capture with cross-platform backends (PipeWire/CoreAudio/WASAPI) via sounddevice",
+      "id": "f2d00bd75f7e-7",
+      "text": "Implementing feature 11: VAD (Silero) for silence detection with adaptive threshold per environment",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776859369.8968866,
-      "updated_at": 1776859369.8968868,
+      "created_at": 1776861010.2976146,
+      "updated_at": 1776861010.2976148,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 10
+        "feature_id": 11
       },
       "keywords": []
     },
@@ -109,9 +109,24 @@
         "feature_id": 10
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-7",
+      "text": "Implementing feature 11: VAD (Silero) for silence detection with adaptive threshold per environment",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776861010.2976146,
+      "updated_at": 1776861010.2976148,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 11
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 6,
+  "intent_counter": 7,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776859369.8968914
+  "updated_at": 1776861010.297618
 }
