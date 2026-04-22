@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #42 [Tools] Built-in tool: browser_control via Playwright (navigate, click, fill, extract, screenshot)
-   Started: 2026-04-22T19:36:15.055619Z
+**In Progress:** #43 [Tools] Built-in tool: file_search using local vector index over opt-in directories
+   Started: 2026-04-22T19:38:17.794382Z
 
 ## Summary
 
-Progress: █████░░░░░░░░░░░░░░░░░░░░░░░░░ 19.4%
+Progress: ██████░░░░░░░░░░░░░░░░░░░░░░░░ 20.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 28 | 19.4% |
+| Passed | 29 | 20.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 115 | 79.9% |
+| Pending | 114 | 79.2% |
 
 ## Session Statistics
 
-- **Sessions:** 29
-- **Last Started:** 2026-04-22T19:36:15.055638Z
+- **Sessions:** 30
+- **Last Started:** 2026-04-22T19:38:17.794400Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
-| Tools | ███░░░░░░░ 35% | 6 | 0 | 0 |
+| Tools | ████░░░░░░ 41% | 7 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #42 | passed | 2m 2s | 12137 | 11235 | 902 | 15 | 0 | yes |
 | #41 | passed | 59s | 11955 | 11116 | 839 | 14 | 0 | yes |
 | #40 | passed | 1m 5s | 11922 | 10993 | 929 | 15 | 0 | yes |
 | #37 | passed | 1m 14s | 11784 | 10869 | 915 | 14 | 0 | yes |
@@ -85,6 +86,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:38 | #42 Built-in tool: browser_control via Playwright (nav | P | d7bbf5c |
 | 2026-04-22T19:36 | #41 Built-in tool: open_app cross-platform (xdg-open/o | P | d39b07c |
 | 2026-04-22T19:35 | #40 Built-in tool: run_shell with allowlist + quiet-co | P | 627b20a |
 | 2026-04-22T19:34 | #37 Per-tool approval policy: auto, quiet-confirm, req | P | be1e700 |
@@ -94,8 +96,7 @@ Progress: █████░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:29 | #33 Context window manager: auto-summarize old turns w | P | 0500656 |
 | 2026-04-22T19:28 | #31 System prompt template with personality, date/time | P | 09690ec |
 | 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
-| 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
 
 ---
-*Last updated: 2026-04-22T19:36:15.100890Z*
-*Session 29*
+*Last updated: 2026-04-22T19:38:17.839488Z*
+*Session 30*

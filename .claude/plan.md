@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #42
+# Implementation Plan: Feature #43
 
 **Category:** Tools
-**Description:** Built-in tool: browser_control via Playwright (navigate, click, fill, extract, screenshot)
+**Description:** Built-in tool: file_search using local vector index over opt-in directories
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Completes multi-step web task end-to-end
+**Criteria:** Natural-language file lookup returns correct path
 **Type:** manual

@@ -1,12 +1,16 @@
 """Built-in Nova tools (shell, open_app, clipboard, etc.)."""
 
 from nova.tools.builtin import browser as _browser
+from nova.tools.builtin import file_search as _file_search
 from nova.tools.builtin import open_app as _open_app
 from nova.tools.builtin import shell as _shell
 
 BrowserDriver = _browser.BrowserDriver
 BrowserSession = _browser.BrowserSession
 PlaywrightDriver = _browser.PlaywrightDriver
+
+FileHit = _file_search.FileHit
+FileIndex = _file_search.FileIndex
 
 DESTRUCTIVE_VERBS = _shell.DESTRUCTIVE_VERBS
 RunShellResult = _shell.RunShellResult
