@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 33,
+  "current_feature_id": 34,
   "session": {
-    "count": 22,
-    "last_started_at": "2026-04-22T19:28:29.654089Z",
+    "count": 23,
+    "last_started_at": "2026-04-22T19:29:45.668832Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 21,
+    "passed": 22,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 122,
-    "completion_percentage": 14.6
+    "pending": 121,
+    "completion_percentage": 15.3
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 7,
+      "passed": 8,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1698,15 +1698,39 @@
       "verification": {
         "type": "manual",
         "criteria": "50-turn dialog stays under 80% context budget",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 123 tests; ContextWindow + estimate_tokens + compact preserves system head + recent tail",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:29:45.370589Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "auto-summarize",
+            "brain",
+            "budget",
+            "context",
+            "dialog",
+            "limit",
+            "manager",
+            "model",
+            "near",
+            "old",
+            "stays",
+            "turn",
+            "turns",
+            "under",
+            "window"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:28:29.654070Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:29:45.392205Z",
+      "commit_hash": "05006565397b8dba8995ff29cfa786a0eb7e6aec",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1716,7 +1740,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 11315,
+        "removed": 10367,
+        "net": 948,
+        "files_changed": 14
+      }
     },
     {
       "id": 34,
@@ -1730,9 +1760,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:29:45.668812Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5507,6 +5537,37 @@
           "independent": 8.0,
           "bounded": 8.5,
           "average": 8.1,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:29:45.392245Z",
+      "operation": "feature_passed",
+      "feature_id": 33,
+      "details": {
+        "commit_hash": "05006565397b8dba8995ff29cfa786a0eb7e6aec",
+        "loc_stats": {
+          "added": 11315,
+          "removed": 10367,
+          "net": 948,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:29:45.668849Z",
+      "operation": "feature_started",
+      "feature_id": 34,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
           "feedback": []
         },
         "depth": 1

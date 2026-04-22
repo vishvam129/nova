@@ -108,3 +108,6 @@
 {"timestamp":"2026-04-22T19:29:16.194484+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":33,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_context.py: .py"}
 {"timestamp":"2026-04-22T19:29:22.222887+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":33,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/brain/__init__.py: .py"}
 {"timestamp":"2026-04-22T19:29:27.024210+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":33,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/brain/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:29:53.943031+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":34,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/tools/__init__.py: .py"}
+{"timestamp":"2026-04-22T19:30:12.699223+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":34,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/tools/mcp.py: .py"}
+{"timestamp":"2026-04-22T19:30:24.677636+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":34,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_mcp.py: .py"}

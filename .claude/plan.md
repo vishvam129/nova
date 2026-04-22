@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #33
+# Implementation Plan: Feature #34
 
-**Category:** Brain
-**Description:** Context window manager: auto-summarize old turns when near model limit
+**Category:** Tools
+**Description:** MCP client (stdio + HTTP/SSE + Streamable HTTP transports)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 50-turn dialog stays under 80% context budget
+**Criteria:** Discovers and invokes tools from sample MCP server
 **Type:** manual

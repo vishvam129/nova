@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #33 [Brain] Context window manager: auto-summarize old turns when near model limit
-   Started: 2026-04-22T19:28:29.654070Z
+**In Progress:** #34 [Tools] MCP client (stdio + HTTP/SSE + Streamable HTTP transports)
+   Started: 2026-04-22T19:29:45.668812Z
 
 ## Summary
 
-Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 14.6%
+Progress: ████░░░░░░░░░░░░░░░░░░░░░░░░░░ 15.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 21 | 14.6% |
+| Passed | 22 | 15.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 122 | 84.7% |
+| Pending | 121 | 84.0% |
 
 ## Session Statistics
 
-- **Sessions:** 22
-- **Last Started:** 2026-04-22T19:28:29.654089Z
+- **Sessions:** 23
+- **Last Started:** 2026-04-22T19:29:45.668832Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████░░░░ 67% | 4 | 0 | 0 |
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
-| Brain | ██████░░░░ 64% | 7 | 0 | 0 |
+| Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Safety | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #33 | passed | 1m 15s | 11315 | 10367 | 948 | 14 | 0 | yes |
 | #31 | passed | 54s | 11150 | 10241 | 909 | 17 | 0 | yes |
 | #29 | passed | 1m 9s | 11071 | 10113 | 958 | 14 | 0 | yes |
 | #28 | passed | 1m 10s | 10963 | 9989 | 974 | 14 | 0 | yes |
@@ -78,6 +79,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:29 | #33 Context window manager: auto-summarize old turns w | P | 0500656 |
 | 2026-04-22T19:28 | #31 System prompt template with personality, date/time | P | 09690ec |
 | 2026-04-22T19:27 | #29 Plan-and-Execute agent for multi-step tasks (plan, | P | 381f43d |
 | 2026-04-22T19:26 | #28 ReAct agent loop for exploratory dialog (reason, a | P | 8961896 |
@@ -87,8 +89,7 @@ Progress: ████░░░░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:21 | #23 LLM adapter with Ollama, llama.cpp, vLLM, Claude,  | P | 17ab6d6 |
 | 2026-04-22T19:20 | #22 Echo cancellation (WebRTC AEC3) so TTS output does | P | 4f763df |
 | 2026-04-22T19:19 | #21 Barge-in: detect user speech while TTS plays; duck | P | f2afea5 |
-| 2026-04-22T19:17 | #20 Streaming TTS with sentence-level chunking so play | P | 5eb67d2 |
 
 ---
-*Last updated: 2026-04-22T19:28:29.695020Z*
-*Session 22*
+*Last updated: 2026-04-22T19:29:45.711887Z*
+*Session 23*
