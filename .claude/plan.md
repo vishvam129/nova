@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #25
+# Implementation Plan: Feature #26
 
 **Category:** Brain
-**Description:** Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks
+**Description:** Hybrid router scoring each request: difficulty, tools required, privacy tag, cost; logs decisions
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Designated tasks route to Claude when API key set
+**Criteria:** Chat routed local; 'book a flight' routed cloud; logs reason
 **Type:** manual

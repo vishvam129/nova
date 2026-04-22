@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-17",
-      "text": "Implementing feature 25: Cloud fallback: Claude Opus 4.7 for computer-use and hard reasoning tasks",
+      "id": "f2d00bd75f7e-18",
+      "text": "Implementing feature 26: Hybrid router scoring each request: difficulty, tools required, privacy tag, cost; logs decisions",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776885790.8599513,
-      "updated_at": 1776885790.8599517,
+      "created_at": 1776885846.544701,
+      "updated_at": 1776885846.5447013,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 25
+        "feature_id": 26
       },
       "keywords": []
     },
@@ -274,9 +274,24 @@
         "feature_id": 25
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-18",
+      "text": "Implementing feature 26: Hybrid router scoring each request: difficulty, tools required, privacy tag, cost; logs decisions",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776885846.544701,
+      "updated_at": 1776885846.5447013,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 26
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 17,
+  "intent_counter": 18,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776885790.859956
+  "updated_at": 1776885846.544705
 }

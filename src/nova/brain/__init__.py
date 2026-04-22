@@ -3,6 +3,7 @@
 from nova.brain import cloud as _cloud
 from nova.brain import llm as _llm
 from nova.brain import models as _models
+from nova.brain import router as _router
 
 ChatMessage = _llm.ChatMessage
 ChatResponse = _llm.ChatResponse
@@ -19,6 +20,11 @@ create_claude_opus = _cloud.create_claude_opus
 create_cloud_backend = _cloud.create_cloud_backend
 first_available_provider = _cloud.first_available_provider
 
+HybridRouter = _router.HybridRouter
+Privacy = _router.Privacy
+RouteDecision = _router.RouteDecision
+RouteRequest = _router.RouteRequest
+
 DEFAULT_MODELS = _models.DEFAULT_MODELS
 ModelSpec = _models.ModelSpec
 detect_ram_gb = _models.detect_ram_gb
@@ -31,8 +37,12 @@ __all__ = [
     "ChatMessage",
     "ChatResponse",
     "CloudProvider",
+    "HybridRouter",
     "LlmBackend",
     "ModelSpec",
+    "Privacy",
+    "RouteDecision",
+    "RouteRequest",
     "ToolCall",
     "available_llms",
     "cloud_available",

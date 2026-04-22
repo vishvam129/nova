@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 20,
+  "current_feature_id": 25,
   "session": {
-    "count": 12,
-    "last_started_at": "2026-04-22T19:16:17.850929Z",
+    "count": 17,
+    "last_started_at": "2026-04-22T19:23:10.786675Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 11,
+    "passed": 16,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 132,
-    "completion_percentage": 7.6
+    "pending": 127,
+    "completion_percentage": 11.1
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 7,
+      "passed": 10,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 0,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1019,15 +1019,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Speech starts within 500ms of first LLM token",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 52 tests; StreamingSynthesizer emits per-sentence from token iterator; first-audio <500ms budget test passes",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:17:14.416947Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "before",
+            "begins",
+            "chunking",
+            "first",
+            "full",
+            "llm",
+            "playback",
+            "response",
+            "sentence-level",
+            "speech",
+            "starts",
+            "streaming",
+            "token",
+            "tts",
+            "voice",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:16:17.850908Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:17:14.438427Z",
+      "commit_hash": "5eb67d2d28729a8672253aa57f45af173cf35495",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1037,7 +1062,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 9988,
+        "removed": 9139,
+        "net": 849,
+        "files_changed": 14
+      }
     },
     {
       "id": 21,
@@ -1047,15 +1078,42 @@
       "verification": {
         "type": "manual",
         "criteria": "Saying anything during playback halts TTS within 300ms",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 59 tests; BargeInPlayer: PLAYING->DUCKED@120ms->STOPPED@300ms, recovery on silence",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:19:34.177794Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "anything",
+            "barge-in",
+            "detect",
+            "duck",
+            "during",
+            "halts",
+            "playback",
+            "plays",
+            "saying",
+            "speech",
+            "stop",
+            "then",
+            "tts",
+            "user",
+            "voice",
+            "volume",
+            "while",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 18/18 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:18:21.736385Z",
+      "completed_at": "2026-04-22T19:19:34.197560Z",
+      "commit_hash": "f2afea5d6627168c8e9c40799ee34698de8df81f",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1065,7 +1123,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10164,
+        "removed": 9261,
+        "net": 903,
+        "files_changed": 14
+      }
     },
     {
       "id": 22,
@@ -1075,15 +1139,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Playing TTS doesn't cause false wake word trigger",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 65 tests; null/webrtc EchoCanceller + apply_aec stream pairing",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:20:40.665885Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "aec3",
+            "cancellation",
+            "cause",
+            "doesn",
+            "echo",
+            "false",
+            "output",
+            "playing",
+            "trigger",
+            "tts",
+            "voice",
+            "wake",
+            "webrtc",
+            "word"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:19:34.468852Z",
+      "completed_at": "2026-04-22T19:20:40.692942Z",
+      "commit_hash": "4f763df3b5c952d360fd9064896cc7ffc530018a",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1093,7 +1180,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10274,
+        "removed": 9383,
+        "net": 891,
+        "files_changed": 15
+      }
     },
     {
       "id": 23,
@@ -1103,15 +1196,43 @@
       "verification": {
         "type": "manual",
         "criteria": "Same chat API returns completions from each backend",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 71 tests; ollama/llama.cpp/vllm/claude/openai/gemini lazy adapters + ChatMessage/ChatResponse/ToolCall",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:21:52.989251Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "adapter",
+            "api",
+            "backend",
+            "backends",
+            "brain",
+            "chat",
+            "claude",
+            "completions",
+            "cpp",
+            "gemini",
+            "interface",
+            "llama",
+            "llm",
+            "ollama",
+            "one",
+            "openai",
+            "returns",
+            "same",
+            "vllm"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 19/19 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:20:40.964434Z",
+      "completed_at": "2026-04-22T19:21:53.008860Z",
+      "commit_hash": "17ab6d6903783e63fce61023c2dc529e158aa9b3",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1121,7 +1242,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10725,
+        "removed": 9504,
+        "net": 1221,
+        "files_changed": 15
+      }
     },
     {
       "id": 24,
@@ -1131,15 +1258,42 @@
       "verification": {
         "type": "manual",
         "criteria": "First-run pulls models via Ollama; inference works offline",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 79 tests; 9 ModelSpec tiers across chat/tools/reasoning/coding/vision; RAM-gated picker",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:23:10.506639Z",
+        "alignment_score": {
+          "score": 0.05,
+          "drifted": true,
+          "matched_keywords": [
+            "brain",
+            "calling",
+            "coding",
+            "default",
+            "gemma",
+            "local",
+            "models",
+            "ollama",
+            "phi-4",
+            "qwen",
+            "reasoning",
+            "tool"
+          ],
+          "unmatched_keywords": [
+            "first-run",
+            "inference",
+            "offline",
+            "pulls",
+            "works"
+          ],
+          "message": "Low alignment (5%): 12/17 spec keywords found. Missing: first-run, inference, offline, pulls, works"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:21:53.269864Z",
+      "completed_at": "2026-04-22T19:23:10.507367Z",
+      "commit_hash": "ed550b9cd689de9356750fe8c4a94766e8220852",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1149,7 +1303,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 153,
+        "removed": 2,
+        "net": 151,
+        "files_changed": 6
+      }
     },
     {
       "id": 25,
@@ -1163,9 +1323,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:23:10.786655Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -4881,6 +5041,163 @@
           "bounded": 8.5,
           "average": 8.4,
           "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:17:14.438469Z",
+      "operation": "feature_passed",
+      "feature_id": 20,
+      "details": {
+        "commit_hash": "5eb67d2d28729a8672253aa57f45af173cf35495",
+        "loc_stats": {
+          "added": 9988,
+          "removed": 9139,
+          "net": 849,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:18:21.736421Z",
+      "operation": "feature_started",
+      "feature_id": 21,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:19:34.197600Z",
+      "operation": "feature_passed",
+      "feature_id": 21,
+      "details": {
+        "commit_hash": "f2afea5d6627168c8e9c40799ee34698de8df81f",
+        "loc_stats": {
+          "added": 10164,
+          "removed": 9261,
+          "net": 903,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:19:34.468894Z",
+      "operation": "feature_started",
+      "feature_id": 22,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:20:40.692986Z",
+      "operation": "feature_passed",
+      "feature_id": 22,
+      "details": {
+        "commit_hash": "4f763df3b5c952d360fd9064896cc7ffc530018a",
+        "loc_stats": {
+          "added": 10274,
+          "removed": 9383,
+          "net": 891,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:20:40.964471Z",
+      "operation": "feature_started",
+      "feature_id": 23,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:21:53.008905Z",
+      "operation": "feature_passed",
+      "feature_id": 23,
+      "details": {
+        "commit_hash": "17ab6d6903783e63fce61023c2dc529e158aa9b3",
+        "loc_stats": {
+          "added": 10725,
+          "removed": 9504,
+          "net": 1221,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:21:53.269907Z",
+      "operation": "feature_started",
+      "feature_id": 24,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:23:10.507396Z",
+      "operation": "feature_passed",
+      "feature_id": 24,
+      "details": {
+        "commit_hash": "ed550b9cd689de9356750fe8c4a94766e8220852",
+        "loc_stats": {
+          "added": 153,
+          "removed": 2,
+          "net": 151,
+          "files_changed": 6
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:23:10.786691Z",
+      "operation": "feature_started",
+      "feature_id": 25,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
         },
         "depth": 1
       }

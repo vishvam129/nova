@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 25,
+  "current_feature_id": 26,
   "session": {
-    "count": 17,
-    "last_started_at": "2026-04-22T19:23:10.786675Z",
+    "count": 18,
+    "last_started_at": "2026-04-22T19:24:06.473834Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 16,
+    "passed": 17,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 127,
-    "completion_percentage": 11.1
+    "pending": 126,
+    "completion_percentage": 11.8
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 2,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1319,15 +1319,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Designated tasks route to Claude when API key set",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 86 tests; Claude/OpenAI/Gemini provider chain, env-gated availability, opus-4-7 default",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:24:06.199536Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "api",
+            "brain",
+            "claude",
+            "cloud",
+            "computer-use",
+            "designated",
+            "fallback",
+            "hard",
+            "key",
+            "opus",
+            "reasoning",
+            "route",
+            "set",
+            "tasks"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:23:10.786655Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:24:06.217914Z",
+      "commit_hash": "c58030407ac6d070b9e34b71aa19058a77834fcd",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1337,7 +1360,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 10613,
+        "removed": 9745,
+        "net": 868,
+        "files_changed": 14
+      }
     },
     {
       "id": 26,
@@ -1351,9 +1380,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-22T19:24:06.473816Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5198,6 +5227,37 @@
           "feedback": [
             "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
           ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:24:06.217956Z",
+      "operation": "feature_passed",
+      "feature_id": 25,
+      "details": {
+        "commit_hash": "c58030407ac6d070b9e34b71aa19058a77834fcd",
+        "loc_stats": {
+          "added": 10613,
+          "removed": 9745,
+          "net": 868,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:24:06.473850Z",
+      "operation": "feature_started",
+      "feature_id": 26,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
         },
         "depth": 1
       }
