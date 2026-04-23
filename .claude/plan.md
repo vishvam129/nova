@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #54
+# Implementation Plan: Feature #55
 
 **Category:** Safety
-**Description:** Audit log: append-only record of every tool call, arguments, and outcome
+**Description:** Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** nova audit tail shows latest 50 events
+**Criteria:** Kill-switch stops running agent within 1s
 **Type:** manual

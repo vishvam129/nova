@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #54 [Safety] Audit log: append-only record of every tool call, arguments, and outcome
-   Started: 2026-04-22T19:44:34.152187Z
+**In Progress:** #55 [Safety] Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks
+   Started: 2026-04-23T08:59:59.806934Z
 
 ## Summary
 
-Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 23.6%
+Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 24.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 34 | 23.6% |
+| Passed | 35 | 24.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 109 | 75.7% |
+| Pending | 108 | 75.0% |
 
 ## Session Statistics
 
-- **Sessions:** 35
-- **Last Started:** 2026-04-22T19:44:34.152216Z
+- **Sessions:** 36
+- **Last Started:** 2026-04-23T08:59:59.806955Z
 
 ## Categories
 
@@ -31,7 +31,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | Voice | ██████░░░░ 62% | 10 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
-| Safety | ███░░░░░░░ 38% | 3 | 0 | 0 |
+| Safety | █████░░░░░ 50% | 4 | 0 | 0 |
 | Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #54 | passed | 1m 43s | 12853 | 11956 | 897 | 14 | 0 | yes |
 | #53 | passed | 1m 32s | 12737 | 11836 | 901 | 14 | 0 | yes |
 | #52 | passed | 48s | 12601 | 11718 | 883 | 14 | 0 | yes |
 | #51 | passed | 1m 10s | 12437 | 11599 | 838 | 14 | 0 | yes |
@@ -91,6 +92,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-22T19:46 | #54 Audit log: append-only record of every tool call,  | P | 379c9ba |
 | 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
 | 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
 | 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
@@ -100,8 +102,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:36 | #41 Built-in tool: open_app cross-platform (xdg-open/o | P | d39b07c |
 | 2026-04-22T19:35 | #40 Built-in tool: run_shell with allowlist + quiet-co | P | 627b20a |
 | 2026-04-22T19:34 | #37 Per-tool approval policy: auto, quiet-confirm, req | P | be1e700 |
-| 2026-04-22T19:32 | #36 Embedding-based tool filtering: only top-K tools r | P | d067faa |
 
 ---
-*Last updated: 2026-04-22T19:44:34.203204Z*
-*Session 35*
+*Last updated: 2026-04-23T08:59:59.861649Z*
+*Session 36*

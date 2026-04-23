@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-35",
-      "text": "Implementing feature 54: Audit log: append-only record of every tool call, arguments, and outcome",
+      "id": "f2d00bd75f7e-36",
+      "text": "Implementing feature 55: Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776887074.2310793,
-      "updated_at": 1776887074.2310796,
+      "created_at": 1776934799.9338653,
+      "updated_at": 1776934799.9338653,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 54
+        "feature_id": 55
       },
       "keywords": []
     },
@@ -544,9 +544,24 @@
         "feature_id": 54
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-36",
+      "text": "Implementing feature 55: Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776934799.9338653,
+      "updated_at": 1776934799.9338653,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 55
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 35,
+  "intent_counter": 36,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776887074.2310867
+  "updated_at": 1776934799.9338696
 }
