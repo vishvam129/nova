@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #78
+# Implementation Plan: Feature #80
 
 **Category:** UI
-**Description:** Desktop tray app (pystray) with mic status, quick toggle, last-action view
+**Description:** Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Tray icon works on all three OSes
+**Criteria:** All config editable; changes persist
 **Type:** manual

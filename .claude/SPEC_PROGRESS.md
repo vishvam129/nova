@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #78 [UI] Desktop tray app (pystray) with mic status, quick toggle, last-action view
-   Started: 2026-04-23T10:01:31.895545Z
+**In Progress:** #80 [UI] Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies
+   Started: 2026-04-23T10:07:42.746766Z
 
 ## Summary
 
-Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 29.2%
+Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 29.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 42 | 29.2% |
+| Passed | 43 | 29.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 101 | 70.1% |
+| Pending | 100 | 69.4% |
 
 ## Session Statistics
 
-- **Sessions:** 43
-- **Last Started:** 2026-04-23T10:01:31.895565Z
+- **Sessions:** 44
+- **Last Started:** 2026-04-23T10:07:42.746786Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
-| UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| UI | █░░░░░░░░░ 12% | 1 | 0 | 0 |
 | Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #78 | passed | 6m 10s | 13828 | 12936 | 892 | 14 | 0 | yes |
 | #72 | passed | 12m 36s | 13736 | 12819 | 917 | 17 | 0 | yes |
 | #71 | passed | 13m 30s | 13725 | 12694 | 1031 | 19 | 0 | yes |
 | #70 | passed | 3m 18s | 248 | 2 | 246 | 7 | 0 | yes |
@@ -99,6 +100,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-23T10:07 | #78 Desktop tray app (pystray) with mic status, quick  | P | 7a2d215 |
 | 2026-04-23T10:01 | #72 Unified session: conversation state shared so any  | P | 9766130 |
 | 2026-04-23T09:48 | #71 Device pairing: QR code on laptop scanned by phone | P | 1da9483 |
 | 2026-04-23T09:35 | #70 Brain service: FastAPI + WebSocket hub + optional  | P | 4a533d7 |
@@ -108,8 +110,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | 2026-04-23T09:01 | #55 Emergency stop: hardware-key + wake phrase 'Nova s | P | 78c547f |
 | 2026-04-22T19:46 | #54 Audit log: append-only record of every tool call,  | P | 379c9ba |
 | 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
-| 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
 
 ---
-*Last updated: 2026-04-23T10:01:31.944584Z*
-*Session 43*
+*Last updated: 2026-04-23T10:07:42.795175Z*
+*Session 44*

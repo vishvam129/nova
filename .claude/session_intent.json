@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-43",
-      "text": "Implementing feature 78: Desktop tray app (pystray) with mic status, quick toggle, last-action view",
+      "id": "f2d00bd75f7e-44",
+      "text": "Implementing feature 80: Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776938491.9779868,
-      "updated_at": 1776938491.977987,
+      "created_at": 1776938862.828878,
+      "updated_at": 1776938862.8288782,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 78
+        "feature_id": 80
       },
       "keywords": []
     },
@@ -664,9 +664,24 @@
         "feature_id": 78
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-44",
+      "text": "Implementing feature 80: Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776938862.828878,
+      "updated_at": 1776938862.8288782,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 80
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 43,
+  "intent_counter": 44,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776938491.9779906
+  "updated_at": 1776938862.828882
 }

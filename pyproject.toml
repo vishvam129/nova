@@ -76,6 +76,8 @@ module = [
     "fastapi.*",
     "nacl",
     "nacl.*",
+    "pystray",
+    "pystray.*",
 ]
 ignore_missing_imports = true
 
