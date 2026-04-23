@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-36",
-      "text": "Implementing feature 55: Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks",
+      "id": "f2d00bd75f7e-37",
+      "text": "Implementing feature 59: Short-term memory: rolling conversation buffer with auto-summarization at threshold",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776934799.9338653,
-      "updated_at": 1776934799.9338653,
+      "created_at": 1776934908.4406502,
+      "updated_at": 1776934908.4406502,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 55
+        "feature_id": 59
       },
       "keywords": []
     },
@@ -559,9 +559,24 @@
         "feature_id": 55
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-37",
+      "text": "Implementing feature 59: Short-term memory: rolling conversation buffer with auto-summarization at threshold",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776934908.4406502,
+      "updated_at": 1776934908.4406502,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 59
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 36,
+  "intent_counter": 37,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776934799.9338696
+  "updated_at": 1776934908.4406548
 }

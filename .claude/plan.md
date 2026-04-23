@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #55
+# Implementation Plan: Feature #59
 
-**Category:** Safety
-**Description:** Emergency stop: hardware-key + wake phrase 'Nova stop everything' halts all running tasks
+**Category:** Memory
+**Description:** Short-term memory: rolling conversation buffer with auto-summarization at threshold
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Kill-switch stops running agent within 1s
+**Criteria:** After 30 turns, oldest summarized; retrievable
 **Type:** manual
