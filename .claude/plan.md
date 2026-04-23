@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #60
+# Implementation Plan: Feature #67
 
 **Category:** Memory
-**Description:** Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters
+**Description:** CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Fact from 5 sessions ago retrievable
+**Criteria:** Fact added offline on phone syncs to laptop on reconnect
 **Type:** manual

@@ -1,7 +1,13 @@
 """Persistent memory: short-term buffer, vector store, episodic, KG."""
 
+from nova.memory import crdt as _crdt
 from nova.memory import short_term as _st
 from nova.memory import vector as _vector
+
+Crdt = _crdt.Crdt
+DictCrdt = _crdt.DictCrdt
+YPyDoc = _crdt.YPyDoc
+crdt_merge = _crdt.merge
 
 RollingBuffer = _st.RollingBuffer
 MemoryTurn = _st.MemoryTurn

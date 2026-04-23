@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 52,
+  "current_feature_id": null,
   "session": {
-    "count": 33,
-    "last_started_at": "2026-04-22T19:42:12.847818Z",
+    "count": 38,
+    "last_started_at": "2026-04-23T09:03:46.086642Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 32,
+    "passed": 38,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "paused": 0,
-    "pending": 111,
-    "completion_percentage": 22.2
+    "pending": 106,
+    "completion_percentage": 26.4
   },
   "categories": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Safety",
       "total": 8,
-      "passed": 1,
+      "passed": 5,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -73,7 +73,7 @@
     {
       "name": "Memory",
       "total": 11,
-      "passed": 0,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -2547,15 +2547,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Denied action blocked with audit entry",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 200 tests; PolicyEngine with 4 resource kinds, deny-beats-allow precedence, fnmatch/domain-suffix/first-token matchers",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:43:00.827775Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action",
+            "allowlist",
+            "audit",
+            "blocked",
+            "commands",
+            "denied",
+            "denylist",
+            "domains",
+            "engine",
+            "entry",
+            "mcp",
+            "paths",
+            "safety",
+            "tools"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-22T19:42:12.847788Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-22T19:43:00.854004Z",
+      "commit_hash": "46196a735a1dc080717b1fac392e2a4cd9daf1ac",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2565,7 +2588,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12601,
+        "removed": 11718,
+        "net": 883,
+        "files_changed": 14
+      }
     },
     {
       "id": 53,
@@ -2575,15 +2604,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Sample text with sk-xxx redacted in stored record",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 210 tests; Redactor with Anthropic/OpenAI/JWT/AWS/private-key/email/phone/CC patterns + pluggable ML detector",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:44:33.856558Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "before",
+            "detector",
+            "middleware",
+            "record",
+            "redacted",
+            "redaction",
+            "regex",
+            "safety",
+            "sample",
+            "secret",
+            "sending",
+            "sk-xxx",
+            "stored",
+            "storing",
+            "text",
+            "transcripts"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:43:01.139401Z",
+      "completed_at": "2026-04-22T19:44:33.881100Z",
+      "commit_hash": "6bb7b57e291e4308b99bc40e0852b925d755ffcd",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2593,7 +2647,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12737,
+        "removed": 11836,
+        "net": 901,
+        "files_changed": 14
+      }
     },
     {
       "id": 54,
@@ -2603,15 +2663,39 @@
       "verification": {
         "type": "manual",
         "criteria": "nova audit tail shows latest 50 events",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 216 tests; JSONL audit log with fsync + secret redaction on args/error + tail/iter_all",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-22T19:46:17.916856Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "append-only",
+            "arguments",
+            "audit",
+            "call",
+            "events",
+            "every",
+            "latest",
+            "log",
+            "nova",
+            "outcome",
+            "record",
+            "safety",
+            "shows",
+            "tail",
+            "tool"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-22T19:44:34.152187Z",
+      "completed_at": "2026-04-22T19:46:17.938122Z",
+      "commit_hash": "379c9ba11fa779613edb7bb7fd9596239161af9b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2621,7 +2705,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12853,
+        "removed": 11956,
+        "net": 897,
+        "files_changed": 14
+      }
     },
     {
       "id": 55,
@@ -2631,15 +2721,39 @@
       "verification": {
         "type": "manual",
         "criteria": "Kill-switch stops running agent within 1s",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 225 tests; KillSwitch + threading.Event + phrase matcher + listener callbacks",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:01:47.958569Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "agent",
+            "emergency",
+            "everything",
+            "halts",
+            "hardware-key",
+            "kill-switch",
+            "nova",
+            "phrase",
+            "running",
+            "safety",
+            "stop",
+            "stops",
+            "tasks",
+            "wake",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T08:59:59.806934Z",
+      "completed_at": "2026-04-23T09:01:47.994377Z",
+      "commit_hash": "78c547f854c275df2bdfeac7157254c6b38d5300",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2649,7 +2763,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 12951,
+        "removed": 12079,
+        "net": 872,
+        "files_changed": 14
+      }
     },
     {
       "id": 56,
@@ -2743,15 +2863,36 @@
       "verification": {
         "type": "manual",
         "criteria": "After 30 turns, oldest summarized; retrievable",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 231 tests; RollingBuffer capacity + token-budget folding + custom summarizer",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:03:45.472735Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "after",
+            "auto-summarization",
+            "buffer",
+            "conversation",
+            "memory",
+            "oldest",
+            "retrievable",
+            "rolling",
+            "short-term",
+            "summarized",
+            "threshold",
+            "turns"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T09:01:48.350324Z",
+      "completed_at": "2026-04-23T09:03:45.505151Z",
+      "commit_hash": "12859a00a16b02476ddca73b439152bc48df59e0",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2761,7 +2902,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13088,
+        "removed": 12201,
+        "net": 887,
+        "files_changed": 14
+      }
     },
     {
       "id": 60,
@@ -2771,15 +2918,37 @@
       "verification": {
         "type": "manual",
         "criteria": "Fact from 5 sessions ago retrievable",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 239 tests; VectorStore Protocol + InMemory + ChromaStore with namespace + metadata filters",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:05:28.784683Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "ago",
+            "chroma",
+            "fact",
+            "filters",
+            "long-term",
+            "memory",
+            "metadata",
+            "namespace",
+            "per-user",
+            "qdrant",
+            "retrievable",
+            "sessions",
+            "vector"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T09:03:46.086622Z",
+      "completed_at": "2026-04-23T09:05:28.817822Z",
+      "commit_hash": "0a7f96bb0ce998fe1c3c9cd4b2aa4eaed0e92d35",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2789,7 +2958,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13280,
+        "removed": 12319,
+        "net": 961,
+        "files_changed": 16
+      }
     },
     {
       "id": 61,
@@ -6172,6 +6347,182 @@
           ]
         },
         "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:43:00.854048Z",
+      "operation": "feature_passed",
+      "feature_id": 52,
+      "details": {
+        "commit_hash": "46196a735a1dc080717b1fac392e2a4cd9daf1ac",
+        "loc_stats": {
+          "added": 12601,
+          "removed": 11718,
+          "net": 883,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:43:01.139442Z",
+      "operation": "feature_started",
+      "feature_id": 53,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:44:33.881136Z",
+      "operation": "feature_passed",
+      "feature_id": 53,
+      "details": {
+        "commit_hash": "6bb7b57e291e4308b99bc40e0852b925d755ffcd",
+        "loc_stats": {
+          "added": 12737,
+          "removed": 11836,
+          "net": 901,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:44:34.152235Z",
+      "operation": "feature_started",
+      "feature_id": 54,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.0,
+          "average": 7.8,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features",
+            "Open-ended scope detected - narrow to specific items"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:46:17.938158Z",
+      "operation": "feature_passed",
+      "feature_id": 54,
+      "details": {
+        "commit_hash": "379c9ba11fa779613edb7bb7fd9596239161af9b",
+        "loc_stats": {
+          "added": 12853,
+          "removed": 11956,
+          "net": 897,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T08:59:59.806972Z",
+      "operation": "feature_started",
+      "feature_id": 55,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 5.5,
+          "average": 7.6,
+          "feedback": [
+            "Open-ended scope detected - narrow to specific items"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:01:47.994423Z",
+      "operation": "feature_passed",
+      "feature_id": 55,
+      "details": {
+        "commit_hash": "78c547f854c275df2bdfeac7157254c6b38d5300",
+        "loc_stats": {
+          "added": 12951,
+          "removed": 12079,
+          "net": 872,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:01:48.350382Z",
+      "operation": "feature_started",
+      "feature_id": 59,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:03:45.505206Z",
+      "operation": "feature_passed",
+      "feature_id": 59,
+      "details": {
+        "commit_hash": "12859a00a16b02476ddca73b439152bc48df59e0",
+        "loc_stats": {
+          "added": 13088,
+          "removed": 12201,
+          "net": 887,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:03:46.086663Z",
+      "operation": "feature_started",
+      "feature_id": 60,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:05:28.817882Z",
+      "operation": "feature_passed",
+      "feature_id": 60,
+      "details": {
+        "commit_hash": "0a7f96bb0ce998fe1c3c9cd4b2aa4eaed0e92d35",
+        "loc_stats": {
+          "added": 13280,
+          "removed": 12319,
+          "net": 961,
+          "files_changed": 16
+        }
       }
     }
   ]

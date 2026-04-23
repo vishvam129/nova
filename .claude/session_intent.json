@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-38",
-      "text": "Implementing feature 60: Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters",
+      "id": "f2d00bd75f7e-39",
+      "text": "Implementing feature 67: CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776935026.1925712,
-      "updated_at": 1776935026.1925714,
+      "created_at": 1776935129.39696,
+      "updated_at": 1776935129.3969603,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 60
+        "feature_id": 67
       },
       "keywords": []
     },
@@ -589,9 +589,24 @@
         "feature_id": 60
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-39",
+      "text": "Implementing feature 67: CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776935129.39696,
+      "updated_at": 1776935129.3969603,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 67
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 38,
+  "intent_counter": 39,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776935026.1925757
+  "updated_at": 1776935129.3969646
 }

@@ -70,6 +70,7 @@ module = [
     "PIL",
     "PIL.*",
     "chromadb",
+    "y_py",
 ]
 ignore_missing_imports = true
 
