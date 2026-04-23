@@ -1277,6 +1277,60 @@
       "evidence": [],
       "created_at": "2026-04-23T09:48:54.908425+00:00",
       "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Write -> Edit -> Edit (16x)",
+      "description": "Repeated sequence: Write -> Write -> Edit -> Edit (16x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695323+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Edit -> Edit -> Edit (13x)",
+      "description": "Repeated sequence: Write -> Edit -> Edit -> Edit (13x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695326+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Edit -> Edit -> Write (13x)",
+      "description": "Repeated sequence: Edit -> Edit -> Edit -> Write (13x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695329+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Edit -> Write -> Edit (14x)",
+      "description": "Repeated sequence: Edit -> Edit -> Write -> Edit (14x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695333+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Edit -> Write -> Edit -> Write (11x)",
+      "description": "Repeated sequence: Edit -> Write -> Edit -> Write (11x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695350+00:00",
+      "last_triggered": ""
+    },
+    {
+      "id": "repeated_workflow:Repeated sequence: Write -> Edit -> Write -> Edit (10x)",
+      "description": "Repeated sequence: Write -> Edit -> Write -> Edit (10x)",
+      "domain": "workflow",
+      "confidence": 0.6,
+      "evidence": [],
+      "created_at": "2026-04-23T10:01:31.695354+00:00",
+      "last_triggered": ""
     }
   ]
 }

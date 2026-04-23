@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #72 [Ecosystem] Unified session: conversation state shared so any device continues seamlessly
-   Started: 2026-04-23T09:48:55.109403Z
+**In Progress:** #78 [UI] Desktop tray app (pystray) with mic status, quick toggle, last-action view
+   Started: 2026-04-23T10:01:31.895545Z
 
 ## Summary
 
-Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 28.5%
+Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 29.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 41 | 28.5% |
+| Passed | 42 | 29.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 102 | 70.8% |
+| Pending | 101 | 70.1% |
 
 ## Session Statistics
 
-- **Sessions:** 42
-- **Last Started:** 2026-04-23T09:48:55.109430Z
+- **Sessions:** 43
+- **Last Started:** 2026-04-23T10:01:31.895565Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
-| Ecosystem | ██░░░░░░░░ 25% | 2 | 0 | 0 |
+| Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #72 | passed | 12m 36s | 13736 | 12819 | 917 | 17 | 0 | yes |
 | #71 | passed | 13m 30s | 13725 | 12694 | 1031 | 19 | 0 | yes |
 | #70 | passed | 3m 18s | 248 | 2 | 246 | 7 | 0 | yes |
 | #67 | passed | 26m 36s | 13386 | 12439 | 947 | 15 | 0 | yes |
@@ -98,6 +99,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-23T10:01 | #72 Unified session: conversation state shared so any  | P | 9766130 |
 | 2026-04-23T09:48 | #71 Device pairing: QR code on laptop scanned by phone | P | 1da9483 |
 | 2026-04-23T09:35 | #70 Brain service: FastAPI + WebSocket hub + optional  | P | 4a533d7 |
 | 2026-04-23T09:32 | #67 CRDT sync layer (Yjs via y-py) for conflict-free m | P | 90a7c26 |
@@ -107,8 +109,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | 2026-04-22T19:46 | #54 Audit log: append-only record of every tool call,  | P | 379c9ba |
 | 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
 | 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
-| 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 
 ---
-*Last updated: 2026-04-23T09:48:55.156675Z*
-*Session 42*
+*Last updated: 2026-04-23T10:01:31.944584Z*
+*Session 43*

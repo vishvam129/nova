@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #72
+# Implementation Plan: Feature #78
 
-**Category:** Ecosystem
-**Description:** Unified session: conversation state shared so any device continues seamlessly
+**Category:** UI
+**Description:** Desktop tray app (pystray) with mic status, quick toggle, last-action view
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Ask on phone, answer plays on laptop; transcript unified
+**Criteria:** Tray icon works on all three OSes
 **Type:** manual

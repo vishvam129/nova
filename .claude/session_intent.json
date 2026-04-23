@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-42",
-      "text": "Implementing feature 72: Unified session: conversation state shared so any device continues seamlessly",
+      "id": "f2d00bd75f7e-43",
+      "text": "Implementing feature 78: Desktop tray app (pystray) with mic status, quick toggle, last-action view",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776937735.189337,
-      "updated_at": 1776937735.189337,
+      "created_at": 1776938491.9779868,
+      "updated_at": 1776938491.977987,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 72
+        "feature_id": 78
       },
       "keywords": []
     },
@@ -649,9 +649,24 @@
         "feature_id": 72
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-43",
+      "text": "Implementing feature 78: Desktop tray app (pystray) with mic status, quick toggle, last-action view",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776938491.9779868,
+      "updated_at": 1776938491.977987,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 78
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 42,
+  "intent_counter": 43,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776937735.1893406
+  "updated_at": 1776938491.9779906
 }
