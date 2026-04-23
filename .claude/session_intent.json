@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-37",
-      "text": "Implementing feature 59: Short-term memory: rolling conversation buffer with auto-summarization at threshold",
+      "id": "f2d00bd75f7e-38",
+      "text": "Implementing feature 60: Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776934908.4406502,
-      "updated_at": 1776934908.4406502,
+      "created_at": 1776935026.1925712,
+      "updated_at": 1776935026.1925714,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 59
+        "feature_id": 60
       },
       "keywords": []
     },
@@ -574,9 +574,24 @@
         "feature_id": 59
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-38",
+      "text": "Implementing feature 60: Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776935026.1925712,
+      "updated_at": 1776935026.1925714,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 60
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 37,
+  "intent_counter": 38,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776934908.4406548
+  "updated_at": 1776935026.1925757
 }

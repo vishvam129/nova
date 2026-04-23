@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #59
+# Implementation Plan: Feature #60
 
 **Category:** Memory
-**Description:** Short-term memory: rolling conversation buffer with auto-summarization at threshold
+**Description:** Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** After 30 turns, oldest summarized; retrievable
+**Criteria:** Fact from 5 sessions ago retrievable
 **Type:** manual

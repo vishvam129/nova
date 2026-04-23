@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #59 [Memory] Short-term memory: rolling conversation buffer with auto-summarization at threshold
-   Started: 2026-04-23T09:01:48.350324Z
+**In Progress:** #60 [Memory] Long-term vector memory via Chroma or Qdrant with per-user namespace and metadata filters
+   Started: 2026-04-23T09:03:46.086622Z
 
 ## Summary
 
-Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 25.0%
+Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 25.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 36 | 25.0% |
+| Passed | 37 | 25.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 107 | 74.3% |
+| Pending | 106 | 73.6% |
 
 ## Session Statistics
 
-- **Sessions:** 37
-- **Last Started:** 2026-04-23T09:01:48.350364Z
+- **Sessions:** 38
+- **Last Started:** 2026-04-23T09:03:46.086642Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
-| Memory | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Memory | ░░░░░░░░░░ 9% | 1 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #59 | passed | 1m 57s | 13088 | 12201 | 887 | 14 | 0 | yes |
 | #55 | passed | 1m 48s | 12951 | 12079 | 872 | 14 | 0 | yes |
 | #54 | passed | 1m 43s | 12853 | 11956 | 897 | 14 | 0 | yes |
 | #53 | passed | 1m 32s | 12737 | 11836 | 901 | 14 | 0 | yes |
@@ -93,6 +94,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-23T09:03 | #59 Short-term memory: rolling conversation buffer wit | P | 12859a0 |
 | 2026-04-23T09:01 | #55 Emergency stop: hardware-key + wake phrase 'Nova s | P | 78c547f |
 | 2026-04-22T19:46 | #54 Audit log: append-only record of every tool call,  | P | 379c9ba |
 | 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
@@ -102,8 +104,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:39 | #43 Built-in tool: file_search using local vector inde | P | b679513 |
 | 2026-04-22T19:38 | #42 Built-in tool: browser_control via Playwright (nav | P | d7bbf5c |
 | 2026-04-22T19:36 | #41 Built-in tool: open_app cross-platform (xdg-open/o | P | d39b07c |
-| 2026-04-22T19:35 | #40 Built-in tool: run_shell with allowlist + quiet-co | P | 627b20a |
 
 ---
-*Last updated: 2026-04-23T09:01:48.405700Z*
-*Session 37*
+*Last updated: 2026-04-23T09:03:46.142308Z*
+*Session 38*

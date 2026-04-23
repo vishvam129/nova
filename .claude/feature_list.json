@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 59,
+  "current_feature_id": 60,
   "session": {
-    "count": 37,
-    "last_started_at": "2026-04-23T09:01:48.350364Z",
+    "count": 38,
+    "last_started_at": "2026-04-23T09:03:46.086642Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 36,
+    "passed": 37,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 107,
-    "completion_percentage": 25.0
+    "pending": 106,
+    "completion_percentage": 25.7
   },
   "categories": [
     {
@@ -73,7 +73,7 @@
     {
       "name": "Memory",
       "total": 11,
-      "passed": 0,
+      "passed": 1,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -2863,15 +2863,36 @@
       "verification": {
         "type": "manual",
         "criteria": "After 30 turns, oldest summarized; retrievable",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 231 tests; RollingBuffer capacity + token-budget folding + custom summarizer",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:03:45.472735Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "after",
+            "auto-summarization",
+            "buffer",
+            "conversation",
+            "memory",
+            "oldest",
+            "retrievable",
+            "rolling",
+            "short-term",
+            "summarized",
+            "threshold",
+            "turns"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-23T09:01:48.350324Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-23T09:03:45.505151Z",
+      "commit_hash": "12859a00a16b02476ddca73b439152bc48df59e0",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -2881,7 +2902,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13088,
+        "removed": 12201,
+        "net": 887,
+        "files_changed": 14
+      }
     },
     {
       "id": 60,
@@ -2895,9 +2922,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-23T09:03:46.086622Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6419,6 +6446,39 @@
           "bounded": 8.5,
           "average": 8.4,
           "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:03:45.505206Z",
+      "operation": "feature_passed",
+      "feature_id": 59,
+      "details": {
+        "commit_hash": "12859a00a16b02476ddca73b439152bc48df59e0",
+        "loc_stats": {
+          "added": 13088,
+          "removed": 12201,
+          "net": 887,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:03:46.086663Z",
+      "operation": "feature_started",
+      "feature_id": 60,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
         },
         "depth": 1
       }

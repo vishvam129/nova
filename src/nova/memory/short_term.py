@@ -73,7 +73,7 @@ class RollingBuffer:
     def __len__(self) -> int:
         return len(self._turns)
 
-    def __iter__(self) -> Iterable[MemoryTurn]:  # type: ignore[override]
+    def __iter__(self) -> Iterable[MemoryTurn]:
         return iter(self._turns)
 
 
