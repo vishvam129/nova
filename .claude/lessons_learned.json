@@ -62,6 +62,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776936929.283897
+    },
+    {
+      "feature_id": 72,
+      "error": "src/nova/server/app.py:21: error: Unused \"type: ignore\" comment  [unused-ignore]\nsrc/nova/server/app.py:21: error: Untyped decorator makes function \"health\" untyped  [untyped-decorator]\nsrc/nova/server/app.py:25: error: Unused \"type: ignore\" comment  [unused-ignore]\nsrc/nova/server/app.py:25: error: Untyped decorator makes function \"device_ws\" untyped  [untyped-decorator]\nFound 4 errors in 1 file (checked 47 source files)",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776937740.0775952
     }
   ]
 }

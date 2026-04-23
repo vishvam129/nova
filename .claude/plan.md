@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #71
+# Implementation Plan: Feature #72
 
 **Category:** Ecosystem
-**Description:** Device pairing: QR code on laptop scanned by phone; ed25519 keypair handshake
+**Description:** Unified session: conversation state shared so any device continues seamlessly
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** QR pair produces trusted device record
+**Criteria:** Ask on phone, answer plays on laptop; transcript unified
 **Type:** manual
