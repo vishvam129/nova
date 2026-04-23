@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #67 [Memory] CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices
-   Started: 2026-04-23T09:05:29.294148Z
+**In Progress:** #70 [Ecosystem] Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice
+   Started: 2026-04-23T09:32:05.828796Z
 
 ## Summary
 
-Progress: ███████░░░░░░░░░░░░░░░░░░░░░░░ 26.4%
+Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 27.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 38 | 26.4% |
+| Passed | 39 | 27.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 105 | 72.9% |
+| Pending | 104 | 72.2% |
 
 ## Session Statistics
 
-- **Sessions:** 39
-- **Last Started:** 2026-04-23T09:05:29.294173Z
+- **Sessions:** 40
+- **Last Started:** 2026-04-23T09:32:05.828816Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
-| Memory | █░░░░░░░░░ 18% | 2 | 0 | 0 |
+| Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #67 | passed | 26m 36s | 13386 | 12439 | 947 | 15 | 0 | yes |
 | #60 | passed | 1m 42s | 13280 | 12319 | 961 | 16 | 0 | yes |
 | #59 | passed | 1m 57s | 13088 | 12201 | 887 | 14 | 0 | yes |
 | #55 | passed | 1m 48s | 12951 | 12079 | 872 | 14 | 0 | yes |
@@ -95,6 +96,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-23T09:32 | #67 CRDT sync layer (Yjs via y-py) for conflict-free m | P | 90a7c26 |
 | 2026-04-23T09:05 | #60 Long-term vector memory via Chroma or Qdrant with  | P | 0a7f96b |
 | 2026-04-23T09:03 | #59 Short-term memory: rolling conversation buffer wit | P | 12859a0 |
 | 2026-04-23T09:01 | #55 Emergency stop: hardware-key + wake phrase 'Nova s | P | 78c547f |
@@ -104,8 +106,7 @@ Progress: ███████░░░░░░░░░░░░░░░░�
 | 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 | 2026-04-22T19:41 | #49 Claude Computer Use integration for vision-driven  | P | bc1b69e |
 | 2026-04-22T19:39 | #43 Built-in tool: file_search using local vector inde | P | b679513 |
-| 2026-04-22T19:38 | #42 Built-in tool: browser_control via Playwright (nav | P | d7bbf5c |
 
 ---
-*Last updated: 2026-04-23T09:05:29.351844Z*
-*Session 39*
+*Last updated: 2026-04-23T09:32:05.881725Z*
+*Session 40*

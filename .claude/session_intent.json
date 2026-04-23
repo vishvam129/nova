@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-39",
-      "text": "Implementing feature 67: CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices",
+      "id": "f2d00bd75f7e-40",
+      "text": "Implementing feature 70: Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776935129.39696,
-      "updated_at": 1776935129.3969603,
+      "created_at": 1776936725.9162543,
+      "updated_at": 1776936725.9162543,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 67
+        "feature_id": 70
       },
       "keywords": []
     },
@@ -604,9 +604,24 @@
         "feature_id": 67
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-40",
+      "text": "Implementing feature 70: Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776936725.9162543,
+      "updated_at": 1776936725.9162543,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 70
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 39,
+  "intent_counter": 40,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776935129.3969646
+  "updated_at": 1776936725.916259
 }

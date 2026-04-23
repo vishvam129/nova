@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #67
+# Implementation Plan: Feature #70
 
-**Category:** Memory
-**Description:** CRDT sync layer (Yjs via y-py) for conflict-free memory replication across devices
+**Category:** Ecosystem
+**Description:** Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Fact added offline on phone syncs to laptop on reconnect
+**Criteria:** Two clients connect and exchange audio and control messages
 **Type:** manual

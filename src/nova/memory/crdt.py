@@ -74,8 +74,11 @@ class DictCrdt:
             current = self._data.get(k)
             if current is None or current[0] < ts:
                 self._data[k] = (ts, v)
-            elif current[0] == ts and v is None:
-                self._data[k] = (ts, None)
+            elif current[0] == ts and current[1] != v and repr(v) < repr(current[1]):
+                # Deterministic tiebreak on equal Lamport timestamps:
+                # compare the repr so replicas converge regardless of
+                # which apply() runs first.
+                self._data[k] = (ts, v)
         self._clock = max(self._clock, int(doc.get("clock", 0)))
 
 

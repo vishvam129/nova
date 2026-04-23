@@ -48,6 +48,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776886054.8698695
+    },
+    {
+      "feature_id": 70,
+      "error": "Installed 1 package in 0.60ms\nSuccess: no issues found in 43 source files\nFAILED tests/test_crdt.py::test_concurrent_writes_resolved_by_lamport - Asser...\n1 failed, 246 passed in 1.15s\nNext: #70 [Ecosystem]\nRun 'spec-next' to continue\n  Description: Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776936726.0715878
     }
   ]
 }

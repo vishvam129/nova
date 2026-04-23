@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 67,
+  "current_feature_id": 70,
   "session": {
-    "count": 39,
-    "last_started_at": "2026-04-23T09:05:29.294173Z",
+    "count": 40,
+    "last_started_at": "2026-04-23T09:32:05.828816Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 38,
+    "passed": 39,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 105,
-    "completion_percentage": 26.4
+    "pending": 104,
+    "completion_percentage": 27.1
   },
   "categories": [
     {
@@ -73,7 +73,7 @@
     {
       "name": "Memory",
       "total": 11,
-      "passed": 2,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -3142,15 +3142,41 @@
       "verification": {
         "type": "manual",
         "criteria": "Fact added offline on phone syncs to laptop on reconnect",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 247 tests; DictCrdt LWW + Lamport clock + bidirectional merge + offline-phone-to-laptop test",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:32:05.504985Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "across",
+            "added",
+            "conflict-free",
+            "crdt",
+            "devices",
+            "fact",
+            "laptop",
+            "layer",
+            "memory",
+            "offline",
+            "phone",
+            "reconnect",
+            "replication",
+            "sync",
+            "syncs",
+            "y-py",
+            "yjs"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 17/17 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-23T09:05:29.294148Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-23T09:32:05.530950Z",
+      "commit_hash": "90a7c268eef4daef289c07ab56190ce3af3c00a8",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3160,7 +3186,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13386,
+        "removed": 12439,
+        "net": 947,
+        "files_changed": 15
+      }
     },
     {
       "id": 68,
@@ -3230,9 +3262,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-23T09:32:05.828796Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6529,6 +6561,37 @@
       "timestamp": "2026-04-23T09:05:29.294193Z",
       "operation": "feature_started",
       "feature_id": 67,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:32:05.531009Z",
+      "operation": "feature_passed",
+      "feature_id": 67,
+      "details": {
+        "commit_hash": "90a7c268eef4daef289c07ab56190ce3af3c00a8",
+        "loc_stats": {
+          "added": 13386,
+          "removed": 12439,
+          "net": 947,
+          "files_changed": 15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:32:05.828833Z",
+      "operation": "feature_started",
+      "feature_id": 70,
       "details": {
         "from_status": "pending",
         "avib": {
