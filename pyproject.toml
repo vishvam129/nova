@@ -12,6 +12,7 @@ dependencies = [
     "typer>=0.12",
     "numpy>=1.26",
     "sounddevice>=0.4",
+    "pynacl>=1.5",
 ]
 
 [project.scripts]
@@ -73,6 +74,8 @@ module = [
     "y_py",
     "fastapi",
     "fastapi.*",
+    "nacl",
+    "nacl.*",
 ]
 ignore_missing_imports = true
 

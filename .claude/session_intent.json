@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-40",
-      "text": "Implementing feature 70: Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice",
+      "id": "f2d00bd75f7e-41",
+      "text": "Implementing feature 71: Device pairing: QR code on laptop scanned by phone; ed25519 keypair handshake",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776936725.9162543,
-      "updated_at": 1776936725.9162543,
+      "created_at": 1776936924.6766317,
+      "updated_at": 1776936924.6766317,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 70
+        "feature_id": 71
       },
       "keywords": []
     },
@@ -619,9 +619,24 @@
         "feature_id": 70
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-41",
+      "text": "Implementing feature 71: Device pairing: QR code on laptop scanned by phone; ed25519 keypair handshake",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776936924.6766317,
+      "updated_at": 1776936924.6766317,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 71
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 40,
+  "intent_counter": 41,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776936725.916259
+  "updated_at": 1776936924.676638
 }

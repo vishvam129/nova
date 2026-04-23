@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #70
+# Implementation Plan: Feature #71
 
 **Category:** Ecosystem
-**Description:** Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice
+**Description:** Device pairing: QR code on laptop scanned by phone; ed25519 keypair handshake
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Two clients connect and exchange audio and control messages
+**Criteria:** QR pair produces trusted device record
 **Type:** manual

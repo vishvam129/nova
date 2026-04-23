@@ -18,11 +18,11 @@ def build_app(hub: DeviceHub | None = None) -> Any:
     hub = hub or DeviceHub()
     app = FastAPI(title="nova-brain")
 
-    @app.get("/health")
+    @app.get("/health")  # type: ignore[misc]
     async def health() -> dict[str, Any]:  # pragma: no cover
         return {"ok": True, "devices": hub.device_count}
 
-    @app.websocket("/ws/{name}/{platform}")
+    @app.websocket("/ws/{name}/{platform}")  # type: ignore[misc]
     async def device_ws(websocket: WebSocket, name: str, platform: str) -> None:  # pragma: no cover
         await websocket.accept()
 

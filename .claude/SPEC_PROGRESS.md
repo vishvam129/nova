@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #70 [Ecosystem] Brain service: FastAPI + WebSocket hub + optional WebRTC track for low-latency voice
-   Started: 2026-04-23T09:32:05.828796Z
+**In Progress:** #71 [Ecosystem] Device pairing: QR code on laptop scanned by phone; ed25519 keypair handshake
+   Started: 2026-04-23T09:35:24.581068Z
 
 ## Summary
 
-Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 27.1%
+Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 27.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 39 | 27.1% |
+| Passed | 40 | 27.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 104 | 72.2% |
+| Pending | 103 | 71.5% |
 
 ## Session Statistics
 
-- **Sessions:** 40
-- **Last Started:** 2026-04-23T09:32:05.828816Z
+- **Sessions:** 41
+- **Last Started:** 2026-04-23T09:35:24.581087Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
-| Ecosystem | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Ecosystem | █░░░░░░░░░ 12% | 1 | 0 | 0 |
 | UI | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #70 | passed | 3m 18s | 248 | 2 | 246 | 7 | 0 | yes |
 | #67 | passed | 26m 36s | 13386 | 12439 | 947 | 15 | 0 | yes |
 | #60 | passed | 1m 42s | 13280 | 12319 | 961 | 16 | 0 | yes |
 | #59 | passed | 1m 57s | 13088 | 12201 | 887 | 14 | 0 | yes |
@@ -96,6 +97,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-23T09:35 | #70 Brain service: FastAPI + WebSocket hub + optional  | P | 4a533d7 |
 | 2026-04-23T09:32 | #67 CRDT sync layer (Yjs via y-py) for conflict-free m | P | 90a7c26 |
 | 2026-04-23T09:05 | #60 Long-term vector memory via Chroma or Qdrant with  | P | 0a7f96b |
 | 2026-04-23T09:03 | #59 Short-term memory: rolling conversation buffer wit | P | 12859a0 |
@@ -105,8 +107,7 @@ Progress: ████████░░░░░░░░░░░░░░░�
 | 2026-04-22T19:43 | #52 Allowlist/denylist engine for paths, domains, comm | P | 46196a7 |
 | 2026-04-22T19:42 | #51 Quiet-confirm UX: 1s cancellable toast for destruc | P | 0672a62 |
 | 2026-04-22T19:41 | #49 Claude Computer Use integration for vision-driven  | P | bc1b69e |
-| 2026-04-22T19:39 | #43 Built-in tool: file_search using local vector inde | P | b679513 |
 
 ---
-*Last updated: 2026-04-23T09:32:05.881725Z*
-*Session 40*
+*Last updated: 2026-04-23T09:35:24.635444Z*
+*Session 41*

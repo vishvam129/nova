@@ -55,6 +55,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776936726.0715878
+    },
+    {
+      "feature_id": 71,
+      "error": "src/nova/server/app.py:21: error: Untyped decorator makes function \"health\" untyped  [untyped-decorator]\nsrc/nova/server/app.py:25: error: Untyped decorator makes function \"device_ws\" untyped  [untyped-decorator]\nFound 2 errors in 1 file (checked 46 source files)",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1776936929.283897
     }
   ]
 }

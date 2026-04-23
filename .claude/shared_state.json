@@ -1,9 +1,9 @@
 {
   "data": {
-    "session.tool_call_count": 320,
+    "session.tool_call_count": 331,
     "session.compact_recommended": true,
-    "session.compact_reason": "Tool calls (306) exceed threshold (80). Consider compacting when convenient."
+    "session.compact_reason": "Tool calls (320) exceed threshold (80). Consider compacting when convenient."
   },
   "created_at": 1776851795.089304,
-  "updated_at": 1776936822.2799253
+  "updated_at": 1776937003.6389446
 }
