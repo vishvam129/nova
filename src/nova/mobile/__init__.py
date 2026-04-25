@@ -1,5 +1,6 @@
 """Mobile protocol: message contracts shared with the Android client."""
 
+from nova.mobile.accessibility import POLICY_DISCLOSURE_TEXT, AccessibilityEvent
 from nova.mobile.protocol import (
     AudioChunk,
     MobileMessage,
@@ -14,11 +15,13 @@ from nova.mobile.protocol import (
 )
 
 __all__ = [
+    "AccessibilityEvent",
     "AudioChunk",
     "MobileMessage",
     "MobileMessageType",
     "PairRequest",
     "PairResponse",
+    "POLICY_DISCLOSURE_TEXT",
     "ReplyEvent",
     "StatusEvent",
     "TranscriptEvent",

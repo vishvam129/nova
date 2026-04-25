@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NovaAccessibilityService configuration.
+
+  isAccessibilityTool="true" marks Nova as an accessibility tool under
+  Play Store policy, which requires a corresponding policy declaration in
+  the Play Console and the POLICY_DISCLOSURE_TEXT dialog shown to users
+  before they enable the service (see nova.mobile.accessibility).
+
+  Event types captured:
+    TYPE_WINDOW_STATE_CHANGED  — app switches, dialog open/close
+    TYPE_VIEW_FOCUSED          — user focuses a text field
+    TYPE_ANNOUNCEMENT          — content announcements (e.g. toast)
+-->
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeViewFocused|typeAnnouncement"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100"
+    android:packageNames=""
+    android:settingsActivity="com.nova.ui.SettingsActivity" />
