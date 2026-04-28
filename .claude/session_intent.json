@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-72",
-      "text": "Implementing feature 66: Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)",
+      "id": "f2d00bd75f7e-73",
+      "text": "Implementing feature 68: Memory backup + restore (encrypted tarball) with scheduled auto-backup",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777398237.1774185,
-      "updated_at": 1777398237.1774187,
+      "created_at": 1777398532.697322,
+      "updated_at": 1777398532.6973221,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 66
+        "feature_id": 68
       },
       "keywords": []
     },
@@ -1099,9 +1099,24 @@
         "feature_id": 66
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-73",
+      "text": "Implementing feature 68: Memory backup + restore (encrypted tarball) with scheduled auto-backup",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777398532.697322,
+      "updated_at": 1777398532.6973221,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 68
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 72,
+  "intent_counter": 73,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777398237.177422
+  "updated_at": 1777398532.6973274
 }

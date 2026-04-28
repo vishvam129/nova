@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #66
+# Implementation Plan: Feature #68
 
 **Category:** Memory
-**Description:** Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)
+**Description:** Memory backup + restore (encrypted tarball) with scheduled auto-backup
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Agent records a preference autonomously and recalls later
+**Criteria:** Restore on fresh install reproduces all memory
 **Type:** manual
