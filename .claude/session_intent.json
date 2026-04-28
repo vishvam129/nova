@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-66",
-      "text": "Implementing feature 57: Per-user voice profile + diarization: only trusted speakers trigger agent",
+      "id": "f2d00bd75f7e-67",
+      "text": "Implementing feature 58: Network egress allowlist; block non-allowlisted domains",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397646.886264,
-      "updated_at": 1777397646.886264,
+      "created_at": 1777397696.836052,
+      "updated_at": 1777397696.8360522,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 57
+        "feature_id": 58
       },
       "keywords": []
     },
@@ -1009,9 +1009,24 @@
         "feature_id": 57
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-67",
+      "text": "Implementing feature 58: Network egress allowlist; block non-allowlisted domains",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397696.836052,
+      "updated_at": 1777397696.8360522,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 58
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 66,
+  "intent_counter": 67,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397646.8862672
+  "updated_at": 1777397696.836056
 }

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #57
+# Implementation Plan: Feature #58
 
 **Category:** Safety
-**Description:** Per-user voice profile + diarization: only trusted speakers trigger agent
+**Description:** Network egress allowlist; block non-allowlisted domains
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Non-enrolled wake word treated as guest
+**Criteria:** Fetch to non-allowlisted domain blocked
 **Type:** manual

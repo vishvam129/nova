@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #57 [Safety] Per-user voice profile + diarization: only trusted speakers trigger agent
-   Started: 2026-04-28T17:34:06.822771Z
+**In Progress:** #58 [Safety] Network egress allowlist; block non-allowlisted domains
+   Started: 2026-04-28T17:34:56.744667Z
 
 ## Summary
 
-Progress: █████████████░░░░░░░░░░░░░░░░░ 45.1%
+Progress: █████████████░░░░░░░░░░░░░░░░░ 45.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 65 | 45.1% |
+| Passed | 66 | 45.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 78 | 54.2% |
+| Pending | 77 | 53.5% |
 
 ## Session Statistics
 
-- **Sessions:** 66
-- **Last Started:** 2026-04-28T17:34:06.822787Z
+- **Sessions:** 67
+- **Last Started:** 2026-04-28T17:34:56.744690Z
 
 ## Categories
 
@@ -31,7 +31,7 @@ Progress: █████████████░░░░░░░░░░�
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
-| Safety | ███████░░░ 75% | 6 | 0 | 0 |
+| Safety | ████████░░ 88% | 7 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #57 | passed | 45s | 15651 | 15154 | 497 | 12 | 0 | yes |
 | #56 | passed | 3m 22s | 15615 | 15101 | 514 | 12 | 0 | yes |
 | #48 | passed | 53s | 15512 | 15038 | 474 | 12 | 0 | yes |
 | #47 | passed | 1m 8s | 15555 | 14981 | 574 | 12 | 0 | yes |
@@ -122,6 +123,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
 | 2026-04-28T17:34 | #56 Speaker verification before sensitive actions via  | P | 5268e06 |
 | 2026-04-28T17:29 | #48 Built-in tool: screen_to_vision streams screen fra | P | 78232d2 |
 | 2026-04-28T17:29 | #47 Built-in tool: screenshot + OCR (tesseract) with r | P | d5533f2 |
@@ -131,8 +133,7 @@ Progress: █████████████░░░░░░░░░░�
 | 2026-04-28T17:24 | #39 Tool sandbox: run_shell in optional bubblewrap/fir | P | 3a80317 |
 | 2026-04-28T17:23 | #38 Rate limiting on tool calls (per-tool per-minute)  | P | ccc099c |
 | 2026-04-28T17:23 | #32 Streaming response with token-level cancellation o | P | 3f566f2 |
-| 2026-04-28T17:21 | #30 Meta-router that picks ReAct vs Plan-and-Execute v | P | 5c62c44 |
 
 ---
-*Last updated: 2026-04-28T17:34:06.861587Z*
-*Session 66*
+*Last updated: 2026-04-28T17:34:56.802316Z*
+*Session 67*
