@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #73 [Ecosystem] Device handoff: 'continue on laptop' command moves active session mid-conversation
-   Started: 2026-04-28T17:59:47.699589Z
+**In Progress:** #74 [Ecosystem] Active-device detection via wake-word reception + proximity
+   Started: 2026-04-28T18:04:51.323737Z
 
 ## Summary
 
-Progress: ███████████████░░░░░░░░░░░░░░░ 51.4%
+Progress: ███████████████░░░░░░░░░░░░░░░ 52.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 74 | 51.4% |
+| Passed | 75 | 52.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 69 | 47.9% |
+| Pending | 68 | 47.2% |
 
 ## Session Statistics
 
-- **Sessions:** 75
-- **Last Started:** 2026-04-28T17:59:47.699616Z
+- **Sessions:** 76
+- **Last Started:** 2026-04-28T18:04:51.323754Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ███████████████░░░░░░░░�
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
-| Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
+| Ecosystem | █████░░░░░ 50% | 4 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #73 | passed | 4m 58s | 16171 | 15672 | 499 | 12 | 0 | yes |
 | #69 | passed | 3m 59s | 16074 | 15612 | 462 | 12 | 0 | yes |
 | #68 | passed | 6m 44s | 16192 | 15556 | 636 | 12 | 0 | yes |
 | #66 | passed | 4m 50s | 8149 | 7776 | 373 | 10 | 0 | yes |
@@ -131,6 +132,7 @@ Progress: ███████████████░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
 | 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
 | 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
@@ -140,8 +142,7 @@ Progress: ███████████████░░░░░░░░�
 | 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
 | 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
 | 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
-| 2026-04-28T17:34 | #56 Speaker verification before sensitive actions via  | P | 5268e06 |
 
 ---
-*Last updated: 2026-04-28T17:59:47.830067Z*
-*Session 75*
+*Last updated: 2026-04-28T18:04:51.375694Z*
+*Session 76*

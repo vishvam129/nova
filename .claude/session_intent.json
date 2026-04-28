@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-75",
-      "text": "Implementing feature 73: Device handoff: 'continue on laptop' command moves active session mid-conversation",
+      "id": "f2d00bd75f7e-76",
+      "text": "Implementing feature 74: Active-device detection via wake-word reception + proximity",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777399187.8619218,
-      "updated_at": 1777399187.861922,
+      "created_at": 1777399491.407,
+      "updated_at": 1777399491.4070003,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 73
+        "feature_id": 74
       },
       "keywords": []
     },
@@ -1144,9 +1144,24 @@
         "feature_id": 73
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-76",
+      "text": "Implementing feature 74: Active-device detection via wake-word reception + proximity",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777399491.407,
+      "updated_at": 1777399491.4070003,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 74
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 75,
+  "intent_counter": 76,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777399187.8619258
+  "updated_at": 1777399491.4070044
 }

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #73
+# Implementation Plan: Feature #74
 
 **Category:** Ecosystem
-**Description:** Device handoff: 'continue on laptop' command moves active session mid-conversation
+**Description:** Active-device detection via wake-word reception + proximity
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Handoff moves active session; other device mutes
+**Criteria:** Speaking to phone routes answer to phone
 **Type:** manual
