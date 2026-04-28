@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-60",
-      "text": "Implementing feature 44: File watcher: auto-ingest changes from watched dirs into memory index",
+      "id": "f2d00bd75f7e-61",
+      "text": "Implementing feature 45: Built-in tool: system_control (volume, brightness, lock, sleep, wake) per platform",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397094.2296436,
-      "updated_at": 1777397094.2296436,
+      "created_at": 1777397140.5082324,
+      "updated_at": 1777397140.5082326,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 44
+        "feature_id": 45
       },
       "keywords": []
     },
@@ -919,9 +919,24 @@
         "feature_id": 44
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-61",
+      "text": "Implementing feature 45: Built-in tool: system_control (volume, brightness, lock, sleep, wake) per platform",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397140.5082324,
+      "updated_at": 1777397140.5082326,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 45
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 60,
+  "intent_counter": 61,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397094.229647
+  "updated_at": 1777397140.5082362
 }

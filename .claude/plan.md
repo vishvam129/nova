@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #44
+# Implementation Plan: Feature #45
 
 **Category:** Tools
-**Description:** File watcher: auto-ingest changes from watched dirs into memory index
+**Description:** Built-in tool: system_control (volume, brightness, lock, sleep, wake) per platform
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** New file appears searchable within 30s
+**Criteria:** set volume works Linux/macOS/Windows
 **Type:** manual
