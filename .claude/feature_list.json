@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 108,
+  "current_feature_id": 109,
   "session": {
-    "count": 93,
-    "last_started_at": "2026-04-28T19:26:00.048819Z",
+    "count": 94,
+    "last_started_at": "2026-04-28T19:26:54.636983Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 92,
+    "passed": 93,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 51,
-    "completion_percentage": 63.9
+    "pending": 50,
+    "completion_percentage": 64.6
   },
   "categories": [
     {
@@ -113,7 +113,7 @@
     {
       "name": "Integrations",
       "total": 10,
-      "passed": 2,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -5844,15 +5844,34 @@
       "verification": {
         "type": "manual",
         "criteria": "'call mom' resolves from contacts",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "14 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T19:26:49.203032Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "built-in",
+            "call",
+            "carddav",
+            "contacts",
+            "google",
+            "icloud",
+            "integrations",
+            "mcp",
+            "mom",
+            "resolves"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 10/10 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T19:26:00.048800Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T19:26:49.234504Z",
+      "commit_hash": "1ecfb3495d7754342cc2c87f784ec7d8158822e0",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -5862,7 +5881,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17256,
+        "removed": 16650,
+        "net": 606,
+        "files_changed": 12
+      }
     },
     {
       "id": 109,
@@ -5876,9 +5901,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T19:26:54.636965Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6874,37 +6899,6 @@
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-23T10:07:42.454056Z",
-      "operation": "feature_passed",
-      "feature_id": 78,
-      "details": {
-        "commit_hash": "7a2d2154d16a25d3ceeee2c4941ef187a0993e66",
-        "loc_stats": {
-          "added": 13828,
-          "removed": 12936,
-          "net": 892,
-          "files_changed": 14
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-23T10:07:42.746802Z",
-      "operation": "feature_started",
-      "feature_id": 80,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
     {
       "timestamp": "2026-04-23T11:17:07.934514Z",
       "operation": "feature_passed",
@@ -8428,6 +8422,37 @@
       "timestamp": "2026-04-28T19:26:00.048835Z",
       "operation": "feature_started",
       "feature_id": 108,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:26:49.234546Z",
+      "operation": "feature_passed",
+      "feature_id": 108,
+      "details": {
+        "commit_hash": "1ecfb3495d7754342cc2c87f784ec7d8158822e0",
+        "loc_stats": {
+          "added": 17256,
+          "removed": 16650,
+          "net": 606,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:26:54.636999Z",
+      "operation": "feature_started",
+      "feature_id": 109,
       "details": {
         "from_status": "pending",
         "avib": {

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #108
+# Implementation Plan: Feature #109
 
 **Category:** Integrations
-**Description:** Built-in MCP: contacts (CardDAV + Google + iCloud)
+**Description:** Built-in MCP: web search (SearxNG default, Brave API optional)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'call mom' resolves from contacts
+**Criteria:** Query returns cited results
 **Type:** manual
