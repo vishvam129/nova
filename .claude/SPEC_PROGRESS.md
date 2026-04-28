@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #46 [Tools] Built-in tool: clipboard_read/clipboard_write + clipboard history ring buffer
-   Started: 2026-04-28T17:27:01.273273Z
+**In Progress:** #47 [Tools] Built-in tool: screenshot + OCR (tesseract) with region selection
+   Started: 2026-04-28T17:27:52.524278Z
 
 ## Summary
 
-Progress: ████████████░░░░░░░░░░░░░░░░░░ 42.4%
+Progress: ████████████░░░░░░░░░░░░░░░░░░ 43.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 61 | 42.4% |
+| Passed | 62 | 43.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 82 | 56.9% |
+| Pending | 81 | 56.2% |
 
 ## Session Statistics
 
-- **Sessions:** 62
-- **Last Started:** 2026-04-28T17:27:01.273293Z
+- **Sessions:** 63
+- **Last Started:** 2026-04-28T17:27:52.524296Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ████████████░░░░░░░░░░░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | ███████░░░ 76% | 13 | 0 | 0 |
+| Tools | ████████░░ 82% | 14 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #46 | passed | 46s | 15439 | 14927 | 512 | 12 | 0 | yes |
 | #45 | passed | 1m 15s | 15430 | 14869 | 561 | 12 | 0 | yes |
 | #44 | passed | 41s | 15333 | 14812 | 521 | 12 | 0 | yes |
 | #39 | passed | 46s | 15290 | 14750 | 540 | 12 | 0 | yes |
@@ -118,6 +119,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:27 | #46 Built-in tool: clipboard_read/clipboard_write + cl | P | 03bb0cb |
 | 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
 | 2026-04-28T17:25 | #44 File watcher: auto-ingest changes from watched dir | P | 853b393 |
 | 2026-04-28T17:24 | #39 Tool sandbox: run_shell in optional bubblewrap/fir | P | 3a80317 |
@@ -127,8 +129,7 @@ Progress: ████████████░░░░░░░░░░░�
 | 2026-04-28T17:20 | #27 Cost/token tracker with daily cap; blocks cloud +  | P | 7a0bafe |
 | 2026-04-28T17:19 | #16 Streaming STT pipeline: emit partial transcripts a | P | fa0af59 |
 | 2026-04-28T17:18 | #15 Optional cloud STT: Deepgram Nova and AssemblyAI w | P | 92e1c08 |
-| 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
 
 ---
-*Last updated: 2026-04-28T17:27:01.328431Z*
-*Session 62*
+*Last updated: 2026-04-28T17:27:52.572430Z*
+*Session 63*

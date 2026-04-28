@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-62",
-      "text": "Implementing feature 46: Built-in tool: clipboard_read/clipboard_write + clipboard history ring buffer",
+      "id": "f2d00bd75f7e-63",
+      "text": "Implementing feature 47: Built-in tool: screenshot + OCR (tesseract) with region selection",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397221.3605292,
-      "updated_at": 1777397221.3605292,
+      "created_at": 1777397272.6043332,
+      "updated_at": 1777397272.6043332,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 46
+        "feature_id": 47
       },
       "keywords": []
     },
@@ -949,9 +949,24 @@
         "feature_id": 46
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-63",
+      "text": "Implementing feature 47: Built-in tool: screenshot + OCR (tesseract) with region selection",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397272.6043332,
+      "updated_at": 1777397272.6043332,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 47
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 62,
+  "intent_counter": 63,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397221.3605335
+  "updated_at": 1777397272.6043367
 }

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #46
+# Implementation Plan: Feature #47
 
 **Category:** Tools
-**Description:** Built-in tool: clipboard_read/clipboard_write + clipboard history ring buffer
+**Description:** Built-in tool: screenshot + OCR (tesseract) with region selection
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'what did I copy 3 copies ago' returns correct item
+**Criteria:** OCR returns text from captured region
 **Type:** manual
