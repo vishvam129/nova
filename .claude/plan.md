@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #15
+# Implementation Plan: Feature #16
 
 **Category:** Voice
-**Description:** Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline
+**Description:** Streaming STT pipeline: emit partial transcripts as user speaks
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Uses cloud when API key set; falls back to local when offline
+**Criteria:** Partials visible in UI before utterance ends
 **Type:** manual

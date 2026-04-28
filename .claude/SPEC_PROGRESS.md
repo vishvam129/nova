@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #15 [Voice] Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline
-   Started: 2026-04-28T17:14:58.174774Z
+**In Progress:** #16 [Voice] Streaming STT pipeline: emit partial transcripts as user speaks
+   Started: 2026-04-28T17:18:27.674654Z
 
 ## Summary
 
-Progress: ██████████░░░░░░░░░░░░░░░░░░░░ 36.1%
+Progress: ███████████░░░░░░░░░░░░░░░░░░░ 36.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 52 | 36.1% |
+| Passed | 53 | 36.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 91 | 63.2% |
+| Pending | 90 | 62.5% |
 
 ## Session Statistics
 
-- **Sessions:** 53
-- **Last Started:** 2026-04-28T17:14:58.174792Z
+- **Sessions:** 54
+- **Last Started:** 2026-04-28T17:18:27.674672Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████████ 100% | 6 | 0 | 0 |
-| Voice | ████████░░ 81% | 13 | 0 | 0 |
+| Voice | ████████░░ 88% | 14 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #15 | passed | 3m 25s | 73396 | 67157 | 6239 | 32 | 0 | yes |
 | #12 | passed | 1m 44s | 369 | 0 | 369 | 2 | 0 | yes |
 | #9 | passed | 56s | 250 | 0 | 250 | 2 | 0 | yes |
 | #8 | passed | 1h 2m 2s | 323 | 0 | 323 | 2 | 0 | yes |
@@ -109,6 +110,7 @@ Progress: ██████████░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:18 | #15 Optional cloud STT: Deepgram Nova and AssemblyAI w | P | 92e1c08 |
 | 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
 | 2026-04-25T12:55 | #9 Wake word sensitivity tuning + false-trigger loggi | P | 259c646 |
 | 2026-04-25T12:54 | #8 Custom-trained 'hey nova' wake word model using Pi | P | 460b2ce |
@@ -118,8 +120,7 @@ Progress: ██████████░░░░░░░░░░░░░�
 | 2026-04-25T11:01 | #87 AccessibilityService registered as isAccessibility | P | ef83984 |
 | 2026-04-25T03:42 | #86 Android app: Kotlin + Jetpack Compose + foreground | P | cf3797b |
 | 2026-04-23T11:17 | #80 Settings GUI (Tauri) for config, MCPs, memory, dev | P | 6201dc2 |
-| 2026-04-23T10:07 | #78 Desktop tray app (pystray) with mic status, quick  | P | 7a2d215 |
 
 ---
-*Last updated: 2026-04-28T17:14:58.214396Z*
-*Session 53*
+*Last updated: 2026-04-28T17:18:27.711238Z*
+*Session 54*

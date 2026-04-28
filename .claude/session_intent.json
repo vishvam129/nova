@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-53",
-      "text": "Implementing feature 15: Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline",
+      "id": "f2d00bd75f7e-54",
+      "text": "Implementing feature 16: Streaming STT pipeline: emit partial transcripts as user speaks",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777396498.242819,
-      "updated_at": 1777396498.242819,
+      "created_at": 1777396707.734022,
+      "updated_at": 1777396707.734022,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 15
+        "feature_id": 16
       },
       "keywords": []
     },
@@ -814,9 +814,24 @@
         "feature_id": 15
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-54",
+      "text": "Implementing feature 16: Streaming STT pipeline: emit partial transcripts as user speaks",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777396707.734022,
+      "updated_at": 1777396707.734022,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 16
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 53,
+  "intent_counter": 54,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777396498.242823
+  "updated_at": 1777396707.734026
 }
