@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #63
+# Implementation Plan: Feature #64
 
 **Category:** Memory
-**Description:** Automatic fact extraction from dialogue with confidence scoring and user-correctable
+**Description:** Memory decay / importance scoring so irrelevant facts fade (Mem0-style)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'I live in Delhi' creates fact; 'forget that' removes it
+**Criteria:** Low-importance facts pruned after N days
 **Type:** manual

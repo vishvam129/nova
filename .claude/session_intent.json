@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-70",
-      "text": "Implementing feature 63: Automatic fact extraction from dialogue with confidence scoring and user-correctable",
+      "id": "f2d00bd75f7e-71",
+      "text": "Implementing feature 64: Memory decay / importance scoring so irrelevant facts fade (Mem0-style)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397848.5812318,
-      "updated_at": 1777397848.581232,
+      "created_at": 1777397965.2567756,
+      "updated_at": 1777397965.2567756,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 63
+        "feature_id": 64
       },
       "keywords": []
     },
@@ -1069,9 +1069,24 @@
         "feature_id": 63
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-71",
+      "text": "Implementing feature 64: Memory decay / importance scoring so irrelevant facts fade (Mem0-style)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397965.2567756,
+      "updated_at": 1777397965.2567756,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 64
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 70,
+  "intent_counter": 71,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397848.5812354
+  "updated_at": 1777397965.2567792
 }

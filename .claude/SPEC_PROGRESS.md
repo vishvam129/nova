@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #63 [Memory] Automatic fact extraction from dialogue with confidence scoring and user-correctable
-   Started: 2026-04-28T17:37:28.514024Z
+**In Progress:** #64 [Memory] Memory decay / importance scoring so irrelevant facts fade (Mem0-style)
+   Started: 2026-04-28T17:39:25.180092Z
 
 ## Summary
 
-Progress: ██████████████░░░░░░░░░░░░░░░░ 47.9%
+Progress: ██████████████░░░░░░░░░░░░░░░░ 48.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 69 | 47.9% |
+| Passed | 70 | 48.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 74 | 51.4% |
+| Pending | 73 | 50.7% |
 
 ## Session Statistics
 
-- **Sessions:** 70
-- **Last Started:** 2026-04-28T17:37:28.514063Z
+- **Sessions:** 71
+- **Last Started:** 2026-04-28T17:39:25.180111Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ██████████████░░░░░░░░░�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | ████░░░░░░ 45% | 5 | 0 | 0 |
+| Memory | █████░░░░░ 55% | 6 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████████░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #63 | passed | 1m 18s | 15987 | 15387 | 600 | 12 | 0 | yes |
 | #62 | passed | 41s | 15846 | 15331 | 515 | 12 | 0 | yes |
 | #61 | passed | 38s | 15788 | 15275 | 513 | 12 | 0 | yes |
 | #58 | passed | 38s | 15704 | 15214 | 490 | 12 | 0 | yes |
@@ -126,6 +127,7 @@ Progress: ██████████████░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
 | 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
 | 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
 | 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
@@ -135,8 +137,7 @@ Progress: ██████████████░░░░░░░░░�
 | 2026-04-28T17:29 | #47 Built-in tool: screenshot + OCR (tesseract) with r | P | d5533f2 |
 | 2026-04-28T17:27 | #46 Built-in tool: clipboard_read/clipboard_write + cl | P | 03bb0cb |
 | 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
-| 2026-04-28T17:25 | #44 File watcher: auto-ingest changes from watched dir | P | 853b393 |
 
 ---
-*Last updated: 2026-04-28T17:37:28.555490Z*
-*Session 70*
+*Last updated: 2026-04-28T17:39:25.226852Z*
+*Session 71*

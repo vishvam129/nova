@@ -83,7 +83,7 @@ def extract_facts(text: str, source: str = "dialogue") -> list[Fact]:
                     timestamp=now,
                 )
             )
-    return out
+    return deduplicate(out)
 
 
 def deduplicate(facts: list[Fact]) -> list[Fact]:
