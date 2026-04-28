@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-68",
-      "text": "Implementing feature 61: Episodic memory: time-indexed event log for 'what did I do yesterday' queries",
+      "id": "f2d00bd75f7e-69",
+      "text": "Implementing feature 62: Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397745.2224233,
-      "updated_at": 1777397745.2224233,
+      "created_at": 1777397789.5892062,
+      "updated_at": 1777397789.5892065,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 61
+        "feature_id": 62
       },
       "keywords": []
     },
@@ -1039,9 +1039,24 @@
         "feature_id": 61
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-69",
+      "text": "Implementing feature 62: Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397789.5892062,
+      "updated_at": 1777397789.5892065,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 62
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 68,
+  "intent_counter": 69,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397745.2224283
+  "updated_at": 1777397789.5892105
 }

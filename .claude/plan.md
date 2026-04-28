@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #61
+# Implementation Plan: Feature #62
 
 **Category:** Memory
-**Description:** Episodic memory: time-indexed event log for 'what did I do yesterday' queries
+**Description:** Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Query for past date returns ordered event list
+**Criteria:** 'who is my sister' resolves via KG
 **Type:** manual

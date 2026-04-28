@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #61 [Memory] Episodic memory: time-indexed event log for 'what did I do yesterday' queries
-   Started: 2026-04-28T17:35:45.139433Z
+**In Progress:** #62 [Memory] Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)
+   Started: 2026-04-28T17:36:29.502537Z
 
 ## Summary
 
-Progress: █████████████░░░░░░░░░░░░░░░░░ 46.5%
+Progress: ██████████████░░░░░░░░░░░░░░░░ 47.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 67 | 46.5% |
+| Passed | 68 | 47.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 76 | 52.8% |
+| Pending | 75 | 52.1% |
 
 ## Session Statistics
 
-- **Sessions:** 68
-- **Last Started:** 2026-04-28T17:35:45.139452Z
+- **Sessions:** 69
+- **Last Started:** 2026-04-28T17:36:29.502557Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: █████████████░░░░░░░░░░�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
+| Memory | ███░░░░░░░ 36% | 4 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #61 | passed | 38s | 15788 | 15275 | 513 | 12 | 0 | yes |
 | #58 | passed | 38s | 15704 | 15214 | 490 | 12 | 0 | yes |
 | #57 | passed | 45s | 15651 | 15154 | 497 | 12 | 0 | yes |
 | #56 | passed | 3m 22s | 15615 | 15101 | 514 | 12 | 0 | yes |
@@ -124,6 +125,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
 | 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
 | 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
 | 2026-04-28T17:34 | #56 Speaker verification before sensitive actions via  | P | 5268e06 |
@@ -133,8 +135,7 @@ Progress: █████████████░░░░░░░░░░�
 | 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
 | 2026-04-28T17:25 | #44 File watcher: auto-ingest changes from watched dir | P | 853b393 |
 | 2026-04-28T17:24 | #39 Tool sandbox: run_shell in optional bubblewrap/fir | P | 3a80317 |
-| 2026-04-28T17:23 | #38 Rate limiting on tool calls (per-tool per-minute)  | P | ccc099c |
 
 ---
-*Last updated: 2026-04-28T17:35:45.190790Z*
-*Session 68*
+*Last updated: 2026-04-28T17:36:29.556881Z*
+*Session 69*

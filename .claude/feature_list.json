@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 61,
+  "current_feature_id": 62,
   "session": {
-    "count": 68,
-    "last_started_at": "2026-04-28T17:35:45.139452Z",
+    "count": 69,
+    "last_started_at": "2026-04-28T17:36:29.502557Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 67,
+    "passed": 68,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 76,
-    "completion_percentage": 46.5
+    "pending": 75,
+    "completion_percentage": 47.2
   },
   "categories": [
     {
@@ -73,7 +73,7 @@
     {
       "name": "Memory",
       "total": 11,
-      "passed": 3,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -3566,15 +3566,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Query for past date returns ordered event list",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "8 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T17:36:23.256918Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "date",
+            "episodic",
+            "event",
+            "list",
+            "log",
+            "memory",
+            "ordered",
+            "past",
+            "queries",
+            "query",
+            "returns",
+            "time-indexed",
+            "what",
+            "yesterday"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T17:35:45.139433Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T17:36:23.287268Z",
+      "commit_hash": "88da53f972210d3a9a96a3ef3cab46ab81d3f845",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3584,7 +3607,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 15788,
+        "removed": 15275,
+        "net": 513,
+        "files_changed": 12
+      }
     },
     {
       "id": 62,
@@ -3598,9 +3627,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T17:36:29.502537Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6183,37 +6212,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T19:25:13.880570Z",
-      "operation": "feature_passed",
-      "feature_id": 26,
-      "details": {
-        "commit_hash": "4a4551fb8bc614670b5b226642eb7fab33bb88f9",
-        "loc_stats": {
-          "added": 10828,
-          "removed": 9863,
-          "net": 965,
-          "files_changed": 14
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T19:25:14.172910Z",
-      "operation": "feature_started",
-      "feature_id": 28,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T19:26:24.455826Z",
       "operation": "feature_passed",
       "feature_id": 28,
@@ -7747,6 +7745,39 @@
           "bounded": 8.5,
           "average": 8.4,
           "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:36:23.287317Z",
+      "operation": "feature_passed",
+      "feature_id": 61,
+      "details": {
+        "commit_hash": "88da53f972210d3a9a96a3ef3cab46ab81d3f845",
+        "loc_stats": {
+          "added": 15788,
+          "removed": 15275,
+          "net": 513,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:36:29.502574Z",
+      "operation": "feature_started",
+      "feature_id": 62,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
         },
         "depth": 1
       }
