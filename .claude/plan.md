@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #107
+# Implementation Plan: Feature #108
 
 **Category:** Integrations
-**Description:** Built-in MCP: calendar (CalDAV + Google + Apple)
+**Description:** Built-in MCP: contacts (CardDAV + Google + iCloud)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Create/list/cancel events
+**Criteria:** 'call mom' resolves from contacts
 **Type:** manual

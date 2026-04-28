@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-92",
-      "text": "Implementing feature 107: Built-in MCP: calendar (CalDAV + Google + Apple)",
+      "id": "f2d00bd75f7e-93",
+      "text": "Implementing feature 108: Built-in MCP: contacts (CardDAV + Google + iCloud)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404275.0618901,
-      "updated_at": 1777404275.0618901,
+      "created_at": 1777404360.1208422,
+      "updated_at": 1777404360.1208425,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 107
+        "feature_id": 108
       },
       "keywords": []
     },
@@ -1399,9 +1399,24 @@
         "feature_id": 107
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-93",
+      "text": "Implementing feature 108: Built-in MCP: contacts (CardDAV + Google + iCloud)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404360.1208422,
+      "updated_at": 1777404360.1208425,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 108
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 92,
+  "intent_counter": 93,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404275.0618935
+  "updated_at": 1777404360.1208463
 }

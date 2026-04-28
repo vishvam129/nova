@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #107 [Integrations] Built-in MCP: calendar (CalDAV + Google + Apple)
-   Started: 2026-04-28T19:24:34.996036Z
+**In Progress:** #108 [Integrations] Built-in MCP: contacts (CardDAV + Google + iCloud)
+   Started: 2026-04-28T19:26:00.048800Z
 
 ## Summary
 
-Progress: ██████████████████░░░░░░░░░░░░ 63.2%
+Progress: ███████████████████░░░░░░░░░░░ 63.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 91 | 63.2% |
+| Passed | 92 | 63.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 52 | 36.1% |
+| Pending | 51 | 35.4% |
 
 ## Session Statistics
 
-- **Sessions:** 92
-- **Last Started:** 2026-04-28T19:24:34.996071Z
+- **Sessions:** 93
+- **Last Started:** 2026-04-28T19:26:00.048819Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ██████████████████░░░░░�
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
-| Integrations | █░░░░░░░░░ 10% | 1 | 0 | 0 |
+| Integrations | ██░░░░░░░░ 20% | 2 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████████████░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #107 | passed | 1m 19s | 17174 | 16592 | 582 | 14 | 0 | yes |
 | #106 | passed | 1m 39s | 17156 | 16534 | 622 | 15 | 0 | yes |
 | #105 | passed | 49s | 17040 | 16482 | 558 | 12 | 0 | yes |
 | #101 | passed | 41m 52s | 16967 | 16429 | 538 | 12 | 0 | yes |
@@ -148,6 +149,7 @@ Progress: ██████████████████░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
 | 2026-04-28T19:24 | #106 Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Out | P | 9224ff4 |
 | 2026-04-28T19:22 | #105 Cron/trigger engine for scheduled agent tasks ('ev | P | e9683bc |
 | 2026-04-28T19:21 | #101 Meeting listen-along mode: transcribes call audio  | P | 33f54e0 |
@@ -157,8 +159,7 @@ Progress: ██████████████████░░░░░�
 | 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
 | 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
 | 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
-| 2026-04-28T18:22 | #88 Android 17 Advanced Protection fallback: Shizuku/A | P | c67d1ec |
 
 ---
-*Last updated: 2026-04-28T19:24:35.037572Z*
-*Session 92*
+*Last updated: 2026-04-28T19:26:00.093941Z*
+*Session 93*
