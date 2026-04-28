@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-54",
-      "text": "Implementing feature 16: Streaming STT pipeline: emit partial transcripts as user speaks",
+      "id": "f2d00bd75f7e-55",
+      "text": "Implementing feature 27: Cost/token tracker with daily cap; blocks cloud + routes all to local past cap",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777396707.734022,
-      "updated_at": 1777396707.734022,
+      "created_at": 1777396762.017593,
+      "updated_at": 1777396762.0175931,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 16
+        "feature_id": 27
       },
       "keywords": []
     },
@@ -829,9 +829,24 @@
         "feature_id": 16
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-55",
+      "text": "Implementing feature 27: Cost/token tracker with daily cap; blocks cloud + routes all to local past cap",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777396762.017593,
+      "updated_at": 1777396762.0175931,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 27
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 54,
+  "intent_counter": 55,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777396707.734026
+  "updated_at": 1777396762.0175955
 }

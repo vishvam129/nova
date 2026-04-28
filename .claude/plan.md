@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #16
+# Implementation Plan: Feature #27
 
-**Category:** Voice
-**Description:** Streaming STT pipeline: emit partial transcripts as user speaks
+**Category:** Brain
+**Description:** Cost/token tracker with daily cap; blocks cloud + routes all to local past cap
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Partials visible in UI before utterance ends
+**Criteria:** Exceeding cap forces local; event logged
 **Type:** manual

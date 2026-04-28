@@ -225,3 +225,5 @@
 {"timestamp":"2026-04-28T17:15:36.502972+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":15,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_cloud_stt.py: .py"}
 {"timestamp":"2026-04-28T17:18:40.451660+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":16,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/voice/streaming_stt.py: .py"}
 {"timestamp":"2026-04-28T17:19:05.548672+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":16,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_streaming_pipeline.py: .py"}
+{"timestamp":"2026-04-28T17:19:35.722779+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":27,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/brain/cost_tracker.py: .py"}
+{"timestamp":"2026-04-28T17:19:49.691686+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":27,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_cost_tracker.py: .py"}
