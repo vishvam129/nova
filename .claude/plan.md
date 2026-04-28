@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #106
+# Implementation Plan: Feature #107
 
 **Category:** Integrations
-**Description:** Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Outlook Graph)
+**Description:** Built-in MCP: calendar (CalDAV + Google + Apple)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Read/send against Gmail
+**Criteria:** Create/list/cancel events
 **Type:** manual

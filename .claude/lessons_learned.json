@@ -111,6 +111,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1777404229.7279618
+    },
+    {
+      "feature_id": 107,
+      "error": "ERROR tests/test_calendar_mcp.py - TypeError: non-default argument 'username'...\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n=============================== 1 error in 0.22s ===============================",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777404328.6655455
     }
   ]
 }
