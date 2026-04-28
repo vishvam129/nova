@@ -13,10 +13,10 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": null,
+  "current_feature_id": 66,
   "session": {
-    "count": 71,
-    "last_started_at": "2026-04-28T17:39:25.180111Z",
+    "count": 72,
+    "last_started_at": "2026-04-28T17:43:57.095689Z",
     "total_duration_minutes": 0
   },
   "stats": {
@@ -24,9 +24,9 @@
     "passed": 71,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 0,
+    "in_progress": 1,
     "paused": 0,
-    "pending": 73,
+    "pending": 72,
     "completion_percentage": 49.3
   },
   "categories": [
@@ -3822,9 +3822,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T17:43:57.095671Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6295,23 +6295,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T19:28:29.654106Z",
-      "operation": "feature_started",
-      "feature_id": 33,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 8.0,
-          "bounded": 8.5,
-          "average": 8.1,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T19:29:45.392245Z",
       "operation": "feature_passed",
       "feature_id": 33,
@@ -7865,6 +7848,23 @@
           "net": 483,
           "files_changed": 13
         }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:43:57.095705Z",
+      "operation": "feature_started",
+      "feature_id": 66,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
       }
     }
   ]

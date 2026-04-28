@@ -275,3 +275,5 @@
 {"timestamp":"2026-04-28T17:39:44.695868+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":64,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/memory/decay.py: .py"}
 {"timestamp":"2026-04-28T17:40:03.072917+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":64,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_decay.py: .py"}
 {"timestamp":"2026-04-28T17:43:47.935196+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":null,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_decay.py: .py"}
+{"timestamp":"2026-04-28T17:44:13.865823+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":66,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/memory/agent_memory_tool.py: .py"}
+{"timestamp":"2026-04-28T17:44:25.289248+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":66,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_agent_memory_tool.py: .py"}

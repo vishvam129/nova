@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-71",
-      "text": "Implementing feature 64: Memory decay / importance scoring so irrelevant facts fade (Mem0-style)",
+      "id": "f2d00bd75f7e-72",
+      "text": "Implementing feature 66: Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397965.2567756,
-      "updated_at": 1777397965.2567756,
+      "created_at": 1777398237.1774185,
+      "updated_at": 1777398237.1774187,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 64
+        "feature_id": 66
       },
       "keywords": []
     },
@@ -1084,9 +1084,24 @@
         "feature_id": 64
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-72",
+      "text": "Implementing feature 66: Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777398237.1774185,
+      "updated_at": 1777398237.1774187,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 66
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 71,
+  "intent_counter": 72,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397965.2567792
+  "updated_at": 1777398237.177422
 }

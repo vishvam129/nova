@@ -2,7 +2,8 @@
 
 ## Current Status
 
-**No feature in progress** - Ready for next
+**In Progress:** #66 [Memory] Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)
+   Started: 2026-04-28T17:43:57.095671Z
 
 ## Summary
 
@@ -14,13 +15,13 @@ Progress: ██████████████░░░░░░░░░�
 | Passed | 71 | 49.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
-| In Progress | 0 | - |
-| Pending | 73 | 50.7% |
+| In Progress | 1 | - |
+| Pending | 72 | 50.0% |
 
 ## Session Statistics
 
-- **Sessions:** 71
-- **Last Started:** 2026-04-28T17:39:25.180111Z
+- **Sessions:** 72
+- **Last Started:** 2026-04-28T17:43:57.095689Z
 
 ## Categories
 
@@ -139,5 +140,5 @@ Progress: ██████████████░░░░░░░░░�
 | 2026-04-28T17:27 | #46 Built-in tool: clipboard_read/clipboard_write + cl | P | 03bb0cb |
 
 ---
-*Last updated: 2026-04-28T17:43:40.083830Z*
-*Session 71*
+*Last updated: 2026-04-28T17:43:57.147925Z*
+*Session 72*

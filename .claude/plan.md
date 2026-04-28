@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #64
+# Implementation Plan: Feature #66
 
 **Category:** Memory
-**Description:** Memory decay / importance scoring so irrelevant facts fade (Mem0-style)
+**Description:** Memory tool: add/edit/forget callable by the agent itself (MemGPT-style)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Low-importance facts pruned after N days
+**Criteria:** Agent records a preference autonomously and recalls later
 **Type:** manual
