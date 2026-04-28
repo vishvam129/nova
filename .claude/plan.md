@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #56
+# Implementation Plan: Feature #57
 
 **Category:** Safety
-**Description:** Speaker verification before sensitive actions via local embedding model
+**Description:** Per-user voice profile + diarization: only trusted speakers trigger agent
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Unknown voice saying 'send money' blocked
+**Criteria:** Non-enrolled wake word treated as guest
 **Type:** manual

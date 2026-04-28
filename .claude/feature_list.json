@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 56,
+  "current_feature_id": 57,
   "session": {
-    "count": 65,
-    "last_started_at": "2026-04-28T17:30:39.727231Z",
+    "count": 66,
+    "last_started_at": "2026-04-28T17:34:06.822787Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 64,
+    "passed": 65,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 79,
-    "completion_percentage": 44.4
+    "pending": 78,
+    "completion_percentage": 45.1
   },
   "categories": [
     {
@@ -65,7 +65,7 @@
     {
       "name": "Safety",
       "total": 8,
-      "passed": 5,
+      "passed": 6,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -3287,15 +3287,39 @@
       "verification": {
         "type": "manual",
         "criteria": "Unknown voice saying 'send money' blocked",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "11 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T17:34:02.074989Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "actions",
+            "before",
+            "blocked",
+            "embedding",
+            "local",
+            "model",
+            "money",
+            "safety",
+            "saying",
+            "send",
+            "sensitive",
+            "speaker",
+            "unknown",
+            "verification",
+            "voice"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T17:30:39.727214Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T17:34:02.095774Z",
+      "commit_hash": "5268e06b7ffc807e86dbefa5fa092580b9a19abc",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3305,7 +3329,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 15615,
+        "removed": 15101,
+        "net": 514,
+        "files_changed": 12
+      }
     },
     {
       "id": 57,
@@ -3319,9 +3349,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T17:34:06.822771Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6099,37 +6129,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T19:21:53.008905Z",
-      "operation": "feature_passed",
-      "feature_id": 23,
-      "details": {
-        "commit_hash": "17ab6d6903783e63fce61023c2dc529e158aa9b3",
-        "loc_stats": {
-          "added": 10725,
-          "removed": 9504,
-          "net": 1221,
-          "files_changed": 15
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T19:21:53.269907Z",
-      "operation": "feature_started",
-      "feature_id": 24,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T19:23:10.507396Z",
       "operation": "feature_passed",
       "feature_id": 24,
@@ -7664,6 +7663,37 @@
           "independent": 9.0,
           "bounded": 8.5,
           "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:34:02.095834Z",
+      "operation": "feature_passed",
+      "feature_id": 56,
+      "details": {
+        "commit_hash": "5268e06b7ffc807e86dbefa5fa092580b9a19abc",
+        "loc_stats": {
+          "added": 15615,
+          "removed": 15101,
+          "net": 514,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:34:06.822801Z",
+      "operation": "feature_started",
+      "feature_id": 57,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
           "feedback": []
         },
         "depth": 1
