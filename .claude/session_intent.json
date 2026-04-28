@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-94",
-      "text": "Implementing feature 109: Built-in MCP: web search (SearxNG default, Brave API optional)",
+      "id": "f2d00bd75f7e-95",
+      "text": "Implementing feature 116: Multi-language support: STT/TTS/LLM auto-detect and respond in user's language",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404414.7224822,
-      "updated_at": 1777404414.7224824,
+      "created_at": 1777404486.933716,
+      "updated_at": 1777404486.9337163,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 109
+        "feature_id": 116
       },
       "keywords": []
     },
@@ -1429,9 +1429,24 @@
         "feature_id": 109
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-95",
+      "text": "Implementing feature 116: Multi-language support: STT/TTS/LLM auto-detect and respond in user's language",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404486.933716,
+      "updated_at": 1777404486.9337163,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 116
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 94,
+  "intent_counter": 95,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404414.7224863
+  "updated_at": 1777404486.93372
 }

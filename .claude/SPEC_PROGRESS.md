@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #109 [Integrations] Built-in MCP: web search (SearxNG default, Brave API optional)
-   Started: 2026-04-28T19:26:54.636965Z
+**In Progress:** #116 [i18n] Multi-language support: STT/TTS/LLM auto-detect and respond in user's language
+   Started: 2026-04-28T19:28:06.842210Z
 
 ## Summary
 
-Progress: ███████████████████░░░░░░░░░░░ 64.6%
+Progress: ███████████████████░░░░░░░░░░░ 65.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 93 | 64.6% |
+| Passed | 94 | 65.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 50 | 34.7% |
+| Pending | 49 | 34.0% |
 
 ## Session Statistics
 
-- **Sessions:** 94
-- **Last Started:** 2026-04-28T19:26:54.636983Z
+- **Sessions:** 95
+- **Last Started:** 2026-04-28T19:28:06.842227Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ███████████████████░░░░�
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
-| Integrations | ███░░░░░░░ 30% | 3 | 0 | 0 |
+| Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #109 | passed | 1m 5s | 17280 | 16702 | 578 | 12 | 0 | yes |
 | #108 | passed | 49s | 17256 | 16650 | 606 | 12 | 0 | yes |
 | #107 | passed | 1m 19s | 17174 | 16592 | 582 | 14 | 0 | yes |
 | #106 | passed | 1m 39s | 17156 | 16534 | 622 | 15 | 0 | yes |
@@ -150,6 +151,7 @@ Progress: ███████████████████░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
 | 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
 | 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
 | 2026-04-28T19:24 | #106 Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Out | P | 9224ff4 |
@@ -159,8 +161,7 @@ Progress: ███████████████████░░░░�
 | 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
 | 2026-04-28T18:31 | #97 Active-window tracker (AT-SPI/NSAccessibility/UIA) | P | 43b70df |
 | 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
-| 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
 
 ---
-*Last updated: 2026-04-28T19:26:54.690841Z*
-*Session 94*
+*Last updated: 2026-04-28T19:28:06.899558Z*
+*Session 95*

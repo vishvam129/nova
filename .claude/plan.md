@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #109
+# Implementation Plan: Feature #116
 
-**Category:** Integrations
-**Description:** Built-in MCP: web search (SearxNG default, Brave API optional)
+**Category:** i18n
+**Description:** Multi-language support: STT/TTS/LLM auto-detect and respond in user's language
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Query returns cited results
+**Criteria:** Hindi query produces Hindi reply
 **Type:** manual
