@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #45 [Tools] Built-in tool: system_control (volume, brightness, lock, sleep, wake) per platform
-   Started: 2026-04-28T17:25:40.434821Z
+**In Progress:** #46 [Tools] Built-in tool: clipboard_read/clipboard_write + clipboard history ring buffer
+   Started: 2026-04-28T17:27:01.273273Z
 
 ## Summary
 
-Progress: ████████████░░░░░░░░░░░░░░░░░░ 41.7%
+Progress: ████████████░░░░░░░░░░░░░░░░░░ 42.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 60 | 41.7% |
+| Passed | 61 | 42.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 83 | 57.6% |
+| Pending | 82 | 56.9% |
 
 ## Session Statistics
 
-- **Sessions:** 61
-- **Last Started:** 2026-04-28T17:25:40.434847Z
+- **Sessions:** 62
+- **Last Started:** 2026-04-28T17:27:01.273293Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ████████████░░░░░░░░░░░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | ███████░░░ 71% | 12 | 0 | 0 |
+| Tools | ███████░░░ 76% | 13 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #45 | passed | 1m 15s | 15430 | 14869 | 561 | 12 | 0 | yes |
 | #44 | passed | 41s | 15333 | 14812 | 521 | 12 | 0 | yes |
 | #39 | passed | 46s | 15290 | 14750 | 540 | 12 | 0 | yes |
 | #38 | passed | 37s | 15168 | 14689 | 479 | 12 | 0 | yes |
@@ -117,6 +118,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
 | 2026-04-28T17:25 | #44 File watcher: auto-ingest changes from watched dir | P | 853b393 |
 | 2026-04-28T17:24 | #39 Tool sandbox: run_shell in optional bubblewrap/fir | P | 3a80317 |
 | 2026-04-28T17:23 | #38 Rate limiting on tool calls (per-tool per-minute)  | P | ccc099c |
@@ -126,8 +128,7 @@ Progress: ████████████░░░░░░░░░░░�
 | 2026-04-28T17:19 | #16 Streaming STT pipeline: emit partial transcripts a | P | fa0af59 |
 | 2026-04-28T17:18 | #15 Optional cloud STT: Deepgram Nova and AssemblyAI w | P | 92e1c08 |
 | 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
-| 2026-04-25T12:55 | #9 Wake word sensitivity tuning + false-trigger loggi | P | 259c646 |
 
 ---
-*Last updated: 2026-04-28T17:25:40.480493Z*
-*Session 61*
+*Last updated: 2026-04-28T17:27:01.328431Z*
+*Session 62*

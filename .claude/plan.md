@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #45
+# Implementation Plan: Feature #46
 
 **Category:** Tools
-**Description:** Built-in tool: system_control (volume, brightness, lock, sleep, wake) per platform
+**Description:** Built-in tool: clipboard_read/clipboard_write + clipboard history ring buffer
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** set volume works Linux/macOS/Windows
+**Criteria:** 'what did I copy 3 copies ago' returns correct item
 **Type:** manual
