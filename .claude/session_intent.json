@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-89",
-      "text": "Implementing feature 101: Meeting listen-along mode: transcribes call audio and extracts action items",
+      "id": "f2d00bd75f7e-90",
+      "text": "Implementing feature 105: Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777401594.7267225,
-      "updated_at": 1777401594.7267227,
+      "created_at": 1777404114.1535623,
+      "updated_at": 1777404114.1535625,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 101
+        "feature_id": 105
       },
       "keywords": []
     },
@@ -1354,9 +1354,24 @@
         "feature_id": 101
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-90",
+      "text": "Implementing feature 105: Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404114.1535623,
+      "updated_at": 1777404114.1535625,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 105
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 89,
+  "intent_counter": 90,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777401594.726727
+  "updated_at": 1777404114.1535664
 }

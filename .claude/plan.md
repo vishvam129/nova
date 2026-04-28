@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #101
+# Implementation Plan: Feature #105
 
 **Category:** Context
-**Description:** Meeting listen-along mode: transcribes call audio and extracts action items
+**Description:** Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** After meeting, agent produces summary and TODOs
+**Criteria:** Task fires on schedule
 **Type:** manual

@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 101,
+  "current_feature_id": 105,
   "session": {
-    "count": 89,
-    "last_started_at": "2026-04-28T18:39:54.639485Z",
+    "count": 90,
+    "last_started_at": "2026-04-28T19:21:54.065408Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 88,
+    "passed": 89,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 55,
-    "completion_percentage": 61.1
+    "pending": 54,
+    "completion_percentage": 61.8
   },
   "categories": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "Context",
       "total": 9,
-      "passed": 3,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -5536,15 +5536,39 @@
       "verification": {
         "type": "manual",
         "criteria": "After meeting, agent produces summary and TODOs",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "11 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T19:21:46.920289Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action",
+            "after",
+            "agent",
+            "audio",
+            "call",
+            "context",
+            "extracts",
+            "items",
+            "listen-along",
+            "meeting",
+            "mode",
+            "produces",
+            "summary",
+            "todos",
+            "transcribes"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T18:39:54.639466Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T19:21:46.951522Z",
+      "commit_hash": "33f54e07d73c2518123cf3db3a5689cde76e2205",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -5554,7 +5578,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 16967,
+        "removed": 16429,
+        "net": 538,
+        "files_changed": 12
+      }
     },
     {
       "id": 102,
@@ -5652,9 +5682,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T19:21:54.065387Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6762,37 +6792,6 @@
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-23T09:32:05.531009Z",
-      "operation": "feature_passed",
-      "feature_id": 67,
-      "details": {
-        "commit_hash": "90a7c268eef4daef289c07ab56190ce3af3c00a8",
-        "loc_stats": {
-          "added": 13386,
-          "removed": 12439,
-          "net": 947,
-          "files_changed": 15
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-23T09:32:05.828833Z",
-      "operation": "feature_started",
-      "feature_id": 70,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
     {
       "timestamp": "2026-04-23T09:35:24.282973Z",
       "operation": "feature_passed",
@@ -8323,6 +8322,39 @@
           "average": 7.5,
           "feedback": [
             "Compound feature: 1 conjunction(s) detected ('and') - split into separate features",
+            "Open-ended scope detected - narrow to specific items"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:21:46.951565Z",
+      "operation": "feature_passed",
+      "feature_id": 101,
+      "details": {
+        "commit_hash": "33f54e07d73c2518123cf3db3a5689cde76e2205",
+        "loc_stats": {
+          "added": 16967,
+          "removed": 16429,
+          "net": 538,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:21:54.065429Z",
+      "operation": "feature_started",
+      "feature_id": 105,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 7.0,
+          "average": 8.0,
+          "feedback": [
             "Open-ended scope detected - narrow to specific items"
           ]
         },
