@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #94 [Mobile] Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode
-   Started: 2026-04-28T18:27:34.176339Z
+**In Progress:** #97 [Context] Active-window tracker (AT-SPI/NSAccessibility/UIA) provides current app+document to prompt
+   Started: 2026-04-28T18:28:37.321408Z
 
 ## Summary
 
-Progress: █████████████████░░░░░░░░░░░░░ 58.3%
+Progress: █████████████████░░░░░░░░░░░░░ 59.0%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 84 | 58.3% |
+| Passed | 85 | 59.0% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 59 | 41.0% |
+| Pending | 58 | 40.3% |
 
 ## Session Statistics
 
-- **Sessions:** 85
-- **Last Started:** 2026-04-28T18:27:34.176358Z
+- **Sessions:** 86
+- **Last Started:** 2026-04-28T18:28:37.321433Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: █████████████████░░░░░░�
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
-| Mobile | █████░░░░░ 55% | 6 | 0 | 0 |
+| Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #94 | passed | 57s | 16710 | 16221 | 489 | 12 | 0 | yes |
 | #91 | passed | 37s | 16627 | 16162 | 465 | 12 | 0 | yes |
 | #90 | passed | 4m 8s | 16654 | 16106 | 548 | 12 | 0 | yes |
 | #88 | passed | 58s | 16536 | 16051 | 485 | 12 | 0 | yes |
@@ -141,6 +142,7 @@ Progress: █████████████████░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
 | 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
 | 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
 | 2026-04-28T18:22 | #88 Android 17 Advanced Protection fallback: Shizuku/A | P | c67d1ec |
@@ -150,8 +152,7 @@ Progress: █████████████████░░░░░░�
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
-| 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
 
 ---
-*Last updated: 2026-04-28T18:27:34.227860Z*
-*Session 85*
+*Last updated: 2026-04-28T18:28:37.392768Z*
+*Session 86*

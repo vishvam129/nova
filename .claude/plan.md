@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #94
+# Implementation Plan: Feature #97
 
-**Category:** Mobile
-**Description:** Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode
+**Category:** Context
+**Description:** Active-window tracker (AT-SPI/NSAccessibility/UIA) provides current app+document to prompt
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Works in airplane mode after first download
+**Criteria:** 'summarize this' uses focused PDF
 **Type:** manual
