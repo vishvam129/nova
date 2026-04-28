@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #75 [Ecosystem] Tailscale integration + built-in WireGuard helper for remote access
-   Started: 2026-04-28T18:09:15.623295Z
+**In Progress:** #79 [UI] Floating overlay HUD showing live transcript, agent thoughts, tool calls
+   Started: 2026-04-28T18:12:12.346193Z
 
 ## Summary
 
-Progress: ███████████████░░░░░░░░░░░░░░░ 52.8%
+Progress: ████████████████░░░░░░░░░░░░░░ 53.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 76 | 52.8% |
+| Passed | 77 | 53.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 67 | 46.5% |
+| Pending | 66 | 45.8% |
 
 ## Session Statistics
 
-- **Sessions:** 77
-- **Last Started:** 2026-04-28T18:09:15.623322Z
+- **Sessions:** 78
+- **Last Started:** 2026-04-28T18:12:12.346227Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ███████████████░░░░░░░░�
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
-| Ecosystem | ██████░░░░ 62% | 5 | 0 | 0 |
+| Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #75 | passed | 2m 51s | 16372 | 15788 | 584 | 13 | 0 | yes |
 | #74 | passed | 4m 0s | 16181 | 15731 | 450 | 12 | 0 | yes |
 | #73 | passed | 4m 58s | 16171 | 15672 | 499 | 12 | 0 | yes |
 | #69 | passed | 3m 59s | 16074 | 15612 | 462 | 12 | 0 | yes |
@@ -133,6 +134,7 @@ Progress: ███████████████░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 | 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
 | 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
@@ -142,8 +144,7 @@ Progress: ███████████████░░░░░░░░�
 | 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
 | 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
 | 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
-| 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
 
 ---
-*Last updated: 2026-04-28T18:09:15.677955Z*
-*Session 77*
+*Last updated: 2026-04-28T18:12:12.413112Z*
+*Session 78*

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-77",
-      "text": "Implementing feature 75: Tailscale integration + built-in WireGuard helper for remote access",
+      "id": "f2d00bd75f7e-78",
+      "text": "Implementing feature 79: Floating overlay HUD showing live transcript, agent thoughts, tool calls",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777399755.7089586,
-      "updated_at": 1777399755.7089586,
+      "created_at": 1777399932.4558287,
+      "updated_at": 1777399932.4558287,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 75
+        "feature_id": 79
       },
       "keywords": []
     },
@@ -1174,9 +1174,24 @@
         "feature_id": 75
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-78",
+      "text": "Implementing feature 79: Floating overlay HUD showing live transcript, agent thoughts, tool calls",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777399932.4558287,
+      "updated_at": 1777399932.4558287,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 79
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 77,
+  "intent_counter": 78,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777399755.7089632
+  "updated_at": 1777399932.4558337
 }

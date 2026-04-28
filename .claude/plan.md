@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #75
+# Implementation Plan: Feature #79
 
-**Category:** Ecosystem
-**Description:** Tailscale integration + built-in WireGuard helper for remote access
+**Category:** UI
+**Description:** Floating overlay HUD showing live transcript, agent thoughts, tool calls
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Phone on mobile data reaches laptop brain
+**Criteria:** HUD streams during active query
 **Type:** manual
