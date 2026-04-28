@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-99",
-      "text": "Implementing feature 123: GPU/NPU detection: select best model+quantization for hardware at first run",
+      "id": "f2d00bd75f7e-100",
+      "text": "Implementing feature 125: Eval harness: personal task suite (50 common requests) with pass/fail scoring",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777405021.3664098,
-      "updated_at": 1777405021.36641,
+      "created_at": 1777405086.3051713,
+      "updated_at": 1777405086.3051713,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 123
+        "feature_id": 125
       },
       "keywords": []
     },
@@ -1504,9 +1504,24 @@
         "feature_id": 123
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-100",
+      "text": "Implementing feature 125: Eval harness: personal task suite (50 common requests) with pass/fail scoring",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777405086.3051713,
+      "updated_at": 1777405086.3051713,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 125
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 99,
+  "intent_counter": 100,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777405021.3664129
+  "updated_at": 1777405086.3051746
 }

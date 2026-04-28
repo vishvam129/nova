@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #123
+# Implementation Plan: Feature #125
 
-**Category:** Packaging
-**Description:** GPU/NPU detection: select best model+quantization for hardware at first run
+**Category:** Quality
+**Description:** Eval harness: personal task suite (50 common requests) with pass/fail scoring
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 8GB RAM uses 4B model; 16GB+ uses 14B
+**Criteria:** nova eval prints scoreboard
 **Type:** manual

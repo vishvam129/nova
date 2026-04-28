@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #123 [Packaging] GPU/NPU detection: select best model+quantization for hardware at first run
-   Started: 2026-04-28T19:37:01.298903Z
+**In Progress:** #125 [Quality] Eval harness: personal task suite (50 common requests) with pass/fail scoring
+   Started: 2026-04-28T19:38:06.227349Z
 
 ## Summary
 
-Progress: ████████████████████░░░░░░░░░░ 68.1%
+Progress: ████████████████████░░░░░░░░░░ 68.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 98 | 68.1% |
+| Passed | 99 | 68.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 45 | 31.2% |
+| Pending | 44 | 30.6% |
 
 ## Session Statistics
 
-- **Sessions:** 99
-- **Last Started:** 2026-04-28T19:37:01.298919Z
+- **Sessions:** 100
+- **Last Started:** 2026-04-28T19:38:06.227366Z
 
 ## Categories
 
@@ -39,7 +39,7 @@ Progress: ████████████████████░░░�
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
-| Packaging | █████░░░░░ 50% | 3 | 0 | 0 |
+| Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████████░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #123 | passed | 57s | 17529 | 16986 | 543 | 12 | 0 | yes |
 | #121 | passed | 1m 0s | 17491 | 16937 | 554 | 12 | 0 | yes |
 | #120 | passed | 4m 32s | 17397 | 16885 | 512 | 12 | 0 | yes |
 | #119 | passed | 43s | 17324 | 16830 | 494 | 12 | 0 | yes |
@@ -155,6 +156,7 @@ Progress: ████████████████████░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 | 2026-04-28T19:36 | #121 Packaging: bundle default STT + TTS + wake word mo | P | 212c426 |
 | 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
 | 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
@@ -164,8 +166,7 @@ Progress: ████████████████████░░░�
 | 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
 | 2026-04-28T19:24 | #106 Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Out | P | 9224ff4 |
 | 2026-04-28T19:22 | #105 Cron/trigger engine for scheduled agent tasks ('ev | P | e9683bc |
-| 2026-04-28T19:21 | #101 Meeting listen-along mode: transcribes call audio  | P | 33f54e0 |
 
 ---
-*Last updated: 2026-04-28T19:37:01.341886Z*
-*Session 99*
+*Last updated: 2026-04-28T19:38:06.277430Z*
+*Session 100*

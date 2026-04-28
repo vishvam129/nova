@@ -18,7 +18,7 @@ def test_quantization_cuda_high_vram() -> None:
 
 
 def test_quantization_cuda_medium_vram() -> None:
-    p = HardwareProfile(accelerator=Accelerator.CUDA, vram_gb=8)
+    p = HardwareProfile(accelerator=Accelerator.CUDA, vram_gb=6)
     assert p.quantization_for_size(13) == "q4_K_M"
 
 
