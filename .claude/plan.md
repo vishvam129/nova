@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #116
+# Implementation Plan: Feature #119
 
-**Category:** i18n
-**Description:** Multi-language support: STT/TTS/LLM auto-detect and respond in user's language
+**Category:** Packaging
+**Description:** Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Hindi query produces Hindi reply
+**Criteria:** Single binary runs on fresh machine
 **Type:** manual

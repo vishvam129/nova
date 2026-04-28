@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #116 [i18n] Multi-language support: STT/TTS/LLM auto-detect and respond in user's language
-   Started: 2026-04-28T19:28:06.842210Z
+**In Progress:** #119 [Packaging] Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows
+   Started: 2026-04-28T19:30:19.327941Z
 
 ## Summary
 
-Progress: ███████████████████░░░░░░░░░░░ 65.3%
+Progress: ███████████████████░░░░░░░░░░░ 66.0%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 94 | 65.3% |
+| Passed | 95 | 66.0% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 49 | 34.0% |
+| Pending | 48 | 33.3% |
 
 ## Session Statistics
 
-- **Sessions:** 95
-- **Last Started:** 2026-04-28T19:28:06.842227Z
+- **Sessions:** 96
+- **Last Started:** 2026-04-28T19:30:19.327957Z
 
 ## Categories
 
@@ -38,7 +38,7 @@ Progress: ███████████████████░░░░�
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
-| i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #116 | passed | 2m 7s | 17277 | 16768 | 509 | 13 | 0 | yes |
 | #109 | passed | 1m 5s | 17280 | 16702 | 578 | 12 | 0 | yes |
 | #108 | passed | 49s | 17256 | 16650 | 606 | 12 | 0 | yes |
 | #107 | passed | 1m 19s | 17174 | 16592 | 582 | 14 | 0 | yes |
@@ -151,6 +152,7 @@ Progress: ███████████████████░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:30 | #116 Multi-language support: STT/TTS/LLM auto-detect an | P | b5b2009 |
 | 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
 | 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
 | 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
@@ -160,8 +162,7 @@ Progress: ███████████████████░░░░�
 | 2026-04-28T18:39 | #100 Time/locale/language awareness (DST, 24h, unit pre | P | ccfce8e |
 | 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
 | 2026-04-28T18:31 | #97 Active-window tracker (AT-SPI/NSAccessibility/UIA) | P | 43b70df |
-| 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
 
 ---
-*Last updated: 2026-04-28T19:28:06.899558Z*
-*Session 95*
+*Last updated: 2026-04-28T19:30:19.368407Z*
+*Session 96*

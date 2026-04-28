@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-95",
-      "text": "Implementing feature 116: Multi-language support: STT/TTS/LLM auto-detect and respond in user's language",
+      "id": "f2d00bd75f7e-96",
+      "text": "Implementing feature 119: Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404486.933716,
-      "updated_at": 1777404486.9337163,
+      "created_at": 1777404619.3929782,
+      "updated_at": 1777404619.3929784,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 116
+        "feature_id": 119
       },
       "keywords": []
     },
@@ -1444,9 +1444,24 @@
         "feature_id": 116
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-96",
+      "text": "Implementing feature 119: Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404619.3929782,
+      "updated_at": 1777404619.3929784,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 119
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 95,
+  "intent_counter": 96,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404486.93372
+  "updated_at": 1777404619.392981
 }
