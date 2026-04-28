@@ -54,13 +54,13 @@ def test_should_prune_old_low_importance() -> None:
 
 
 def test_prune_filters_items() -> None:
-    base = datetime(2026, 1, 1)
+    now = datetime.now()
     items = [
-        MemoryItem(content="keep", importance=1.0, last_accessed=base),
-        MemoryItem(content="drop", importance=0.05, last_accessed=base),
+        MemoryItem(content="keep", importance=1.0, last_accessed=now),
+        MemoryItem(content="drop", importance=0.05, last_accessed=now),
     ]
-    decay = MemoryDecay(half_life_hours=24, threshold=0.5)
-    kept = decay.prune(items, now=base + timedelta(days=10))
+    decay = MemoryDecay(threshold=0.5)
+    kept = decay.prune(items)
     assert len(kept) == 1
     assert kept[0].content == "keep"
 

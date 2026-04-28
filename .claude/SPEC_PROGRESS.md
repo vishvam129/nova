@@ -2,20 +2,19 @@
 
 ## Current Status
 
-**In Progress:** #64 [Memory] Memory decay / importance scoring so irrelevant facts fade (Mem0-style)
-   Started: 2026-04-28T17:39:25.180092Z
+**No feature in progress** - Ready for next
 
 ## Summary
 
-Progress: ██████████████░░░░░░░░░░░░░░░░ 48.6%
+Progress: ██████████████░░░░░░░░░░░░░░░░ 49.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 70 | 48.6% |
+| Passed | 71 | 49.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
-| In Progress | 1 | - |
+| In Progress | 0 | - |
 | Pending | 73 | 50.7% |
 
 ## Session Statistics
@@ -32,7 +31,7 @@ Progress: ██████████████░░░░░░░░░�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | █████░░░░░ 55% | 6 | 0 | 0 |
+| Memory | ██████░░░░ 64% | 7 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +49,7 @@ Progress: ██████████████░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #64 | passed | 4m 14s | 15931 | 15448 | 483 | 13 | 0 | yes |
 | #63 | passed | 1m 18s | 15987 | 15387 | 600 | 12 | 0 | yes |
 | #62 | passed | 41s | 15846 | 15331 | 515 | 12 | 0 | yes |
 | #61 | passed | 38s | 15788 | 15275 | 513 | 12 | 0 | yes |
@@ -127,6 +127,7 @@ Progress: ██████████████░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
 | 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
 | 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
 | 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
@@ -136,8 +137,7 @@ Progress: ██████████████░░░░░░░░░�
 | 2026-04-28T17:29 | #48 Built-in tool: screen_to_vision streams screen fra | P | 78232d2 |
 | 2026-04-28T17:29 | #47 Built-in tool: screenshot + OCR (tesseract) with r | P | d5533f2 |
 | 2026-04-28T17:27 | #46 Built-in tool: clipboard_read/clipboard_write + cl | P | 03bb0cb |
-| 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
 
 ---
-*Last updated: 2026-04-28T17:39:25.226852Z*
+*Last updated: 2026-04-28T17:43:40.083830Z*
 *Session 71*
