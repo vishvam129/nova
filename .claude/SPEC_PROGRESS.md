@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #97 [Context] Active-window tracker (AT-SPI/NSAccessibility/UIA) provides current app+document to prompt
-   Started: 2026-04-28T18:28:37.321408Z
+**In Progress:** #98 [Context] Calendar integration reads today's events and upcoming meetings into context
+   Started: 2026-04-28T18:31:50.253954Z
 
 ## Summary
 
-Progress: █████████████████░░░░░░░░░░░░░ 59.0%
+Progress: █████████████████░░░░░░░░░░░░░ 59.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 85 | 59.0% |
+| Passed | 86 | 59.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 58 | 40.3% |
+| Pending | 57 | 39.6% |
 
 ## Session Statistics
 
-- **Sessions:** 86
-- **Last Started:** 2026-04-28T18:28:37.321433Z
+- **Sessions:** 87
+- **Last Started:** 2026-04-28T18:31:50.253972Z
 
 ## Categories
 
@@ -36,7 +36,7 @@ Progress: █████████████████░░░░░░�
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
-| Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Context | █░░░░░░░░░ 11% | 1 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #97 | passed | 3m 1s | 16758 | 16275 | 483 | 13 | 0 | yes |
 | #94 | passed | 57s | 16710 | 16221 | 489 | 12 | 0 | yes |
 | #91 | passed | 37s | 16627 | 16162 | 465 | 12 | 0 | yes |
 | #90 | passed | 4m 8s | 16654 | 16106 | 548 | 12 | 0 | yes |
@@ -142,6 +143,7 @@ Progress: █████████████████░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:31 | #97 Active-window tracker (AT-SPI/NSAccessibility/UIA) | P | 43b70df |
 | 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
 | 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
 | 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
@@ -151,8 +153,7 @@ Progress: █████████████████░░░░░░�
 | 2026-04-28T18:18 | #81 Global hotkey for push-to-talk (configurable, defa | P | 4938f2d |
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
-| 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 
 ---
-*Last updated: 2026-04-28T18:28:37.392768Z*
-*Session 86*
+*Last updated: 2026-04-28T18:31:50.314908Z*
+*Session 87*

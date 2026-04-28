@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #97
+# Implementation Plan: Feature #98
 
 **Category:** Context
-**Description:** Active-window tracker (AT-SPI/NSAccessibility/UIA) provides current app+document to prompt
+**Description:** Calendar integration reads today's events and upcoming meetings into context
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'summarize this' uses focused PDF
+**Criteria:** 'what's next' returns next event
 **Type:** manual

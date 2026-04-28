@@ -312,3 +312,8 @@
 {"timestamp":"2026-04-28T18:28:55.233352+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":97,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/active_window.py: .py"}
 {"timestamp":"2026-04-28T18:29:08.336918+00:00","event_type":"post_write","tool_name":"Write","outcome":"violation_found","feature_id":97,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/__init__.py: .py"}
 {"timestamp":"2026-04-28T18:29:20.710713+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":97,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_active_window.py: .py"}
+{"timestamp":"2026-04-28T18:32:10.817284+00:00","event_type":"post_write","tool_name":"Write","outcome":"violation_found","feature_id":98,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/calendar.py: .py"}
+{"timestamp":"2026-04-28T18:32:19.078951+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":98,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/calendar.py: .py"}
+{"timestamp":"2026-04-28T18:32:26.548879+00:00","event_type":"post_write","tool_name":"Edit","outcome":"violation_found","feature_id":98,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/calendar.py: .py"}
+{"timestamp":"2026-04-28T18:32:39.669350+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":98,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/calendar.py: .py"}
+{"timestamp":"2026-04-28T18:33:01.124627+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":98,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_calendar.py: .py"}

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-86",
-      "text": "Implementing feature 97: Active-window tracker (AT-SPI/NSAccessibility/UIA) provides current app+document to prompt",
+      "id": "f2d00bd75f7e-87",
+      "text": "Implementing feature 98: Calendar integration reads today's events and upcoming meetings into context",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400917.4254963,
-      "updated_at": 1777400917.4254966,
+      "created_at": 1777401110.3503826,
+      "updated_at": 1777401110.3503826,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 97
+        "feature_id": 98
       },
       "keywords": []
     },
@@ -1309,9 +1309,24 @@
         "feature_id": 97
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-87",
+      "text": "Implementing feature 98: Calendar integration reads today's events and upcoming meetings into context",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777401110.3503826,
+      "updated_at": 1777401110.3503826,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 98
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 86,
+  "intent_counter": 87,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400917.4255002
+  "updated_at": 1777401110.3503876
 }
