@@ -76,6 +76,27 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1776938866.9895363
+    },
+    {
+      "feature_id": 89,
+      "error": "[platxa-code-agent] _map_feature_files failed: No module named 'yaml'\nFailed to load integrator agent_catalog\nTraceback (most recent call last):\n  File \"/home/vpa-rdflex/.local/share/uv/tools/platxa-code-agent/lib/python3.13/site-packages/platxa_code_agent/integrator_loader.py\", line 49, in load_integrators\n    cls = ep.load()\n  File \"/usr/lib/python3.13/importlib/metadata/__init__.py\", line 179, in load\n    module = import_module(match.group('module'))\n  File \"/usr/lib/python3.13/importlib/__in",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777114921.9312155
+    },
+    {
+      "feature_id": 89,
+      "error": "ERROR: Already working on feature #89: Android MCP tools: send_sms, make_call, read_notifications, open_app, automate_ui",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777114928.2422717
+    },
+    {
+      "feature_id": 8,
+      "error": "[platxa-code-agent] _map_feature_files failed: No module named 'yaml'\n    cls = ep.load()\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    from .catalog_formatter import AgentCatalogFormatter\n    from .registry import AgentRegistry, get_registry\n    from .loader import LoaderError, load_agent_md\n    import yaml\n    cls = ep.load()\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    from .catalog_formatter import AgentCatalogFormatter\n    from .registry import A",
+      "fix": "",
+      "category": "dependency",
+      "timestamp": 1777117966.115755
     }
   ]
 }

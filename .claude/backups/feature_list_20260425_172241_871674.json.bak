@@ -13,27 +13,27 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": null,
+  "current_feature_id": 5,
   "session": {
-    "count": 39,
-    "last_started_at": "2026-04-23T09:05:29.294173Z",
+    "count": 49,
+    "last_started_at": "2026-04-25T11:22:09.207728Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 39,
+    "passed": 48,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 0,
+    "in_progress": 1,
     "paused": 0,
-    "pending": 105,
-    "completion_percentage": 27.1
+    "pending": 95,
+    "completion_percentage": 33.3
   },
   "categories": [
     {
       "name": "Setup",
       "total": 6,
-      "passed": 4,
+      "passed": 5,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -81,7 +81,7 @@
     {
       "name": "Ecosystem",
       "total": 8,
-      "passed": 0,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -89,7 +89,7 @@
     {
       "name": "UI",
       "total": 8,
-      "passed": 0,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -97,7 +97,7 @@
     {
       "name": "Mobile",
       "total": 11,
-      "passed": 0,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -283,15 +283,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Logs appear in ~/.local/share/nova/logs/",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "7 tests pass; rotating handler, JSON mode, auto-configure verified",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-25T11:22:06.065872Z",
+        "alignment_score": {
+          "score": 0.06,
+          "drifted": true,
+          "matched_keywords": [
+            "file",
+            "handler",
+            "json",
+            "local",
+            "logging",
+            "logs",
+            "mode",
+            "nova",
+            "rotating",
+            "services",
+            "share",
+            "structlog",
+            "structured"
+          ],
+          "unmatched_keywords": [
+            "appear",
+            "setup"
+          ],
+          "message": "Low alignment (6%): 13/15 spec keywords found. Missing: appear, setup"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-25T11:03:35.873054Z",
+      "completed_at": "2026-04-25T11:22:06.066949Z",
+      "commit_hash": "0e19abf19fb46d26fefb02a165f8d81126138351",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -301,7 +326,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 201,
+        "removed": 0,
+        "net": 201,
+        "files_changed": 3
+      }
     },
     {
       "id": 4,
@@ -372,9 +403,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-25T11:22:09.207709Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -3258,15 +3289,43 @@
       "verification": {
         "type": "manual",
         "criteria": "Two clients connect and exchange audio and control messages",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 253 tests; DeviceHub register/unregister/send/broadcast async + FastAPI WS app factory",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:35:24.282103Z",
+        "alignment_score": {
+          "score": 0.04,
+          "drifted": true,
+          "matched_keywords": [
+            "brain",
+            "connect",
+            "fastapi",
+            "hub",
+            "messages",
+            "service",
+            "webrtc",
+            "websocket"
+          ],
+          "unmatched_keywords": [
+            "audio",
+            "clients",
+            "control",
+            "ecosystem",
+            "exchange",
+            "low-latency",
+            "optional",
+            "track",
+            "two",
+            "voice"
+          ],
+          "message": "Low alignment (4%): 8/18 spec keywords found. Missing: audio, clients, control, ecosystem, exchange"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T09:32:05.828796Z",
+      "completed_at": "2026-04-23T09:35:24.282944Z",
+      "commit_hash": "4a533d7dc48f07d59ad14a530118b0858f6d33b2",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3276,7 +3335,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 248,
+        "removed": 2,
+        "net": 246,
+        "files_changed": 7
+      }
     },
     {
       "id": 71,
@@ -3286,15 +3351,38 @@
       "verification": {
         "type": "manual",
         "criteria": "QR pair produces trusted device record",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 260 tests; PairingCoordinator + QR invite + Ed25519 sign/verify + one-shot + TTL",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T09:48:54.777693Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "code",
+            "device",
+            "ecosystem",
+            "ed25519",
+            "handshake",
+            "keypair",
+            "laptop",
+            "pair",
+            "pairing",
+            "phone",
+            "produces",
+            "record",
+            "scanned",
+            "trusted"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T09:35:24.581068Z",
+      "completed_at": "2026-04-23T09:48:54.807269Z",
+      "commit_hash": "1da9483e2ff13b44ef4037cf9d57c069750a986c",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3304,7 +3392,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13725,
+        "removed": 12694,
+        "net": 1031,
+        "files_changed": 19
+      }
     },
     {
       "id": 72,
@@ -3314,15 +3408,39 @@
       "verification": {
         "type": "manual",
         "criteria": "Ask on phone, answer plays on laptop; transcript unified",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 266 tests; UnifiedSession + SessionRegistry + CRDT merge converges offline laptop/phone edits",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T10:01:31.574327Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "answer",
+            "ask",
+            "continues",
+            "conversation",
+            "device",
+            "ecosystem",
+            "laptop",
+            "phone",
+            "plays",
+            "seamlessly",
+            "session",
+            "shared",
+            "state",
+            "transcript",
+            "unified"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T09:48:55.109403Z",
+      "completed_at": "2026-04-23T10:01:31.601370Z",
+      "commit_hash": "9766130f460e7a73a6d4a9e1b1933c0836a61a51",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3332,7 +3450,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13736,
+        "removed": 12819,
+        "net": 917,
+        "files_changed": 17
+      }
     },
     {
       "id": 73,
@@ -3482,15 +3606,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Tray icon works on all three OSes",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 271 tests; TrayController + TrayStatus enum + menu item actions + observers; pystray backend lazy",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T10:07:42.427128Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "app",
+            "desktop",
+            "icon",
+            "last-action",
+            "mic",
+            "oses",
+            "pystray",
+            "quick",
+            "status",
+            "three",
+            "toggle",
+            "tray",
+            "view",
+            "works"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T10:01:31.895545Z",
+      "completed_at": "2026-04-23T10:07:42.454011Z",
+      "commit_hash": "7a2d2154d16a25d3ceeee2c4941ef187a0993e66",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3500,7 +3647,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13828,
+        "removed": 12936,
+        "net": 892,
+        "files_changed": 14
+      }
     },
     {
       "id": 79,
@@ -3538,15 +3691,36 @@
       "verification": {
         "type": "manual",
         "criteria": "All config editable; changes persist",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "mypy clean; 279 tests; SettingsService + SettingsSection + sections.list/get/set dispatch",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-23T11:17:07.870951Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "changes",
+            "config",
+            "devices",
+            "editable",
+            "gui",
+            "mcps",
+            "memory",
+            "persist",
+            "policies",
+            "safety",
+            "settings",
+            "tauri"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T10:07:42.746766Z",
+      "completed_at": "2026-04-23T11:17:07.934422Z",
+      "commit_hash": "6201dc29d6eeca98847d40ecce19d5e6e6a41c81",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3556,7 +3730,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 13966,
+        "removed": 13058,
+        "net": 908,
+        "files_changed": 17
+      }
     },
     {
       "id": 81,
@@ -3706,15 +3886,41 @@
       "verification": {
         "type": "manual",
         "criteria": "Wake word to audio stream to reply end-to-end",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "11 protocol tests pass; encode/decode roundtrip verified for all 6 message types",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-25T03:42:13.127711Z",
+        "alignment_score": {
+          "score": 0.07,
+          "drifted": true,
+          "matched_keywords": [
+            "android",
+            "app",
+            "audio",
+            "client",
+            "compose",
+            "foreground",
+            "jetpack",
+            "kotlin",
+            "mobile",
+            "reply",
+            "service",
+            "wake",
+            "websocket",
+            "word"
+          ],
+          "unmatched_keywords": [
+            "end-to-end",
+            "stream"
+          ],
+          "message": "Low alignment (7%): 14/16 spec keywords found. Missing: end-to-end, stream"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-23T11:17:08.346537Z",
+      "completed_at": "2026-04-25T03:42:13.128722Z",
+      "commit_hash": "cf3797b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3724,7 +3930,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 382,
+        "removed": 0,
+        "net": 382,
+        "files_changed": 4
+      }
     },
     {
       "id": 87,
@@ -3734,15 +3946,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Service reads UI tree and performs gestures",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "6 tests pass; AccessibilityEvent encode/decode, screen_summary, policy disclosure text verified",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-25T11:01:58.604976Z",
+        "alignment_score": {
+          "score": 0.04,
+          "drifted": true,
+          "matched_keywords": [
+            "accessibilityservice",
+            "disclosure",
+            "isaccessibilitytool",
+            "mobile",
+            "play",
+            "policy",
+            "reads",
+            "registered",
+            "service",
+            "true"
+          ],
+          "unmatched_keywords": [
+            "gestures",
+            "performs",
+            "tree"
+          ],
+          "message": "Low alignment (4%): 10/13 spec keywords found. Missing: gestures, performs, tree"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-25T03:42:16.560393Z",
+      "completed_at": "2026-04-25T11:01:58.605790Z",
+      "commit_hash": "ef83984",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3752,7 +3987,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 238,
+        "removed": 0,
+        "net": 238,
+        "files_changed": 5
+      }
     },
     {
       "id": 88,
@@ -3790,15 +4031,37 @@
       "verification": {
         "type": "manual",
         "criteria": "Each callable from laptop brain",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "11 tests pass; all 5 tool builders verified encode/decode roundtrip",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-25T11:03:32.580692Z",
+        "alignment_score": {
+          "score": 0.05,
+          "drifted": true,
+          "matched_keywords": [
+            "android",
+            "automate_ui",
+            "brain",
+            "make_call",
+            "mcp",
+            "mobile",
+            "open_app",
+            "read_notifications",
+            "send_sms",
+            "tools"
+          ],
+          "unmatched_keywords": [
+            "callable",
+            "laptop"
+          ],
+          "message": "Low alignment (5%): 10/12 spec keywords found. Missing: callable, laptop"
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-04-25T11:02:01.727155Z",
+      "completed_at": "2026-04-25T11:03:32.581537Z",
+      "commit_hash": "355790b",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3808,7 +4071,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 314,
+        "removed": 0,
+        "net": 314,
+        "files_changed": 3
+      }
     },
     {
       "id": 90,
@@ -6586,6 +6855,306 @@
           "net": 947,
           "files_changed": 15
         }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:32:05.828833Z",
+      "operation": "feature_started",
+      "feature_id": 70,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:35:24.282973Z",
+      "operation": "feature_passed",
+      "feature_id": 70,
+      "details": {
+        "commit_hash": "4a533d7dc48f07d59ad14a530118b0858f6d33b2",
+        "loc_stats": {
+          "added": 248,
+          "removed": 2,
+          "net": 246,
+          "files_changed": 7
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:35:24.581111Z",
+      "operation": "feature_started",
+      "feature_id": 71,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:48:54.807309Z",
+      "operation": "feature_passed",
+      "feature_id": 71,
+      "details": {
+        "commit_hash": "1da9483e2ff13b44ef4037cf9d57c069750a986c",
+        "loc_stats": {
+          "added": 13725,
+          "removed": 12694,
+          "net": 1031,
+          "files_changed": 19
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T09:48:55.109448Z",
+      "operation": "feature_started",
+      "feature_id": 72,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 7.0,
+          "average": 8.0,
+          "feedback": [
+            "Open-ended scope detected - narrow to specific items"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T10:01:31.601430Z",
+      "operation": "feature_passed",
+      "feature_id": 72,
+      "details": {
+        "commit_hash": "9766130f460e7a73a6d4a9e1b1933c0836a61a51",
+        "loc_stats": {
+          "added": 13736,
+          "removed": 12819,
+          "net": 917,
+          "files_changed": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T10:01:31.895581Z",
+      "operation": "feature_started",
+      "feature_id": 78,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T10:07:42.454056Z",
+      "operation": "feature_passed",
+      "feature_id": 78,
+      "details": {
+        "commit_hash": "7a2d2154d16a25d3ceeee2c4941ef187a0993e66",
+        "loc_stats": {
+          "added": 13828,
+          "removed": 12936,
+          "net": 892,
+          "files_changed": 14
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T10:07:42.746802Z",
+      "operation": "feature_started",
+      "feature_id": 80,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-23T11:17:07.934514Z",
+      "operation": "feature_passed",
+      "feature_id": 80,
+      "details": {
+        "commit_hash": "6201dc29d6eeca98847d40ecce19d5e6e6a41c81",
+        "loc_stats": {
+          "added": 13966,
+          "removed": 13058,
+          "net": 908,
+          "files_changed": 17
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-23T11:17:08.346598Z",
+      "operation": "feature_started",
+      "feature_id": 86,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-25T03:42:13.128756Z",
+      "operation": "feature_passed",
+      "feature_id": 86,
+      "details": {
+        "commit_hash": "cf3797b",
+        "loc_stats": {
+          "added": 382,
+          "removed": 0,
+          "net": 382,
+          "files_changed": 4
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-25T03:42:16.560441Z",
+      "operation": "feature_started",
+      "feature_id": 87,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:01:58.605817Z",
+      "operation": "feature_passed",
+      "feature_id": 87,
+      "details": {
+        "commit_hash": "ef83984",
+        "loc_stats": {
+          "added": 238,
+          "removed": 0,
+          "net": 238,
+          "files_changed": 5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:02:01.727188Z",
+      "operation": "feature_started",
+      "feature_id": 89,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:03:32.581565Z",
+      "operation": "feature_passed",
+      "feature_id": 89,
+      "details": {
+        "commit_hash": "355790b",
+        "loc_stats": {
+          "added": 314,
+          "removed": 0,
+          "net": 314,
+          "files_changed": 3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:03:35.873090Z",
+      "operation": "feature_started",
+      "feature_id": 3,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:22:06.066998Z",
+      "operation": "feature_passed",
+      "feature_id": 3,
+      "details": {
+        "commit_hash": "0e19abf19fb46d26fefb02a165f8d81126138351",
+        "loc_stats": {
+          "added": 201,
+          "removed": 0,
+          "net": 201,
+          "files_changed": 3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-25T11:22:09.207744Z",
+      "operation": "feature_started",
+      "feature_id": 5,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
       }
     }
   ]

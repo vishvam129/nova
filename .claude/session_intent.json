@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-44",
-      "text": "Implementing feature 80: Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies",
+      "id": "f2d00bd75f7e-53",
+      "text": "Implementing feature 15: Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1776938862.828878,
-      "updated_at": 1776938862.8288782,
+      "created_at": 1777396498.242819,
+      "updated_at": 1777396498.242819,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 80
+        "feature_id": 15
       },
       "keywords": []
     },
@@ -679,9 +679,144 @@
         "feature_id": 80
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-45",
+      "text": "Implementing feature 86: Android app: Kotlin + Jetpack Compose + foreground service + WebSocket client",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1776943028.4504793,
+      "updated_at": 1776943028.4504793,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 86
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-46",
+      "text": "Implementing feature 87: AccessibilityService registered as isAccessibilityTool=true with Play policy disclosure",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777088536.647774,
+      "updated_at": 1777088536.6477742,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 87
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-47",
+      "text": "Implementing feature 89: Android MCP tools: send_sms, make_call, read_notifications, open_app, automate_ui",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777114921.8133426,
+      "updated_at": 1777114921.8133428,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 89
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-48",
+      "text": "Implementing feature 3: Structured logging via structlog with rotating file handler and JSON mode for services",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777115015.9631455,
+      "updated_at": 1777115015.9631455,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 3
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-49",
+      "text": "Implementing feature 5: Plugin discovery system (entry_points) so tools/MCPs/agents can be added via pip",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777116129.3055506,
+      "updated_at": 1777116129.3055508,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 5
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-50",
+      "text": "Implementing feature 8: Custom-trained 'hey nova' wake word model using Piper-generated synthetic data pipeline",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777117965.994431,
+      "updated_at": 1777117965.9944313,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 8
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-51",
+      "text": "Implementing feature 9: Wake word sensitivity tuning + false-trigger logging for later retraining",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777121694.6239007,
+      "updated_at": 1777121694.623901,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 9
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-52",
+      "text": "Implementing feature 12: Model-based turn detection (LiveKit turn-detector) to cut 800ms VAD latency",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777121768.2126741,
+      "updated_at": 1777121768.2126741,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 12
+      },
+      "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-53",
+      "text": "Implementing feature 15: Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777396498.242819,
+      "updated_at": 1777396498.242819,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 15
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 44,
+  "intent_counter": 53,
   "created_at": 1776852316.1930206,
-  "updated_at": 1776938862.828882
+  "updated_at": 1777396498.242823
 }

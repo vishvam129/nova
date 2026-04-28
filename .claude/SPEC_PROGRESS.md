@@ -2,40 +2,40 @@
 
 ## Current Status
 
-**In Progress:** #80 [UI] Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies
-   Started: 2026-04-23T10:07:42.746766Z
+**In Progress:** #15 [Voice] Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline
+   Started: 2026-04-28T17:14:58.174774Z
 
 ## Summary
 
-Progress: ████████░░░░░░░░░░░░░░░░░░░░░░ 29.9%
+Progress: ██████████░░░░░░░░░░░░░░░░░░░░ 36.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 43 | 29.9% |
+| Passed | 52 | 36.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 100 | 69.4% |
+| Pending | 91 | 63.2% |
 
 ## Session Statistics
 
-- **Sessions:** 44
-- **Last Started:** 2026-04-23T10:07:42.746786Z
+- **Sessions:** 53
+- **Last Started:** 2026-04-28T17:14:58.174792Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
-| Setup | ██████░░░░ 67% | 4 | 0 | 0 |
-| Voice | ██████░░░░ 62% | 10 | 0 | 0 |
+| Setup | ██████████ 100% | 6 | 0 | 0 |
+| Voice | ████████░░ 81% | 13 | 0 | 0 |
 | Brain | ███████░░░ 73% | 8 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
-| UI | █░░░░░░░░░ 12% | 1 | 0 | 0 |
-| Mobile | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
+| Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,15 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #12 | passed | 1m 44s | 369 | 0 | 369 | 2 | 0 | yes |
+| #9 | passed | 56s | 250 | 0 | 250 | 2 | 0 | yes |
+| #8 | passed | 1h 2m 2s | 323 | 0 | 323 | 2 | 0 | yes |
+| #5 | passed | 30m 32s | 277 | 0 | 277 | 2 | 0 | yes |
+| #3 | passed | 18m 30s | 201 | 0 | 201 | 3 | 0 | yes |
+| #89 | passed | 1m 30s | 314 | 0 | 314 | 3 | 0 | yes |
+| #87 | passed | 7h 19m 42s | 238 | 0 | 238 | 5 | 0 | yes |
+| #86 | passed | 40h 25m 4s | 382 | 0 | 382 | 4 | 0 | yes |
+| #80 | passed | 1h 9m 25s | 13966 | 13058 | 908 | 17 | 0 | yes |
 | #78 | passed | 6m 10s | 13828 | 12936 | 892 | 14 | 0 | yes |
 | #72 | passed | 12m 36s | 13736 | 12819 | 917 | 17 | 0 | yes |
 | #71 | passed | 13m 30s | 13725 | 12694 | 1031 | 19 | 0 | yes |
@@ -100,17 +109,17 @@ Progress: ████████░░░░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
+| 2026-04-25T12:55 | #9 Wake word sensitivity tuning + false-trigger loggi | P | 259c646 |
+| 2026-04-25T12:54 | #8 Custom-trained 'hey nova' wake word model using Pi | P | 460b2ce |
+| 2026-04-25T11:52 | #5 Plugin discovery system (entry_points) so tools/MC | P | 48eb0e6 |
+| 2026-04-25T11:22 | #3 Structured logging via structlog with rotating fil | P | 0e19abf |
+| 2026-04-25T11:03 | #89 Android MCP tools: send_sms, make_call, read_notif | P | 355790b |
+| 2026-04-25T11:01 | #87 AccessibilityService registered as isAccessibility | P | ef83984 |
+| 2026-04-25T03:42 | #86 Android app: Kotlin + Jetpack Compose + foreground | P | cf3797b |
+| 2026-04-23T11:17 | #80 Settings GUI (Tauri) for config, MCPs, memory, dev | P | 6201dc2 |
 | 2026-04-23T10:07 | #78 Desktop tray app (pystray) with mic status, quick  | P | 7a2d215 |
-| 2026-04-23T10:01 | #72 Unified session: conversation state shared so any  | P | 9766130 |
-| 2026-04-23T09:48 | #71 Device pairing: QR code on laptop scanned by phone | P | 1da9483 |
-| 2026-04-23T09:35 | #70 Brain service: FastAPI + WebSocket hub + optional  | P | 4a533d7 |
-| 2026-04-23T09:32 | #67 CRDT sync layer (Yjs via y-py) for conflict-free m | P | 90a7c26 |
-| 2026-04-23T09:05 | #60 Long-term vector memory via Chroma or Qdrant with  | P | 0a7f96b |
-| 2026-04-23T09:03 | #59 Short-term memory: rolling conversation buffer wit | P | 12859a0 |
-| 2026-04-23T09:01 | #55 Emergency stop: hardware-key + wake phrase 'Nova s | P | 78c547f |
-| 2026-04-22T19:46 | #54 Audit log: append-only record of every tool call,  | P | 379c9ba |
-| 2026-04-22T19:44 | #53 Secret redaction middleware (regex + ML detector)  | P | 6bb7b57 |
 
 ---
-*Last updated: 2026-04-23T10:07:42.795175Z*
-*Session 44*
+*Last updated: 2026-04-28T17:14:58.214396Z*
+*Session 53*

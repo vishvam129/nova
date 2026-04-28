@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #80
+# Implementation Plan: Feature #15
 
-**Category:** UI
-**Description:** Settings GUI (Tauri) for config, MCPs, memory, devices, safety policies
+**Category:** Voice
+**Description:** Optional cloud STT: Deepgram Nova and AssemblyAI with auto-fallback when offline
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** All config editable; changes persist
+**Criteria:** Uses cloud when API key set; falls back to local when offline
 **Type:** manual
