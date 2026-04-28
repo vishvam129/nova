@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-82",
-      "text": "Implementing feature 88: Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked",
+      "id": "f2d00bd75f7e-83",
+      "text": "Implementing feature 90: Android notification listener feeds relevant notifications into brain context",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400487.9583626,
-      "updated_at": 1777400487.9583628,
+      "created_at": 1777400551.9168406,
+      "updated_at": 1777400551.9168406,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 88
+        "feature_id": 90
       },
       "keywords": []
     },
@@ -1249,9 +1249,24 @@
         "feature_id": 88
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-83",
+      "text": "Implementing feature 90: Android notification listener feeds relevant notifications into brain context",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400551.9168406,
+      "updated_at": 1777400551.9168406,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 90
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 82,
+  "intent_counter": 83,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400487.9583676
+  "updated_at": 1777400551.9168432
 }

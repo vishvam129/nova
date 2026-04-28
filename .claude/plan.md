@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #88
+# Implementation Plan: Feature #90
 
 **Category:** Mobile
-**Description:** Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked
+**Description:** Android notification listener feeds relevant notifications into brain context
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Shizuku path works when accessibility denied
+**Criteria:** Incoming message summarizable on request
 **Type:** manual
