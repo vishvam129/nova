@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #32
+# Implementation Plan: Feature #38
 
-**Category:** Brain
-**Description:** Streaming response with token-level cancellation on barge-in
+**Category:** Tools
+**Description:** Rate limiting on tool calls (per-tool per-minute) to prevent runaway agents
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Cancelling mid-response stops LLM generation
+**Criteria:** Exceeding limit returns error and pauses agent
 **Type:** manual

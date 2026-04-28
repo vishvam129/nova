@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-57",
-      "text": "Implementing feature 32: Streaming response with token-level cancellation on barge-in",
+      "id": "f2d00bd75f7e-58",
+      "text": "Implementing feature 38: Rate limiting on tool calls (per-tool per-minute) to prevent runaway agents",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777396920.542385,
-      "updated_at": 1777396920.5423853,
+      "created_at": 1777397000.49531,
+      "updated_at": 1777397000.4953103,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 32
+        "feature_id": 38
       },
       "keywords": []
     },
@@ -874,9 +874,24 @@
         "feature_id": 32
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-58",
+      "text": "Implementing feature 38: Rate limiting on tool calls (per-tool per-minute) to prevent runaway agents",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397000.49531,
+      "updated_at": 1777397000.4953103,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 38
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 57,
+  "intent_counter": 58,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777396920.542388
+  "updated_at": 1777397000.4953136
 }
