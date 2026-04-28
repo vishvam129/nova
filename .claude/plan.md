@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #82
+# Implementation Plan: Feature #83
 
 **Category:** UI
-**Description:** Dictation mode: hold hotkey, release pastes transcribed text at cursor
+**Description:** Text chat UI for when voice is inconvenient (shared history with voice)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Transcription inserted at cursor in any app
+**Criteria:** Text query produces streaming response
 **Type:** manual

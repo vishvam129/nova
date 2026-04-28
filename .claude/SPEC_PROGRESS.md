@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #82 [UI] Dictation mode: hold hotkey, release pastes transcribed text at cursor
-   Started: 2026-04-28T18:19:04.169765Z
+**In Progress:** #83 [UI] Text chat UI for when voice is inconvenient (shared history with voice)
+   Started: 2026-04-28T18:19:59.761992Z
 
 ## Summary
 
-Progress: ████████████████░░░░░░░░░░░░░░ 54.9%
+Progress: ████████████████░░░░░░░░░░░░░░ 55.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 79 | 54.9% |
+| Passed | 80 | 55.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 64 | 44.4% |
+| Pending | 63 | 43.8% |
 
 ## Session Statistics
 
-- **Sessions:** 80
-- **Last Started:** 2026-04-28T18:19:04.169783Z
+- **Sessions:** 81
+- **Last Started:** 2026-04-28T18:19:59.762010Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ████████████████░░░░░░░�
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
-| UI | █████░░░░░ 50% | 4 | 0 | 0 |
+| UI | ██████░░░░ 62% | 5 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #82 | passed | 50s | 16464 | 15944 | 520 | 12 | 0 | yes |
 | #81 | passed | 2m 15s | 16365 | 15896 | 469 | 12 | 0 | yes |
 | #79 | passed | 4m 20s | 16340 | 15843 | 497 | 12 | 0 | yes |
 | #75 | passed | 2m 51s | 16372 | 15788 | 584 | 13 | 0 | yes |
@@ -136,6 +137,7 @@ Progress: ████████████████░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:19 | #82 Dictation mode: hold hotkey, release pastes transc | P | 2d21f07 |
 | 2026-04-28T18:18 | #81 Global hotkey for push-to-talk (configurable, defa | P | 4938f2d |
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
@@ -145,8 +147,7 @@ Progress: ████████████████░░░░░░░�
 | 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
 | 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
-| 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
 
 ---
-*Last updated: 2026-04-28T18:19:04.223115Z*
-*Session 80*
+*Last updated: 2026-04-28T18:19:59.811875Z*
+*Session 81*

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-80",
-      "text": "Implementing feature 82: Dictation mode: hold hotkey, release pastes transcribed text at cursor",
+      "id": "f2d00bd75f7e-81",
+      "text": "Implementing feature 83: Text chat UI for when voice is inconvenient (shared history with voice)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400344.2566366,
-      "updated_at": 1777400344.2566366,
+      "created_at": 1777400399.841577,
+      "updated_at": 1777400399.841577,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 82
+        "feature_id": 83
       },
       "keywords": []
     },
@@ -1219,9 +1219,24 @@
         "feature_id": 82
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-81",
+      "text": "Implementing feature 83: Text chat UI for when voice is inconvenient (shared history with voice)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400399.841577,
+      "updated_at": 1777400399.841577,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 83
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 80,
+  "intent_counter": 81,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400344.2566404
+  "updated_at": 1777400399.841581
 }
