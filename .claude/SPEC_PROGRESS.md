@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #81 [UI] Global hotkey for push-to-talk (configurable, default Ctrl+Space)
-   Started: 2026-04-28T18:16:43.136581Z
+**In Progress:** #82 [UI] Dictation mode: hold hotkey, release pastes transcribed text at cursor
+   Started: 2026-04-28T18:19:04.169765Z
 
 ## Summary
 
-Progress: ████████████████░░░░░░░░░░░░░░ 54.2%
+Progress: ████████████████░░░░░░░░░░░░░░ 54.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 78 | 54.2% |
+| Passed | 79 | 54.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 65 | 45.1% |
+| Pending | 64 | 44.4% |
 
 ## Session Statistics
 
-- **Sessions:** 79
-- **Last Started:** 2026-04-28T18:16:43.136599Z
+- **Sessions:** 80
+- **Last Started:** 2026-04-28T18:19:04.169783Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ████████████████░░░░░░░�
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
-| UI | ███░░░░░░░ 38% | 3 | 0 | 0 |
+| UI | █████░░░░░ 50% | 4 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #81 | passed | 2m 15s | 16365 | 15896 | 469 | 12 | 0 | yes |
 | #79 | passed | 4m 20s | 16340 | 15843 | 497 | 12 | 0 | yes |
 | #75 | passed | 2m 51s | 16372 | 15788 | 584 | 13 | 0 | yes |
 | #74 | passed | 4m 0s | 16181 | 15731 | 450 | 12 | 0 | yes |
@@ -135,6 +136,7 @@ Progress: ████████████████░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:18 | #81 Global hotkey for push-to-talk (configurable, defa | P | 4938f2d |
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
@@ -144,8 +146,7 @@ Progress: ████████████████░░░░░░░�
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
 | 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
 | 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
-| 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
 
 ---
-*Last updated: 2026-04-28T18:16:43.188616Z*
-*Session 79*
+*Last updated: 2026-04-28T18:19:04.223115Z*
+*Session 80*

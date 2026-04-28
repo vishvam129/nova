@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #81
+# Implementation Plan: Feature #82
 
 **Category:** UI
-**Description:** Global hotkey for push-to-talk (configurable, default Ctrl+Space)
+**Description:** Dictation mode: hold hotkey, release pastes transcribed text at cursor
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Hotkey activates mic without wake word
+**Criteria:** Transcription inserted at cursor in any app
 **Type:** manual

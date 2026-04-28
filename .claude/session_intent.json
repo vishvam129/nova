@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-79",
-      "text": "Implementing feature 81: Global hotkey for push-to-talk (configurable, default Ctrl+Space)",
+      "id": "f2d00bd75f7e-80",
+      "text": "Implementing feature 82: Dictation mode: hold hotkey, release pastes transcribed text at cursor",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400203.2178311,
-      "updated_at": 1777400203.2178311,
+      "created_at": 1777400344.2566366,
+      "updated_at": 1777400344.2566366,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 81
+        "feature_id": 82
       },
       "keywords": []
     },
@@ -1204,9 +1204,24 @@
         "feature_id": 81
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-80",
+      "text": "Implementing feature 82: Dictation mode: hold hotkey, release pastes transcribed text at cursor",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400344.2566366,
+      "updated_at": 1777400344.2566366,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 82
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 79,
+  "intent_counter": 80,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400203.2178347
+  "updated_at": 1777400344.2566404
 }
