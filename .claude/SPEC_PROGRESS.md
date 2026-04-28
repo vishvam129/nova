@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #48 [Tools] Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A
-   Started: 2026-04-28T17:29:05.871822Z
+**In Progress:** #56 [Safety] Speaker verification before sensitive actions via local embedding model
+   Started: 2026-04-28T17:30:39.727214Z
 
 ## Summary
 
-Progress: █████████████░░░░░░░░░░░░░░░░░ 43.8%
+Progress: █████████████░░░░░░░░░░░░░░░░░ 44.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 63 | 43.8% |
+| Passed | 64 | 44.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 80 | 55.6% |
+| Pending | 79 | 54.9% |
 
 ## Session Statistics
 
-- **Sessions:** 64
-- **Last Started:** 2026-04-28T17:29:05.871842Z
+- **Sessions:** 65
+- **Last Started:** 2026-04-28T17:30:39.727231Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: █████████████░░░░░░░░░░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | ████████░░ 88% | 15 | 0 | 0 |
+| Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #48 | passed | 53s | 15512 | 15038 | 474 | 12 | 0 | yes |
 | #47 | passed | 1m 8s | 15555 | 14981 | 574 | 12 | 0 | yes |
 | #46 | passed | 46s | 15439 | 14927 | 512 | 12 | 0 | yes |
 | #45 | passed | 1m 15s | 15430 | 14869 | 561 | 12 | 0 | yes |
@@ -120,6 +121,7 @@ Progress: █████████████░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:29 | #48 Built-in tool: screen_to_vision streams screen fra | P | 78232d2 |
 | 2026-04-28T17:29 | #47 Built-in tool: screenshot + OCR (tesseract) with r | P | d5533f2 |
 | 2026-04-28T17:27 | #46 Built-in tool: clipboard_read/clipboard_write + cl | P | 03bb0cb |
 | 2026-04-28T17:26 | #45 Built-in tool: system_control (volume, brightness, | P | 8a68ac5 |
@@ -129,8 +131,7 @@ Progress: █████████████░░░░░░░░░░�
 | 2026-04-28T17:23 | #32 Streaming response with token-level cancellation o | P | 3f566f2 |
 | 2026-04-28T17:21 | #30 Meta-router that picks ReAct vs Plan-and-Execute v | P | 5c62c44 |
 | 2026-04-28T17:20 | #27 Cost/token tracker with daily cap; blocks cloud +  | P | 7a0bafe |
-| 2026-04-28T17:19 | #16 Streaming STT pipeline: emit partial transcripts a | P | fa0af59 |
 
 ---
-*Last updated: 2026-04-28T17:29:05.919012Z*
-*Session 64*
+*Last updated: 2026-04-28T17:30:39.775185Z*
+*Session 65*

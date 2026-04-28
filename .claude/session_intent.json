@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-64",
-      "text": "Implementing feature 48: Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A",
+      "id": "f2d00bd75f7e-65",
+      "text": "Implementing feature 56: Speaker verification before sensitive actions via local embedding model",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397345.948363,
-      "updated_at": 1777397345.9483633,
+      "created_at": 1777397439.804399,
+      "updated_at": 1777397439.804399,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 48
+        "feature_id": 56
       },
       "keywords": []
     },
@@ -979,9 +979,24 @@
         "feature_id": 48
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-65",
+      "text": "Implementing feature 56: Speaker verification before sensitive actions via local embedding model",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397439.804399,
+      "updated_at": 1777397439.804399,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 56
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 64,
+  "intent_counter": 65,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397345.9483678
+  "updated_at": 1777397439.8044024
 }

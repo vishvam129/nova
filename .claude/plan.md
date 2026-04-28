@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #48
+# Implementation Plan: Feature #56
 
-**Category:** Tools
-**Description:** Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A
+**Category:** Safety
+**Description:** Speaker verification before sensitive actions via local embedding model
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'what's in the error dialog' answered correctly
+**Criteria:** Unknown voice saying 'send money' blocked
 **Type:** manual
