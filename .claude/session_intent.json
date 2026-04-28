@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-55",
-      "text": "Implementing feature 27: Cost/token tracker with daily cap; blocks cloud + routes all to local past cap",
+      "id": "f2d00bd75f7e-56",
+      "text": "Implementing feature 30: Meta-router that picks ReAct vs Plan-and-Execute vs direct answer per request",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777396762.017593,
-      "updated_at": 1777396762.0175931,
+      "created_at": 1777396852.287855,
+      "updated_at": 1777396852.2878551,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 27
+        "feature_id": 30
       },
       "keywords": []
     },
@@ -844,9 +844,24 @@
         "feature_id": 27
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-56",
+      "text": "Implementing feature 30: Meta-router that picks ReAct vs Plan-and-Execute vs direct answer per request",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777396852.287855,
+      "updated_at": 1777396852.2878551,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 30
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 55,
+  "intent_counter": 56,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777396762.0175955
+  "updated_at": 1777396852.28786
 }

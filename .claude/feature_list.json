@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 27,
+  "current_feature_id": 30,
   "session": {
-    "count": 55,
-    "last_started_at": "2026-04-28T17:19:21.953067Z",
+    "count": 56,
+    "last_started_at": "2026-04-28T17:20:52.207326Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 54,
+    "passed": 55,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 89,
-    "completion_percentage": 37.5
+    "pending": 88,
+    "completion_percentage": 38.2
   },
   "categories": [
     {
@@ -49,7 +49,7 @@
     {
       "name": "Brain",
       "total": 11,
-      "passed": 8,
+      "passed": 9,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1656,15 +1656,39 @@
       "verification": {
         "type": "manual",
         "criteria": "Exceeding cap forces local; event logged",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "8 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T17:20:47.589753Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "blocks",
+            "brain",
+            "cap",
+            "cloud",
+            "cost",
+            "daily",
+            "event",
+            "exceeding",
+            "forces",
+            "local",
+            "logged",
+            "past",
+            "routes",
+            "token",
+            "tracker"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 15/15 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T17:19:21.953032Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T17:20:47.617803Z",
+      "commit_hash": "7a0bafe91946c2950e0f77348f87406758806968",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1674,7 +1698,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 15012,
+        "removed": 14442,
+        "net": 570,
+        "files_changed": 12
+      }
     },
     {
       "id": 28,
@@ -1804,9 +1834,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T17:20:52.207308Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -5808,37 +5838,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T12:02:49.553064Z",
-      "operation": "feature_passed",
-      "feature_id": 7,
-      "details": {
-        "commit_hash": "02035e7d137863a6cbd83ca1941834dea3f2bed9",
-        "loc_stats": {
-          "added": 9230,
-          "removed": 40,
-          "net": 9190,
-          "files_changed": 13
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T12:02:49.824818Z",
-      "operation": "feature_started",
-      "feature_id": 10,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 9.5,
-          "average": 8.6,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T12:21:22.981991Z",
       "operation": "feature_passed",
       "feature_id": 10,
@@ -7376,6 +7375,37 @@
           "feedback": [
             "Open-ended scope detected - narrow to specific items"
           ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:20:47.617852Z",
+      "operation": "feature_passed",
+      "feature_id": 27,
+      "details": {
+        "commit_hash": "7a0bafe91946c2950e0f77348f87406758806968",
+        "loc_stats": {
+          "added": 15012,
+          "removed": 14442,
+          "net": 570,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:20:52.207343Z",
+      "operation": "feature_started",
+      "feature_id": 30,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
         },
         "depth": 1
       }

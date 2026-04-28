@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #27
+# Implementation Plan: Feature #30
 
 **Category:** Brain
-**Description:** Cost/token tracker with daily cap; blocks cloud + routes all to local past cap
+**Description:** Meta-router that picks ReAct vs Plan-and-Execute vs direct answer per request
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Exceeding cap forces local; event logged
+**Criteria:** Simple Q routes direct; multi-step routes Plan
 **Type:** manual

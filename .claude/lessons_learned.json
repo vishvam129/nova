@@ -97,6 +97,13 @@
       "fix": "",
       "category": "dependency",
       "timestamp": 1777117966.115755
+    },
+    {
+      "feature_id": 30,
+      "error": "tests/test_meta_router.py:38: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_meta_router.py::test_plan_keyword_with_long_text_is_plan - ...\n1 failed, 7 passed in 0.11s",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777396890.4443145
     }
   ]
 }

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #27 [Brain] Cost/token tracker with daily cap; blocks cloud + routes all to local past cap
-   Started: 2026-04-28T17:19:21.953032Z
+**In Progress:** #30 [Brain] Meta-router that picks ReAct vs Plan-and-Execute vs direct answer per request
+   Started: 2026-04-28T17:20:52.207308Z
 
 ## Summary
 
-Progress: ███████████░░░░░░░░░░░░░░░░░░░ 37.5%
+Progress: ███████████░░░░░░░░░░░░░░░░░░░ 38.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 54 | 37.5% |
+| Passed | 55 | 38.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 89 | 61.8% |
+| Pending | 88 | 61.1% |
 
 ## Session Statistics
 
-- **Sessions:** 55
-- **Last Started:** 2026-04-28T17:19:21.953067Z
+- **Sessions:** 56
+- **Last Started:** 2026-04-28T17:20:52.207326Z
 
 ## Categories
 
@@ -29,7 +29,7 @@ Progress: ███████████░░░░░░░░░░░░�
 |----------|----------|--------|--------|---------|
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
-| Brain | ███████░░░ 73% | 8 | 0 | 0 |
+| Brain | ████████░░ 82% | 9 | 0 | 0 |
 | Tools | █████░░░░░ 53% | 9 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #27 | passed | 1m 25s | 15012 | 14442 | 570 | 12 | 0 | yes |
 | #16 | passed | 49s | 14935 | 14314 | 621 | 12 | 0 | yes |
 | #15 | passed | 3m 25s | 73396 | 67157 | 6239 | 32 | 0 | yes |
 | #12 | passed | 1m 44s | 369 | 0 | 369 | 2 | 0 | yes |
@@ -111,6 +112,7 @@ Progress: ███████████░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:20 | #27 Cost/token tracker with daily cap; blocks cloud +  | P | 7a0bafe |
 | 2026-04-28T17:19 | #16 Streaming STT pipeline: emit partial transcripts a | P | fa0af59 |
 | 2026-04-28T17:18 | #15 Optional cloud STT: Deepgram Nova and AssemblyAI w | P | 92e1c08 |
 | 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
@@ -120,8 +122,7 @@ Progress: ███████████░░░░░░░░░░░░�
 | 2026-04-25T11:22 | #3 Structured logging via structlog with rotating fil | P | 0e19abf |
 | 2026-04-25T11:03 | #89 Android MCP tools: send_sms, make_call, read_notif | P | 355790b |
 | 2026-04-25T11:01 | #87 AccessibilityService registered as isAccessibility | P | ef83984 |
-| 2026-04-25T03:42 | #86 Android app: Kotlin + Jetpack Compose + foreground | P | cf3797b |
 
 ---
-*Last updated: 2026-04-28T17:19:21.994294Z*
-*Session 55*
+*Last updated: 2026-04-28T17:20:52.256376Z*
+*Session 56*
