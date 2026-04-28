@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #68 [Memory] Memory backup + restore (encrypted tarball) with scheduled auto-backup
-   Started: 2026-04-28T17:48:52.631498Z
+**In Progress:** #69 [Memory] Memory export as JSON + Markdown for user data portability (GDPR-grade)
+   Started: 2026-04-28T17:55:42.074170Z
 
 ## Summary
 
-Progress: ███████████████░░░░░░░░░░░░░░░ 50.0%
+Progress: ███████████████░░░░░░░░░░░░░░░ 50.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 72 | 50.0% |
+| Passed | 73 | 50.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 71 | 49.3% |
+| Pending | 70 | 48.6% |
 
 ## Session Statistics
 
-- **Sessions:** 73
-- **Last Started:** 2026-04-28T17:48:52.631515Z
+- **Sessions:** 74
+- **Last Started:** 2026-04-28T17:55:42.074186Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ███████████████░░░░░░░░�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | ███████░░░ 73% | 8 | 0 | 0 |
+| Memory | ████████░░ 82% | 9 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #68 | passed | 6m 44s | 16192 | 15556 | 636 | 12 | 0 | yes |
 | #66 | passed | 4m 50s | 8149 | 7776 | 373 | 10 | 0 | yes |
 | #64 | passed | 4m 14s | 15931 | 15448 | 483 | 13 | 0 | yes |
 | #63 | passed | 1m 18s | 15987 | 15387 | 600 | 12 | 0 | yes |
@@ -129,6 +130,7 @@ Progress: ███████████████░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
 | 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
 | 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
@@ -138,8 +140,7 @@ Progress: ███████████████░░░░░░░░�
 | 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
 | 2026-04-28T17:34 | #56 Speaker verification before sensitive actions via  | P | 5268e06 |
 | 2026-04-28T17:29 | #48 Built-in tool: screen_to_vision streams screen fra | P | 78232d2 |
-| 2026-04-28T17:29 | #47 Built-in tool: screenshot + OCR (tesseract) with r | P | d5533f2 |
 
 ---
-*Last updated: 2026-04-28T17:48:52.671081Z*
-*Session 73*
+*Last updated: 2026-04-28T17:55:42.114334Z*
+*Session 74*

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-73",
-      "text": "Implementing feature 68: Memory backup + restore (encrypted tarball) with scheduled auto-backup",
+      "id": "f2d00bd75f7e-74",
+      "text": "Implementing feature 69: Memory export as JSON + Markdown for user data portability (GDPR-grade)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777398532.697322,
-      "updated_at": 1777398532.6973221,
+      "created_at": 1777398942.1379628,
+      "updated_at": 1777398942.1379628,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 68
+        "feature_id": 69
       },
       "keywords": []
     },
@@ -1114,9 +1114,24 @@
         "feature_id": 68
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-74",
+      "text": "Implementing feature 69: Memory export as JSON + Markdown for user data portability (GDPR-grade)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777398942.1379628,
+      "updated_at": 1777398942.1379628,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 69
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 73,
+  "intent_counter": 74,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777398532.6973274
+  "updated_at": 1777398942.1379657
 }

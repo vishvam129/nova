@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #68
+# Implementation Plan: Feature #69
 
 **Category:** Memory
-**Description:** Memory backup + restore (encrypted tarball) with scheduled auto-backup
+**Description:** Memory export as JSON + Markdown for user data portability (GDPR-grade)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Restore on fresh install reproduces all memory
+**Criteria:** nova memory export produces readable archive
 **Type:** manual
