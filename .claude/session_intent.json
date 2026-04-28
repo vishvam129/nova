@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-76",
-      "text": "Implementing feature 74: Active-device detection via wake-word reception + proximity",
+      "id": "f2d00bd75f7e-77",
+      "text": "Implementing feature 75: Tailscale integration + built-in WireGuard helper for remote access",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777399491.407,
-      "updated_at": 1777399491.4070003,
+      "created_at": 1777399755.7089586,
+      "updated_at": 1777399755.7089586,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 74
+        "feature_id": 75
       },
       "keywords": []
     },
@@ -1159,9 +1159,24 @@
         "feature_id": 74
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-77",
+      "text": "Implementing feature 75: Tailscale integration + built-in WireGuard helper for remote access",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777399755.7089586,
+      "updated_at": 1777399755.7089586,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 75
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 76,
+  "intent_counter": 77,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777399491.4070044
+  "updated_at": 1777399755.7089632
 }

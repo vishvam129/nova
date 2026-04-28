@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #74
+# Implementation Plan: Feature #75
 
 **Category:** Ecosystem
-**Description:** Active-device detection via wake-word reception + proximity
+**Description:** Tailscale integration + built-in WireGuard helper for remote access
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Speaking to phone routes answer to phone
+**Criteria:** Phone on mobile data reaches laptop brain
 **Type:** manual

@@ -37,9 +37,8 @@ class ActiveDevicePicker:
     _window_start: float = field(default=0.0, init=False)
 
     def submit(self, report: WakeReport) -> None:
-        now = report.timestamp or time.monotonic()
         if not self._reports:
-            self._window_start = now
+            self._window_start = report.timestamp
         self._reports.append(report)
 
     def is_window_open(self, now: float | None = None) -> bool:

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #74 [Ecosystem] Active-device detection via wake-word reception + proximity
-   Started: 2026-04-28T18:04:51.323737Z
+**In Progress:** #75 [Ecosystem] Tailscale integration + built-in WireGuard helper for remote access
+   Started: 2026-04-28T18:09:15.623295Z
 
 ## Summary
 
-Progress: ███████████████░░░░░░░░░░░░░░░ 52.1%
+Progress: ███████████████░░░░░░░░░░░░░░░ 52.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 75 | 52.1% |
+| Passed | 76 | 52.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 68 | 47.2% |
+| Pending | 67 | 46.5% |
 
 ## Session Statistics
 
-- **Sessions:** 76
-- **Last Started:** 2026-04-28T18:04:51.323754Z
+- **Sessions:** 77
+- **Last Started:** 2026-04-28T18:09:15.623322Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ███████████████░░░░░░░░�
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
-| Ecosystem | █████░░░░░ 50% | 4 | 0 | 0 |
+| Ecosystem | ██████░░░░ 62% | 5 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #74 | passed | 4m 0s | 16181 | 15731 | 450 | 12 | 0 | yes |
 | #73 | passed | 4m 58s | 16171 | 15672 | 499 | 12 | 0 | yes |
 | #69 | passed | 3m 59s | 16074 | 15612 | 462 | 12 | 0 | yes |
 | #68 | passed | 6m 44s | 16192 | 15556 | 636 | 12 | 0 | yes |
@@ -132,6 +133,7 @@ Progress: ███████████████░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 | 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
 | 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
 | 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
@@ -141,8 +143,7 @@ Progress: ███████████████░░░░░░░░�
 | 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
 | 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
 | 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
-| 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
 
 ---
-*Last updated: 2026-04-28T18:04:51.375694Z*
-*Session 76*
+*Last updated: 2026-04-28T18:09:15.677955Z*
+*Session 77*
