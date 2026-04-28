@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 120,
+  "current_feature_id": 121,
   "session": {
-    "count": 97,
-    "last_started_at": "2026-04-28T19:31:09.094059Z",
+    "count": 98,
+    "last_started_at": "2026-04-28T19:35:46.823698Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 96,
+    "passed": 97,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 47,
-    "completion_percentage": 66.7
+    "pending": 46,
+    "completion_percentage": 67.4
   },
   "categories": [
     {
@@ -129,7 +129,7 @@
     {
       "name": "Packaging",
       "total": 6,
-      "passed": 1,
+      "passed": 2,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -6291,15 +6291,35 @@
       "verification": {
         "type": "manual",
         "criteria": "Sideload install works without Play",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "10 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T19:35:41.466701Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "aab",
+            "android",
+            "apk",
+            "install",
+            "packaging",
+            "play",
+            "play-ready",
+            "sideload",
+            "signed",
+            "without",
+            "works"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 11/11 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T19:31:09.094019Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T19:35:41.489968Z",
+      "commit_hash": "3fd412fb8fea4afa8e945e0cf133635422254648",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -6309,7 +6329,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17397,
+        "removed": 16885,
+        "net": 512,
+        "files_changed": 12
+      }
     },
     {
       "id": 121,
@@ -6323,9 +6349,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T19:35:46.823674Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6985,39 +7011,6 @@
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-25T11:03:32.581565Z",
-      "operation": "feature_passed",
-      "feature_id": 89,
-      "details": {
-        "commit_hash": "355790b",
-        "loc_stats": {
-          "added": 314,
-          "removed": 0,
-          "net": 314,
-          "files_changed": 3
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-25T11:03:35.873090Z",
-      "operation": "feature_started",
-      "feature_id": 3,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 6.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 7.9,
-          "feedback": [
-            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
-          ]
-        },
-        "depth": 1
-      }
-    },
     {
       "timestamp": "2026-04-25T11:22:06.066998Z",
       "operation": "feature_passed",
@@ -8541,6 +8534,37 @@
       "timestamp": "2026-04-28T19:31:09.094078Z",
       "operation": "feature_started",
       "feature_id": 120,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:35:41.490004Z",
+      "operation": "feature_passed",
+      "feature_id": 120,
+      "details": {
+        "commit_hash": "3fd412fb8fea4afa8e945e0cf133635422254648",
+        "loc_stats": {
+          "added": 17397,
+          "removed": 16885,
+          "net": 512,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T19:35:46.823717Z",
+      "operation": "feature_started",
+      "feature_id": 121,
       "details": {
         "from_status": "pending",
         "avib": {

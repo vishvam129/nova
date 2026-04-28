@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #120
+# Implementation Plan: Feature #121
 
 **Category:** Packaging
-**Description:** Packaging: signed Android APK + Play-ready AAB
+**Description:** Packaging: bundle default STT + TTS + wake word models in installer
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Sideload install works without Play
+**Criteria:** Works offline immediately after install
 **Type:** manual

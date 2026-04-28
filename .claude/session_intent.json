@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-97",
-      "text": "Implementing feature 120: Packaging: signed Android APK + Play-ready AAB",
+      "id": "f2d00bd75f7e-98",
+      "text": "Implementing feature 121: Packaging: bundle default STT + TTS + wake word models in installer",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404669.19882,
-      "updated_at": 1777404669.1988204,
+      "created_at": 1777404946.921268,
+      "updated_at": 1777404946.921268,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 120
+        "feature_id": 121
       },
       "keywords": []
     },
@@ -1474,9 +1474,24 @@
         "feature_id": 120
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-98",
+      "text": "Implementing feature 121: Packaging: bundle default STT + TTS + wake word models in installer",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404946.921268,
+      "updated_at": 1777404946.921268,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 121
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 97,
+  "intent_counter": 98,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404669.1988242
+  "updated_at": 1777404946.9212723
 }

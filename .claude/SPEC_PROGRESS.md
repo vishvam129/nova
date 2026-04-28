@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #120 [Packaging] Packaging: signed Android APK + Play-ready AAB
-   Started: 2026-04-28T19:31:09.094019Z
+**In Progress:** #121 [Packaging] Packaging: bundle default STT + TTS + wake word models in installer
+   Started: 2026-04-28T19:35:46.823674Z
 
 ## Summary
 
-Progress: ████████████████████░░░░░░░░░░ 66.7%
+Progress: ████████████████████░░░░░░░░░░ 67.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 96 | 66.7% |
+| Passed | 97 | 67.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 47 | 32.6% |
+| Pending | 46 | 31.9% |
 
 ## Session Statistics
 
-- **Sessions:** 97
-- **Last Started:** 2026-04-28T19:31:09.094059Z
+- **Sessions:** 98
+- **Last Started:** 2026-04-28T19:35:46.823698Z
 
 ## Categories
 
@@ -39,7 +39,7 @@ Progress: ████████████████████░░░�
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
-| Packaging | █░░░░░░░░░ 17% | 1 | 0 | 0 |
+| Packaging | ███░░░░░░░ 33% | 2 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████████░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #120 | passed | 4m 32s | 17397 | 16885 | 512 | 12 | 0 | yes |
 | #119 | passed | 43s | 17324 | 16830 | 494 | 12 | 0 | yes |
 | #116 | passed | 2m 7s | 17277 | 16768 | 509 | 13 | 0 | yes |
 | #109 | passed | 1m 5s | 17280 | 16702 | 578 | 12 | 0 | yes |
@@ -153,6 +154,7 @@ Progress: ████████████████████░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
 | 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
 | 2026-04-28T19:30 | #116 Multi-language support: STT/TTS/LLM auto-detect an | P | b5b2009 |
 | 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
@@ -162,8 +164,7 @@ Progress: ████████████████████░░░�
 | 2026-04-28T19:22 | #105 Cron/trigger engine for scheduled agent tasks ('ev | P | e9683bc |
 | 2026-04-28T19:21 | #101 Meeting listen-along mode: transcribes call audio  | P | 33f54e0 |
 | 2026-04-28T18:39 | #100 Time/locale/language awareness (DST, 24h, unit pre | P | ccfce8e |
-| 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
 
 ---
-*Last updated: 2026-04-28T19:31:09.161833Z*
-*Session 97*
+*Last updated: 2026-04-28T19:35:46.886619Z*
+*Session 98*
