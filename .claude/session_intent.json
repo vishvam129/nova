@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-84",
-      "text": "Implementing feature 91: Android Assistant gesture binding (long-press home) to launch Nova",
+      "id": "f2d00bd75f7e-85",
+      "text": "Implementing feature 94: Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400809.4799263,
-      "updated_at": 1777400809.4799266,
+      "created_at": 1777400854.2610183,
+      "updated_at": 1777400854.2610183,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 91
+        "feature_id": 94
       },
       "keywords": []
     },
@@ -1279,9 +1279,24 @@
         "feature_id": 91
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-85",
+      "text": "Implementing feature 94: Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400854.2610183,
+      "updated_at": 1777400854.2610183,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 94
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 84,
+  "intent_counter": 85,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400809.4799297
+  "updated_at": 1777400854.261022
 }

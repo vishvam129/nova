@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #91
+# Implementation Plan: Feature #94
 
 **Category:** Mobile
-**Description:** Android Assistant gesture binding (long-press home) to launch Nova
+**Description:** Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Long-press home launches Nova
+**Criteria:** Works in airplane mode after first download
 **Type:** manual

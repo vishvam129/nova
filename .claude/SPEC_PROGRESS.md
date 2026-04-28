@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #91 [Mobile] Android Assistant gesture binding (long-press home) to launch Nova
-   Started: 2026-04-28T18:26:49.416799Z
+**In Progress:** #94 [Mobile] Android on-device STT/TTS using Whisper-tiny + Piper ARM build for offline mode
+   Started: 2026-04-28T18:27:34.176339Z
 
 ## Summary
 
-Progress: █████████████████░░░░░░░░░░░░░ 57.6%
+Progress: █████████████████░░░░░░░░░░░░░ 58.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 83 | 57.6% |
+| Passed | 84 | 58.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 60 | 41.7% |
+| Pending | 59 | 41.0% |
 
 ## Session Statistics
 
-- **Sessions:** 84
-- **Last Started:** 2026-04-28T18:26:49.416814Z
+- **Sessions:** 85
+- **Last Started:** 2026-04-28T18:27:34.176358Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: █████████████████░░░░░░�
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
-| Mobile | ████░░░░░░ 45% | 5 | 0 | 0 |
+| Mobile | █████░░░░░ 55% | 6 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #91 | passed | 37s | 16627 | 16162 | 465 | 12 | 0 | yes |
 | #90 | passed | 4m 8s | 16654 | 16106 | 548 | 12 | 0 | yes |
 | #88 | passed | 58s | 16536 | 16051 | 485 | 12 | 0 | yes |
 | #83 | passed | 59s | 16501 | 15998 | 503 | 12 | 0 | yes |
@@ -140,6 +141,7 @@ Progress: █████████████████░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
 | 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
 | 2026-04-28T18:22 | #88 Android 17 Advanced Protection fallback: Shizuku/A | P | c67d1ec |
 | 2026-04-28T18:20 | #83 Text chat UI for when voice is inconvenient (share | P | d9b5094 |
@@ -149,8 +151,7 @@ Progress: █████████████████░░░░░░�
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 | 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
-| 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
 
 ---
-*Last updated: 2026-04-28T18:26:49.457495Z*
-*Session 84*
+*Last updated: 2026-04-28T18:27:34.227860Z*
+*Session 85*
