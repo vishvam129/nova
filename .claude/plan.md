@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #62
+# Implementation Plan: Feature #63
 
 **Category:** Memory
-**Description:** Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)
+**Description:** Automatic fact extraction from dialogue with confidence scoring and user-correctable
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'who is my sister' resolves via KG
+**Criteria:** 'I live in Delhi' creates fact; 'forget that' removes it
 **Type:** manual

@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 62,
+  "current_feature_id": 63,
   "session": {
-    "count": 69,
-    "last_started_at": "2026-04-28T17:36:29.502557Z",
+    "count": 70,
+    "last_started_at": "2026-04-28T17:37:28.514063Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 68,
+    "passed": 69,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 75,
-    "completion_percentage": 47.2
+    "pending": 74,
+    "completion_percentage": 47.9
   },
   "categories": [
     {
@@ -73,7 +73,7 @@
     {
       "name": "Memory",
       "total": 11,
-      "passed": 4,
+      "passed": 5,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -3623,15 +3623,37 @@
       "verification": {
         "type": "manual",
         "criteria": "'who is my sister' resolves via KG",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "10 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T17:37:11.076192Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "dialogue",
+            "entities",
+            "extracted",
+            "graph",
+            "knowledge",
+            "kuzu",
+            "layer",
+            "memory",
+            "relations",
+            "resolves",
+            "sister",
+            "storing",
+            "who"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T17:36:29.502537Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T17:37:11.103759Z",
+      "commit_hash": "ccb24771cda8f8110de5b1face587a3feaba8bb1",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -3641,7 +3663,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 15846,
+        "removed": 15331,
+        "net": 515,
+        "files_changed": 12
+      }
     },
     {
       "id": 63,
@@ -3655,9 +3683,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T17:37:28.514024Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6212,37 +6240,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T19:26:24.455826Z",
-      "operation": "feature_passed",
-      "feature_id": 28,
-      "details": {
-        "commit_hash": "896189627548fc4a3357cec43f725c2179df5ab6",
-        "loc_stats": {
-          "added": 10963,
-          "removed": 9989,
-          "net": 974,
-          "files_changed": 14
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T19:26:24.730641Z",
-      "operation": "feature_started",
-      "feature_id": 29,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.5,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.5,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T19:27:34.383062Z",
       "operation": "feature_passed",
       "feature_id": 29,
@@ -7767,6 +7764,39 @@
       "timestamp": "2026-04-28T17:36:29.502574Z",
       "operation": "feature_started",
       "feature_id": 62,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 6.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 7.9,
+          "feedback": [
+            "Compound feature: 1 conjunction(s) detected ('and') - split into separate features"
+          ]
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:37:11.103799Z",
+      "operation": "feature_passed",
+      "feature_id": 62,
+      "details": {
+        "commit_hash": "ccb24771cda8f8110de5b1face587a3feaba8bb1",
+        "loc_stats": {
+          "added": 15846,
+          "removed": 15331,
+          "net": 515,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T17:37:28.514082Z",
+      "operation": "feature_started",
+      "feature_id": 63,
       "details": {
         "from_status": "pending",
         "avib": {

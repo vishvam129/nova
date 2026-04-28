@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-69",
-      "text": "Implementing feature 62: Knowledge graph layer storing entities and relations extracted from dialogue (Kuzu)",
+      "id": "f2d00bd75f7e-70",
+      "text": "Implementing feature 63: Automatic fact extraction from dialogue with confidence scoring and user-correctable",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397789.5892062,
-      "updated_at": 1777397789.5892065,
+      "created_at": 1777397848.5812318,
+      "updated_at": 1777397848.581232,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 62
+        "feature_id": 63
       },
       "keywords": []
     },
@@ -1054,9 +1054,24 @@
         "feature_id": 62
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-70",
+      "text": "Implementing feature 63: Automatic fact extraction from dialogue with confidence scoring and user-correctable",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397848.5812318,
+      "updated_at": 1777397848.581232,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 63
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 69,
+  "intent_counter": 70,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397789.5892105
+  "updated_at": 1777397848.5812354
 }
