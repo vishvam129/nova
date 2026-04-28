@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #39 [Tools] Tool sandbox: run_shell in optional bubblewrap/firejail jail on Linux
-   Started: 2026-04-28T17:24:03.043775Z
+**In Progress:** #44 [Tools] File watcher: auto-ingest changes from watched dirs into memory index
+   Started: 2026-04-28T17:24:54.149269Z
 
 ## Summary
 
-Progress: ████████████░░░░░░░░░░░░░░░░░░ 40.3%
+Progress: ████████████░░░░░░░░░░░░░░░░░░ 41.0%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 58 | 40.3% |
+| Passed | 59 | 41.0% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 85 | 59.0% |
+| Pending | 84 | 58.3% |
 
 ## Session Statistics
 
-- **Sessions:** 59
-- **Last Started:** 2026-04-28T17:24:03.043793Z
+- **Sessions:** 60
+- **Last Started:** 2026-04-28T17:24:54.149289Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ████████████░░░░░░░░░░░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | █████░░░░░ 59% | 10 | 0 | 0 |
+| Tools | ██████░░░░ 65% | 11 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #39 | passed | 46s | 15290 | 14750 | 540 | 12 | 0 | yes |
 | #38 | passed | 37s | 15168 | 14689 | 479 | 12 | 0 | yes |
 | #32 | passed | 1m 12s | 15080 | 14634 | 446 | 12 | 0 | yes |
 | #30 | passed | 1m 4s | 15065 | 14562 | 503 | 14 | 0 | yes |
@@ -115,6 +116,7 @@ Progress: ████████████░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:24 | #39 Tool sandbox: run_shell in optional bubblewrap/fir | P | 3a80317 |
 | 2026-04-28T17:23 | #38 Rate limiting on tool calls (per-tool per-minute)  | P | ccc099c |
 | 2026-04-28T17:23 | #32 Streaming response with token-level cancellation o | P | 3f566f2 |
 | 2026-04-28T17:21 | #30 Meta-router that picks ReAct vs Plan-and-Execute v | P | 5c62c44 |
@@ -124,8 +126,7 @@ Progress: ████████████░░░░░░░░░░░�
 | 2026-04-25T12:57 | #12 Model-based turn detection (LiveKit turn-detector) | P | 074171a |
 | 2026-04-25T12:55 | #9 Wake word sensitivity tuning + false-trigger loggi | P | 259c646 |
 | 2026-04-25T12:54 | #8 Custom-trained 'hey nova' wake word model using Pi | P | 460b2ce |
-| 2026-04-25T11:52 | #5 Plugin discovery system (entry_points) so tools/MC | P | 48eb0e6 |
 
 ---
-*Last updated: 2026-04-28T17:24:03.081864Z*
-*Session 59*
+*Last updated: 2026-04-28T17:24:54.199701Z*
+*Session 60*

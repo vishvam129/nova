@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #39
+# Implementation Plan: Feature #44
 
 **Category:** Tools
-**Description:** Tool sandbox: run_shell in optional bubblewrap/firejail jail on Linux
+**Description:** File watcher: auto-ingest changes from watched dirs into memory index
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Shell tool cannot access files outside allowed dirs
+**Criteria:** New file appears searchable within 30s
 **Type:** manual
