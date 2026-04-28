@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #79 [UI] Floating overlay HUD showing live transcript, agent thoughts, tool calls
-   Started: 2026-04-28T18:12:12.346193Z
+**In Progress:** #81 [UI] Global hotkey for push-to-talk (configurable, default Ctrl+Space)
+   Started: 2026-04-28T18:16:43.136581Z
 
 ## Summary
 
-Progress: ████████████████░░░░░░░░░░░░░░ 53.5%
+Progress: ████████████████░░░░░░░░░░░░░░ 54.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 77 | 53.5% |
+| Passed | 78 | 54.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 66 | 45.8% |
+| Pending | 65 | 45.1% |
 
 ## Session Statistics
 
-- **Sessions:** 78
-- **Last Started:** 2026-04-28T18:12:12.346227Z
+- **Sessions:** 79
+- **Last Started:** 2026-04-28T18:16:43.136599Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ████████████████░░░░░░░�
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
-| UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
+| UI | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #79 | passed | 4m 20s | 16340 | 15843 | 497 | 12 | 0 | yes |
 | #75 | passed | 2m 51s | 16372 | 15788 | 584 | 13 | 0 | yes |
 | #74 | passed | 4m 0s | 16181 | 15731 | 450 | 12 | 0 | yes |
 | #73 | passed | 4m 58s | 16171 | 15672 | 499 | 12 | 0 | yes |
@@ -134,6 +135,7 @@ Progress: ████████████████░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
 | 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 | 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
@@ -143,8 +145,7 @@ Progress: ████████████████░░░░░░░�
 | 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
 | 2026-04-28T17:38 | #63 Automatic fact extraction from dialogue with confi | P | 8729456 |
 | 2026-04-28T17:37 | #62 Knowledge graph layer storing entities and relatio | P | ccb2477 |
-| 2026-04-28T17:36 | #61 Episodic memory: time-indexed event log for 'what  | P | 88da53f |
 
 ---
-*Last updated: 2026-04-28T18:12:12.413112Z*
-*Session 78*
+*Last updated: 2026-04-28T18:16:43.188616Z*
+*Session 79*

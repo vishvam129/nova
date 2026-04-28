@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #79
+# Implementation Plan: Feature #81
 
 **Category:** UI
-**Description:** Floating overlay HUD showing live transcript, agent thoughts, tool calls
+**Description:** Global hotkey for push-to-talk (configurable, default Ctrl+Space)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** HUD streams during active query
+**Criteria:** Hotkey activates mic without wake word
 **Type:** manual
