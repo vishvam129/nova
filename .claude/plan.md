@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #100
+# Implementation Plan: Feature #101
 
 **Category:** Context
-**Description:** Time/locale/language awareness (DST, 24h, unit prefs) in system prompt
+**Description:** Meeting listen-along mode: transcribes call audio and extracts action items
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Answers in user's time format and units
+**Criteria:** After meeting, agent produces summary and TODOs
 **Type:** manual

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-88",
-      "text": "Implementing feature 100: Time/locale/language awareness (DST, 24h, unit prefs) in system prompt",
+      "id": "f2d00bd75f7e-89",
+      "text": "Implementing feature 101: Meeting listen-along mode: transcribes call audio and extracts action items",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777401402.7934322,
-      "updated_at": 1777401402.7934325,
+      "created_at": 1777401594.7267225,
+      "updated_at": 1777401594.7267227,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 100
+        "feature_id": 101
       },
       "keywords": []
     },
@@ -1339,9 +1339,24 @@
         "feature_id": 100
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-89",
+      "text": "Implementing feature 101: Meeting listen-along mode: transcribes call audio and extracts action items",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777401594.7267225,
+      "updated_at": 1777401594.7267227,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 101
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 88,
+  "intent_counter": 89,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777401402.7934382
+  "updated_at": 1777401594.726727
 }
