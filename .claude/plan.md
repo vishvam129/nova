@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #30
+# Implementation Plan: Feature #32
 
 **Category:** Brain
-**Description:** Meta-router that picks ReAct vs Plan-and-Execute vs direct answer per request
+**Description:** Streaming response with token-level cancellation on barge-in
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Simple Q routes direct; multi-step routes Plan
+**Criteria:** Cancelling mid-response stops LLM generation
 **Type:** manual
