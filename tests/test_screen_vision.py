@@ -46,10 +46,13 @@ def test_stream_yields_per_frame(tmp_path: Path) -> None:
     fake = _FakeClient()
     sv = ScreenVision(client=fake, interval_s=0.0)
     fake_png = tmp_path / "f.png"
-    fake_png.write_bytes(b"\x89PNG")
+
+    def fake_capture(out: Path, region: object = None) -> Path:
+        out.write_bytes(b"\x89PNG")
+        return out
 
     with (
-        patch("nova.tools.builtin.screen_vision.capture", return_value=fake_png),
+        patch("nova.tools.builtin.screen_vision.capture", side_effect=fake_capture),
         patch("nova.tools.builtin.screen_vision._temp_png", return_value=fake_png),
     ):
         answers = list(sv.stream("describe", frames=3))
@@ -61,10 +64,13 @@ def test_temp_path_cleaned_when_implicit(tmp_path: Path) -> None:
     fake = _FakeClient()
     sv = ScreenVision(client=fake)
     fake_png = tmp_path / "f.png"
-    fake_png.write_bytes(b"\x89PNG")
+
+    def fake_capture(out: Path, region: object = None) -> Path:
+        out.write_bytes(b"\x89PNG")
+        return out
 
     with (
-        patch("nova.tools.builtin.screen_vision.capture", return_value=fake_png),
+        patch("nova.tools.builtin.screen_vision.capture", side_effect=fake_capture),
         patch("nova.tools.builtin.screen_vision._temp_png", return_value=fake_png),
     ):
         sv.ask_about_screen("q")
