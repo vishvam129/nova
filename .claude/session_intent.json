@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-67",
-      "text": "Implementing feature 58: Network egress allowlist; block non-allowlisted domains",
+      "id": "f2d00bd75f7e-68",
+      "text": "Implementing feature 61: Episodic memory: time-indexed event log for 'what did I do yesterday' queries",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397696.836052,
-      "updated_at": 1777397696.8360522,
+      "created_at": 1777397745.2224233,
+      "updated_at": 1777397745.2224233,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 58
+        "feature_id": 61
       },
       "keywords": []
     },
@@ -1024,9 +1024,24 @@
         "feature_id": 58
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-68",
+      "text": "Implementing feature 61: Episodic memory: time-indexed event log for 'what did I do yesterday' queries",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397745.2224233,
+      "updated_at": 1777397745.2224233,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 61
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 67,
+  "intent_counter": 68,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397696.836056
+  "updated_at": 1777397745.2224283
 }

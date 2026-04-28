@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #58
+# Implementation Plan: Feature #61
 
-**Category:** Safety
-**Description:** Network egress allowlist; block non-allowlisted domains
+**Category:** Memory
+**Description:** Episodic memory: time-indexed event log for 'what did I do yesterday' queries
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Fetch to non-allowlisted domain blocked
+**Criteria:** Query for past date returns ordered event list
 **Type:** manual
