@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #83
+# Implementation Plan: Feature #88
 
-**Category:** UI
-**Description:** Text chat UI for when voice is inconvenient (shared history with voice)
+**Category:** Mobile
+**Description:** Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Text query produces streaming response
+**Criteria:** Shizuku path works when accessibility denied
 **Type:** manual

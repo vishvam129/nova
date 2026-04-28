@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 83,
+  "current_feature_id": 88,
   "session": {
-    "count": 81,
-    "last_started_at": "2026-04-28T18:19:59.762010Z",
+    "count": 82,
+    "last_started_at": "2026-04-28T18:21:27.873270Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 80,
+    "passed": 81,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 63,
-    "completion_percentage": 55.6
+    "pending": 62,
+    "completion_percentage": 56.2
   },
   "categories": [
     {
@@ -89,7 +89,7 @@
     {
       "name": "UI",
       "total": 8,
-      "passed": 5,
+      "passed": 6,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -4720,15 +4720,34 @@
       "verification": {
         "type": "manual",
         "criteria": "Text query produces streaming response",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "9 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-04-28T18:20:59.351995Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "chat",
+            "history",
+            "inconvenient",
+            "produces",
+            "query",
+            "response",
+            "shared",
+            "streaming",
+            "text",
+            "voice"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 10/10 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-04-28T18:19:59.761992Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-04-28T18:20:59.382654Z",
+      "commit_hash": "d9b50946e27546ea085d63a7e804e85a4a437fcd",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -4738,7 +4757,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 16501,
+        "removed": 15998,
+        "net": 503,
+        "files_changed": 12
+      }
     },
     {
       "id": 84,
@@ -4925,9 +4950,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-04-28T18:21:27.873251Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -6540,37 +6565,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-22T19:41:01.500721Z",
-      "operation": "feature_passed",
-      "feature_id": 49,
-      "details": {
-        "commit_hash": "bc1b69eecbcff62ef96b6d1d048bf1d32a5e90d8",
-        "loc_stats": {
-          "added": 12445,
-          "removed": 11480,
-          "net": 965,
-          "files_changed": 15
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-22T19:41:01.791024Z",
-      "operation": "feature_started",
-      "feature_id": 51,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.5,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.5,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-22T19:42:12.563176Z",
       "operation": "feature_passed",
       "feature_id": 51,
@@ -8097,6 +8091,37 @@
       "timestamp": "2026-04-28T18:19:59.762033Z",
       "operation": "feature_started",
       "feature_id": 83,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 8.0,
+          "bounded": 8.5,
+          "average": 8.1,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-04-28T18:20:59.382706Z",
+      "operation": "feature_passed",
+      "feature_id": 83,
+      "details": {
+        "commit_hash": "d9b50946e27546ea085d63a7e804e85a4a437fcd",
+        "loc_stats": {
+          "added": 16501,
+          "removed": 15998,
+          "net": 503,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-28T18:21:27.873289Z",
+      "operation": "feature_started",
+      "feature_id": 88,
       "details": {
         "from_status": "pending",
         "avib": {

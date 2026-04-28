@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-81",
-      "text": "Implementing feature 83: Text chat UI for when voice is inconvenient (shared history with voice)",
+      "id": "f2d00bd75f7e-82",
+      "text": "Implementing feature 88: Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400399.841577,
-      "updated_at": 1777400399.841577,
+      "created_at": 1777400487.9583626,
+      "updated_at": 1777400487.9583628,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 83
+        "feature_id": 88
       },
       "keywords": []
     },
@@ -1234,9 +1234,24 @@
         "feature_id": 83
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-82",
+      "text": "Implementing feature 88: Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400487.9583626,
+      "updated_at": 1777400487.9583628,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 88
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 81,
+  "intent_counter": 82,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400399.841581
+  "updated_at": 1777400487.9583676
 }

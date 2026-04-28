@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #83 [UI] Text chat UI for when voice is inconvenient (shared history with voice)
-   Started: 2026-04-28T18:19:59.761992Z
+**In Progress:** #88 [Mobile] Android 17 Advanced Protection fallback: Shizuku/ADB path when AccessibilityService blocked
+   Started: 2026-04-28T18:21:27.873251Z
 
 ## Summary
 
-Progress: ████████████████░░░░░░░░░░░░░░ 55.6%
+Progress: ████████████████░░░░░░░░░░░░░░ 56.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 80 | 55.6% |
+| Passed | 81 | 56.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 63 | 43.8% |
+| Pending | 62 | 43.1% |
 
 ## Session Statistics
 
-- **Sessions:** 81
-- **Last Started:** 2026-04-28T18:19:59.762010Z
+- **Sessions:** 82
+- **Last Started:** 2026-04-28T18:21:27.873270Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ████████████████░░░░░░░�
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
-| UI | ██████░░░░ 62% | 5 | 0 | 0 |
+| UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #83 | passed | 59s | 16501 | 15998 | 503 | 12 | 0 | yes |
 | #82 | passed | 50s | 16464 | 15944 | 520 | 12 | 0 | yes |
 | #81 | passed | 2m 15s | 16365 | 15896 | 469 | 12 | 0 | yes |
 | #79 | passed | 4m 20s | 16340 | 15843 | 497 | 12 | 0 | yes |
@@ -137,6 +138,7 @@ Progress: ████████████████░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:20 | #83 Text chat UI for when voice is inconvenient (share | P | d9b5094 |
 | 2026-04-28T18:19 | #82 Dictation mode: hold hotkey, release pastes transc | P | 2d21f07 |
 | 2026-04-28T18:18 | #81 Global hotkey for push-to-talk (configurable, defa | P | 4938f2d |
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
@@ -146,8 +148,7 @@ Progress: ████████████████░░░░░░░�
 | 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
 | 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
-| 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
 
 ---
-*Last updated: 2026-04-28T18:19:59.811875Z*
-*Session 81*
+*Last updated: 2026-04-28T18:21:27.926586Z*
+*Session 82*
