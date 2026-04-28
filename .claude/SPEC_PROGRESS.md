@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #38 [Tools] Rate limiting on tool calls (per-tool per-minute) to prevent runaway agents
-   Started: 2026-04-28T17:23:20.430014Z
+**In Progress:** #39 [Tools] Tool sandbox: run_shell in optional bubblewrap/firejail jail on Linux
+   Started: 2026-04-28T17:24:03.043775Z
 
 ## Summary
 
-Progress: ███████████░░░░░░░░░░░░░░░░░░░ 39.6%
+Progress: ████████████░░░░░░░░░░░░░░░░░░ 40.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 57 | 39.6% |
+| Passed | 58 | 40.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 86 | 59.7% |
+| Pending | 85 | 59.0% |
 
 ## Session Statistics
 
-- **Sessions:** 58
-- **Last Started:** 2026-04-28T17:23:20.430029Z
+- **Sessions:** 59
+- **Last Started:** 2026-04-28T17:24:03.043793Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ███████████░░░░░░░░░░░░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | █████████░ 94% | 15 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | █████░░░░░ 53% | 9 | 0 | 0 |
+| Tools | █████░░░░░ 59% | 10 | 0 | 0 |
 | Safety | ██████░░░░ 62% | 5 | 0 | 0 |
 | Memory | ██░░░░░░░░ 27% | 3 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████░░░░░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #38 | passed | 37s | 15168 | 14689 | 479 | 12 | 0 | yes |
 | #32 | passed | 1m 12s | 15080 | 14634 | 446 | 12 | 0 | yes |
 | #30 | passed | 1m 4s | 15065 | 14562 | 503 | 14 | 0 | yes |
 | #27 | passed | 1m 25s | 15012 | 14442 | 570 | 12 | 0 | yes |
@@ -114,6 +115,7 @@ Progress: ███████████░░░░░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:23 | #38 Rate limiting on tool calls (per-tool per-minute)  | P | ccc099c |
 | 2026-04-28T17:23 | #32 Streaming response with token-level cancellation o | P | 3f566f2 |
 | 2026-04-28T17:21 | #30 Meta-router that picks ReAct vs Plan-and-Execute v | P | 5c62c44 |
 | 2026-04-28T17:20 | #27 Cost/token tracker with daily cap; blocks cloud +  | P | 7a0bafe |
@@ -123,8 +125,7 @@ Progress: ███████████░░░░░░░░░░░░�
 | 2026-04-25T12:55 | #9 Wake word sensitivity tuning + false-trigger loggi | P | 259c646 |
 | 2026-04-25T12:54 | #8 Custom-trained 'hey nova' wake word model using Pi | P | 460b2ce |
 | 2026-04-25T11:52 | #5 Plugin discovery system (entry_points) so tools/MC | P | 48eb0e6 |
-| 2026-04-25T11:22 | #3 Structured logging via structlog with rotating fil | P | 0e19abf |
 
 ---
-*Last updated: 2026-04-28T17:23:20.469324Z*
-*Session 58*
+*Last updated: 2026-04-28T17:24:03.081864Z*
+*Session 59*

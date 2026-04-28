@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #38
+# Implementation Plan: Feature #39
 
 **Category:** Tools
-**Description:** Rate limiting on tool calls (per-tool per-minute) to prevent runaway agents
+**Description:** Tool sandbox: run_shell in optional bubblewrap/firejail jail on Linux
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Exceeding limit returns error and pauses agent
+**Criteria:** Shell tool cannot access files outside allowed dirs
 **Type:** manual
