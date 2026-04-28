@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #121
+# Implementation Plan: Feature #123
 
 **Category:** Packaging
-**Description:** Packaging: bundle default STT + TTS + wake word models in installer
+**Description:** GPU/NPU detection: select best model+quantization for hardware at first run
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Works offline immediately after install
+**Criteria:** 8GB RAM uses 4B model; 16GB+ uses 14B
 **Type:** manual

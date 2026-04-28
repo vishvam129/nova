@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-98",
-      "text": "Implementing feature 121: Packaging: bundle default STT + TTS + wake word models in installer",
+      "id": "f2d00bd75f7e-99",
+      "text": "Implementing feature 123: GPU/NPU detection: select best model+quantization for hardware at first run",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404946.921268,
-      "updated_at": 1777404946.921268,
+      "created_at": 1777405021.3664098,
+      "updated_at": 1777405021.36641,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 121
+        "feature_id": 123
       },
       "keywords": []
     },
@@ -1489,9 +1489,24 @@
         "feature_id": 121
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-99",
+      "text": "Implementing feature 123: GPU/NPU detection: select best model+quantization for hardware at first run",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777405021.3664098,
+      "updated_at": 1777405021.36641,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 123
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 98,
+  "intent_counter": 99,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404946.9212723
+  "updated_at": 1777405021.3664129
 }
