@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #90
+# Implementation Plan: Feature #91
 
 **Category:** Mobile
-**Description:** Android notification listener feeds relevant notifications into brain context
+**Description:** Android Assistant gesture binding (long-press home) to launch Nova
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Incoming message summarizable on request
+**Criteria:** Long-press home launches Nova
 **Type:** manual

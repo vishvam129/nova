@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #90 [Mobile] Android notification listener feeds relevant notifications into brain context
-   Started: 2026-04-28T18:22:31.849090Z
+**In Progress:** #91 [Mobile] Android Assistant gesture binding (long-press home) to launch Nova
+   Started: 2026-04-28T18:26:49.416799Z
 
 ## Summary
 
-Progress: █████████████████░░░░░░░░░░░░░ 56.9%
+Progress: █████████████████░░░░░░░░░░░░░ 57.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 82 | 56.9% |
+| Passed | 83 | 57.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 61 | 42.4% |
+| Pending | 60 | 41.7% |
 
 ## Session Statistics
 
-- **Sessions:** 83
-- **Last Started:** 2026-04-28T18:22:31.849106Z
+- **Sessions:** 84
+- **Last Started:** 2026-04-28T18:26:49.416814Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: █████████████████░░░░░░�
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
-| Mobile | ███░░░░░░░ 36% | 4 | 0 | 0 |
+| Mobile | ████░░░░░░ 45% | 5 | 0 | 0 |
 | Context | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #90 | passed | 4m 8s | 16654 | 16106 | 548 | 12 | 0 | yes |
 | #88 | passed | 58s | 16536 | 16051 | 485 | 12 | 0 | yes |
 | #83 | passed | 59s | 16501 | 15998 | 503 | 12 | 0 | yes |
 | #82 | passed | 50s | 16464 | 15944 | 520 | 12 | 0 | yes |
@@ -139,6 +140,7 @@ Progress: █████████████████░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
 | 2026-04-28T18:22 | #88 Android 17 Advanced Protection fallback: Shizuku/A | P | c67d1ec |
 | 2026-04-28T18:20 | #83 Text chat UI for when voice is inconvenient (share | P | d9b5094 |
 | 2026-04-28T18:19 | #82 Dictation mode: hold hotkey, release pastes transc | P | 2d21f07 |
@@ -148,8 +150,7 @@ Progress: █████████████████░░░░░░�
 | 2026-04-28T18:08 | #74 Active-device detection via wake-word reception +  | P | da73470 |
 | 2026-04-28T18:04 | #73 Device handoff: 'continue on laptop' command moves | P | 00c1aeb |
 | 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
-| 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 
 ---
-*Last updated: 2026-04-28T18:22:31.893523Z*
-*Session 83*
+*Last updated: 2026-04-28T18:26:49.457495Z*
+*Session 84*

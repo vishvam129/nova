@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-83",
-      "text": "Implementing feature 90: Android notification listener feeds relevant notifications into brain context",
+      "id": "f2d00bd75f7e-84",
+      "text": "Implementing feature 91: Android Assistant gesture binding (long-press home) to launch Nova",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777400551.9168406,
-      "updated_at": 1777400551.9168406,
+      "created_at": 1777400809.4799263,
+      "updated_at": 1777400809.4799266,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 90
+        "feature_id": 91
       },
       "keywords": []
     },
@@ -1264,9 +1264,24 @@
         "feature_id": 90
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-84",
+      "text": "Implementing feature 91: Android Assistant gesture binding (long-press home) to launch Nova",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777400809.4799263,
+      "updated_at": 1777400809.4799266,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 91
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 83,
+  "intent_counter": 84,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777400551.9168432
+  "updated_at": 1777400809.4799297
 }
