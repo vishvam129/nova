@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #105
+# Implementation Plan: Feature #106
 
-**Category:** Context
-**Description:** Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')
+**Category:** Integrations
+**Description:** Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Outlook Graph)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Task fires on schedule
+**Criteria:** Read/send against Gmail
 **Type:** manual

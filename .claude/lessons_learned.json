@@ -104,6 +104,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1777396890.4443145
+    },
+    {
+      "feature_id": 106,
+      "error": "1 file reformatted\nERROR tests/test_email_integration.py - TypeError: non-default argument 'send...\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n=============================== 1 error in 0.24s ===============================",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777404229.7279618
     }
   ]
 }

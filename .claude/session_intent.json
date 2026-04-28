@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-90",
-      "text": "Implementing feature 105: Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')",
+      "id": "f2d00bd75f7e-91",
+      "text": "Implementing feature 106: Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Outlook Graph)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777404114.1535623,
-      "updated_at": 1777404114.1535625,
+      "created_at": 1777404169.4216263,
+      "updated_at": 1777404169.4216263,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 105
+        "feature_id": 106
       },
       "keywords": []
     },
@@ -1369,9 +1369,24 @@
         "feature_id": 105
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-91",
+      "text": "Implementing feature 106: Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Outlook Graph)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777404169.4216263,
+      "updated_at": 1777404169.4216263,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 106
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 90,
+  "intent_counter": 91,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777404114.1535664
+  "updated_at": 1777404169.4216304
 }

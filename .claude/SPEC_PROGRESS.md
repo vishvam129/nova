@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #105 [Context] Cron/trigger engine for scheduled agent tasks ('every weekday 8am brief me')
-   Started: 2026-04-28T19:21:54.065387Z
+**In Progress:** #106 [Integrations] Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Outlook Graph)
+   Started: 2026-04-28T19:22:49.344852Z
 
 ## Summary
 
-Progress: ██████████████████░░░░░░░░░░░░ 61.8%
+Progress: ██████████████████░░░░░░░░░░░░ 62.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 89 | 61.8% |
+| Passed | 90 | 62.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 54 | 37.5% |
+| Pending | 53 | 36.8% |
 
 ## Session Statistics
 
-- **Sessions:** 90
-- **Last Started:** 2026-04-28T19:21:54.065408Z
+- **Sessions:** 91
+- **Last Started:** 2026-04-28T19:22:49.344872Z
 
 ## Categories
 
@@ -36,7 +36,7 @@ Progress: ██████████████████░░░░░�
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
-| Context | ████░░░░░░ 44% | 4 | 0 | 0 |
+| Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████████████░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #105 | passed | 49s | 17040 | 16482 | 558 | 12 | 0 | yes |
 | #101 | passed | 41m 52s | 16967 | 16429 | 538 | 12 | 0 | yes |
 | #100 | passed | 3m 6s | 16847 | 16379 | 468 | 12 | 0 | yes |
 | #98 | passed | 4m 47s | 16905 | 16324 | 581 | 12 | 0 | yes |
@@ -146,6 +147,7 @@ Progress: ██████████████████░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:22 | #105 Cron/trigger engine for scheduled agent tasks ('ev | P | e9683bc |
 | 2026-04-28T19:21 | #101 Meeting listen-along mode: transcribes call audio  | P | 33f54e0 |
 | 2026-04-28T18:39 | #100 Time/locale/language awareness (DST, 24h, unit pre | P | ccfce8e |
 | 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
@@ -155,8 +157,7 @@ Progress: ██████████████████░░░░░�
 | 2026-04-28T18:26 | #90 Android notification listener feeds relevant notif | P | dbb9db4 |
 | 2026-04-28T18:22 | #88 Android 17 Advanced Protection fallback: Shizuku/A | P | c67d1ec |
 | 2026-04-28T18:20 | #83 Text chat UI for when voice is inconvenient (share | P | d9b5094 |
-| 2026-04-28T18:19 | #82 Dictation mode: hold hotkey, release pastes transc | P | 2d21f07 |
 
 ---
-*Last updated: 2026-04-28T19:21:54.121167Z*
-*Session 90*
+*Last updated: 2026-04-28T19:22:49.393664Z*
+*Session 91*
