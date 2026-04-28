@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #119
+# Implementation Plan: Feature #120
 
 **Category:** Packaging
-**Description:** Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows
+**Description:** Packaging: signed Android APK + Play-ready AAB
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Single binary runs on fresh machine
+**Criteria:** Sideload install works without Play
 **Type:** manual

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #119 [Packaging] Packaging: PyInstaller/Nuitka one-file binaries for Linux/macOS/Windows
-   Started: 2026-04-28T19:30:19.327941Z
+**In Progress:** #120 [Packaging] Packaging: signed Android APK + Play-ready AAB
+   Started: 2026-04-28T19:31:09.094019Z
 
 ## Summary
 
-Progress: ███████████████████░░░░░░░░░░░ 66.0%
+Progress: ████████████████████░░░░░░░░░░ 66.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 95 | 66.0% |
+| Passed | 96 | 66.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 48 | 33.3% |
+| Pending | 47 | 32.6% |
 
 ## Session Statistics
 
-- **Sessions:** 96
-- **Last Started:** 2026-04-28T19:30:19.327957Z
+- **Sessions:** 97
+- **Last Started:** 2026-04-28T19:31:09.094059Z
 
 ## Categories
 
@@ -39,7 +39,7 @@ Progress: ███████████████████░░░░�
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
-| Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Packaging | █░░░░░░░░░ 17% | 1 | 0 | 0 |
 | Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #119 | passed | 43s | 17324 | 16830 | 494 | 12 | 0 | yes |
 | #116 | passed | 2m 7s | 17277 | 16768 | 509 | 13 | 0 | yes |
 | #109 | passed | 1m 5s | 17280 | 16702 | 578 | 12 | 0 | yes |
 | #108 | passed | 49s | 17256 | 16650 | 606 | 12 | 0 | yes |
@@ -152,6 +153,7 @@ Progress: ███████████████████░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
 | 2026-04-28T19:30 | #116 Multi-language support: STT/TTS/LLM auto-detect an | P | b5b2009 |
 | 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
 | 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
@@ -161,8 +163,7 @@ Progress: ███████████████████░░░░�
 | 2026-04-28T19:21 | #101 Meeting listen-along mode: transcribes call audio  | P | 33f54e0 |
 | 2026-04-28T18:39 | #100 Time/locale/language awareness (DST, 24h, unit pre | P | ccfce8e |
 | 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
-| 2026-04-28T18:31 | #97 Active-window tracker (AT-SPI/NSAccessibility/UIA) | P | 43b70df |
 
 ---
-*Last updated: 2026-04-28T19:30:19.368407Z*
-*Session 96*
+*Last updated: 2026-04-28T19:31:09.161833Z*
+*Session 97*
