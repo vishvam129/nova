@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #98 [Context] Calendar integration reads today's events and upcoming meetings into context
-   Started: 2026-04-28T18:31:50.253954Z
+**In Progress:** #100 [Context] Time/locale/language awareness (DST, 24h, unit prefs) in system prompt
+   Started: 2026-04-28T18:36:42.705350Z
 
 ## Summary
 
-Progress: █████████████████░░░░░░░░░░░░░ 59.7%
+Progress: ██████████████████░░░░░░░░░░░░ 60.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 86 | 59.7% |
+| Passed | 87 | 60.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 57 | 39.6% |
+| Pending | 56 | 38.9% |
 
 ## Session Statistics
 
-- **Sessions:** 87
-- **Last Started:** 2026-04-28T18:31:50.253972Z
+- **Sessions:** 88
+- **Last Started:** 2026-04-28T18:36:42.705375Z
 
 ## Categories
 
@@ -36,7 +36,7 @@ Progress: █████████████████░░░░░░�
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
-| Context | █░░░░░░░░░ 11% | 1 | 0 | 0 |
+| Context | ██░░░░░░░░ 22% | 2 | 0 | 0 |
 | Integrations | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | i18n | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Packaging | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #98 | passed | 4m 47s | 16905 | 16324 | 581 | 12 | 0 | yes |
 | #97 | passed | 3m 1s | 16758 | 16275 | 483 | 13 | 0 | yes |
 | #94 | passed | 57s | 16710 | 16221 | 489 | 12 | 0 | yes |
 | #91 | passed | 37s | 16627 | 16162 | 465 | 12 | 0 | yes |
@@ -143,6 +144,7 @@ Progress: █████████████████░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T18:36 | #98 Calendar integration reads today's events and upco | P | 2072bb8 |
 | 2026-04-28T18:31 | #97 Active-window tracker (AT-SPI/NSAccessibility/UIA) | P | 43b70df |
 | 2026-04-28T18:28 | #94 Android on-device STT/TTS using Whisper-tiny + Pip | P | 36b7d9d |
 | 2026-04-28T18:27 | #91 Android Assistant gesture binding (long-press home | P | e3281e2 |
@@ -152,8 +154,7 @@ Progress: █████████████████░░░░░░�
 | 2026-04-28T18:19 | #82 Dictation mode: hold hotkey, release pastes transc | P | 2d21f07 |
 | 2026-04-28T18:18 | #81 Global hotkey for push-to-talk (configurable, defa | P | 4938f2d |
 | 2026-04-28T18:16 | #79 Floating overlay HUD showing live transcript, agen | P | 519cbec |
-| 2026-04-28T18:12 | #75 Tailscale integration + built-in WireGuard helper  | P | b8871a0 |
 
 ---
-*Last updated: 2026-04-28T18:31:50.314908Z*
-*Session 87*
+*Last updated: 2026-04-28T18:36:42.759698Z*
+*Session 88*

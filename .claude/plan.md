@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #98
+# Implementation Plan: Feature #100
 
 **Category:** Context
-**Description:** Calendar integration reads today's events and upcoming meetings into context
+**Description:** Time/locale/language awareness (DST, 24h, unit prefs) in system prompt
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'what's next' returns next event
+**Criteria:** Answers in user's time format and units
 **Type:** manual
