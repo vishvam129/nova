@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-63",
-      "text": "Implementing feature 47: Built-in tool: screenshot + OCR (tesseract) with region selection",
+      "id": "f2d00bd75f7e-64",
+      "text": "Implementing feature 48: Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777397272.6043332,
-      "updated_at": 1777397272.6043332,
+      "created_at": 1777397345.948363,
+      "updated_at": 1777397345.9483633,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 47
+        "feature_id": 48
       },
       "keywords": []
     },
@@ -964,9 +964,24 @@
         "feature_id": 47
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-64",
+      "text": "Implementing feature 48: Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777397345.948363,
+      "updated_at": 1777397345.9483633,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 48
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 63,
+  "intent_counter": 64,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777397272.6043367
+  "updated_at": 1777397345.9483678
 }

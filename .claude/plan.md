@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #47
+# Implementation Plan: Feature #48
 
 **Category:** Tools
-**Description:** Built-in tool: screenshot + OCR (tesseract) with region selection
+**Description:** Built-in tool: screen_to_vision streams screen frames to Claude/Gemini for grounded Q&A
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** OCR returns text from captured region
+**Criteria:** 'what's in the error dialog' answered correctly
 **Type:** manual
