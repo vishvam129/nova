@@ -284,3 +284,5 @@
 {"timestamp":"2026-04-28T17:55:53.618161+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":69,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/memory/export.py: .py"}
 {"timestamp":"2026-04-28T17:55:57.417484+00:00","event_type":"post_write","tool_name":"Edit","outcome":"clean","feature_id":69,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/memory/export.py: .py"}
 {"timestamp":"2026-04-28T17:56:11.254211+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":69,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_memory_export.py: .py"}
+{"timestamp":"2026-04-28T18:00:02.914493+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":73,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/server/handoff.py: .py"}
+{"timestamp":"2026-04-28T18:00:17.650248+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":73,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_handoff.py: .py"}

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #69 [Memory] Memory export as JSON + Markdown for user data portability (GDPR-grade)
-   Started: 2026-04-28T17:55:42.074170Z
+**In Progress:** #73 [Ecosystem] Device handoff: 'continue on laptop' command moves active session mid-conversation
+   Started: 2026-04-28T17:59:47.699589Z
 
 ## Summary
 
-Progress: ███████████████░░░░░░░░░░░░░░░ 50.7%
+Progress: ███████████████░░░░░░░░░░░░░░░ 51.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 73 | 50.7% |
+| Passed | 74 | 51.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 70 | 48.6% |
+| Pending | 69 | 47.9% |
 
 ## Session Statistics
 
-- **Sessions:** 74
-- **Last Started:** 2026-04-28T17:55:42.074186Z
+- **Sessions:** 75
+- **Last Started:** 2026-04-28T17:59:47.699616Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ███████████████░░░░░░░░�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | ████████░░ 82% | 9 | 0 | 0 |
+| Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███░░░░░░░ 38% | 3 | 0 | 0 |
 | UI | ██░░░░░░░░ 25% | 2 | 0 | 0 |
 | Mobile | ██░░░░░░░░ 27% | 3 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████░░░░░░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #69 | passed | 3m 59s | 16074 | 15612 | 462 | 12 | 0 | yes |
 | #68 | passed | 6m 44s | 16192 | 15556 | 636 | 12 | 0 | yes |
 | #66 | passed | 4m 50s | 8149 | 7776 | 373 | 10 | 0 | yes |
 | #64 | passed | 4m 14s | 15931 | 15448 | 483 | 13 | 0 | yes |
@@ -130,6 +131,7 @@ Progress: ███████████████░░░░░░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T17:59 | #69 Memory export as JSON + Markdown for user data por | P | f7296d6 |
 | 2026-04-28T17:55 | #68 Memory backup + restore (encrypted tarball) with s | P | 2bcdd07 |
 | 2026-04-28T17:48 | #66 Memory tool: add/edit/forget callable by the agent | P | a860307 |
 | 2026-04-28T17:43 | #64 Memory decay / importance scoring so irrelevant fa | P | 47cf03e |
@@ -139,8 +141,7 @@ Progress: ███████████████░░░░░░░░�
 | 2026-04-28T17:35 | #58 Network egress allowlist; block non-allowlisted do | P | 3866bba |
 | 2026-04-28T17:34 | #57 Per-user voice profile + diarization: only trusted | P | 2313548 |
 | 2026-04-28T17:34 | #56 Speaker verification before sensitive actions via  | P | 5268e06 |
-| 2026-04-28T17:29 | #48 Built-in tool: screen_to_vision streams screen fra | P | 78232d2 |
 
 ---
-*Last updated: 2026-04-28T17:55:42.114334Z*
-*Session 74*
+*Last updated: 2026-04-28T17:59:47.830067Z*
+*Session 75*

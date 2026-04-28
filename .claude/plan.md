@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #69
+# Implementation Plan: Feature #73
 
-**Category:** Memory
-**Description:** Memory export as JSON + Markdown for user data portability (GDPR-grade)
+**Category:** Ecosystem
+**Description:** Device handoff: 'continue on laptop' command moves active session mid-conversation
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** nova memory export produces readable archive
+**Criteria:** Handoff moves active session; other device mutes
 **Type:** manual

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-74",
-      "text": "Implementing feature 69: Memory export as JSON + Markdown for user data portability (GDPR-grade)",
+      "id": "f2d00bd75f7e-75",
+      "text": "Implementing feature 73: Device handoff: 'continue on laptop' command moves active session mid-conversation",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777398942.1379628,
-      "updated_at": 1777398942.1379628,
+      "created_at": 1777399187.8619218,
+      "updated_at": 1777399187.861922,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 69
+        "feature_id": 73
       },
       "keywords": []
     },
@@ -1129,9 +1129,24 @@
         "feature_id": 69
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-75",
+      "text": "Implementing feature 73: Device handoff: 'continue on laptop' command moves active session mid-conversation",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777399187.8619218,
+      "updated_at": 1777399187.861922,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 73
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 74,
+  "intent_counter": 75,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777398942.1379657
+  "updated_at": 1777399187.8619258
 }
