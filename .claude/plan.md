@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #114
+# Implementation Plan: Feature #115
 
 **Category:** Integrations
-**Description:** Built-in MCP: persistent shell session (tmux-backed) for long-running commands
+**Description:** Composio MCP bundle integration for 500+ SaaS in one config
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Multiple commands share env in one session
+**Criteria:** Composio tools callable after single auth
 **Type:** manual

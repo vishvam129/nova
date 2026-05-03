@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #114 [Integrations] Built-in MCP: persistent shell session (tmux-backed) for long-running commands
-   Started: 2026-05-03T07:56:05.332654Z
+**In Progress:** #115 [Integrations] Composio MCP bundle integration for 500+ SaaS in one config
+   Started: 2026-05-03T07:57:25.005187Z
 
 ## Summary
 
-Progress: ██████████████████████████░░░░ 88.9%
+Progress: ██████████████████████████░░░░ 89.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 128 | 88.9% |
+| Passed | 129 | 89.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 15 | 10.4% |
+| Pending | 14 | 9.7% |
 
 ## Session Statistics
 
-- **Sessions:** 129
-- **Last Started:** 2026-05-03T07:56:05.332673Z
+- **Sessions:** 130
+- **Last Started:** 2026-05-03T07:57:25.005207Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ███████████████████████�
 | UI | ██████████ 100% | 8 | 0 | 0 |
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
-| Integrations | ████████░░ 80% | 8 | 0 | 0 |
+| Integrations | █████████░ 90% | 9 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #114 | passed | 1m 19s | 19186 | 18661 | 525 | 12 | 0 | yes |
 | #113 | passed | 3m 39s | 19152 | 18602 | 550 | 12 | 0 | yes |
 | #112 | passed | 3m 32s | 19212 | 18544 | 668 | 12 | 0 | yes |
 | #111 | passed | 57s | 19070 | 18488 | 582 | 12 | 0 | yes |
@@ -185,6 +186,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
 | 2026-05-03T07:56 | #113 Built-in MCP: Git operations (clone, commit, push, | P | 789a1ed |
 | 2026-05-03T07:52 | #112 Built-in MCP: notes (Obsidian vault + Markdown + S | P | c8b889f |
 | 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
@@ -194,8 +196,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:25 | #102 Proactive engine: scheduled reminders + event-driv | P | 824b44e |
 | 2026-05-03T07:22 | #99 Location provider (GPS on phone, IP geo on laptop) | P | edbddba |
 | 2026-05-03T07:22 | #96 Wear OS companion: wake-word + quick replies via p | P | 735573e |
-| 2026-05-03T07:20 | #95 iOS companion app (limited): Shortcuts + URL schem | P | 753c728 |
 
 ---
-*Last updated: 2026-05-03T07:56:05.396357Z*
-*Session 129*
+*Last updated: 2026-05-03T07:57:25.066543Z*
+*Session 130*
