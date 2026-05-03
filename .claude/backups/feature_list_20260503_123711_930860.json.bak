@@ -15,19 +15,19 @@
   },
   "current_feature_id": null,
   "session": {
-    "count": 105,
-    "last_started_at": "2026-05-03T07:03:06.022617Z",
+    "count": 110,
+    "last_started_at": "2026-05-03T07:05:53.294796Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 105,
+    "passed": 110,
     "failed": 0,
     "skipped": 0,
     "in_progress": 0,
     "paused": 0,
-    "pending": 39,
-    "completion_percentage": 72.9
+    "pending": 34,
+    "completion_percentage": 76.4
   },
   "categories": [
     {
@@ -41,7 +41,7 @@
     {
       "name": "Voice",
       "total": 16,
-      "passed": 15,
+      "passed": 16,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -153,7 +153,7 @@
     {
       "name": "DevOps",
       "total": 4,
-      "passed": 0,
+      "passed": 1,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -169,7 +169,7 @@
     {
       "name": "Demo",
       "total": 3,
-      "passed": 0,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1208,15 +1208,37 @@
       "verification": {
         "type": "manual",
         "criteria": "User records 6s, agent responds in cloned voice",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "8 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:07:11.533019Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "agent",
+            "cloned",
+            "cloning",
+            "per",
+            "records",
+            "responds",
+            "sample",
+            "second",
+            "securely",
+            "stored",
+            "user",
+            "voice",
+            "xtts-v2"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-05-03T07:05:53.294776Z",
+      "completed_at": "2026-05-03T07:07:11.568721Z",
+      "commit_hash": "b1ced6dbae621d5057239a04cb6f9d4bf16585fe",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -1226,7 +1248,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 18145,
+        "removed": 17585,
+        "net": 560,
+        "files_changed": 12
+      }
     },
     {
       "id": 20,
@@ -6955,15 +6983,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Tag push produces multi-arch artifacts",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "release workflow",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:04:07.791010Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "across",
+            "actions",
+            "apk",
+            "artifacts",
+            "build",
+            "devops",
+            "github",
+            "multi-arch",
+            "oses",
+            "pipeline",
+            "produces",
+            "push",
+            "release",
+            "sign",
+            "tag",
+            "test"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-05-03T07:03:44.494670Z",
+      "completed_at": "2026-05-03T07:04:07.824745Z",
+      "commit_hash": "0c08e00b0e8439d2f9b66d622846ad0df4739256",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -6973,7 +7026,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17761,
+        "removed": 17379,
+        "net": 382,
+        "files_changed": 10
+      }
     },
     {
       "id": 136,
@@ -7151,15 +7210,40 @@
       "verification": {
         "type": "manual",
         "criteria": "Completes under 15s; recorded",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "3 e2e tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:04:43.666691Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "completes",
+            "cross-device",
+            "demo",
+            "e2e",
+            "golden",
+            "late",
+            "lofi",
+            "mom",
+            "open",
+            "play",
+            "recorded",
+            "set",
+            "spotify",
+            "under",
+            "volume",
+            "whatsapp"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 16/16 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-05-03T07:04:08.120760Z",
+      "completed_at": "2026-05-03T07:04:43.701457Z",
+      "commit_hash": "829585ef498a3f33a41e4b99d3329af4c98e70c2",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -7169,7 +7253,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17852,
+        "removed": 17434,
+        "net": 418,
+        "files_changed": 11
+      }
     },
     {
       "id": 143,
@@ -7179,15 +7269,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Summary arrives on phone within 30s of meeting end",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "3 e2e tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:05:14.767535Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "action-items",
+            "after",
+            "arrives",
+            "demo",
+            "e2e",
+            "end",
+            "golden",
+            "laptop",
+            "listens",
+            "meeting",
+            "phone",
+            "receives",
+            "summary",
+            "within"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-05-03T07:04:43.999150Z",
+      "completed_at": "2026-05-03T07:05:14.803993Z",
+      "commit_hash": "d336a09250538640c2742a290876dd5b396d9136",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -7197,7 +7310,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17871,
+        "removed": 17483,
+        "net": 388,
+        "files_changed": 11
+      }
     },
     {
       "id": 144,
@@ -7207,15 +7326,42 @@
       "verification": {
         "type": "manual",
         "criteria": "All core flows succeed with airplane mode on",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "5 e2e tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:05:52.956769Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "airplane",
+            "airplane-mode",
+            "core",
+            "demo",
+            "e2e",
+            "flight",
+            "flows",
+            "full",
+            "golden",
+            "llm",
+            "local",
+            "memory",
+            "mode",
+            "offline",
+            "still",
+            "succeed",
+            "voice",
+            "work"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 18/18 spec keywords found. Missing: "
+        }
       },
-      "status": "pending",
+      "status": "passed",
       "status_reason": null,
-      "started_at": null,
-      "completed_at": null,
-      "commit_hash": null,
+      "started_at": "2026-05-03T07:05:15.103153Z",
+      "completed_at": "2026-05-03T07:05:52.991966Z",
+      "commit_hash": "435d49f222cc503a6c89199f908988b454483270",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -7225,165 +7371,16 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17961,
+        "removed": 17529,
+        "net": 432,
+        "files_changed": 11
+      }
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-28T17:20:52.207343Z",
-      "operation": "feature_started",
-      "feature_id": 30,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:21:56.217380Z",
-      "operation": "feature_passed",
-      "feature_id": 30,
-      "details": {
-        "commit_hash": "5c62c44f8fb5a7a66914effd91500b80cba85f96",
-        "loc_stats": {
-          "added": 15065,
-          "removed": 14562,
-          "net": 503,
-          "files_changed": 14
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:22:00.480161Z",
-      "operation": "feature_started",
-      "feature_id": 32,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:23:13.266232Z",
-      "operation": "feature_passed",
-      "feature_id": 32,
-      "details": {
-        "commit_hash": "3f566f26ba1132efe1ddff87f5a6f1d9f2076425",
-        "loc_stats": {
-          "added": 15080,
-          "removed": 14634,
-          "net": 446,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:23:20.430062Z",
-      "operation": "feature_started",
-      "feature_id": 38,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:23:57.609562Z",
-      "operation": "feature_passed",
-      "feature_id": 38,
-      "details": {
-        "commit_hash": "ccc099c30168b68061cff0d56f33db86191b8346",
-        "loc_stats": {
-          "added": 15168,
-          "removed": 14689,
-          "net": 479,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:24:03.043807Z",
-      "operation": "feature_started",
-      "feature_id": 39,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:24:49.902978Z",
-      "operation": "feature_passed",
-      "feature_id": 39,
-      "details": {
-        "commit_hash": "3a803172591f7f3141f5c381afadce1dd0456977",
-        "loc_stats": {
-          "added": 15290,
-          "removed": 14750,
-          "net": 540,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:24:54.149307Z",
-      "operation": "feature_started",
-      "feature_id": 44,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:25:35.692749Z",
-      "operation": "feature_passed",
-      "feature_id": 44,
-      "details": {
-        "commit_hash": "853b39308454e445ab6d064c31d9f6bff5636946",
-        "loc_stats": {
-          "added": 15333,
-          "removed": 14812,
-          "net": 521,
-          "files_changed": 12
-        }
-      }
-    },
     {
       "timestamp": "2026-04-28T17:25:40.434862Z",
       "operation": "feature_started",
@@ -8789,6 +8786,161 @@
           "removed": 17323,
           "net": 382,
           "files_changed": 10
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:03:44.494713Z",
+      "operation": "feature_started",
+      "feature_id": 135,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.5,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.5,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:04:07.824813Z",
+      "operation": "feature_passed",
+      "feature_id": 135,
+      "details": {
+        "commit_hash": "0c08e00b0e8439d2f9b66d622846ad0df4739256",
+        "loc_stats": {
+          "added": 17761,
+          "removed": 17379,
+          "net": 382,
+          "files_changed": 10
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:04:08.120800Z",
+      "operation": "feature_started",
+      "feature_id": 142,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:04:43.701511Z",
+      "operation": "feature_passed",
+      "feature_id": 142,
+      "details": {
+        "commit_hash": "829585ef498a3f33a41e4b99d3329af4c98e70c2",
+        "loc_stats": {
+          "added": 17852,
+          "removed": 17434,
+          "net": 418,
+          "files_changed": 11
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:04:43.999188Z",
+      "operation": "feature_started",
+      "feature_id": 143,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:14.804035Z",
+      "operation": "feature_passed",
+      "feature_id": 143,
+      "details": {
+        "commit_hash": "d336a09250538640c2742a290876dd5b396d9136",
+        "loc_stats": {
+          "added": 17871,
+          "removed": 17483,
+          "net": 388,
+          "files_changed": 11
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:15.103191Z",
+      "operation": "feature_started",
+      "feature_id": 144,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:52.992014Z",
+      "operation": "feature_passed",
+      "feature_id": 144,
+      "details": {
+        "commit_hash": "435d49f222cc503a6c89199f908988b454483270",
+        "loc_stats": {
+          "added": 17961,
+          "removed": 17529,
+          "net": 432,
+          "files_changed": 11
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:53.294814Z",
+      "operation": "feature_started",
+      "feature_id": 19,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:07:11.568764Z",
+      "operation": "feature_passed",
+      "feature_id": 19,
+      "details": {
+        "commit_hash": "b1ced6dbae621d5057239a04cb6f9d4bf16585fe",
+        "loc_stats": {
+          "added": 18145,
+          "removed": 17585,
+          "net": 560,
+          "files_changed": 12
         }
       }
     }

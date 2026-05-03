@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-110",
-      "text": "Implementing feature 19: XTTS-v2 voice cloning from 6-second sample stored securely per user",
+      "id": "f2d00bd75f7e-111",
+      "text": "Implementing feature 50: Browser extension MCP for in-page DOM access with per-site permission",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791953.392502,
-      "updated_at": 1777791953.3925023,
+      "created_at": 1777792031.977255,
+      "updated_at": 1777792031.9772553,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 19
+        "feature_id": 50
       },
       "keywords": []
     },
@@ -1669,9 +1669,24 @@
         "feature_id": 19
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-111",
+      "text": "Implementing feature 50: Browser extension MCP for in-page DOM access with per-site permission",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792031.977255,
+      "updated_at": 1777792031.9772553,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 50
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 110,
+  "intent_counter": 111,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791953.3925061
+  "updated_at": 1777792031.9772608
 }

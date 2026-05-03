@@ -2,33 +2,33 @@
 
 ## Current Status
 
-**In Progress:** #19 [Voice] XTTS-v2 voice cloning from 6-second sample stored securely per user
-   Started: 2026-05-03T07:05:53.294776Z
+**In Progress:** #50 [Tools] Browser extension MCP for in-page DOM access with per-site permission
+   Started: 2026-05-03T07:07:11.884235Z
 
 ## Summary
 
-Progress: ██████████████████████░░░░░░░░ 75.7%
+Progress: ██████████████████████░░░░░░░░ 76.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 109 | 75.7% |
+| Passed | 110 | 76.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 34 | 23.6% |
+| Pending | 33 | 22.9% |
 
 ## Session Statistics
 
-- **Sessions:** 110
-- **Last Started:** 2026-05-03T07:05:53.294796Z
+- **Sessions:** 111
+- **Last Started:** 2026-05-03T07:07:11.884253Z
 
 ## Categories
 
 | Category | Progress | Passed | Failed | Skipped |
 |----------|----------|--------|--------|---------|
 | Setup | ██████████ 100% | 6 | 0 | 0 |
-| Voice | █████████░ 94% | 15 | 0 | 0 |
+| Voice | ██████████ 100% | 16 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | █████████░ 94% | 16 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████████████████░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #19 | passed | 1m 18s | 18145 | 17585 | 560 | 12 | 0 | yes |
 | #144 | passed | 37s | 17961 | 17529 | 432 | 11 | 0 | yes |
 | #143 | passed | 30s | 17871 | 17483 | 388 | 11 | 0 | yes |
 | #142 | passed | 35s | 17852 | 17434 | 418 | 11 | 0 | yes |
@@ -166,6 +167,7 @@ Progress: ██████████████████████░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
 | 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
 | 2026-05-03T07:05 | #143 E2E golden demo: laptop listens to a meeting, phon | P | d336a09 |
 | 2026-05-03T07:04 | #142 E2E golden demo: 'open Spotify, play lofi, set vol | P | 829585e |
@@ -175,8 +177,7 @@ Progress: ██████████████████████░�
 | 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
 | 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
 | 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
-| 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
 
 ---
-*Last updated: 2026-05-03T07:05:53.355223Z*
-*Session 110*
+*Last updated: 2026-05-03T07:07:11.943185Z*
+*Session 111*

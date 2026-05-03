@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #19
+# Implementation Plan: Feature #50
 
-**Category:** Voice
-**Description:** XTTS-v2 voice cloning from 6-second sample stored securely per user
+**Category:** Tools
+**Description:** Browser extension MCP for in-page DOM access with per-site permission
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** User records 6s, agent responds in cloned voice
+**Criteria:** Extension exposes page.extract tool
 **Type:** manual
