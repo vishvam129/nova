@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-126",
-      "text": "Implementing feature 111: Built-in MCP: Spotify/YouTube Music playback control",
+      "id": "f2d00bd75f7e-127",
+      "text": "Implementing feature 112: Built-in MCP: notes (Obsidian vault + Markdown + SQLite)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777794475.3500874,
-      "updated_at": 1777794475.3500874,
+      "created_at": 1777794533.462122,
+      "updated_at": 1777794533.462122,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 111
+        "feature_id": 112
       },
       "keywords": []
     },
@@ -1909,9 +1909,24 @@
         "feature_id": 111
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-127",
+      "text": "Implementing feature 112: Built-in MCP: notes (Obsidian vault + Markdown + SQLite)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777794533.462122,
+      "updated_at": 1777794533.462122,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 112
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 126,
+  "intent_counter": 127,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777794475.350091
+  "updated_at": 1777794533.462125
 }

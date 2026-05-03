@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #111
+# Implementation Plan: Feature #112
 
 **Category:** Integrations
-**Description:** Built-in MCP: Spotify/YouTube Music playback control
+**Description:** Built-in MCP: notes (Obsidian vault + Markdown + SQLite)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'play lofi' starts playback
+**Criteria:** Voice note creates file in vault
 **Type:** manual

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #111 [Integrations] Built-in MCP: Spotify/YouTube Music playback control
-   Started: 2026-05-03T07:47:55.252021Z
+**In Progress:** #112 [Integrations] Built-in MCP: notes (Obsidian vault + Markdown + SQLite)
+   Started: 2026-05-03T07:48:53.366644Z
 
 ## Summary
 
-Progress: ██████████████████████████░░░░ 86.8%
+Progress: ██████████████████████████░░░░ 87.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 125 | 86.8% |
+| Passed | 126 | 87.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 18 | 12.5% |
+| Pending | 17 | 11.8% |
 
 ## Session Statistics
 
-- **Sessions:** 126
-- **Last Started:** 2026-05-03T07:47:55.252040Z
+- **Sessions:** 127
+- **Last Started:** 2026-05-03T07:48:53.366662Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ███████████████████████�
 | UI | ██████████ 100% | 8 | 0 | 0 |
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
-| Integrations | █████░░░░░ 50% | 5 | 0 | 0 |
+| Integrations | ██████░░░░ 60% | 6 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #111 | passed | 57s | 19070 | 18488 | 582 | 12 | 0 | yes |
 | #110 | passed | 5m 45s | 19031 | 18437 | 594 | 12 | 0 | yes |
 | #104 | passed | 14m 19s | 18913 | 18386 | 527 | 12 | 0 | yes |
 | #103 | passed | 2m 7s | 18796 | 18334 | 462 | 12 | 0 | yes |
@@ -182,6 +183,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
 | 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
 | 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
@@ -191,8 +193,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:20 | #95 iOS companion app (limited): Shortcuts + URL schem | P | 753c728 |
 | 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
 | 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
-| 2026-05-03T07:15 | #85 Status tray widgets: cost today, requests today, n | P | 47038a4 |
 
 ---
-*Last updated: 2026-05-03T07:47:55.315569Z*
-*Session 126*
+*Last updated: 2026-05-03T07:48:53.429449Z*
+*Session 127*
