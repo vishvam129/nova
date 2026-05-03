@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-131",
-      "text": "Implementing feature 117: Translate tool: on-demand translate clipboard/selection/speech",
+      "id": "f2d00bd75f7e-132",
+      "text": "Implementing feature 118: Right-to-left language rendering in all UI surfaces",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777795278.3017561,
-      "updated_at": 1777795278.3017564,
+      "created_at": 1777795351.9605086,
+      "updated_at": 1777795351.9605086,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 117
+        "feature_id": 118
       },
       "keywords": []
     },
@@ -1984,9 +1984,24 @@
         "feature_id": 117
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-132",
+      "text": "Implementing feature 118: Right-to-left language rendering in all UI surfaces",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777795351.9605086,
+      "updated_at": 1777795351.9605086,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 118
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 131,
+  "intent_counter": 132,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777795278.3017626
+  "updated_at": 1777795351.9605143
 }

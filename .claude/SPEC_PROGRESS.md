@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #117 [i18n] Translate tool: on-demand translate clipboard/selection/speech
-   Started: 2026-05-03T08:01:18.201532Z
+**In Progress:** #118 [i18n] Right-to-left language rendering in all UI surfaces
+   Started: 2026-05-03T08:02:31.861014Z
 
 ## Summary
 
-Progress: ███████████████████████████░░░ 90.3%
+Progress: ███████████████████████████░░░ 91.0%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 130 | 90.3% |
+| Passed | 131 | 91.0% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 13 | 9.0% |
+| Pending | 12 | 8.3% |
 
 ## Session Statistics
 
-- **Sessions:** 131
-- **Last Started:** 2026-05-03T08:01:18.201549Z
+- **Sessions:** 132
+- **Last Started:** 2026-05-03T08:02:31.861033Z
 
 ## Categories
 
@@ -38,7 +38,7 @@ Progress: ███████████████████████�
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
-| i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
+| i18n | ██████░░░░ 67% | 2 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #117 | passed | 1m 13s | 19207 | 18779 | 428 | 12 | 0 | yes |
 | #115 | passed | 3m 52s | 19244 | 18721 | 523 | 12 | 0 | yes |
 | #114 | passed | 1m 19s | 19186 | 18661 | 525 | 12 | 0 | yes |
 | #113 | passed | 3m 39s | 19152 | 18602 | 550 | 12 | 0 | yes |
@@ -187,6 +188,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
 | 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
 | 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
 | 2026-05-03T07:56 | #113 Built-in MCP: Git operations (clone, commit, push, | P | 789a1ed |
@@ -196,8 +198,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
 | 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
 | 2026-05-03T07:25 | #102 Proactive engine: scheduled reminders + event-driv | P | 824b44e |
-| 2026-05-03T07:22 | #99 Location provider (GPS on phone, IP geo on laptop) | P | edbddba |
 
 ---
-*Last updated: 2026-05-03T08:01:18.265803Z*
-*Session 131*
+*Last updated: 2026-05-03T08:02:31.925107Z*
+*Session 132*

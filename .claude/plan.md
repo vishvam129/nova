@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #117
+# Implementation Plan: Feature #118
 
 **Category:** i18n
-**Description:** Translate tool: on-demand translate clipboard/selection/speech
+**Description:** Right-to-left language rendering in all UI surfaces
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'translate this to Spanish' returns translation
+**Criteria:** Arabic UI renders correctly
 **Type:** manual
