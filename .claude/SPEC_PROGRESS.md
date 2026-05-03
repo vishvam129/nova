@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #65 [Memory] Memory explain-ability: 'why do you know X' returns source turn + timestamp
-   Started: 2026-05-03T07:10:08.977075Z
+**In Progress:** #76 [Ecosystem] Multi-user support: per-user profiles, memory namespaces, and voice prints
+   Started: 2026-05-03T07:11:19.904317Z
 
 ## Summary
 
-Progress: ███████████████████████░░░░░░░ 77.1%
+Progress: ███████████████████████░░░░░░░ 77.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 111 | 77.1% |
+| Passed | 112 | 77.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 32 | 22.2% |
+| Pending | 31 | 21.5% |
 
 ## Session Statistics
 
-- **Sessions:** 112
-- **Last Started:** 2026-05-03T07:10:08.977097Z
+- **Sessions:** 113
+- **Last Started:** 2026-05-03T07:11:19.904338Z
 
 ## Categories
 
@@ -32,7 +32,7 @@ Progress: ███████████████████████�
 | Brain | ██████████ 100% | 11 | 0 | 0 |
 | Tools | ██████████ 100% | 17 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
-| Memory | █████████░ 91% | 10 | 0 | 0 |
+| Memory | ██████████ 100% | 11 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #65 | passed | 1m 10s | 18235 | 17695 | 540 | 12 | 0 | yes |
 | #50 | passed | 2m 56s | 18192 | 17637 | 555 | 12 | 0 | yes |
 | #19 | passed | 1m 18s | 18145 | 17585 | 560 | 12 | 0 | yes |
 | #144 | passed | 37s | 17961 | 17529 | 432 | 11 | 0 | yes |
@@ -168,6 +169,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:11 | #65 Memory explain-ability: 'why do you know X' return | P | 19e792a |
 | 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
 | 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
 | 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
@@ -177,8 +179,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:03 | #134 Play Store listing + accessibility-service declare | P | 5d85c0c |
 | 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
 | 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
-| 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
 
 ---
-*Last updated: 2026-05-03T07:10:09.035233Z*
-*Session 112*
+*Last updated: 2026-05-03T07:11:19.970126Z*
+*Session 113*

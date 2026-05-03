@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #65
+# Implementation Plan: Feature #76
 
-**Category:** Memory
-**Description:** Memory explain-ability: 'why do you know X' returns source turn + timestamp
+**Category:** Ecosystem
+**Description:** Multi-user support: per-user profiles, memory namespaces, and voice prints
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Citation returned for any recalled fact
+**Criteria:** Two household members get separate memories
 **Type:** manual
