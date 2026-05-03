@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-128",
-      "text": "Implementing feature 113: Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy",
+      "id": "f2d00bd75f7e-129",
+      "text": "Implementing feature 114: Built-in MCP: persistent shell session (tmux-backed) for long-running commands",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777794745.8596444,
-      "updated_at": 1777794745.8596444,
+      "created_at": 1777794965.4274938,
+      "updated_at": 1777794965.427494,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 113
+        "feature_id": 114
       },
       "keywords": []
     },
@@ -1939,9 +1939,24 @@
         "feature_id": 113
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-129",
+      "text": "Implementing feature 114: Built-in MCP: persistent shell session (tmux-backed) for long-running commands",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777794965.4274938,
+      "updated_at": 1777794965.427494,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 114
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 128,
+  "intent_counter": 129,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777794745.8596487
+  "updated_at": 1777794965.4274986
 }

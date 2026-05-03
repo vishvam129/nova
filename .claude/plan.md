@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #113
+# Implementation Plan: Feature #114
 
 **Category:** Integrations
-**Description:** Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy
+**Description:** Built-in MCP: persistent shell session (tmux-backed) for long-running commands
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Voice-initiated commit lands in branch
+**Criteria:** Multiple commands share env in one session
 **Type:** manual
