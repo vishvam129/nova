@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #112 [Integrations] Built-in MCP: notes (Obsidian vault + Markdown + SQLite)
-   Started: 2026-05-03T07:48:53.366644Z
+**In Progress:** #113 [Integrations] Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy
+   Started: 2026-05-03T07:52:25.761122Z
 
 ## Summary
 
-Progress: ██████████████████████████░░░░ 87.5%
+Progress: ██████████████████████████░░░░ 88.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 126 | 87.5% |
+| Passed | 127 | 88.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 17 | 11.8% |
+| Pending | 16 | 11.1% |
 
 ## Session Statistics
 
-- **Sessions:** 127
-- **Last Started:** 2026-05-03T07:48:53.366662Z
+- **Sessions:** 128
+- **Last Started:** 2026-05-03T07:52:25.761141Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ███████████████████████�
 | UI | ██████████ 100% | 8 | 0 | 0 |
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
-| Integrations | ██████░░░░ 60% | 6 | 0 | 0 |
+| Integrations | ███████░░░ 70% | 7 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #112 | passed | 3m 32s | 19212 | 18544 | 668 | 12 | 0 | yes |
 | #111 | passed | 57s | 19070 | 18488 | 582 | 12 | 0 | yes |
 | #110 | passed | 5m 45s | 19031 | 18437 | 594 | 12 | 0 | yes |
 | #104 | passed | 14m 19s | 18913 | 18386 | 527 | 12 | 0 | yes |
@@ -183,6 +184,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:52 | #112 Built-in MCP: notes (Obsidian vault + Markdown + S | P | c8b889f |
 | 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
 | 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
@@ -192,8 +194,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:22 | #96 Wear OS companion: wake-word + quick replies via p | P | 735573e |
 | 2026-05-03T07:20 | #95 iOS companion app (limited): Shortcuts + URL schem | P | 753c728 |
 | 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
-| 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
 
 ---
-*Last updated: 2026-05-03T07:48:53.429449Z*
-*Session 127*
+*Last updated: 2026-05-03T07:52:25.827959Z*
+*Session 128*

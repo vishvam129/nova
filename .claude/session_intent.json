@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-127",
-      "text": "Implementing feature 112: Built-in MCP: notes (Obsidian vault + Markdown + SQLite)",
+      "id": "f2d00bd75f7e-128",
+      "text": "Implementing feature 113: Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777794533.462122,
-      "updated_at": 1777794533.462122,
+      "created_at": 1777794745.8596444,
+      "updated_at": 1777794745.8596444,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 112
+        "feature_id": 113
       },
       "keywords": []
     },
@@ -1924,9 +1924,24 @@
         "feature_id": 112
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-128",
+      "text": "Implementing feature 113: Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777794745.8596444,
+      "updated_at": 1777794745.8596444,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 113
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 127,
+  "intent_counter": 128,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777794533.462125
+  "updated_at": 1777794745.8596487
 }

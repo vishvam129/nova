@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #112
+# Implementation Plan: Feature #113
 
 **Category:** Integrations
-**Description:** Built-in MCP: notes (Obsidian vault + Markdown + SQLite)
+**Description:** Built-in MCP: Git operations (clone, commit, push, PR) with safe-branch policy
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Voice note creates file in vault
+**Criteria:** Voice-initiated commit lands in branch
 **Type:** manual
