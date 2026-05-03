@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #135 [DevOps] Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK
-   Started: 2026-05-03T07:03:44.494670Z
+**In Progress:** #142 [Demo] E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device
+   Started: 2026-05-03T07:04:08.120760Z
 
 ## Summary
 
-Progress: █████████████████████░░░░░░░░░ 72.9%
+Progress: ██████████████████████░░░░░░░░ 73.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 105 | 72.9% |
+| Passed | 106 | 73.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 38 | 26.4% |
+| Pending | 37 | 25.7% |
 
 ## Session Statistics
 
-- **Sessions:** 106
-- **Last Started:** 2026-05-03T07:03:44.494693Z
+- **Sessions:** 107
+- **Last Started:** 2026-05-03T07:04:08.120780Z
 
 ## Categories
 
@@ -42,7 +42,7 @@ Progress: █████████████████████░░�
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
-| DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 
@@ -50,6 +50,7 @@ Progress: █████████████████████░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #135 | passed | 23s | 17761 | 17379 | 382 | 10 | 0 | yes |
 | #134 | passed | 38s | 17705 | 17323 | 382 | 10 | 0 | yes |
 | #133 | passed | 39s | 17642 | 17264 | 378 | 10 | 0 | yes |
 | #132 | passed | 28s | 17583 | 17215 | 368 | 10 | 0 | yes |
@@ -162,6 +163,7 @@ Progress: █████████████████████░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:04 | #135 Release pipeline: GitHub Actions build/test/sign/r | P | 0c08e00 |
 | 2026-05-03T07:03 | #134 Play Store listing + accessibility-service declare | P | 5d85c0c |
 | 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
 | 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
@@ -171,8 +173,7 @@ Progress: █████████████████████░░�
 | 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 | 2026-04-28T19:36 | #121 Packaging: bundle default STT + TTS + wake word mo | P | 212c426 |
 | 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
-| 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
 
 ---
-*Last updated: 2026-05-03T07:03:44.560248Z*
-*Session 106*
+*Last updated: 2026-05-03T07:04:08.182686Z*
+*Session 107*

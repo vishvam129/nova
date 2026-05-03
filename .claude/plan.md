@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #135
+# Implementation Plan: Feature #142
 
-**Category:** DevOps
-**Description:** Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK
+**Category:** Demo
+**Description:** E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Tag push produces multi-arch artifacts
+**Criteria:** Completes under 15s; recorded
 **Type:** manual

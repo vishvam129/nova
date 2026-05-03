@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-106",
-      "text": "Implementing feature 135: Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK",
+      "id": "f2d00bd75f7e-107",
+      "text": "Implementing feature 142: E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791824.6059778,
-      "updated_at": 1777791824.605978,
+      "created_at": 1777791848.2181714,
+      "updated_at": 1777791848.2181714,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 135
+        "feature_id": 142
       },
       "keywords": []
     },
@@ -1609,9 +1609,24 @@
         "feature_id": 135
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-107",
+      "text": "Implementing feature 142: E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791848.2181714,
+      "updated_at": 1777791848.2181714,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 142
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 106,
+  "intent_counter": 107,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791824.605983
+  "updated_at": 1777791848.2181754
 }
