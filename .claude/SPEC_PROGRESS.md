@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #93 [Mobile] Android widget: last 5 agent actions + quick redo buttons
-   Started: 2026-05-03T07:18:03.800073Z
+**In Progress:** #95 [Mobile] iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows
+   Started: 2026-05-03T07:19:16.496361Z
 
 ## Summary
 
-Progress: ████████████████████████░░░░░░ 81.2%
+Progress: ████████████████████████░░░░░░ 81.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 117 | 81.2% |
+| Passed | 118 | 81.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 26 | 18.1% |
+| Pending | 25 | 17.4% |
 
 ## Session Statistics
 
-- **Sessions:** 118
-- **Last Started:** 2026-05-03T07:18:03.800092Z
+- **Sessions:** 119
+- **Last Started:** 2026-05-03T07:19:16.496380Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: ███████████████████████�
 | Memory | ██████████ 100% | 11 | 0 | 0 |
 | Ecosystem | ██████████ 100% | 8 | 0 | 0 |
 | UI | ██████████ 100% | 8 | 0 | 0 |
-| Mobile | ███████░░░ 73% | 8 | 0 | 0 |
+| Mobile | ████████░░ 82% | 9 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #93 | passed | 1m 12s | 18551 | 18051 | 500 | 12 | 0 | yes |
 | #92 | passed | 2m 31s | 18464 | 17996 | 468 | 12 | 0 | yes |
 | #85 | passed | 1m 12s | 18458 | 17943 | 515 | 15 | 0 | yes |
 | #84 | passed | 1m 5s | 198 | 2 | 196 | 4 | 0 | yes |
@@ -174,6 +175,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
 | 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
 | 2026-05-03T07:15 | #85 Status tray widgets: cost today, requests today, n | P | 47038a4 |
 | 2026-05-03T07:14 | #84 Quick-command palette (Ctrl+Shift+Space) for text- | P | 2e64027 |
@@ -183,8 +185,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
 | 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
 | 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
-| 2026-05-03T07:05 | #143 E2E golden demo: laptop listens to a meeting, phon | P | d336a09 |
 
 ---
-*Last updated: 2026-05-03T07:18:03.858321Z*
-*Session 118*
+*Last updated: 2026-05-03T07:19:16.559991Z*
+*Session 119*

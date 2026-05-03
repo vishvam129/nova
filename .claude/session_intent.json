@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-118",
-      "text": "Implementing feature 93: Android widget: last 5 agent actions + quick redo buttons",
+      "id": "f2d00bd75f7e-119",
+      "text": "Implementing feature 95: iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792683.893486,
-      "updated_at": 1777792683.8934863,
+      "created_at": 1777792756.5998015,
+      "updated_at": 1777792756.5998018,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 93
+        "feature_id": 95
       },
       "keywords": []
     },
@@ -1789,9 +1789,24 @@
         "feature_id": 93
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-119",
+      "text": "Implementing feature 95: iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792756.5998015,
+      "updated_at": 1777792756.5998018,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 95
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 118,
+  "intent_counter": 119,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792683.89349
+  "updated_at": 1777792756.5998054
 }

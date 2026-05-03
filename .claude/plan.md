@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #93
+# Implementation Plan: Feature #95
 
 **Category:** Mobile
-**Description:** Android widget: last 5 agent actions + quick redo buttons
+**Description:** iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Widget updates on new actions
+**Criteria:** Notifications and reminders flow on iOS
 **Type:** manual
