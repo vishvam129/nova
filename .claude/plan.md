@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #136
+# Implementation Plan: Feature #137
 
 **Category:** DevOps
-**Description:** Crash reporter (opt-in, sanitized, local-first dump with upload toggle)
+**Description:** Telemetry (opt-in only, local-aggregated) with consent wizard on first run
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Simulated crash creates redacted dump
+**Criteria:** Consent recorded; metrics off by default
 **Type:** manual

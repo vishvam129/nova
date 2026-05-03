@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #136 [DevOps] Crash reporter (opt-in, sanitized, local-first dump with upload toggle)
-   Started: 2026-05-03T19:15:07.345438Z
+**In Progress:** #137 [DevOps] Telemetry (opt-in only, local-aggregated) with consent wizard on first run
+   Started: 2026-05-03T19:55:33.277047Z
 
 ## Summary
 
-Progress: ████████████████████████████░░ 95.8%
+Progress: ████████████████████████████░░ 96.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 138 | 95.8% |
+| Passed | 139 | 96.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 5 | 3.5% |
+| Pending | 4 | 2.8% |
 
 ## Session Statistics
 
-- **Sessions:** 139
-- **Last Started:** 2026-05-03T19:15:07.345463Z
+- **Sessions:** 140
+- **Last Started:** 2026-05-03T19:55:33.277066Z
 
 ## Categories
 
@@ -42,7 +42,7 @@ Progress: ███████████████████████�
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
 | Quality | ██████████ 100% | 5 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
-| DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
+| DevOps | █████░░░░░ 50% | 2 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ██████████ 100% | 3 | 0 | 0 |
 
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #136 | passed | 40m 25s | 19824 | 19208 | 616 | 13 | 0 | yes |
 | #129 | passed | 2m 7s | 257 | 2 | 255 | 4 | 0 | yes |
 | #128 | passed | 7h 13m 53s | 19685 | 19106 | 579 | 12 | 0 | yes |
 | #127 | passed | 3h 44m 37s | 19611 | 19051 | 560 | 12 | 0 | yes |
@@ -195,6 +196,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T19:55 | #136 Crash reporter (opt-in, sanitized, local-first dum | P | 6f0decd |
 | 2026-05-03T19:15 | #129 Chaos test harness: kills mic/STT/LLM mid-request  | P | 5fdaafb |
 | 2026-05-03T19:12 | #128 Opt-in local metrics dashboard: latency p50/p95, c | P | cb1399a |
 | 2026-05-03T11:59 | #127 tau2-bench voice eval runner for end-to-end voice  | P | ce48ec9 |
@@ -204,8 +206,7 @@ Progress: ███████████████████████�
 | 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
 | 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
 | 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
-| 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
 
 ---
-*Last updated: 2026-05-03T19:15:07.405273Z*
-*Session 139*
+*Last updated: 2026-05-03T19:55:33.339321Z*
+*Session 140*

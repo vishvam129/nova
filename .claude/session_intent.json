@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-139",
-      "text": "Implementing feature 136: Crash reporter (opt-in, sanitized, local-first dump with upload toggle)",
+      "id": "f2d00bd75f7e-140",
+      "text": "Implementing feature 137: Telemetry (opt-in only, local-aggregated) with consent wizard on first run",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777835707.4377942,
-      "updated_at": 1777835707.4377942,
+      "created_at": 1777838133.3744104,
+      "updated_at": 1777838133.3744104,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 136
+        "feature_id": 137
       },
       "keywords": []
     },
@@ -2104,9 +2104,24 @@
         "feature_id": 136
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-140",
+      "text": "Implementing feature 137: Telemetry (opt-in only, local-aggregated) with consent wizard on first run",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777838133.3744104,
+      "updated_at": 1777838133.3744104,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 137
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 139,
+  "intent_counter": 140,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777835707.4377975
+  "updated_at": 1777838133.374415
 }
