@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-120",
-      "text": "Implementing feature 96: Wear OS companion: wake-word + quick replies via phone brain",
+      "id": "f2d00bd75f7e-121",
+      "text": "Implementing feature 99: Location provider (GPS on phone, IP geo on laptop) with user opt-in",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792835.6347985,
-      "updated_at": 1777792835.6347988,
+      "created_at": 1777792931.698896,
+      "updated_at": 1777792931.6988962,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 96
+        "feature_id": 99
       },
       "keywords": []
     },
@@ -1819,9 +1819,24 @@
         "feature_id": 96
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-121",
+      "text": "Implementing feature 99: Location provider (GPS on phone, IP geo on laptop) with user opt-in",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792931.698896,
+      "updated_at": 1777792931.6988962,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 99
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 120,
+  "intent_counter": 121,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792835.6348026
+  "updated_at": 1777792931.6988997
 }

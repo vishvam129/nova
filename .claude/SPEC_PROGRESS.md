@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #96 [Mobile] Wear OS companion: wake-word + quick replies via phone brain
-   Started: 2026-05-03T07:20:35.538516Z
+**In Progress:** #99 [Context] Location provider (GPS on phone, IP geo on laptop) with user opt-in
+   Started: 2026-05-03T07:22:11.609019Z
 
 ## Summary
 
-Progress: ████████████████████████░░░░░░ 82.6%
+Progress: █████████████████████████░░░░░ 83.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 119 | 82.6% |
+| Passed | 120 | 83.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 24 | 16.7% |
+| Pending | 23 | 16.0% |
 
 ## Session Statistics
 
-- **Sessions:** 120
-- **Last Started:** 2026-05-03T07:20:35.538540Z
+- **Sessions:** 121
+- **Last Started:** 2026-05-03T07:22:11.609040Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: ███████████████████████�
 | Memory | ██████████ 100% | 11 | 0 | 0 |
 | Ecosystem | ██████████ 100% | 8 | 0 | 0 |
 | UI | ██████████ 100% | 8 | 0 | 0 |
-| Mobile | █████████░ 91% | 10 | 0 | 0 |
+| Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #96 | passed | 1m 35s | 18672 | 18172 | 500 | 12 | 0 | yes |
 | #95 | passed | 1m 18s | 18585 | 18115 | 470 | 12 | 0 | yes |
 | #93 | passed | 1m 12s | 18551 | 18051 | 500 | 12 | 0 | yes |
 | #92 | passed | 2m 31s | 18464 | 17996 | 468 | 12 | 0 | yes |
@@ -176,6 +177,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:22 | #96 Wear OS companion: wake-word + quick replies via p | P | 735573e |
 | 2026-05-03T07:20 | #95 iOS companion app (limited): Shortcuts + URL schem | P | 753c728 |
 | 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
 | 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
@@ -185,8 +187,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:12 | #76 Multi-user support: per-user profiles, memory name | P | be813f0 |
 | 2026-05-03T07:11 | #65 Memory explain-ability: 'why do you know X' return | P | 19e792a |
 | 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
-| 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
 
 ---
-*Last updated: 2026-05-03T07:20:35.601421Z*
-*Session 120*
+*Last updated: 2026-05-03T07:22:11.667786Z*
+*Session 121*

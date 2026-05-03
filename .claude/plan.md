@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #96
+# Implementation Plan: Feature #99
 
-**Category:** Mobile
-**Description:** Wear OS companion: wake-word + quick replies via phone brain
+**Category:** Context
+**Description:** Location provider (GPS on phone, IP geo on laptop) with user opt-in
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Watch wake word forwards to phone
+**Criteria:** 'weather here' uses current coords
 **Type:** manual
