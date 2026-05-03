@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #92
+# Implementation Plan: Feature #93
 
 **Category:** Mobile
-**Description:** Quick-tile toggle + home-screen floating bubble for one-tap invocation
+**Description:** Android widget: last 5 agent actions + quick redo buttons
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Tap bubble starts session anywhere
+**Criteria:** Widget updates on new actions
 **Type:** manual

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-117",
-      "text": "Implementing feature 92: Quick-tile toggle + home-screen floating bubble for one-tap invocation",
+      "id": "f2d00bd75f7e-118",
+      "text": "Implementing feature 93: Android widget: last 5 agent actions + quick redo buttons",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792531.7514966,
-      "updated_at": 1777792531.7514966,
+      "created_at": 1777792683.893486,
+      "updated_at": 1777792683.8934863,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 92
+        "feature_id": 93
       },
       "keywords": []
     },
@@ -1774,9 +1774,24 @@
         "feature_id": 92
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-118",
+      "text": "Implementing feature 93: Android widget: last 5 agent actions + quick redo buttons",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792683.893486,
+      "updated_at": 1777792683.8934863,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 93
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 117,
+  "intent_counter": 118,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792531.7515008
+  "updated_at": 1777792683.89349
 }
