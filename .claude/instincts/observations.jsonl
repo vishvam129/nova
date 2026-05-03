@@ -390,3 +390,5 @@
 {"timestamp":"2026-05-03T07:26:14.547644+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":103,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_wake_routing.py: .py"}
 {"timestamp":"2026-05-03T07:28:07.712454+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":104,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/context/macros.py: .py"}
 {"timestamp":"2026-05-03T07:28:26.114356+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":104,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_macros.py: .py"}
+{"timestamp":"2026-05-03T07:42:31.042961+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":110,"context_snippet":"/home/vpa-rdflex/Desktop/nova/src/nova/integrations/home_assistant.py: .py"}
+{"timestamp":"2026-05-03T07:42:54.513483+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":110,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_home_assistant.py: .py"}

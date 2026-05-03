@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-124",
-      "text": "Implementing feature 104: Scripted macros: save frequent action chains under a spoken alias ('my morning routine')",
+      "id": "f2d00bd75f7e-125",
+      "text": "Implementing feature 110: Built-in MCP: Home Assistant (REST + WebSocket)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777793270.138899,
-      "updated_at": 1777793270.138899,
+      "created_at": 1777794129.7134414,
+      "updated_at": 1777794129.7134414,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 104
+        "feature_id": 110
       },
       "keywords": []
     },
@@ -1879,9 +1879,24 @@
         "feature_id": 104
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-125",
+      "text": "Implementing feature 110: Built-in MCP: Home Assistant (REST + WebSocket)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777794129.7134414,
+      "updated_at": 1777794129.7134414,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 110
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 124,
+  "intent_counter": 125,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777793270.138904
+  "updated_at": 1777794129.7134452
 }

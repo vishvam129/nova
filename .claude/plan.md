@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #104
+# Implementation Plan: Feature #110
 
-**Category:** Context
-**Description:** Scripted macros: save frequent action chains under a spoken alias ('my morning routine')
+**Category:** Integrations
+**Description:** Built-in MCP: Home Assistant (REST + WebSocket)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Alias replays stored macro
+**Criteria:** 'turn off lights' toggles HA entity
 **Type:** manual
