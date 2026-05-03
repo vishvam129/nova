@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #95
+# Implementation Plan: Feature #96
 
 **Category:** Mobile
-**Description:** iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows
+**Description:** Wear OS companion: wake-word + quick replies via phone brain
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Notifications and reminders flow on iOS
+**Criteria:** Watch wake word forwards to phone
 **Type:** manual

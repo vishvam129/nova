@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #95 [Mobile] iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows
-   Started: 2026-05-03T07:19:16.496361Z
+**In Progress:** #96 [Mobile] Wear OS companion: wake-word + quick replies via phone brain
+   Started: 2026-05-03T07:20:35.538516Z
 
 ## Summary
 
-Progress: ████████████████████████░░░░░░ 81.9%
+Progress: ████████████████████████░░░░░░ 82.6%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 118 | 81.9% |
+| Passed | 119 | 82.6% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 25 | 17.4% |
+| Pending | 24 | 16.7% |
 
 ## Session Statistics
 
-- **Sessions:** 119
-- **Last Started:** 2026-05-03T07:19:16.496380Z
+- **Sessions:** 120
+- **Last Started:** 2026-05-03T07:20:35.538540Z
 
 ## Categories
 
@@ -35,7 +35,7 @@ Progress: ███████████████████████�
 | Memory | ██████████ 100% | 11 | 0 | 0 |
 | Ecosystem | ██████████ 100% | 8 | 0 | 0 |
 | UI | ██████████ 100% | 8 | 0 | 0 |
-| Mobile | ████████░░ 82% | 9 | 0 | 0 |
+| Mobile | █████████░ 91% | 10 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #95 | passed | 1m 18s | 18585 | 18115 | 470 | 12 | 0 | yes |
 | #93 | passed | 1m 12s | 18551 | 18051 | 500 | 12 | 0 | yes |
 | #92 | passed | 2m 31s | 18464 | 17996 | 468 | 12 | 0 | yes |
 | #85 | passed | 1m 12s | 18458 | 17943 | 515 | 15 | 0 | yes |
@@ -175,6 +176,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:20 | #95 iOS companion app (limited): Shortcuts + URL schem | P | 753c728 |
 | 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
 | 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
 | 2026-05-03T07:15 | #85 Status tray widgets: cost today, requests today, n | P | 47038a4 |
@@ -184,8 +186,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:11 | #65 Memory explain-ability: 'why do you know X' return | P | 19e792a |
 | 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
 | 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
-| 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
 
 ---
-*Last updated: 2026-05-03T07:19:16.559991Z*
-*Session 119*
+*Last updated: 2026-05-03T07:20:35.601421Z*
+*Session 120*

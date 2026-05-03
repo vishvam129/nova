@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-119",
-      "text": "Implementing feature 95: iOS companion app (limited): Shortcuts + URL scheme bridge for receive-only flows",
+      "id": "f2d00bd75f7e-120",
+      "text": "Implementing feature 96: Wear OS companion: wake-word + quick replies via phone brain",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792756.5998015,
-      "updated_at": 1777792756.5998018,
+      "created_at": 1777792835.6347985,
+      "updated_at": 1777792835.6347988,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 95
+        "feature_id": 96
       },
       "keywords": []
     },
@@ -1804,9 +1804,24 @@
         "feature_id": 95
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-120",
+      "text": "Implementing feature 96: Wear OS companion: wake-word + quick replies via phone brain",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792835.6347985,
+      "updated_at": 1777792835.6347988,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 96
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 119,
+  "intent_counter": 120,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792756.5998054
+  "updated_at": 1777792835.6348026
 }
