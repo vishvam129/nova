@@ -27,18 +27,22 @@ def test_enabled_records_events(tmp_path: Path) -> None:
 
 
 def test_latency_p50_p95() -> None:
+    import pytest as _p
+
     s = MetricsStore(enabled=True)
     for v in (100, 200, 300, 400, 500):
         s.record_latency(v)
-    assert s.latency_p50() == 300
-    assert s.latency_p95() == 480
+    assert s.latency_p50() == _p.approx(300)
+    assert s.latency_p95() == _p.approx(480)
 
 
 def test_total_cost_sums() -> None:
+    import pytest as _p
+
     s = MetricsStore(enabled=True)
     s.record_cost(0.10, model="opus")
     s.record_cost(0.05, model="sonnet")
-    assert s.total_cost() == 0.15
+    assert s.total_cost() == _p.approx(0.15)
 
 
 def test_tool_counts() -> None:

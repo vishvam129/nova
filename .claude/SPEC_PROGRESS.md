@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #128 [Quality] Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate
-   Started: 2026-05-03T11:59:06.336980Z
+**In Progress:** #129 [Quality] Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation
+   Started: 2026-05-03T19:12:59.816631Z
 
 ## Summary
 
-Progress: ████████████████████████████░░ 94.4%
+Progress: ████████████████████████████░░ 95.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 136 | 94.4% |
+| Passed | 137 | 95.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 7 | 4.9% |
+| Pending | 6 | 4.2% |
 
 ## Session Statistics
 
-- **Sessions:** 137
-- **Last Started:** 2026-05-03T11:59:06.337001Z
+- **Sessions:** 138
+- **Last Started:** 2026-05-03T19:12:59.816651Z
 
 ## Categories
 
@@ -40,7 +40,7 @@ Progress: ███████████████████████�
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
 | i18n | ██████████ 100% | 3 | 0 | 0 |
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
-| Quality | ██████░░░░ 60% | 3 | 0 | 0 |
+| Quality | ████████░░ 80% | 4 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #128 | passed | 7h 13m 53s | 19685 | 19106 | 579 | 12 | 0 | yes |
 | #127 | passed | 3h 44m 37s | 19611 | 19051 | 560 | 12 | 0 | yes |
 | #126 | passed | 1m 14s | 19537 | 18996 | 541 | 12 | 0 | yes |
 | #124 | passed | 8m 53s | 19323 | 18939 | 384 | 10 | 0 | yes |
@@ -193,6 +194,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T19:12 | #128 Opt-in local metrics dashboard: latency p50/p95, c | P | cb1399a |
 | 2026-05-03T11:59 | #127 tau2-bench voice eval runner for end-to-end voice  | P | ce48ec9 |
 | 2026-05-03T08:14 | #126 GAIA-lite subset integration for objective benchma | P | 277da36 |
 | 2026-05-03T08:13 | #124 Docker Compose deployment for self-hosted brain on | P | 9881b7a |
@@ -202,8 +204,7 @@ Progress: ███████████████████████�
 | 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
 | 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
 | 2026-05-03T07:56 | #113 Built-in MCP: Git operations (clone, commit, push, | P | 789a1ed |
-| 2026-05-03T07:52 | #112 Built-in MCP: notes (Obsidian vault + Markdown + S | P | c8b889f |
 
 ---
-*Last updated: 2026-05-03T11:59:06.400212Z*
-*Session 137*
+*Last updated: 2026-05-03T19:12:59.879846Z*
+*Session 138*

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #128
+# Implementation Plan: Feature #129
 
 **Category:** Quality
-**Description:** Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate
+**Description:** Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Dashboard loads at localhost
+**Criteria:** Failed service produces user-visible fallback
 **Type:** manual

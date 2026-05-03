@@ -132,6 +132,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1777792459.2096393
+    },
+    {
+      "feature_id": 129,
+      "error": "FAILED tests/test_metrics.py::test_latency_p50_p95 - AssertionError: assert 4...\nFAILED tests/test_metrics.py::test_total_cost_sums - AssertionError: assert 0...\n========================= 2 failed, 9 passed in 0.17s ==========================\nRun 'spec-next' to continue\n137/144 | 129 | Quality | Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777835580.2388356
     }
   ]
 }

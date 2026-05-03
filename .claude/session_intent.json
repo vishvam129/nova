@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-137",
-      "text": "Implementing feature 128: Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate",
+      "id": "f2d00bd75f7e-138",
+      "text": "Implementing feature 129: Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777809546.4355168,
-      "updated_at": 1777809546.4355168,
+      "created_at": 1777835579.912436,
+      "updated_at": 1777835579.9124362,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 128
+        "feature_id": 129
       },
       "keywords": []
     },
@@ -2074,9 +2074,24 @@
         "feature_id": 128
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-138",
+      "text": "Implementing feature 129: Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777835579.912436,
+      "updated_at": 1777835579.9124362,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 129
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 137,
+  "intent_counter": 138,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777809546.4355204
+  "updated_at": 1777835579.9124403
 }
