@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-134",
-      "text": "Implementing feature 124: Docker Compose deployment for self-hosted brain on home server",
+      "id": "f2d00bd75f7e-135",
+      "text": "Implementing feature 126: GAIA-lite subset integration for objective benchmark tracking across releases",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777795459.3192303,
-      "updated_at": 1777795459.3192303,
+      "created_at": 1777795993.598096,
+      "updated_at": 1777795993.5980961,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 124
+        "feature_id": 126
       },
       "keywords": []
     },
@@ -2029,9 +2029,24 @@
         "feature_id": 124
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-135",
+      "text": "Implementing feature 126: GAIA-lite subset integration for objective benchmark tracking across releases",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777795993.598096,
+      "updated_at": 1777795993.5980961,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 126
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 134,
+  "intent_counter": 135,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777795459.3192341
+  "updated_at": 1777795993.5981
 }

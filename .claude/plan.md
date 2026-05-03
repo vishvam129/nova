@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #124
+# Implementation Plan: Feature #126
 
-**Category:** Packaging
-**Description:** Docker Compose deployment for self-hosted brain on home server
+**Category:** Quality
+**Description:** GAIA-lite subset integration for objective benchmark tracking across releases
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** docker compose up brings up working stack
+**Criteria:** Score trend plotted over versions
 **Type:** manual
