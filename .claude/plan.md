@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #127
+# Implementation Plan: Feature #128
 
 **Category:** Quality
-**Description:** tau2-bench voice eval runner for end-to-end voice pipeline
+**Description:** Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Voice eval produces transcript and success rate
+**Criteria:** Dashboard loads at localhost
 **Type:** manual

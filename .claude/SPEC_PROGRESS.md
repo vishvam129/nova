@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #127 [Quality] tau2-bench voice eval runner for end-to-end voice pipeline
-   Started: 2026-05-03T08:14:28.546240Z
+**In Progress:** #128 [Quality] Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate
+   Started: 2026-05-03T11:59:06.336980Z
 
 ## Summary
 
-Progress: ████████████████████████████░░ 93.8%
+Progress: ████████████████████████████░░ 94.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 135 | 93.8% |
+| Passed | 136 | 94.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 8 | 5.6% |
+| Pending | 7 | 4.9% |
 
 ## Session Statistics
 
-- **Sessions:** 136
-- **Last Started:** 2026-05-03T08:14:28.546259Z
+- **Sessions:** 137
+- **Last Started:** 2026-05-03T11:59:06.337001Z
 
 ## Categories
 
@@ -40,7 +40,7 @@ Progress: ███████████████████████�
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
 | i18n | ██████████ 100% | 3 | 0 | 0 |
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
-| Quality | ████░░░░░░ 40% | 2 | 0 | 0 |
+| Quality | ██████░░░░ 60% | 3 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #127 | passed | 3h 44m 37s | 19611 | 19051 | 560 | 12 | 0 | yes |
 | #126 | passed | 1m 14s | 19537 | 18996 | 541 | 12 | 0 | yes |
 | #124 | passed | 8m 53s | 19323 | 18939 | 384 | 10 | 0 | yes |
 | #122 | passed | 1m 1s | 19476 | 18885 | 591 | 12 | 0 | yes |
@@ -192,6 +193,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T11:59 | #127 tau2-bench voice eval runner for end-to-end voice  | P | ce48ec9 |
 | 2026-05-03T08:14 | #126 GAIA-lite subset integration for objective benchma | P | 277da36 |
 | 2026-05-03T08:13 | #124 Docker Compose deployment for self-hosted brain on | P | 9881b7a |
 | 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
@@ -201,8 +203,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
 | 2026-05-03T07:56 | #113 Built-in MCP: Git operations (clone, commit, push, | P | 789a1ed |
 | 2026-05-03T07:52 | #112 Built-in MCP: notes (Obsidian vault + Markdown + S | P | c8b889f |
-| 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
 
 ---
-*Last updated: 2026-05-03T08:14:28.628475Z*
-*Session 136*
+*Last updated: 2026-05-03T11:59:06.400212Z*
+*Session 137*

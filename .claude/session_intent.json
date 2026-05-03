@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-136",
-      "text": "Implementing feature 127: tau2-bench voice eval runner for end-to-end voice pipeline",
+      "id": "f2d00bd75f7e-137",
+      "text": "Implementing feature 128: Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777796068.6646657,
-      "updated_at": 1777796068.6646657,
+      "created_at": 1777809546.4355168,
+      "updated_at": 1777809546.4355168,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 127
+        "feature_id": 128
       },
       "keywords": []
     },
@@ -2059,9 +2059,24 @@
         "feature_id": 127
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-137",
+      "text": "Implementing feature 128: Opt-in local metrics dashboard: latency p50/p95, cost, tool usage, false-wake rate",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777809546.4355168,
+      "updated_at": 1777809546.4355168,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 128
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 136,
+  "intent_counter": 137,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777796068.6646695
+  "updated_at": 1777809546.4355204
 }
