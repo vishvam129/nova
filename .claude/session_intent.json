@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-103",
-      "text": "Implementing feature 132: Demo recordings: cross-device handoff, computer-use, proactive reminder",
+      "id": "f2d00bd75f7e-104",
+      "text": "Implementing feature 133: Privacy policy + data-flow diagram explaining local vs cloud paths",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791717.7586787,
-      "updated_at": 1777791717.7586787,
+      "created_at": 1777791746.2169023,
+      "updated_at": 1777791746.2169025,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 132
+        "feature_id": 133
       },
       "keywords": []
     },
@@ -1564,9 +1564,24 @@
         "feature_id": 132
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-104",
+      "text": "Implementing feature 133: Privacy policy + data-flow diagram explaining local vs cloud paths",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791746.2169023,
+      "updated_at": 1777791746.2169025,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 133
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 103,
+  "intent_counter": 104,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791717.758682
+  "updated_at": 1777791746.2169087
 }

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #132 [Docs] Demo recordings: cross-device handoff, computer-use, proactive reminder
-   Started: 2026-05-03T07:01:57.665635Z
+**In Progress:** #133 [Docs] Privacy policy + data-flow diagram explaining local vs cloud paths
+   Started: 2026-05-03T07:02:26.120290Z
 
 ## Summary
 
-Progress: █████████████████████░░░░░░░░░ 70.8%
+Progress: █████████████████████░░░░░░░░░ 71.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 102 | 70.8% |
+| Passed | 103 | 71.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 41 | 28.5% |
+| Pending | 40 | 27.8% |
 
 ## Session Statistics
 
-- **Sessions:** 103
-- **Last Started:** 2026-05-03T07:01:57.665654Z
+- **Sessions:** 104
+- **Last Started:** 2026-05-03T07:02:26.120309Z
 
 ## Categories
 
@@ -41,7 +41,7 @@ Progress: █████████████████████░░�
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
-| Docs | ████░░░░░░ 40% | 2 | 0 | 0 |
+| Docs | ██████░░░░ 60% | 3 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████████░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #132 | passed | 28s | 17583 | 17215 | 368 | 10 | 0 | yes |
 | #131 | passed | 23s | 17545 | 17159 | 386 | 10 | 0 | yes |
 | #130 | passed | 43s | 17495 | 17103 | 392 | 10 | 0 | yes |
 | #125 | passed | 1m 3s | 17668 | 17042 | 626 | 14 | 0 | yes |
@@ -159,6 +160,7 @@ Progress: █████████████████████░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
 | 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
 | 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
 | 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
@@ -168,8 +170,7 @@ Progress: █████████████████████░░�
 | 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
 | 2026-04-28T19:30 | #116 Multi-language support: STT/TTS/LLM auto-detect an | P | b5b2009 |
 | 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
-| 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
 
 ---
-*Last updated: 2026-05-03T07:01:57.725068Z*
-*Session 103*
+*Last updated: 2026-05-03T07:02:26.180386Z*
+*Session 104*

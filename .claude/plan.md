@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #132
+# Implementation Plan: Feature #133
 
 **Category:** Docs
-**Description:** Demo recordings: cross-device handoff, computer-use, proactive reminder
+**Description:** Privacy policy + data-flow diagram explaining local vs cloud paths
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Three video demos in docs/
+**Criteria:** Doc lists what leaves device and when
 **Type:** manual
