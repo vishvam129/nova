@@ -118,6 +118,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1777404328.6655455
+    },
+    {
+      "feature_id": 84,
+      "error": "1 file reformatted\nERROR tests/test_home_brain.py - ValueError: mutable default <class 'nova.ser...\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n=============================== 1 error in 0.33s ===============================\nRun 'spec-next' to continue\n114/144 | 84 | UI | Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777792393.3142984
     }
   ]
 }

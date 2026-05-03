@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #77
+# Implementation Plan: Feature #84
 
-**Category:** Ecosystem
-**Description:** Always-on home brain mode: laptop stays listener when lid closed
+**Category:** UI
+**Description:** Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Brain reachable with lid closed on power
+**Criteria:** Palette fires agent without mic
 **Type:** manual

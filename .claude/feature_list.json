@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 77,
+  "current_feature_id": 84,
   "session": {
-    "count": 114,
-    "last_started_at": "2026-05-03T07:12:10.523683Z",
+    "count": 115,
+    "last_started_at": "2026-05-03T07:13:12.862604Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 113,
+    "passed": 114,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 30,
-    "completion_percentage": 78.5
+    "pending": 29,
+    "completion_percentage": 79.2
   },
   "categories": [
     {
@@ -81,7 +81,7 @@
     {
       "name": "Ecosystem",
       "total": 8,
-      "passed": 7,
+      "passed": 8,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -4527,15 +4527,36 @@
       "verification": {
         "type": "manual",
         "criteria": "Brain reachable with lid closed on power",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "8 tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:13:12.483107Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "always-on",
+            "brain",
+            "closed",
+            "ecosystem",
+            "home",
+            "laptop",
+            "lid",
+            "listener",
+            "mode",
+            "power",
+            "reachable",
+            "stays"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 12/12 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-05-03T07:12:10.523662Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-05-03T07:13:12.531377Z",
+      "commit_hash": "4c3c6672830ebd286b57d5cf25dcfd52554621c4",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -4545,7 +4566,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 18397,
+        "removed": 17816,
+        "net": 581,
+        "files_changed": 12
+      }
     },
     {
       "id": 78,
@@ -4891,9 +4918,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-05-03T07:13:12.862581Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -7468,37 +7495,6 @@
   ],
   "audit_trail": [
     {
-      "timestamp": "2026-04-28T17:29:59.642804Z",
-      "operation": "feature_passed",
-      "feature_id": 48,
-      "details": {
-        "commit_hash": "78232d20f0933e3d311ed75d2dbac1f2162dfb1d",
-        "loc_stats": {
-          "added": 15512,
-          "removed": 15038,
-          "net": 474,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:30:39.727247Z",
-      "operation": "feature_started",
-      "feature_id": 56,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
-    {
       "timestamp": "2026-04-28T17:34:02.095834Z",
       "operation": "feature_passed",
       "feature_id": 56,
@@ -9027,6 +9023,37 @@
           "independent": 8.0,
           "bounded": 8.5,
           "average": 8.1,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:13:12.531475Z",
+      "operation": "feature_passed",
+      "feature_id": 77,
+      "details": {
+        "commit_hash": "4c3c6672830ebd286b57d5cf25dcfd52554621c4",
+        "loc_stats": {
+          "added": 18397,
+          "removed": 17816,
+          "net": 581,
+          "files_changed": 12
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:13:12.862628Z",
+      "operation": "feature_started",
+      "feature_id": 84,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 9.5,
+          "average": 8.6,
           "feedback": []
         },
         "depth": 1

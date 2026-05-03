@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-114",
-      "text": "Implementing feature 77: Always-on home brain mode: laptop stays listener when lid closed",
+      "id": "f2d00bd75f7e-115",
+      "text": "Implementing feature 84: Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792330.621391,
-      "updated_at": 1777792330.6213913,
+      "created_at": 1777792392.9646533,
+      "updated_at": 1777792392.9646533,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 77
+        "feature_id": 84
       },
       "keywords": []
     },
@@ -1729,9 +1729,24 @@
         "feature_id": 77
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-115",
+      "text": "Implementing feature 84: Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792392.9646533,
+      "updated_at": 1777792392.9646533,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 84
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 114,
+  "intent_counter": 115,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792330.6214046
+  "updated_at": 1777792392.9646575
 }

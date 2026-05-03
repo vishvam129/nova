@@ -11,7 +11,7 @@ from __future__ import annotations
 import shutil
 import subprocess
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -25,7 +25,9 @@ class HomeBrainStatus:
 class HomeBrainMode:
     """Toggles 'don't sleep when lid closes' for the current OS."""
 
-    _status: HomeBrainStatus = HomeBrainStatus(enabled=False, backend="unknown")
+    _status: HomeBrainStatus = field(
+        default_factory=lambda: HomeBrainStatus(enabled=False, backend="unknown")
+    )
     _inhibitor: subprocess.Popen[bytes] | None = None
 
     @property
