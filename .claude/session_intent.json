@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-125",
-      "text": "Implementing feature 110: Built-in MCP: Home Assistant (REST + WebSocket)",
+      "id": "f2d00bd75f7e-126",
+      "text": "Implementing feature 111: Built-in MCP: Spotify/YouTube Music playback control",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777794129.7134414,
-      "updated_at": 1777794129.7134414,
+      "created_at": 1777794475.3500874,
+      "updated_at": 1777794475.3500874,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 110
+        "feature_id": 111
       },
       "keywords": []
     },
@@ -1894,9 +1894,24 @@
         "feature_id": 110
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-126",
+      "text": "Implementing feature 111: Built-in MCP: Spotify/YouTube Music playback control",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777794475.3500874,
+      "updated_at": 1777794475.3500874,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 111
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 125,
+  "intent_counter": 126,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777794129.7134452
+  "updated_at": 1777794475.350091
 }

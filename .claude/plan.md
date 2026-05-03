@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #110
+# Implementation Plan: Feature #111
 
 **Category:** Integrations
-**Description:** Built-in MCP: Home Assistant (REST + WebSocket)
+**Description:** Built-in MCP: Spotify/YouTube Music playback control
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'turn off lights' toggles HA entity
+**Criteria:** 'play lofi' starts playback
 **Type:** manual

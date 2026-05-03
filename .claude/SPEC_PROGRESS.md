@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #110 [Integrations] Built-in MCP: Home Assistant (REST + WebSocket)
-   Started: 2026-05-03T07:42:09.624462Z
+**In Progress:** #111 [Integrations] Built-in MCP: Spotify/YouTube Music playback control
+   Started: 2026-05-03T07:47:55.252021Z
 
 ## Summary
 
-Progress: █████████████████████████░░░░░ 86.1%
+Progress: ██████████████████████████░░░░ 86.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 124 | 86.1% |
+| Passed | 125 | 86.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 19 | 13.2% |
+| Pending | 18 | 12.5% |
 
 ## Session Statistics
 
-- **Sessions:** 125
-- **Last Started:** 2026-05-03T07:42:09.624484Z
+- **Sessions:** 126
+- **Last Started:** 2026-05-03T07:47:55.252040Z
 
 ## Categories
 
@@ -37,7 +37,7 @@ Progress: ███████████████████████�
 | UI | ██████████ 100% | 8 | 0 | 0 |
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
-| Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
+| Integrations | █████░░░░░ 50% | 5 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #110 | passed | 5m 45s | 19031 | 18437 | 594 | 12 | 0 | yes |
 | #104 | passed | 14m 19s | 18913 | 18386 | 527 | 12 | 0 | yes |
 | #103 | passed | 2m 7s | 18796 | 18334 | 462 | 12 | 0 | yes |
 | #102 | passed | 2m 48s | 18838 | 18279 | 559 | 12 | 0 | yes |
@@ -181,6 +182,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
 | 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
 | 2026-05-03T07:25 | #102 Proactive engine: scheduled reminders + event-driv | P | 824b44e |
@@ -190,8 +192,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:19 | #93 Android widget: last 5 agent actions + quick redo  | P | 91ca6f2 |
 | 2026-05-03T07:18 | #92 Quick-tile toggle + home-screen floating bubble fo | P | 53ec48e |
 | 2026-05-03T07:15 | #85 Status tray widgets: cost today, requests today, n | P | 47038a4 |
-| 2026-05-03T07:14 | #84 Quick-command palette (Ctrl+Shift+Space) for text- | P | 2e64027 |
 
 ---
-*Last updated: 2026-05-03T07:42:09.682625Z*
-*Session 125*
+*Last updated: 2026-05-03T07:47:55.315569Z*
+*Session 126*
