@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-100",
-      "text": "Implementing feature 125: Eval harness: personal task suite (50 common requests) with pass/fail scoring",
+      "id": "f2d00bd75f7e-101",
+      "text": "Implementing feature 130: Docs: quickstart README + architecture diagram + safety model",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777405086.3051713,
-      "updated_at": 1777405086.3051713,
+      "created_at": 1777791642.4995513,
+      "updated_at": 1777791642.4995515,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 125
+        "feature_id": 130
       },
       "keywords": []
     },
@@ -1519,9 +1519,24 @@
         "feature_id": 125
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-101",
+      "text": "Implementing feature 130: Docs: quickstart README + architecture diagram + safety model",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791642.4995513,
+      "updated_at": 1777791642.4995515,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 130
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 100,
+  "intent_counter": 101,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777405086.3051746
+  "updated_at": 1777791642.4995553
 }

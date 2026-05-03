@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #125
+# Implementation Plan: Feature #130
 
-**Category:** Quality
-**Description:** Eval harness: personal task suite (50 common requests) with pass/fail scoring
+**Category:** Docs
+**Description:** Docs: quickstart README + architecture diagram + safety model
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** nova eval prints scoreboard
+**Criteria:** New user installs in under 20 min
 **Type:** manual

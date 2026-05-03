@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #125 [Quality] Eval harness: personal task suite (50 common requests) with pass/fail scoring
-   Started: 2026-04-28T19:38:06.227349Z
+**In Progress:** #130 [Docs] Docs: quickstart README + architecture diagram + safety model
+   Started: 2026-05-03T07:00:42.401607Z
 
 ## Summary
 
-Progress: ████████████████████░░░░░░░░░░ 68.8%
+Progress: ████████████████████░░░░░░░░░░ 69.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 99 | 68.8% |
+| Passed | 100 | 69.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 44 | 30.6% |
+| Pending | 43 | 29.9% |
 
 ## Session Statistics
 
-- **Sessions:** 100
-- **Last Started:** 2026-04-28T19:38:06.227366Z
+- **Sessions:** 101
+- **Last Started:** 2026-05-03T07:00:42.401626Z
 
 ## Categories
 
@@ -40,7 +40,7 @@ Progress: ████████████████████░░░�
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
-| Quality | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████████░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #125 | passed | 1m 3s | 17668 | 17042 | 626 | 14 | 0 | yes |
 | #123 | passed | 57s | 17529 | 16986 | 543 | 12 | 0 | yes |
 | #121 | passed | 1m 0s | 17491 | 16937 | 554 | 12 | 0 | yes |
 | #120 | passed | 4m 32s | 17397 | 16885 | 512 | 12 | 0 | yes |
@@ -156,6 +157,7 @@ Progress: ████████████████████░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
 | 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 | 2026-04-28T19:36 | #121 Packaging: bundle default STT + TTS + wake word mo | P | 212c426 |
 | 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
@@ -165,8 +167,7 @@ Progress: ████████████████████░░░�
 | 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
 | 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
 | 2026-04-28T19:24 | #106 Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Out | P | 9224ff4 |
-| 2026-04-28T19:22 | #105 Cron/trigger engine for scheduled agent tasks ('ev | P | e9683bc |
 
 ---
-*Last updated: 2026-04-28T19:38:06.277430Z*
-*Session 100*
+*Last updated: 2026-05-03T07:00:42.461487Z*
+*Session 101*
