@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #142 [Demo] E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device
-   Started: 2026-05-03T07:04:08.120760Z
+**In Progress:** #143 [Demo] E2E golden demo: laptop listens to a meeting, phone receives action-items summary after
+   Started: 2026-05-03T07:04:43.999150Z
 
 ## Summary
 
-Progress: ██████████████████████░░░░░░░░ 73.6%
+Progress: ██████████████████████░░░░░░░░ 74.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 106 | 73.6% |
+| Passed | 107 | 74.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 37 | 25.7% |
+| Pending | 36 | 25.0% |
 
 ## Session Statistics
 
-- **Sessions:** 107
-- **Last Started:** 2026-05-03T07:04:08.120780Z
+- **Sessions:** 108
+- **Last Started:** 2026-05-03T07:04:43.999169Z
 
 ## Categories
 
@@ -44,12 +44,13 @@ Progress: ██████████████████████░�
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
-| Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Demo | ███░░░░░░░ 33% | 1 | 0 | 0 |
 
 ## Feature Metrics
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #142 | passed | 35s | 17852 | 17434 | 418 | 11 | 0 | yes |
 | #135 | passed | 23s | 17761 | 17379 | 382 | 10 | 0 | yes |
 | #134 | passed | 38s | 17705 | 17323 | 382 | 10 | 0 | yes |
 | #133 | passed | 39s | 17642 | 17264 | 378 | 10 | 0 | yes |
@@ -163,6 +164,7 @@ Progress: ██████████████████████░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:04 | #142 E2E golden demo: 'open Spotify, play lofi, set vol | P | 829585e |
 | 2026-05-03T07:04 | #135 Release pipeline: GitHub Actions build/test/sign/r | P | 0c08e00 |
 | 2026-05-03T07:03 | #134 Play Store listing + accessibility-service declare | P | 5d85c0c |
 | 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
@@ -172,8 +174,7 @@ Progress: ██████████████████████░�
 | 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
 | 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 | 2026-04-28T19:36 | #121 Packaging: bundle default STT + TTS + wake word mo | P | 212c426 |
-| 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
 
 ---
-*Last updated: 2026-05-03T07:04:08.182686Z*
-*Session 107*
+*Last updated: 2026-05-03T07:04:44.060150Z*
+*Session 108*

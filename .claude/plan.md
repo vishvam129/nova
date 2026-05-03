@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #142
+# Implementation Plan: Feature #143
 
 **Category:** Demo
-**Description:** E2E golden demo: 'open Spotify, play lofi, set volume 30, WhatsApp mom I'll be late' cross-device
+**Description:** E2E golden demo: laptop listens to a meeting, phone receives action-items summary after
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Completes under 15s; recorded
+**Criteria:** Summary arrives on phone within 30s of meeting end
 **Type:** manual
