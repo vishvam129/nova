@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #133 [Docs] Privacy policy + data-flow diagram explaining local vs cloud paths
-   Started: 2026-05-03T07:02:26.120290Z
+**In Progress:** #134 [Docs] Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)
+   Started: 2026-05-03T07:03:06.022598Z
 
 ## Summary
 
-Progress: █████████████████████░░░░░░░░░ 71.5%
+Progress: █████████████████████░░░░░░░░░ 72.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 103 | 71.5% |
+| Passed | 104 | 72.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 40 | 27.8% |
+| Pending | 39 | 27.1% |
 
 ## Session Statistics
 
-- **Sessions:** 104
-- **Last Started:** 2026-05-03T07:02:26.120309Z
+- **Sessions:** 105
+- **Last Started:** 2026-05-03T07:03:06.022617Z
 
 ## Categories
 
@@ -41,7 +41,7 @@ Progress: █████████████████████░░�
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
-| Docs | ██████░░░░ 60% | 3 | 0 | 0 |
+| Docs | ████████░░ 80% | 4 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: █████████████████████░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #133 | passed | 39s | 17642 | 17264 | 378 | 10 | 0 | yes |
 | #132 | passed | 28s | 17583 | 17215 | 368 | 10 | 0 | yes |
 | #131 | passed | 23s | 17545 | 17159 | 386 | 10 | 0 | yes |
 | #130 | passed | 43s | 17495 | 17103 | 392 | 10 | 0 | yes |
@@ -160,6 +161,7 @@ Progress: █████████████████████░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
 | 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
 | 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
 | 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
@@ -169,8 +171,7 @@ Progress: █████████████████████░░�
 | 2026-04-28T19:35 | #120 Packaging: signed Android APK + Play-ready AAB | P | 3fd412f |
 | 2026-04-28T19:31 | #119 Packaging: PyInstaller/Nuitka one-file binaries fo | P | b6fe5ff |
 | 2026-04-28T19:30 | #116 Multi-language support: STT/TTS/LLM auto-detect an | P | b5b2009 |
-| 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
 
 ---
-*Last updated: 2026-05-03T07:02:26.180386Z*
-*Session 104*
+*Last updated: 2026-05-03T07:03:06.081865Z*
+*Session 105*

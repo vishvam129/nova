@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-104",
-      "text": "Implementing feature 133: Privacy policy + data-flow diagram explaining local vs cloud paths",
+      "id": "f2d00bd75f7e-105",
+      "text": "Implementing feature 134: Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791746.2169023,
-      "updated_at": 1777791746.2169025,
+      "created_at": 1777791786.1173913,
+      "updated_at": 1777791786.1173913,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 133
+        "feature_id": 134
       },
       "keywords": []
     },
@@ -1579,9 +1579,24 @@
         "feature_id": 133
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-105",
+      "text": "Implementing feature 134: Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791786.1173913,
+      "updated_at": 1777791786.1173913,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 134
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 104,
+  "intent_counter": 105,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791746.2169087
+  "updated_at": 1777791786.1174023
 }

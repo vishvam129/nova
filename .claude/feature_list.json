@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 133,
+  "current_feature_id": 134,
   "session": {
-    "count": 104,
-    "last_started_at": "2026-05-03T07:02:26.120309Z",
+    "count": 105,
+    "last_started_at": "2026-05-03T07:03:06.022617Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 103,
+    "passed": 104,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 40,
-    "completion_percentage": 71.5
+    "pending": 39,
+    "completion_percentage": 72.2
   },
   "categories": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "Docs",
       "total": 5,
-      "passed": 3,
+      "passed": 4,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -6843,15 +6843,38 @@
       "verification": {
         "type": "manual",
         "criteria": "Doc lists what leaves device and when",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "privacy doc",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:03:05.682511Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "cloud",
+            "data-flow",
+            "device",
+            "diagram",
+            "doc",
+            "docs",
+            "explaining",
+            "leaves",
+            "lists",
+            "local",
+            "paths",
+            "policy",
+            "privacy",
+            "what"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 14/14 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-05-03T07:02:26.120290Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-05-03T07:03:05.713192Z",
+      "commit_hash": "85ad99922b9d3a06f04332780facc19ba4ce89d3",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -6861,7 +6884,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17642,
+        "removed": 17264,
+        "net": 378,
+        "files_changed": 10
+      }
     },
     {
       "id": 134,
@@ -6875,9 +6904,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-05-03T07:03:06.022598Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -7173,39 +7202,6 @@
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-28T17:19:17.099399Z",
-      "operation": "feature_passed",
-      "feature_id": 16,
-      "details": {
-        "commit_hash": "fa0af592b6a76b7f4d0f520a543c05ed890ba58d",
-        "loc_stats": {
-          "added": 14935,
-          "removed": 14314,
-          "net": 621,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:19:21.953083Z",
-      "operation": "feature_started",
-      "feature_id": 27,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 7.0,
-          "average": 8.0,
-          "feedback": [
-            "Open-ended scope detected - narrow to specific items"
-          ]
-        },
-        "depth": 1
-      }
-    },
     {
       "timestamp": "2026-04-28T17:20:47.617852Z",
       "operation": "feature_passed",
@@ -8725,6 +8721,37 @@
       "timestamp": "2026-05-03T07:02:26.120326Z",
       "operation": "feature_started",
       "feature_id": 133,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:03:05.713232Z",
+      "operation": "feature_passed",
+      "feature_id": 133,
+      "details": {
+        "commit_hash": "85ad99922b9d3a06f04332780facc19ba4ce89d3",
+        "loc_stats": {
+          "added": 17642,
+          "removed": 17264,
+          "net": 378,
+          "files_changed": 10
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:03:06.022636Z",
+      "operation": "feature_started",
+      "feature_id": 134,
       "details": {
         "from_status": "pending",
         "avib": {

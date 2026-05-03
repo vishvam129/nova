@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #133
+# Implementation Plan: Feature #134
 
 **Category:** Docs
-**Description:** Privacy policy + data-flow diagram explaining local vs cloud paths
+**Description:** Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Doc lists what leaves device and when
+**Criteria:** Listing includes declared-use section
 **Type:** manual
