@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-113",
-      "text": "Implementing feature 76: Multi-user support: per-user profiles, memory namespaces, and voice prints",
+      "id": "f2d00bd75f7e-114",
+      "text": "Implementing feature 77: Always-on home brain mode: laptop stays listener when lid closed",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792280.0059183,
-      "updated_at": 1777792280.0059185,
+      "created_at": 1777792330.621391,
+      "updated_at": 1777792330.6213913,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 76
+        "feature_id": 77
       },
       "keywords": []
     },
@@ -1714,9 +1714,24 @@
         "feature_id": 76
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-114",
+      "text": "Implementing feature 77: Always-on home brain mode: laptop stays listener when lid closed",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792330.621391,
+      "updated_at": 1777792330.6213913,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 77
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 113,
+  "intent_counter": 114,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792280.005922
+  "updated_at": 1777792330.6214046
 }

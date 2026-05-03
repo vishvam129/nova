@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #76 [Ecosystem] Multi-user support: per-user profiles, memory namespaces, and voice prints
-   Started: 2026-05-03T07:11:19.904317Z
+**In Progress:** #77 [Ecosystem] Always-on home brain mode: laptop stays listener when lid closed
+   Started: 2026-05-03T07:12:10.523662Z
 
 ## Summary
 
-Progress: ███████████████████████░░░░░░░ 77.8%
+Progress: ███████████████████████░░░░░░░ 78.5%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 112 | 77.8% |
+| Passed | 113 | 78.5% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 31 | 21.5% |
+| Pending | 30 | 20.8% |
 
 ## Session Statistics
 
-- **Sessions:** 113
-- **Last Started:** 2026-05-03T07:11:19.904338Z
+- **Sessions:** 114
+- **Last Started:** 2026-05-03T07:12:10.523683Z
 
 ## Categories
 
@@ -33,7 +33,7 @@ Progress: ███████████████████████�
 | Tools | ██████████ 100% | 17 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | ██████████ 100% | 11 | 0 | 0 |
-| Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
+| Ecosystem | ████████░░ 88% | 7 | 0 | 0 |
 | UI | ███████░░░ 75% | 6 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #76 | passed | 50s | 18316 | 17757 | 559 | 12 | 0 | yes |
 | #65 | passed | 1m 10s | 18235 | 17695 | 540 | 12 | 0 | yes |
 | #50 | passed | 2m 56s | 18192 | 17637 | 555 | 12 | 0 | yes |
 | #19 | passed | 1m 18s | 18145 | 17585 | 560 | 12 | 0 | yes |
@@ -169,6 +170,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:12 | #76 Multi-user support: per-user profiles, memory name | P | be813f0 |
 | 2026-05-03T07:11 | #65 Memory explain-ability: 'why do you know X' return | P | 19e792a |
 | 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
 | 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
@@ -178,8 +180,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:04 | #135 Release pipeline: GitHub Actions build/test/sign/r | P | 0c08e00 |
 | 2026-05-03T07:03 | #134 Play Store listing + accessibility-service declare | P | 5d85c0c |
 | 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
-| 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
 
 ---
-*Last updated: 2026-05-03T07:11:19.970126Z*
-*Session 113*
+*Last updated: 2026-05-03T07:12:10.586977Z*
+*Session 114*

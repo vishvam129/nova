@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #76
+# Implementation Plan: Feature #77
 
 **Category:** Ecosystem
-**Description:** Multi-user support: per-user profiles, memory namespaces, and voice prints
+**Description:** Always-on home brain mode: laptop stays listener when lid closed
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Two household members get separate memories
+**Criteria:** Brain reachable with lid closed on power
 **Type:** manual
