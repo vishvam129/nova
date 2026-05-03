@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-102",
-      "text": "Implementing feature 131: Docs: MCP authoring guide with working example server",
+      "id": "f2d00bd75f7e-103",
+      "text": "Implementing feature 132: Demo recordings: cross-device handoff, computer-use, proactive reminder",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791693.6353276,
-      "updated_at": 1777791693.6353278,
+      "created_at": 1777791717.7586787,
+      "updated_at": 1777791717.7586787,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 131
+        "feature_id": 132
       },
       "keywords": []
     },
@@ -1549,9 +1549,24 @@
         "feature_id": 131
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-103",
+      "text": "Implementing feature 132: Demo recordings: cross-device handoff, computer-use, proactive reminder",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791717.7586787,
+      "updated_at": 1777791717.7586787,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 132
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 102,
+  "intent_counter": 103,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791693.6353316
+  "updated_at": 1777791717.758682
 }

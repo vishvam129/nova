@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #131
+# Implementation Plan: Feature #132
 
 **Category:** Docs
-**Description:** Docs: MCP authoring guide with working example server
+**Description:** Demo recordings: cross-device handoff, computer-use, proactive reminder
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Guide compiles into working plugin
+**Criteria:** Three video demos in docs/
 **Type:** manual
