@@ -355,3 +355,4 @@
 {"timestamp":"2026-04-28T19:38:55.145601+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":125,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_eval_harness.py: .py"}
 {"timestamp":"2026-05-03T07:04:32.057194+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":142,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_e2e_golden.py: .py"}
 {"timestamp":"2026-05-03T07:05:01.755981+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":143,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_e2e_meeting.py: .py"}
+{"timestamp":"2026-05-03T07:05:41.335961+00:00","event_type":"post_write","tool_name":"Write","outcome":"clean","feature_id":144,"context_snippet":"/home/vpa-rdflex/Desktop/nova/tests/test_e2e_offline.py: .py"}

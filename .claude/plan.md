@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #143
+# Implementation Plan: Feature #144
 
 **Category:** Demo
-**Description:** E2E golden demo: laptop listens to a meeting, phone receives action-items summary after
+**Description:** E2E golden demo: offline airplane-mode flight — full voice + local LLM + memory still work
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Summary arrives on phone within 30s of meeting end
+**Criteria:** All core flows succeed with airplane mode on
 **Type:** manual
