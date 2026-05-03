@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #130
+# Implementation Plan: Feature #131
 
 **Category:** Docs
-**Description:** Docs: quickstart README + architecture diagram + safety model
+**Description:** Docs: MCP authoring guide with working example server
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** New user installs in under 20 min
+**Criteria:** Guide compiles into working plugin
 **Type:** manual

@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #130 [Docs] Docs: quickstart README + architecture diagram + safety model
-   Started: 2026-05-03T07:00:42.401607Z
+**In Progress:** #131 [Docs] Docs: MCP authoring guide with working example server
+   Started: 2026-05-03T07:01:33.544627Z
 
 ## Summary
 
-Progress: ████████████████████░░░░░░░░░░ 69.4%
+Progress: █████████████████████░░░░░░░░░ 70.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 100 | 69.4% |
+| Passed | 101 | 70.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 43 | 29.9% |
+| Pending | 42 | 29.2% |
 
 ## Session Statistics
 
-- **Sessions:** 101
-- **Last Started:** 2026-05-03T07:00:42.401626Z
+- **Sessions:** 102
+- **Last Started:** 2026-05-03T07:01:33.544646Z
 
 ## Categories
 
@@ -41,7 +41,7 @@ Progress: ████████████████████░░░�
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
-| Docs | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
+| Docs | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | DevOps | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ████████████████████░░░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #130 | passed | 43s | 17495 | 17103 | 392 | 10 | 0 | yes |
 | #125 | passed | 1m 3s | 17668 | 17042 | 626 | 14 | 0 | yes |
 | #123 | passed | 57s | 17529 | 16986 | 543 | 12 | 0 | yes |
 | #121 | passed | 1m 0s | 17491 | 16937 | 554 | 12 | 0 | yes |
@@ -157,6 +158,7 @@ Progress: ████████████████████░░░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
 | 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
 | 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 | 2026-04-28T19:36 | #121 Packaging: bundle default STT + TTS + wake word mo | P | 212c426 |
@@ -166,8 +168,7 @@ Progress: ████████████████████░░░�
 | 2026-04-28T19:28 | #109 Built-in MCP: web search (SearxNG default, Brave A | P | 3f698c2 |
 | 2026-04-28T19:26 | #108 Built-in MCP: contacts (CardDAV + Google + iCloud) | P | 1ecfb34 |
 | 2026-04-28T19:25 | #107 Built-in MCP: calendar (CalDAV + Google + Apple) | P | 2c5b9d0 |
-| 2026-04-28T19:24 | #106 Built-in MCP: email (IMAP/SMTP + Gmail OAuth + Out | P | 9224ff4 |
 
 ---
-*Last updated: 2026-05-03T07:00:42.461487Z*
-*Session 101*
+*Last updated: 2026-05-03T07:01:33.601553Z*
+*Session 102*

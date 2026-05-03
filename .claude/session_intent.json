@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-101",
-      "text": "Implementing feature 130: Docs: quickstart README + architecture diagram + safety model",
+      "id": "f2d00bd75f7e-102",
+      "text": "Implementing feature 131: Docs: MCP authoring guide with working example server",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791642.4995513,
-      "updated_at": 1777791642.4995515,
+      "created_at": 1777791693.6353276,
+      "updated_at": 1777791693.6353278,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 130
+        "feature_id": 131
       },
       "keywords": []
     },
@@ -1534,9 +1534,24 @@
         "feature_id": 130
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-102",
+      "text": "Implementing feature 131: Docs: MCP authoring guide with working example server",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791693.6353276,
+      "updated_at": 1777791693.6353278,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 131
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 101,
+  "intent_counter": 102,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791642.4995553
+  "updated_at": 1777791693.6353316
 }
