@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #126
+# Implementation Plan: Feature #127
 
 **Category:** Quality
-**Description:** GAIA-lite subset integration for objective benchmark tracking across releases
+**Description:** tau2-bench voice eval runner for end-to-end voice pipeline
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Score trend plotted over versions
+**Criteria:** Voice eval produces transcript and success rate
 **Type:** manual

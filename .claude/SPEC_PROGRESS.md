@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #126 [Quality] GAIA-lite subset integration for objective benchmark tracking across releases
-   Started: 2026-05-03T08:13:13.505704Z
+**In Progress:** #127 [Quality] tau2-bench voice eval runner for end-to-end voice pipeline
+   Started: 2026-05-03T08:14:28.546240Z
 
 ## Summary
 
-Progress: ███████████████████████████░░░ 93.1%
+Progress: ████████████████████████████░░ 93.8%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 134 | 93.1% |
+| Passed | 135 | 93.8% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 9 | 6.2% |
+| Pending | 8 | 5.6% |
 
 ## Session Statistics
 
-- **Sessions:** 135
-- **Last Started:** 2026-05-03T08:13:13.505724Z
+- **Sessions:** 136
+- **Last Started:** 2026-05-03T08:14:28.546259Z
 
 ## Categories
 
@@ -40,7 +40,7 @@ Progress: ███████████████████████�
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
 | i18n | ██████████ 100% | 3 | 0 | 0 |
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
-| Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
+| Quality | ████░░░░░░ 40% | 2 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #126 | passed | 1m 14s | 19537 | 18996 | 541 | 12 | 0 | yes |
 | #124 | passed | 8m 53s | 19323 | 18939 | 384 | 10 | 0 | yes |
 | #122 | passed | 1m 1s | 19476 | 18885 | 591 | 12 | 0 | yes |
 | #118 | passed | 45s | 19282 | 18831 | 451 | 12 | 0 | yes |
@@ -191,6 +192,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T08:14 | #126 GAIA-lite subset integration for objective benchma | P | 277da36 |
 | 2026-05-03T08:13 | #124 Docker Compose deployment for self-hosted brain on | P | 9881b7a |
 | 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
 | 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
@@ -200,8 +202,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:56 | #113 Built-in MCP: Git operations (clone, commit, push, | P | 789a1ed |
 | 2026-05-03T07:52 | #112 Built-in MCP: notes (Obsidian vault + Markdown + S | P | c8b889f |
 | 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
-| 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 
 ---
-*Last updated: 2026-05-03T08:13:13.566067Z*
-*Session 135*
+*Last updated: 2026-05-03T08:14:28.628475Z*
+*Session 136*
