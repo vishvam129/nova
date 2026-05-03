@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #122
+# Implementation Plan: Feature #124
 
 **Category:** Packaging
-**Description:** Auto-update channel with Ed25519 release signature verification
+**Description:** Docker Compose deployment for self-hosted brain on home server
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Bad signature blocks install
+**Criteria:** docker compose up brings up working stack
 **Type:** manual

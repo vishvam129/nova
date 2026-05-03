@@ -1,0 +1,78 @@
+version: "3.9"
+
+# Self-hosted Nova brain on a home server (e.g. NUC, Pi 5, or a spare box).
+# Pair the laptop / phone clients to this stack via Tailscale and they get
+# a shared brain + memory without anything leaving the LAN.
+
+services:
+  nova-brain:
+    image: ghcr.io/vishvam129/nova:latest
+    container_name: nova-brain
+    restart: unless-stopped
+    environment:
+      NOVA_MODE: "server"
+      NOVA_DATA_DIR: /data
+      NOVA_LOG_LEVEL: INFO
+      NOVA_DAILY_COST_CAP_USD: "1.00"
+      NOVA_PUBLIC_KEY_FILE: /run/secrets/nova_pubkey
+    ports:
+      - "8765:8765"  # WebSocket hub for paired devices
+    volumes:
+      - nova-data:/data
+      - ./config:/etc/nova:ro
+    secrets:
+      - nova_pubkey
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8765/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: nova-ollama
+    restart: unless-stopped
+    volumes:
+      - ollama-models:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  searxng:
+    image: searxng/searxng:latest
+    container_name: nova-searxng
+    restart: unless-stopped
+    environment:
+      BASE_URL: "http://searxng:8080"
+    volumes:
+      - ./searxng:/etc/searxng:ro
+
+  tailscale:
+    image: tailscale/tailscale:latest
+    container_name: nova-tailscale
+    restart: unless-stopped
+    environment:
+      TS_AUTHKEY: "${TS_AUTHKEY:-}"
+      TS_HOSTNAME: "nova-brain"
+      TS_STATE_DIR: /var/lib/tailscale
+    volumes:
+      - tailscale-state:/var/lib/tailscale
+    cap_add:
+      - net_admin
+      - sys_module
+    network_mode: host
+
+volumes:
+  nova-data:
+  ollama-models:
+  tailscale-state:
+
+secrets:
+  nova_pubkey:
+    file: ./secrets/nova_pubkey.pem

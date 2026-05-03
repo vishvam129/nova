@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #122 [Packaging] Auto-update channel with Ed25519 release signature verification
-   Started: 2026-05-03T08:03:17.233794Z
+**In Progress:** #124 [Packaging] Docker Compose deployment for self-hosted brain on home server
+   Started: 2026-05-03T08:04:19.219340Z
 
 ## Summary
 
-Progress: ███████████████████████████░░░ 91.7%
+Progress: ███████████████████████████░░░ 92.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 132 | 91.7% |
+| Passed | 133 | 92.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 11 | 7.6% |
+| Pending | 10 | 6.9% |
 
 ## Session Statistics
 
-- **Sessions:** 133
-- **Last Started:** 2026-05-03T08:03:17.233830Z
+- **Sessions:** 134
+- **Last Started:** 2026-05-03T08:04:19.219360Z
 
 ## Categories
 
@@ -39,7 +39,7 @@ Progress: ███████████████████████�
 | Context | ██████████ 100% | 9 | 0 | 0 |
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
 | i18n | ██████████ 100% | 3 | 0 | 0 |
-| Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
+| Packaging | ████████░░ 83% | 5 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #122 | passed | 1m 1s | 19476 | 18885 | 591 | 12 | 0 | yes |
 | #118 | passed | 45s | 19282 | 18831 | 451 | 12 | 0 | yes |
 | #117 | passed | 1m 13s | 19207 | 18779 | 428 | 12 | 0 | yes |
 | #115 | passed | 3m 52s | 19244 | 18721 | 523 | 12 | 0 | yes |
@@ -189,6 +190,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
 | 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
 | 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
 | 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
@@ -198,8 +200,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:48 | #111 Built-in MCP: Spotify/YouTube Music playback contr | P | 90a31a4 |
 | 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
-| 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
 
 ---
-*Last updated: 2026-05-03T08:03:17.297453Z*
-*Session 133*
+*Last updated: 2026-05-03T08:04:19.285221Z*
+*Session 134*

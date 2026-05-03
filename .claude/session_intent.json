@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-133",
-      "text": "Implementing feature 122: Auto-update channel with Ed25519 release signature verification",
+      "id": "f2d00bd75f7e-134",
+      "text": "Implementing feature 124: Docker Compose deployment for self-hosted brain on home server",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777795397.3368325,
-      "updated_at": 1777795397.3368328,
+      "created_at": 1777795459.3192303,
+      "updated_at": 1777795459.3192303,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 122
+        "feature_id": 124
       },
       "keywords": []
     },
@@ -2014,9 +2014,24 @@
         "feature_id": 122
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-134",
+      "text": "Implementing feature 124: Docker Compose deployment for self-hosted brain on home server",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777795459.3192303,
+      "updated_at": 1777795459.3192303,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 124
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 133,
+  "intent_counter": 134,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777795397.3368397
+  "updated_at": 1777795459.3192341
 }
