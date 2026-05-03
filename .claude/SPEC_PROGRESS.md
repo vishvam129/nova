@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #50 [Tools] Browser extension MCP for in-page DOM access with per-site permission
-   Started: 2026-05-03T07:07:11.884235Z
+**In Progress:** #65 [Memory] Memory explain-ability: 'why do you know X' returns source turn + timestamp
+   Started: 2026-05-03T07:10:08.977075Z
 
 ## Summary
 
-Progress: ██████████████████████░░░░░░░░ 76.4%
+Progress: ███████████████████████░░░░░░░ 77.1%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 110 | 76.4% |
+| Passed | 111 | 77.1% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 33 | 22.9% |
+| Pending | 32 | 22.2% |
 
 ## Session Statistics
 
-- **Sessions:** 111
-- **Last Started:** 2026-05-03T07:07:11.884253Z
+- **Sessions:** 112
+- **Last Started:** 2026-05-03T07:10:08.977097Z
 
 ## Categories
 
@@ -30,7 +30,7 @@ Progress: ██████████████████████░�
 | Setup | ██████████ 100% | 6 | 0 | 0 |
 | Voice | ██████████ 100% | 16 | 0 | 0 |
 | Brain | ██████████ 100% | 11 | 0 | 0 |
-| Tools | █████████░ 94% | 16 | 0 | 0 |
+| Tools | ██████████ 100% | 17 | 0 | 0 |
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | █████████░ 91% | 10 | 0 | 0 |
 | Ecosystem | ███████░░░ 75% | 6 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ██████████████████████░�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #50 | passed | 2m 56s | 18192 | 17637 | 555 | 12 | 0 | yes |
 | #19 | passed | 1m 18s | 18145 | 17585 | 560 | 12 | 0 | yes |
 | #144 | passed | 37s | 17961 | 17529 | 432 | 11 | 0 | yes |
 | #143 | passed | 30s | 17871 | 17483 | 388 | 11 | 0 | yes |
@@ -167,6 +168,7 @@ Progress: ██████████████████████░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:10 | #50 Browser extension MCP for in-page DOM access with  | P | 9672d5a |
 | 2026-05-03T07:07 | #19 XTTS-v2 voice cloning from 6-second sample stored  | P | b1ced6d |
 | 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
 | 2026-05-03T07:05 | #143 E2E golden demo: laptop listens to a meeting, phon | P | d336a09 |
@@ -176,8 +178,7 @@ Progress: ██████████████████████░�
 | 2026-05-03T07:03 | #133 Privacy policy + data-flow diagram explaining loca | P | 85ad999 |
 | 2026-05-03T07:02 | #132 Demo recordings: cross-device handoff, computer-us | P | cc0ecc4 |
 | 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
-| 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
 
 ---
-*Last updated: 2026-05-03T07:07:11.943185Z*
-*Session 111*
+*Last updated: 2026-05-03T07:10:09.035233Z*
+*Session 112*

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #50
+# Implementation Plan: Feature #65
 
-**Category:** Tools
-**Description:** Browser extension MCP for in-page DOM access with per-site permission
+**Category:** Memory
+**Description:** Memory explain-ability: 'why do you know X' returns source turn + timestamp
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Extension exposes page.extract tool
+**Criteria:** Citation returned for any recalled fact
 **Type:** manual

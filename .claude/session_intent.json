@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-111",
-      "text": "Implementing feature 50: Browser extension MCP for in-page DOM access with per-site permission",
+      "id": "f2d00bd75f7e-112",
+      "text": "Implementing feature 65: Memory explain-ability: 'why do you know X' returns source turn + timestamp",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792031.977255,
-      "updated_at": 1777792031.9772553,
+      "created_at": 1777792209.073142,
+      "updated_at": 1777792209.073142,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 50
+        "feature_id": 65
       },
       "keywords": []
     },
@@ -1684,9 +1684,24 @@
         "feature_id": 50
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-112",
+      "text": "Implementing feature 65: Memory explain-ability: 'why do you know X' returns source turn + timestamp",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792209.073142,
+      "updated_at": 1777792209.073142,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 65
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 111,
+  "intent_counter": 112,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792031.9772608
+  "updated_at": 1777792209.0731463
 }
