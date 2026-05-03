@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #118 [i18n] Right-to-left language rendering in all UI surfaces
-   Started: 2026-05-03T08:02:31.861014Z
+**In Progress:** #122 [Packaging] Auto-update channel with Ed25519 release signature verification
+   Started: 2026-05-03T08:03:17.233794Z
 
 ## Summary
 
-Progress: ███████████████████████████░░░ 91.0%
+Progress: ███████████████████████████░░░ 91.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 131 | 91.0% |
+| Passed | 132 | 91.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 12 | 8.3% |
+| Pending | 11 | 7.6% |
 
 ## Session Statistics
 
-- **Sessions:** 132
-- **Last Started:** 2026-05-03T08:02:31.861033Z
+- **Sessions:** 133
+- **Last Started:** 2026-05-03T08:03:17.233830Z
 
 ## Categories
 
@@ -38,7 +38,7 @@ Progress: ███████████████████████�
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
 | Context | ██████████ 100% | 9 | 0 | 0 |
 | Integrations | ██████████ 100% | 10 | 0 | 0 |
-| i18n | ██████░░░░ 67% | 2 | 0 | 0 |
+| i18n | ██████████ 100% | 3 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
 | Quality | ██░░░░░░░░ 20% | 1 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #118 | passed | 45s | 19282 | 18831 | 451 | 12 | 0 | yes |
 | #117 | passed | 1m 13s | 19207 | 18779 | 428 | 12 | 0 | yes |
 | #115 | passed | 3m 52s | 19244 | 18721 | 523 | 12 | 0 | yes |
 | #114 | passed | 1m 19s | 19186 | 18661 | 525 | 12 | 0 | yes |
@@ -188,6 +189,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
 | 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
 | 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
 | 2026-05-03T07:57 | #114 Built-in MCP: persistent shell session (tmux-backe | P | 52aa3ee |
@@ -197,8 +199,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:47 | #110 Built-in MCP: Home Assistant (REST + WebSocket) | P | 8e5814a |
 | 2026-05-03T07:42 | #104 Scripted macros: save frequent action chains under | P | e51449c |
 | 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
-| 2026-05-03T07:25 | #102 Proactive engine: scheduled reminders + event-driv | P | 824b44e |
 
 ---
-*Last updated: 2026-05-03T08:02:31.925107Z*
-*Session 132*
+*Last updated: 2026-05-03T08:03:17.297453Z*
+*Session 133*

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-132",
-      "text": "Implementing feature 118: Right-to-left language rendering in all UI surfaces",
+      "id": "f2d00bd75f7e-133",
+      "text": "Implementing feature 122: Auto-update channel with Ed25519 release signature verification",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777795351.9605086,
-      "updated_at": 1777795351.9605086,
+      "created_at": 1777795397.3368325,
+      "updated_at": 1777795397.3368328,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 118
+        "feature_id": 122
       },
       "keywords": []
     },
@@ -1999,9 +1999,24 @@
         "feature_id": 118
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-133",
+      "text": "Implementing feature 122: Auto-update channel with Ed25519 release signature verification",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777795397.3368325,
+      "updated_at": 1777795397.3368328,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 122
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 132,
+  "intent_counter": 133,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777795351.9605143
+  "updated_at": 1777795397.3368397
 }

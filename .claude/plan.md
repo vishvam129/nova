@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #118
+# Implementation Plan: Feature #122
 
-**Category:** i18n
-**Description:** Right-to-left language rendering in all UI surfaces
+**Category:** Packaging
+**Description:** Auto-update channel with Ed25519 release signature verification
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Arabic UI renders correctly
+**Criteria:** Bad signature blocks install
 **Type:** manual
