@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #144
+# Implementation Plan: Feature #19
 
-**Category:** Demo
-**Description:** E2E golden demo: offline airplane-mode flight — full voice + local LLM + memory still work
+**Category:** Voice
+**Description:** XTTS-v2 voice cloning from 6-second sample stored securely per user
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** All core flows succeed with airplane mode on
+**Criteria:** User records 6s, agent responds in cloned voice
 **Type:** manual

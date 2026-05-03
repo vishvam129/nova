@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-109",
-      "text": "Implementing feature 144: E2E golden demo: offline airplane-mode flight \u2014 full voice + local LLM + memory still work",
+      "id": "f2d00bd75f7e-110",
+      "text": "Implementing feature 19: XTTS-v2 voice cloning from 6-second sample stored securely per user",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791915.1975274,
-      "updated_at": 1777791915.1975274,
+      "created_at": 1777791953.392502,
+      "updated_at": 1777791953.3925023,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 144
+        "feature_id": 19
       },
       "keywords": []
     },
@@ -1654,9 +1654,24 @@
         "feature_id": 144
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-110",
+      "text": "Implementing feature 19: XTTS-v2 voice cloning from 6-second sample stored securely per user",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791953.392502,
+      "updated_at": 1777791953.3925023,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 19
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 109,
+  "intent_counter": 110,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791915.1975317
+  "updated_at": 1777791953.3925061
 }

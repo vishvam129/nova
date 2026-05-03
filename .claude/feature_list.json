@@ -13,21 +13,21 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 144,
+  "current_feature_id": 19,
   "session": {
-    "count": 109,
-    "last_started_at": "2026-05-03T07:05:15.103173Z",
+    "count": 110,
+    "last_started_at": "2026-05-03T07:05:53.294796Z",
     "total_duration_minutes": 0
   },
   "stats": {
     "total": 144,
-    "passed": 108,
+    "passed": 109,
     "failed": 0,
     "skipped": 0,
     "in_progress": 1,
     "paused": 0,
-    "pending": 35,
-    "completion_percentage": 75.0
+    "pending": 34,
+    "completion_percentage": 75.7
   },
   "categories": [
     {
@@ -169,7 +169,7 @@
     {
       "name": "Demo",
       "total": 3,
-      "passed": 2,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -1212,9 +1212,9 @@
         "evidence": null,
         "requirements_addressed": []
       },
-      "status": "pending",
+      "status": "in_progress",
       "status_reason": null,
-      "started_at": null,
+      "started_at": "2026-05-03T07:05:53.294776Z",
       "completed_at": null,
       "commit_hash": null,
       "parallelizable": false,
@@ -7298,15 +7298,42 @@
       "verification": {
         "type": "manual",
         "criteria": "All core flows succeed with airplane mode on",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "5 e2e tests pass",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-03T07:05:52.956769Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "airplane",
+            "airplane-mode",
+            "core",
+            "demo",
+            "e2e",
+            "flight",
+            "flows",
+            "full",
+            "golden",
+            "llm",
+            "local",
+            "memory",
+            "mode",
+            "offline",
+            "still",
+            "succeed",
+            "voice",
+            "work"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 18/18 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-05-03T07:05:15.103153Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-05-03T07:05:52.991966Z",
+      "commit_hash": "435d49f222cc503a6c89199f908988b454483270",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -7316,41 +7343,16 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 17961,
+        "removed": 17529,
+        "net": 432,
+        "files_changed": 11
+      }
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-28T17:24:49.902978Z",
-      "operation": "feature_passed",
-      "feature_id": 39,
-      "details": {
-        "commit_hash": "3a803172591f7f3141f5c381afadce1dd0456977",
-        "loc_stats": {
-          "added": 15290,
-          "removed": 14750,
-          "net": 540,
-          "files_changed": 12
-        }
-      }
-    },
-    {
-      "timestamp": "2026-04-28T17:24:54.149307Z",
-      "operation": "feature_started",
-      "feature_id": 44,
-      "details": {
-        "from_status": "pending",
-        "avib": {
-          "atomic": 8.0,
-          "verifiable": 8.0,
-          "independent": 9.0,
-          "bounded": 8.5,
-          "average": 8.4,
-          "feedback": []
-        },
-        "depth": 1
-      }
-    },
     {
       "timestamp": "2026-04-28T17:25:35.692749Z",
       "operation": "feature_passed",
@@ -8870,6 +8872,37 @@
       "timestamp": "2026-05-03T07:05:15.103191Z",
       "operation": "feature_started",
       "feature_id": 144,
+      "details": {
+        "from_status": "pending",
+        "avib": {
+          "atomic": 8.0,
+          "verifiable": 8.0,
+          "independent": 9.0,
+          "bounded": 8.5,
+          "average": 8.4,
+          "feedback": []
+        },
+        "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:52.992014Z",
+      "operation": "feature_passed",
+      "feature_id": 144,
+      "details": {
+        "commit_hash": "435d49f222cc503a6c89199f908988b454483270",
+        "loc_stats": {
+          "added": 17961,
+          "removed": 17529,
+          "net": 432,
+          "files_changed": 11
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-03T07:05:53.294814Z",
+      "operation": "feature_started",
+      "feature_id": 19,
       "details": {
         "from_status": "pending",
         "avib": {

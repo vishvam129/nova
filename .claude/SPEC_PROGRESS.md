@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #144 [Demo] E2E golden demo: offline airplane-mode flight — full voice + local LLM + memory still work
-   Started: 2026-05-03T07:05:15.103153Z
+**In Progress:** #19 [Voice] XTTS-v2 voice cloning from 6-second sample stored securely per user
+   Started: 2026-05-03T07:05:53.294776Z
 
 ## Summary
 
-Progress: ██████████████████████░░░░░░░░ 75.0%
+Progress: ██████████████████████░░░░░░░░ 75.7%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 108 | 75.0% |
+| Passed | 109 | 75.7% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 35 | 24.3% |
+| Pending | 34 | 23.6% |
 
 ## Session Statistics
 
-- **Sessions:** 109
-- **Last Started:** 2026-05-03T07:05:15.103173Z
+- **Sessions:** 110
+- **Last Started:** 2026-05-03T07:05:53.294796Z
 
 ## Categories
 
@@ -44,12 +44,13 @@ Progress: ██████████████████████░�
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██░░░░░░░░ 25% | 1 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
-| Demo | ██████░░░░ 67% | 2 | 0 | 0 |
+| Demo | ██████████ 100% | 3 | 0 | 0 |
 
 ## Feature Metrics
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #144 | passed | 37s | 17961 | 17529 | 432 | 11 | 0 | yes |
 | #143 | passed | 30s | 17871 | 17483 | 388 | 11 | 0 | yes |
 | #142 | passed | 35s | 17852 | 17434 | 418 | 11 | 0 | yes |
 | #135 | passed | 23s | 17761 | 17379 | 382 | 10 | 0 | yes |
@@ -165,6 +166,7 @@ Progress: ██████████████████████░�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:05 | #144 E2E golden demo: offline airplane-mode flight — fu | P | 435d49f |
 | 2026-05-03T07:05 | #143 E2E golden demo: laptop listens to a meeting, phon | P | d336a09 |
 | 2026-05-03T07:04 | #142 E2E golden demo: 'open Spotify, play lofi, set vol | P | 829585e |
 | 2026-05-03T07:04 | #135 Release pipeline: GitHub Actions build/test/sign/r | P | 0c08e00 |
@@ -174,8 +176,7 @@ Progress: ██████████████████████░�
 | 2026-05-03T07:01 | #131 Docs: MCP authoring guide with working example ser | P | 629ae15 |
 | 2026-05-03T07:01 | #130 Docs: quickstart README + architecture diagram + s | P | 52b04cd |
 | 2026-04-28T19:39 | #125 Eval harness: personal task suite (50 common reque | P | ac1d098 |
-| 2026-04-28T19:37 | #123 GPU/NPU detection: select best model+quantization  | P | 6812b3b |
 
 ---
-*Last updated: 2026-05-03T07:05:15.165906Z*
-*Session 109*
+*Last updated: 2026-05-03T07:05:53.355223Z*
+*Session 110*
