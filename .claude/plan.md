@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #99
+# Implementation Plan: Feature #102
 
 **Category:** Context
-**Description:** Location provider (GPS on phone, IP geo on laptop) with user opt-in
+**Description:** Proactive engine: scheduled reminders + event-driven suggestions (commute, battery low)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** 'weather here' uses current coords
+**Criteria:** Commute-time suggestion fires appropriately
 **Type:** manual

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-121",
-      "text": "Implementing feature 99: Location provider (GPS on phone, IP geo on laptop) with user opt-in",
+      "id": "f2d00bd75f7e-122",
+      "text": "Implementing feature 102: Proactive engine: scheduled reminders + event-driven suggestions (commute, battery low)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792931.698896,
-      "updated_at": 1777792931.6988962,
+      "created_at": 1777792973.021173,
+      "updated_at": 1777792973.0211732,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 99
+        "feature_id": 102
       },
       "keywords": []
     },
@@ -1834,9 +1834,24 @@
         "feature_id": 99
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-122",
+      "text": "Implementing feature 102: Proactive engine: scheduled reminders + event-driven suggestions (commute, battery low)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792973.021173,
+      "updated_at": 1777792973.0211732,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 102
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 121,
+  "intent_counter": 122,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792931.6988997
+  "updated_at": 1777792973.0211773
 }
