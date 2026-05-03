@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #85
+# Implementation Plan: Feature #92
 
-**Category:** UI
-**Description:** Status tray widgets: cost today, requests today, next reminder, last command
+**Category:** Mobile
+**Description:** Quick-tile toggle + home-screen floating bubble for one-tap invocation
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Widgets update in real time
+**Criteria:** Tap bubble starts session anywhere
 **Type:** manual
