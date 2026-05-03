@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #84 [UI] Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation
-   Started: 2026-05-03T07:13:12.862581Z
+**In Progress:** #85 [UI] Status tray widgets: cost today, requests today, next reminder, last command
+   Started: 2026-05-03T07:14:18.757678Z
 
 ## Summary
 
-Progress: ███████████████████████░░░░░░░ 79.2%
+Progress: ███████████████████████░░░░░░░ 79.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 114 | 79.2% |
+| Passed | 115 | 79.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 29 | 20.1% |
+| Pending | 28 | 19.4% |
 
 ## Session Statistics
 
-- **Sessions:** 115
-- **Last Started:** 2026-05-03T07:13:12.862604Z
+- **Sessions:** 116
+- **Last Started:** 2026-05-03T07:14:18.757735Z
 
 ## Categories
 
@@ -34,7 +34,7 @@ Progress: ███████████████████████�
 | Safety | ██████████ 100% | 8 | 0 | 0 |
 | Memory | ██████████ 100% | 11 | 0 | 0 |
 | Ecosystem | ██████████ 100% | 8 | 0 | 0 |
-| UI | ███████░░░ 75% | 6 | 0 | 0 |
+| UI | ████████░░ 88% | 7 | 0 | 0 |
 | Mobile | ██████░░░░ 64% | 7 | 0 | 0 |
 | Context | █████░░░░░ 56% | 5 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #84 | passed | 1m 5s | 198 | 2 | 196 | 4 | 0 | yes |
 | #77 | passed | 1m 2s | 18397 | 17816 | 581 | 12 | 0 | yes |
 | #76 | passed | 50s | 18316 | 17757 | 559 | 12 | 0 | yes |
 | #65 | passed | 1m 10s | 18235 | 17695 | 540 | 12 | 0 | yes |
@@ -171,6 +172,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:14 | #84 Quick-command palette (Ctrl+Shift+Space) for text- | P | 2e64027 |
 | 2026-05-03T07:13 | #77 Always-on home brain mode: laptop stays listener w | P | 4c3c667 |
 | 2026-05-03T07:12 | #76 Multi-user support: per-user profiles, memory name | P | be813f0 |
 | 2026-05-03T07:11 | #65 Memory explain-ability: 'why do you know X' return | P | 19e792a |
@@ -180,8 +182,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:05 | #143 E2E golden demo: laptop listens to a meeting, phon | P | d336a09 |
 | 2026-05-03T07:04 | #142 E2E golden demo: 'open Spotify, play lofi, set vol | P | 829585e |
 | 2026-05-03T07:04 | #135 Release pipeline: GitHub Actions build/test/sign/r | P | 0c08e00 |
-| 2026-05-03T07:03 | #134 Play Store listing + accessibility-service declare | P | 5d85c0c |
 
 ---
-*Last updated: 2026-05-03T07:13:12.929018Z*
-*Session 115*
+*Last updated: 2026-05-03T07:14:18.830758Z*
+*Session 116*

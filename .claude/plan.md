@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #84
+# Implementation Plan: Feature #85
 
 **Category:** UI
-**Description:** Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation
+**Description:** Status tray widgets: cost today, requests today, next reminder, last command
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Palette fires agent without mic
+**Criteria:** Widgets update in real time
 **Type:** manual

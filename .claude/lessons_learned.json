@@ -125,6 +125,13 @@
       "fix": "",
       "category": "execution",
       "timestamp": 1777792393.3142984
+    },
+    {
+      "feature_id": 85,
+      "error": "FAILED tests/test_command_palette.py::test_query_keyword_match - TypeError: C...\nFAILED tests/test_command_palette.py::test_query_limit - TypeError: Cannot sp...\n========================= 5 failed, 6 passed in 0.19s ==========================\nRun 'spec-next' to continue\n115/144 | 85 | UI | Status tray widgets: cost today, requests today, next reminder, last command",
+      "fix": "",
+      "category": "execution",
+      "timestamp": 1777792459.2096393
     }
   ]
 }

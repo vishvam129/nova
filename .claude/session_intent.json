@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-115",
-      "text": "Implementing feature 84: Quick-command palette (Ctrl+Shift+Space) for text-only agent invocation",
+      "id": "f2d00bd75f7e-116",
+      "text": "Implementing feature 85: Status tray widgets: cost today, requests today, next reminder, last command",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792392.9646533,
-      "updated_at": 1777792392.9646533,
+      "created_at": 1777792458.8633811,
+      "updated_at": 1777792458.8633814,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 84
+        "feature_id": 85
       },
       "keywords": []
     },
@@ -1744,9 +1744,24 @@
         "feature_id": 84
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-116",
+      "text": "Implementing feature 85: Status tray widgets: cost today, requests today, next reminder, last command",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777792458.8633811,
+      "updated_at": 1777792458.8633814,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 85
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 115,
+  "intent_counter": 116,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792392.9646575
+  "updated_at": 1777792458.8633862
 }

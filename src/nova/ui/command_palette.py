@@ -62,12 +62,12 @@ class CommandPalette:
         """Return ``(label, score)`` matches ordered by descending score."""
         results: list[tuple[str, int]] = []
         for cmd in self.commands:
-            best = max(
+            scores = [
                 _score(text, cmd.name),
                 _score(text, cmd.description) // 2,
                 *[_score(text, k) for k in cmd.keywords],
-                default=0,
-            )
+            ]
+            best = max(scores) if scores else 0
             if best > 0:
                 results.append((cmd.name, best))
         for r in self.recent:
