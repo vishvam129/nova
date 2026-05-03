@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #103 [Context] Context-aware wake word: 'Nova, translate' auto-routes without prior state
-   Started: 2026-05-03T07:25:42.152777Z
+**In Progress:** #104 [Context] Scripted macros: save frequent action chains under a spoken alias ('my morning routine')
+   Started: 2026-05-03T07:27:50.026275Z
 
 ## Summary
 
-Progress: █████████████████████████░░░░░ 84.7%
+Progress: █████████████████████████░░░░░ 85.4%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 122 | 84.7% |
+| Passed | 123 | 85.4% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 21 | 14.6% |
+| Pending | 20 | 13.9% |
 
 ## Session Statistics
 
-- **Sessions:** 123
-- **Last Started:** 2026-05-03T07:25:42.152794Z
+- **Sessions:** 124
+- **Last Started:** 2026-05-03T07:27:50.026295Z
 
 ## Categories
 
@@ -36,7 +36,7 @@ Progress: ███████████████████████�
 | Ecosystem | ██████████ 100% | 8 | 0 | 0 |
 | UI | ██████████ 100% | 8 | 0 | 0 |
 | Mobile | ██████████ 100% | 11 | 0 | 0 |
-| Context | ███████░░░ 78% | 7 | 0 | 0 |
+| Context | ████████░░ 89% | 8 | 0 | 0 |
 | Integrations | ████░░░░░░ 40% | 4 | 0 | 0 |
 | i18n | ███░░░░░░░ 33% | 1 | 0 | 0 |
 | Packaging | ██████░░░░ 67% | 4 | 0 | 0 |
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #103 | passed | 2m 7s | 18796 | 18334 | 462 | 12 | 0 | yes |
 | #102 | passed | 2m 48s | 18838 | 18279 | 559 | 12 | 0 | yes |
 | #99 | passed | 40s | 18731 | 18225 | 506 | 12 | 0 | yes |
 | #96 | passed | 1m 35s | 18672 | 18172 | 500 | 12 | 0 | yes |
@@ -179,6 +180,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T07:27 | #103 Context-aware wake word: 'Nova, translate' auto-ro | P | c514ac5 |
 | 2026-05-03T07:25 | #102 Proactive engine: scheduled reminders + event-driv | P | 824b44e |
 | 2026-05-03T07:22 | #99 Location provider (GPS on phone, IP geo on laptop) | P | edbddba |
 | 2026-05-03T07:22 | #96 Wear OS companion: wake-word + quick replies via p | P | 735573e |
@@ -188,8 +190,7 @@ Progress: ███████████████████████�
 | 2026-05-03T07:15 | #85 Status tray widgets: cost today, requests today, n | P | 47038a4 |
 | 2026-05-03T07:14 | #84 Quick-command palette (Ctrl+Shift+Space) for text- | P | 2e64027 |
 | 2026-05-03T07:13 | #77 Always-on home brain mode: laptop stays listener w | P | 4c3c667 |
-| 2026-05-03T07:12 | #76 Multi-user support: per-user profiles, memory name | P | be813f0 |
 
 ---
-*Last updated: 2026-05-03T07:25:42.214133Z*
-*Session 123*
+*Last updated: 2026-05-03T07:27:50.095473Z*
+*Session 124*

@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-123",
-      "text": "Implementing feature 103: Context-aware wake word: 'Nova, translate' auto-routes without prior state",
+      "id": "f2d00bd75f7e-124",
+      "text": "Implementing feature 104: Scripted macros: save frequent action chains under a spoken alias ('my morning routine')",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777793142.2504528,
-      "updated_at": 1777793142.250453,
+      "created_at": 1777793270.138899,
+      "updated_at": 1777793270.138899,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 103
+        "feature_id": 104
       },
       "keywords": []
     },
@@ -1864,9 +1864,24 @@
         "feature_id": 103
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-124",
+      "text": "Implementing feature 104: Scripted macros: save frequent action chains under a spoken alias ('my morning routine')",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777793270.138899,
+      "updated_at": 1777793270.138899,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 104
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 123,
+  "intent_counter": 124,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777793142.2504573
+  "updated_at": 1777793270.138904
 }

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #103
+# Implementation Plan: Feature #104
 
 **Category:** Context
-**Description:** Context-aware wake word: 'Nova, translate' auto-routes without prior state
+**Description:** Scripted macros: save frequent action chains under a spoken alias ('my morning routine')
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Contextual phrase skips generic planning
+**Criteria:** Alias replays stored macro
 **Type:** manual
