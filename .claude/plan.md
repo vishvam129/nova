@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #102
+# Implementation Plan: Feature #103
 
 **Category:** Context
-**Description:** Proactive engine: scheduled reminders + event-driven suggestions (commute, battery low)
+**Description:** Context-aware wake word: 'Nova, translate' auto-routes without prior state
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Commute-time suggestion fires appropriately
+**Criteria:** Contextual phrase skips generic planning
 **Type:** manual

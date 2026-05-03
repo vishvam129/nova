@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-122",
-      "text": "Implementing feature 102: Proactive engine: scheduled reminders + event-driven suggestions (commute, battery low)",
+      "id": "f2d00bd75f7e-123",
+      "text": "Implementing feature 103: Context-aware wake word: 'Nova, translate' auto-routes without prior state",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777792973.021173,
-      "updated_at": 1777792973.0211732,
+      "created_at": 1777793142.2504528,
+      "updated_at": 1777793142.250453,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 102
+        "feature_id": 103
       },
       "keywords": []
     },
@@ -1849,9 +1849,24 @@
         "feature_id": 102
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-123",
+      "text": "Implementing feature 103: Context-aware wake word: 'Nova, translate' auto-routes without prior state",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777793142.2504528,
+      "updated_at": 1777793142.250453,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 103
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 122,
+  "intent_counter": 123,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777792973.0211773
+  "updated_at": 1777793142.2504573
 }
