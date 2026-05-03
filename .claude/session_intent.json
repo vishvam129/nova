@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-105",
-      "text": "Implementing feature 134: Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)",
+      "id": "f2d00bd75f7e-106",
+      "text": "Implementing feature 135: Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777791786.1173913,
-      "updated_at": 1777791786.1173913,
+      "created_at": 1777791824.6059778,
+      "updated_at": 1777791824.605978,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 134
+        "feature_id": 135
       },
       "keywords": []
     },
@@ -1594,9 +1594,24 @@
         "feature_id": 134
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-106",
+      "text": "Implementing feature 135: Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777791824.6059778,
+      "updated_at": 1777791824.605978,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 135
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 105,
+  "intent_counter": 106,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777791786.1174023
+  "updated_at": 1777791824.605983
 }

@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #134
+# Implementation Plan: Feature #135
 
-**Category:** Docs
-**Description:** Play Store listing + accessibility-service declared use disclosure (Jan 2026 policy)
+**Category:** DevOps
+**Description:** Release pipeline: GitHub Actions build/test/sign/release across 3 OSes + APK
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Listing includes declared-use section
+**Criteria:** Tag push produces multi-arch artifacts
 **Type:** manual
