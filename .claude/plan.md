@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #129
+# Implementation Plan: Feature #136
 
-**Category:** Quality
-**Description:** Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation
+**Category:** DevOps
+**Description:** Crash reporter (opt-in, sanitized, local-first dump with upload toggle)
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Failed service produces user-visible fallback
+**Criteria:** Simulated crash creates redacted dump
 **Type:** manual

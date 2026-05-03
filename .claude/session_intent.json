@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-138",
-      "text": "Implementing feature 129: Chaos test harness: kills mic/STT/LLM mid-request to verify graceful degradation",
+      "id": "f2d00bd75f7e-139",
+      "text": "Implementing feature 136: Crash reporter (opt-in, sanitized, local-first dump with upload toggle)",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777835579.912436,
-      "updated_at": 1777835579.9124362,
+      "created_at": 1777835707.4377942,
+      "updated_at": 1777835707.4377942,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 129
+        "feature_id": 136
       },
       "keywords": []
     },
@@ -2089,9 +2089,24 @@
         "feature_id": 129
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-139",
+      "text": "Implementing feature 136: Crash reporter (opt-in, sanitized, local-first dump with upload toggle)",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777835707.4377942,
+      "updated_at": 1777835707.4377942,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 136
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 138,
+  "intent_counter": 139,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777835579.9124403
+  "updated_at": 1777835707.4377975
 }
