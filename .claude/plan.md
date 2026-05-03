@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #115
+# Implementation Plan: Feature #117
 
-**Category:** Integrations
-**Description:** Composio MCP bundle integration for 500+ SaaS in one config
+**Category:** i18n
+**Description:** Translate tool: on-demand translate clipboard/selection/speech
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Composio tools callable after single auth
+**Criteria:** 'translate this to Spanish' returns translation
 **Type:** manual
