@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-140",
-      "text": "Implementing feature 137: Telemetry (opt-in only, local-aggregated) with consent wizard on first run",
+      "id": "f2d00bd75f7e-141",
+      "text": "Implementing feature 138: Nightly integration test running end-to-end voice pipeline headlessly",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777838133.3744104,
-      "updated_at": 1777838133.3744104,
+      "created_at": 1777839036.134891,
+      "updated_at": 1777839036.1348913,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 137
+        "feature_id": 138
       },
       "keywords": []
     },
@@ -2119,9 +2119,24 @@
         "feature_id": 137
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-141",
+      "text": "Implementing feature 138: Nightly integration test running end-to-end voice pipeline headlessly",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777839036.134891,
+      "updated_at": 1777839036.1348913,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 138
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 140,
+  "intent_counter": 141,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777838133.374415
+  "updated_at": 1777839036.1348948
 }

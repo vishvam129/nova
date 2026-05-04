@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #137 [DevOps] Telemetry (opt-in only, local-aggregated) with consent wizard on first run
-   Started: 2026-05-03T19:55:33.277047Z
+**In Progress:** #138 [DevOps] Nightly integration test running end-to-end voice pipeline headlessly
+   Started: 2026-05-03T20:10:36.037814Z
 
 ## Summary
 
-Progress: ████████████████████████████░░ 96.5%
+Progress: █████████████████████████████░ 97.2%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 139 | 96.5% |
+| Passed | 140 | 97.2% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 4 | 2.8% |
+| Pending | 3 | 2.1% |
 
 ## Session Statistics
 
-- **Sessions:** 140
-- **Last Started:** 2026-05-03T19:55:33.277066Z
+- **Sessions:** 141
+- **Last Started:** 2026-05-03T20:10:36.037833Z
 
 ## Categories
 
@@ -42,7 +42,7 @@ Progress: ███████████████████████�
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
 | Quality | ██████████ 100% | 5 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
-| DevOps | █████░░░░░ 50% | 2 | 0 | 0 |
+| DevOps | ███████░░░ 75% | 3 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ██████████ 100% | 3 | 0 | 0 |
 
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #137 | passed | 15m 2s | 19813 | 19257 | 556 | 12 | 0 | yes |
 | #136 | passed | 40m 25s | 19824 | 19208 | 616 | 13 | 0 | yes |
 | #129 | passed | 2m 7s | 257 | 2 | 255 | 4 | 0 | yes |
 | #128 | passed | 7h 13m 53s | 19685 | 19106 | 579 | 12 | 0 | yes |
@@ -196,6 +197,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-03T20:10 | #137 Telemetry (opt-in only, local-aggregated) with con | P | d9ccdcc |
 | 2026-05-03T19:55 | #136 Crash reporter (opt-in, sanitized, local-first dum | P | 6f0decd |
 | 2026-05-03T19:15 | #129 Chaos test harness: kills mic/STT/LLM mid-request  | P | 5fdaafb |
 | 2026-05-03T19:12 | #128 Opt-in local metrics dashboard: latency p50/p95, c | P | cb1399a |
@@ -205,8 +207,7 @@ Progress: ███████████████████████�
 | 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
 | 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
 | 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
-| 2026-05-03T08:01 | #115 Composio MCP bundle integration for 500+ SaaS in o | P | 09bde75 |
 
 ---
-*Last updated: 2026-05-03T19:55:33.339321Z*
-*Session 140*
+*Last updated: 2026-05-03T20:10:36.103110Z*
+*Session 141*

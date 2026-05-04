@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #137
+# Implementation Plan: Feature #138
 
 **Category:** DevOps
-**Description:** Telemetry (opt-in only, local-aggregated) with consent wizard on first run
+**Description:** Nightly integration test running end-to-end voice pipeline headlessly
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** Consent recorded; metrics off by default
+**Criteria:** CI job produces success rate report
 **Type:** manual
