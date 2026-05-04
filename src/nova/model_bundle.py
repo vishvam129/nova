@@ -115,7 +115,7 @@ class ModelBundle:
     @staticmethod
     def _fetch(url: str, *, fetcher: object | None) -> bytes:
         if callable(fetcher):
-            return bytes(fetcher(url))  # type: ignore[arg-type]
+            return bytes(fetcher(url))
         with urllib.request.urlopen(url, timeout=60) as resp:
             return bytes(resp.read())
 

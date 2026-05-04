@@ -13,6 +13,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 from nova.quality.eval_harness import Agent, EvalHarness, Report, TaskCase
 
@@ -92,8 +93,8 @@ class GaiaLiteRunner:
         out.write_text(_serialize_report(report, release_tag))
         return out
 
-    def history(self) -> list[dict[str, object]]:
-        runs: list[dict[str, object]] = []
+    def history(self) -> list[dict[str, Any]]:
+        runs: list[dict[str, Any]] = []
         for path in sorted(self.output_dir.glob("gaia_lite-*.json")):
             try:
                 runs.append(json.loads(path.read_text()))
@@ -127,7 +128,7 @@ def _serialize_report(report: Report, release_tag: str) -> str:
     return json.dumps(payload, indent=2)
 
 
-def diff_releases(history: Iterable[dict[str, object]]) -> list[tuple[str, float]]:
+def diff_releases(history: Iterable[dict[str, Any]]) -> list[tuple[str, float]]:
     """Per-release deltas in pass-rate vs the previous run."""
     items = list(history)
     out: list[tuple[str, float]] = []

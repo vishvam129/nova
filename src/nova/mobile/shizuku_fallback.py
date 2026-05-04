@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from enum import StrEnum
+from typing import Any
 
 
 class ControlChannel(StrEnum):
@@ -46,7 +47,7 @@ class ChannelStatus:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> ChannelStatus:
+    def from_dict(cls, d: dict[str, Any]) -> ChannelStatus:
         return cls(
             active=ControlChannel(d["active"]),
             accessibility_blocked=bool(d.get("accessibility_blocked", False)),

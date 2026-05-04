@@ -55,7 +55,7 @@ class HardwareDetector:
 
     def _run(self, cmd: list[str]) -> str:
         if callable(self.runner):
-            out = self.runner(cmd)  # type: ignore[arg-type]
+            out = self.runner(cmd)
             return str(out or "")
         if not shutil.which(cmd[0]):
             return ""

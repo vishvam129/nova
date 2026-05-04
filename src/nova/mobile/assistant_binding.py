@@ -9,6 +9,7 @@ Python side just carries config and the launch event over WebSocket.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import Any
 
 # AndroidManifest.xml fragment that registers Nova as the system Assistant.
 ASSISTANT_INTENT_FILTER = """\
@@ -45,7 +46,7 @@ class AssistantBindingConfig:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> AssistantBindingConfig:
+    def from_dict(cls, d: dict[str, Any]) -> AssistantBindingConfig:
         return cls(
             enabled=bool(d.get("enabled", True)),
             open_overlay=bool(d.get("open_overlay", True)),
@@ -72,11 +73,11 @@ class AssistantLaunchEvent:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> AssistantLaunchEvent:
+    def from_dict(cls, d: dict[str, Any]) -> AssistantLaunchEvent:
         return cls(
             source=str(d.get("source", "long_press_home")),
             package_in_focus=str(d.get("package_in_focus", "")),
-            extras=dict(d.get("extras") or {}),  # type: ignore[arg-type]
+            extras=dict(d.get("extras") or {}),
         )
 
 

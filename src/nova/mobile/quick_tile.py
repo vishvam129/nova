@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from enum import StrEnum
+from typing import Any
 
 
 class TileState(StrEnum):
@@ -52,11 +53,11 @@ class TileTapEvent:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> TileTapEvent:
+    def from_dict(cls, d: dict[str, Any]) -> TileTapEvent:
         return cls(
             source=str(d["source"]),
             current_state=TileState(d["current_state"]),
-            extras=dict(d.get("extras") or {}),  # type: ignore[arg-type]
+            extras=dict(d.get("extras") or {}),
         )
 
     def encode(self) -> str:

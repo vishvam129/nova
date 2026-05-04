@@ -12,6 +12,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from enum import StrEnum
+from typing import Any
 
 
 class VoiceMode(StrEnum):
@@ -73,7 +74,7 @@ class OfflineVoiceCapabilities:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> OfflineVoiceCapabilities:
+    def from_dict(cls, d: dict[str, Any]) -> OfflineVoiceCapabilities:
         return cls(
             stt=_model_from_dict(d.get("stt")),
             tts=_model_from_dict(d.get("tts")),

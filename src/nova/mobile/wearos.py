@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from enum import StrEnum
+from typing import Any
 
 
 class WatchMessageType(StrEnum):
@@ -38,10 +39,10 @@ class WatchWake:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> WatchWake:
+    def from_dict(cls, d: dict[str, Any]) -> WatchWake:
         return cls(
-            confidence=float(d["confidence"]),  # type: ignore[arg-type]
-            battery_pct=int(d.get("battery_pct", 100)),  # type: ignore[arg-type]
+            confidence=float(d["confidence"]),
+            battery_pct=int(d.get("battery_pct", 100)),
         )
 
 
@@ -60,7 +61,7 @@ class WatchQuickReply:
         return {"type": self.type, "chip_id": self.chip_id, "text": self.text}
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> WatchQuickReply:
+    def from_dict(cls, d: dict[str, Any]) -> WatchQuickReply:
         return cls(chip_id=str(d["chip_id"]), text=str(d["text"]))
 
 
@@ -85,11 +86,11 @@ class WatchNudge:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> WatchNudge:
+    def from_dict(cls, d: dict[str, Any]) -> WatchNudge:
         return cls(
             text=str(d["text"]),
-            vibration_ms=int(d.get("vibration_ms", 200)),  # type: ignore[arg-type]
-            suggested_chips=list(d.get("suggested_chips") or []),  # type: ignore[arg-type]
+            vibration_ms=int(d.get("vibration_ms", 200)),
+            suggested_chips=list(d.get("suggested_chips") or []),
         )
 
 
@@ -107,7 +108,7 @@ def default_chips() -> tuple[str, ...]:
 
 def encode(msg: object) -> str:
     if hasattr(msg, "to_dict"):
-        return json.dumps(msg.to_dict())  # type: ignore[attr-defined]
+        return json.dumps(msg.to_dict())
     raise TypeError(f"not a watch message: {msg!r}")
 
 

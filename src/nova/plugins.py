@@ -20,6 +20,7 @@ whole process on startup.
 from __future__ import annotations
 
 import importlib.metadata
+from builtins import list as _BList
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -60,7 +61,7 @@ class PluginRegistry:
     def __init__(self) -> None:
         self._entries: dict[str, list[PluginEntry]] = {g: [] for g in _ALL_GROUPS}
 
-    def discover(self, extra_groups: list[str] | None = None) -> None:
+    def discover(self, extra_groups: _BList[str] | None = None) -> None:
         """Scan installed entry points and populate the registry.
 
         Call once at process start.  Safe to call again — clears previous
@@ -88,7 +89,7 @@ class PluginRegistry:
                     )
                 )
 
-    def list(self, group: str) -> list[PluginEntry]:
+    def list(self, group: str) -> _BList[PluginEntry]:
         """Return all discovered plugins for *group*."""
         return list(self._entries.get(group, []))
 
@@ -99,14 +100,14 @@ class PluginRegistry:
                 return entry
         return None
 
-    def load_all(self, group: str) -> list[tuple[PluginEntry, Any]]:
+    def load_all(self, group: str) -> _BList[tuple[PluginEntry, Any]]:
         """Load every plugin in *group*, skipping broken ones.
 
         Returns a list of ``(entry, loaded_object)`` pairs.
         Broken entries are silently skipped; callers that need to know about
         failures should iterate ``list()`` and call ``entry.load()`` manually.
         """
-        results: list[tuple[PluginEntry, Any]] = []
+        results: _BList[tuple[PluginEntry, Any]] = []
         for entry in self.list(group):
             try:
                 obj = entry.load()
@@ -116,15 +117,15 @@ class PluginRegistry:
         return results
 
     @property
-    def tool_plugins(self) -> list[PluginEntry]:
+    def tool_plugins(self) -> _BList[PluginEntry]:
         return self.list(TOOL_GROUP)
 
     @property
-    def mcp_plugins(self) -> list[PluginEntry]:
+    def mcp_plugins(self) -> _BList[PluginEntry]:
         return self.list(MCP_GROUP)
 
     @property
-    def agent_plugins(self) -> list[PluginEntry]:
+    def agent_plugins(self) -> _BList[PluginEntry]:
         return self.list(AGENT_GROUP)
 
 

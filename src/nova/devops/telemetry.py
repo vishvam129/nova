@@ -17,6 +17,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
+from typing import Any
 
 _DEFAULT_CONSENT = Path("~/.config/nova/telemetry_consent.json").expanduser()
 _DEFAULT_AGGREGATE = Path("~/.local/share/nova/telemetry.json").expanduser()
@@ -124,7 +125,7 @@ class TelemetryBuffer:
         return sum(b.count for b in self._buckets.values())
 
 
-def event_total(snapshot: Iterable[dict[str, object]], event: str) -> int:
+def event_total(snapshot: Iterable[dict[str, Any]], event: str) -> int:
     return sum(int(s["count"]) for s in snapshot if s["event"] == event)
 
 

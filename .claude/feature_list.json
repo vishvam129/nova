@@ -13,7 +13,7 @@
     "format": "auto",
     "verification_level": "manual"
   },
-  "current_feature_id": 141,
+  "current_feature_id": null,
   "session": {
     "count": 144,
     "last_started_at": "2026-05-04T06:35:23.568603Z",
@@ -21,13 +21,13 @@
   },
   "stats": {
     "total": 144,
-    "passed": 143,
+    "passed": 144,
     "failed": 0,
     "skipped": 0,
-    "in_progress": 1,
+    "in_progress": 0,
     "paused": 0,
     "pending": 0,
-    "completion_percentage": 99.3
+    "completion_percentage": 100.0
   },
   "categories": [
     {
@@ -161,7 +161,7 @@
     {
       "name": "Community",
       "total": 3,
-      "passed": 2,
+      "passed": 3,
       "failed": 0,
       "skipped": 0,
       "paused": 0
@@ -8097,15 +8097,37 @@
       "verification": {
         "type": "manual",
         "criteria": "Marketplace page lists 10+ plugins",
-        "completed": false,
-        "evidence": null,
-        "requirements_addressed": []
+        "completed": true,
+        "evidence": "marketplace doc",
+        "requirements_addressed": [],
+        "verified_at": "2026-05-04T06:37:58.748323Z",
+        "alignment_score": {
+          "score": 0.01,
+          "drifted": true,
+          "matched_keywords": [
+            "community",
+            "curated",
+            "install",
+            "links",
+            "listing",
+            "lists",
+            "marketplace",
+            "mcp",
+            "one-click",
+            "page",
+            "plugin",
+            "plugins",
+            "servers"
+          ],
+          "unmatched_keywords": [],
+          "message": "Low alignment (1%): 13/13 spec keywords found. Missing: "
+        }
       },
-      "status": "in_progress",
+      "status": "passed",
       "status_reason": null,
       "started_at": "2026-05-04T06:35:23.568585Z",
-      "completed_at": null,
-      "commit_hash": null,
+      "completed_at": "2026-05-04T06:37:58.798672Z",
+      "commit_hash": "65a3bdbaf749a561a29ada0a422c2c16b8afe1d7",
       "parallelizable": false,
       "depends_on": [],
       "parallel_group": null,
@@ -8115,7 +8137,13 @@
       "addressed_requirements": [],
       "parent_id": null,
       "depth": 1,
-      "verification_level": "beta"
+      "verification_level": "beta",
+      "loc_stats": {
+        "added": 19858,
+        "removed": 19480,
+        "net": 378,
+        "files_changed": 10
+      }
     },
     {
       "id": 142,
@@ -8296,20 +8324,6 @@
     }
   ],
   "audit_trail": [
-    {
-      "timestamp": "2026-04-28T19:28:00.209675Z",
-      "operation": "feature_passed",
-      "feature_id": 109,
-      "details": {
-        "commit_hash": "3f698c20d9e77101ad71940aee9ca115622bff1e",
-        "loc_stats": {
-          "added": 17280,
-          "removed": 16702,
-          "net": 578,
-          "files_changed": 12
-        }
-      }
-    },
     {
       "timestamp": "2026-04-28T19:28:06.842244Z",
       "operation": "feature_started",
@@ -9852,6 +9866,20 @@
           ]
         },
         "depth": 1
+      }
+    },
+    {
+      "timestamp": "2026-05-04T06:37:58.798725Z",
+      "operation": "feature_passed",
+      "feature_id": 141,
+      "details": {
+        "commit_hash": "65a3bdbaf749a561a29ada0a422c2c16b8afe1d7",
+        "loc_stats": {
+          "added": 19858,
+          "removed": 19480,
+          "net": 378,
+          "files_changed": 10
+        }
       }
     }
   ]

@@ -14,7 +14,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Protocol
+from typing import Any, Protocol
 
 from nova.context.calendar import CalendarEvent
 
@@ -98,7 +98,7 @@ class CalendarToolHandler:
 
     backend: CalendarMcpBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool == "calendar.list":
             start = _coerce_dt(kwargs.get("start"))
             end = _coerce_dt(kwargs.get("end"))

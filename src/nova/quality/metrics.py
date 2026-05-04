@@ -15,6 +15,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 
 @dataclass(frozen=True, slots=True)
@@ -24,7 +25,7 @@ class MetricEvent:
     label: str = ""
     timestamp: datetime = field(default_factory=datetime.now)
 
-    def to_dict(self) -> dict[str, object]:
+    def to_dict(self) -> dict[str, Any]:
         return {
             "kind": self.kind,
             "value": self.value,
@@ -113,7 +114,7 @@ class MetricsStore:
         false = sum(1 for w in wakes if w.value == 0.0)
         return false / len(wakes)
 
-    def snapshot(self) -> dict[str, object]:
+    def snapshot(self) -> dict[str, Any]:
         return {
             "enabled": self.enabled,
             "events": len(self._events),

@@ -114,7 +114,8 @@ def get_logger(name: str = "") -> structlog.stdlib.BoundLogger:
     """Return a structlog bound logger, configuring defaults if not yet done."""
     if not _configured:
         configure_logging()
-    return structlog.get_logger(name)
+    logger: structlog.stdlib.BoundLogger = structlog.get_logger(name)
+    return logger
 
 
 __all__ = ["configure_logging", "get_logger"]

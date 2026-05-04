@@ -84,7 +84,7 @@ class GenericImapSmtp:
         with imaplib.IMAP4_SSL(self.host_imap, self.port_imap, ssl_context=ctx) as imap:
             imap.login(self.user, self.password)
             imap.select("INBOX")
-            typ, data = imap.fetch(uid.encode(), "(RFC822)")
+            typ, data = imap.fetch(uid, "(RFC822)")
             if typ != "OK" or not data or not data[0]:
                 return EmailBody(uid=uid, subject="", sender="", body="")
             raw = data[0][1]

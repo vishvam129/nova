@@ -16,11 +16,12 @@ from __future__ import annotations
 
 import re
 import sqlite3
+from builtins import list as _BList
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Protocol
+from typing import Any, Protocol
 
 
 @dataclass(frozen=True, slots=True)
@@ -89,14 +90,14 @@ class ObsidianVault:
             return Note(id=note_id, title=title, body=body, folder=folder)
         return None
 
-    def list(self, folder: str = "") -> list[Note]:
+    def list(self, folder: str = "") -> _BList[Note]:
         base = self.root / folder if folder else self.root
         notes = [self.read(p.stem) for p in base.rglob("*.md")]
         return [n for n in notes if n is not None]
 
-    def search(self, query: str, *, limit: int = 20) -> list[Note]:
+    def search(self, query: str, *, limit: int = 20) -> _BList[Note]:
         q = query.lower()
-        matches: list[Note] = []
+        matches: _BList[Note] = []
         for md in self.root.rglob("*.md"):
             text = md.read_text(encoding="utf-8").lower()
             if q in text:
@@ -154,7 +155,7 @@ class SqliteNotes:
             updated_at=datetime.fromisoformat(row[4]),
         )
 
-    def list(self, folder: str = "") -> list[Note]:
+    def list(self, folder: str = "") -> _BList[Note]:
         with sqlite3.connect(self.path) as conn:
             if folder:
                 cur = conn.execute("SELECT id FROM notes WHERE folder = ?", (folder,))
@@ -163,7 +164,7 @@ class SqliteNotes:
             ids = [r[0] for r in cur.fetchall()]
         return [self.read(i) for i in ids if self.read(i) is not None]  # type: ignore[misc]
 
-    def search(self, query: str, *, limit: int = 20) -> list[Note]:
+    def search(self, query: str, *, limit: int = 20) -> _BList[Note]:
         like = f"%{query.lower()}%"
         with sqlite3.connect(self.path) as conn:
             cur = conn.execute(
@@ -183,7 +184,7 @@ class SqliteNotes:
 class NotesToolHandler:
     backend: NotesBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool == "notes.create":
             note = self.backend.create(
                 str(kwargs["title"]),
@@ -192,14 +193,14 @@ class NotesToolHandler:
             )
             return note.to_dict()
         if tool == "notes.read":
-            note = self.backend.read(str(kwargs["id"]))
-            return note.to_dict() if note else None
+            found = self.backend.read(str(kwargs["id"]))
+            return found.to_dict() if found else None
         if tool == "notes.search":
             return [
                 n.to_dict()
                 for n in self.backend.search(
                     str(kwargs["query"]),
-                    limit=int(kwargs.get("limit", 20)),  # type: ignore[arg-type]
+                    limit=int(kwargs.get("limit", 20)),
                 )
             ]
         if tool == "notes.list":

@@ -15,6 +15,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 
 @dataclass(frozen=True)
@@ -26,7 +27,7 @@ class Fact:
     source: str = ""
     timestamp: str = ""
 
-    def to_dict(self) -> dict[str, object]:
+    def to_dict(self) -> dict[str, Any]:
         return {
             "subject": self.subject,
             "predicate": self.predicate,
@@ -37,12 +38,12 @@ class Fact:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> Fact:
+    def from_dict(cls, d: dict[str, Any]) -> Fact:
         return cls(
             subject=str(d["subject"]),
             predicate=str(d["predicate"]),
             object=str(d["object"]),
-            confidence=float(d.get("confidence", 0.5)),  # type: ignore[arg-type]
+            confidence=float(d.get("confidence", 0.5)),
             source=str(d.get("source", "")),
             timestamp=str(d.get("timestamp", "")),
         )

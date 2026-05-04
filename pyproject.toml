@@ -43,6 +43,9 @@ warn_unused_configs = true
 module = [
     "openwakeword.*",
     "pvporcupine",
+    "onnxruntime",
+    "onnxruntime.*",
+    "livekit.*",
     "numpy",
     "sounddevice",
     "whisper",

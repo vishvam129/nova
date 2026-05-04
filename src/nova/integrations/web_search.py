@@ -113,13 +113,13 @@ def _parse_brave(payload: dict[str, Any], *, limit: int) -> list[SearchResult]:
 class WebSearchToolHandler:
     backend: WebSearchBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool != "search":
             raise ValueError(f"unknown web-search tool: {tool!r}")
         query = str(kwargs.get("query", ""))
         if not query:
             raise ValueError("search requires non-empty 'query'")
-        limit = int(kwargs.get("limit", 10))  # type: ignore[arg-type]
+        limit = int(kwargs.get("limit", 10))
         return [r.to_dict() for r in self.backend.search(query, limit=limit)]
 
 

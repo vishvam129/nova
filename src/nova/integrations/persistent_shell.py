@@ -10,6 +10,7 @@ from __future__ import annotations
 import shutil
 import subprocess
 from dataclasses import dataclass
+from typing import Any
 
 
 class TmuxUnavailable(RuntimeError):
@@ -84,7 +85,7 @@ class PersistentShellHandler:
         shell.exists   { name }
     """
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         name = str(kwargs["name"])
         sess = PersistentShell(name=name)
         if tool == "shell.start":
@@ -93,7 +94,7 @@ class PersistentShellHandler:
         if tool == "shell.send":
             return {"ok": sess.send(str(kwargs["text"]))}
         if tool == "shell.capture":
-            return {"output": sess.capture(lines=int(kwargs.get("lines", 100)))}  # type: ignore[arg-type]
+            return {"output": sess.capture(lines=int(kwargs.get("lines", 100)))}
         if tool == "shell.kill":
             return {"ok": sess.kill()}
         if tool == "shell.exists":

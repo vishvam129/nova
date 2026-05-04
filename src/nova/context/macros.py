@@ -8,10 +8,12 @@ so this module owns only the recording / persistence / lookup parts.
 from __future__ import annotations
 
 import json
+from builtins import list as _BList
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 
 @dataclass(frozen=True, slots=True)
@@ -25,18 +27,18 @@ class MacroStep:
         return {"description": self.description, "delay_ms": self.delay_ms}
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> MacroStep:
+    def from_dict(cls, d: dict[str, Any]) -> MacroStep:
         return cls(
             description=str(d["description"]),
-            delay_ms=int(d.get("delay_ms", 0)),  # type: ignore[arg-type]
+            delay_ms=int(d.get("delay_ms", 0)),
         )
 
 
 @dataclass
 class Macro:
     name: str
-    steps: list[MacroStep] = field(default_factory=list)
-    aliases: list[str] = field(default_factory=list)
+    steps: _BList[MacroStep] = field(default_factory=list)
+    aliases: _BList[str] = field(default_factory=list)
     created_at: datetime = field(default_factory=datetime.now)
 
     def matches(self, phrase: str) -> bool:
@@ -54,11 +56,11 @@ class Macro:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> Macro:
+    def from_dict(cls, d: dict[str, Any]) -> Macro:
         return cls(
             name=str(d["name"]),
-            steps=[MacroStep.from_dict(s) for s in d.get("steps", [])],  # type: ignore[arg-type]
-            aliases=list(d.get("aliases") or []),  # type: ignore[arg-type]
+            steps=[MacroStep.from_dict(s) for s in d.get("steps", [])],
+            aliases=list(d.get("aliases") or []),
             created_at=datetime.fromisoformat(str(d.get("created_at", datetime.now().isoformat()))),
         )
 
@@ -94,14 +96,14 @@ class MacroLibrary:
                 return m
         return None
 
-    def list(self) -> list[Macro]:
+    def list(self) -> _BList[Macro]:
         return list(self._macros.values())
 
     def run(
         self,
         phrase: str,
         runner: Callable[[MacroStep], object],
-    ) -> list[object]:
+    ) -> _BList[object]:
         """Find a macro matching *phrase* and dispatch each step to *runner*."""
         macro = self.find(phrase)
         if macro is None:

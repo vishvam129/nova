@@ -17,7 +17,7 @@ import urllib.error
 import urllib.request
 from collections.abc import Iterable
 from dataclasses import dataclass, field
-from typing import Protocol
+from typing import Any, Protocol
 
 
 @dataclass(frozen=True, slots=True)
@@ -126,7 +126,7 @@ def list_supported_services() -> Iterable[str]:
 class MusicToolHandler:
     backend: MusicBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool == "music.play":
             track = self.backend.play(str(kwargs.get("query", "")))
             return track.to_dict() if track else {"ok": False}
@@ -139,7 +139,7 @@ class MusicToolHandler:
         if tool == "music.prev":
             return {"ok": self.backend.skip(forward=False)}
         if tool == "music.volume":
-            return {"ok": self.backend.set_volume(int(kwargs["level"]))}  # type: ignore[arg-type]
+            return {"ok": self.backend.set_volume(int(kwargs["level"]))}
         if tool == "music.now_playing":
             t = self.backend.now_playing()
             return t.to_dict() if t else None

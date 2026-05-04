@@ -15,7 +15,7 @@ from __future__ import annotations
 
 from collections.abc import Iterable
 from dataclasses import dataclass, field
-from typing import Protocol
+from typing import Any, Protocol
 
 
 @dataclass(frozen=True, slots=True)
@@ -126,7 +126,7 @@ def ICloudContacts(  # noqa: N802 — factory shaped like a class
 class ContactsToolHandler:
     backend: ContactsBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool == "contacts.search":
             query = str(kwargs.get("query", ""))
             return [c.to_dict() for c in self.backend.list() if c.matches(query)]
@@ -139,8 +139,8 @@ class ContactsToolHandler:
             contact = Contact(
                 id=str(data.get("id", _generate_id())),
                 name=str(data["name"]),
-                emails=tuple(map(str, data.get("emails") or ())),  # type: ignore[arg-type]
-                phones=tuple(map(str, data.get("phones") or ())),  # type: ignore[arg-type]
+                emails=tuple(map(str, data.get("emails") or ())),
+                phones=tuple(map(str, data.get("phones") or ())),
                 organisation=str(data.get("organisation", "")),
                 notes=str(data.get("notes", "")),
             )

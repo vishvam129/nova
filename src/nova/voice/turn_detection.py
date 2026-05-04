@@ -112,7 +112,7 @@ class ModelTurnDetector:
         if self._session is not None:
             return self._session
         try:
-            import onnxruntime as ort  # type: ignore[import-untyped]
+            import onnxruntime as ort
 
             path = self.model_path or _default_model_path()
             self._session = ort.InferenceSession(path)
@@ -131,7 +131,7 @@ class ModelTurnDetector:
         except RuntimeError:
             return
 
-        import numpy as np  # type: ignore[import-untyped]
+        import numpy as np
 
         audio = np.frombuffer(b"".join(self._frames), dtype=np.int16).astype(np.float32)
         audio /= 32768.0
@@ -217,12 +217,13 @@ def _rms(pcm: bytes) -> float:
     if n == 0:
         return 0.0
     samples = struct.unpack(f"<{n}h", pcm[: n * 2])
-    return (sum(s * s for s in samples) / n) ** 0.5 / 32768.0
+    rms = float((sum(s * s for s in samples) / n) ** 0.5 / 32768.0)
+    return rms
 
 
 def _default_model_path() -> str:
     try:
-        from livekit.agents.turn_detector import _MODEL_PATH  # type: ignore[import-untyped]
+        from livekit.agents.turn_detector import _MODEL_PATH
 
         return str(_MODEL_PATH)
     except ImportError as exc:

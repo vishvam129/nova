@@ -13,6 +13,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from enum import StrEnum
 from pathlib import Path
+from typing import Any
 
 
 class ChatRole(StrEnum):
@@ -38,7 +39,7 @@ class ChatMessage:
         }
 
     @classmethod
-    def from_dict(cls, d: dict[str, object]) -> ChatMessage:
+    def from_dict(cls, d: dict[str, Any]) -> ChatMessage:
         return cls(
             role=ChatRole(d["role"]),
             content=str(d["content"]),

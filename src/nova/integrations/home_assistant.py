@@ -114,7 +114,7 @@ def ws_subscribe_frame(*, message_id: int, event_type: str = "state_changed") ->
 class HomeAssistantToolHandler:
     backend: HomeAssistantBackend
 
-    def call(self, tool: str, **kwargs: object) -> object:
+    def call(self, tool: str, **kwargs: Any) -> object:
         if tool == "home.list_entities":
             return [e.to_dict() for e in self.backend.list_entities()]
         if tool == "home.get_state":
@@ -123,11 +123,11 @@ class HomeAssistantToolHandler:
         if tool == "home.call_service":
             domain = str(kwargs["domain"])
             service = str(kwargs["service"])
-            data = dict(kwargs.get("data") or {})  # type: ignore[arg-type]
+            data = dict(kwargs.get("data") or {})
             return {"ok": self.backend.call_service(domain, service, data)}
         if tool == "home.subscribe_events":
             return ws_subscribe_frame(
-                message_id=int(kwargs.get("message_id", 1)),  # type: ignore[arg-type]
+                message_id=int(kwargs.get("message_id", 1)),
                 event_type=str(kwargs.get("event_type", "state_changed")),
             )
         raise ValueError(f"unknown home.* tool: {tool!r}")

@@ -64,7 +64,7 @@ class ApnsPayload:
         }
         payload: dict[str, object] = {"aps": aps, "nova": dict(self.extras)}
         if self.handoff_id:
-            payload["nova_handoff_id"] = self.handoff_id  # type: ignore[index]
+            payload["nova_handoff_id"] = self.handoff_id
         return payload
 
     def encode(self) -> str:
