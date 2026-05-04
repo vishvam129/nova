@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #139
+# Implementation Plan: Feature #140
 
 **Category:** Community
-**Description:** Community: Discord + GitHub Discussions + public roadmap + issue triage SLA
+**Description:** Contributor kit: CONTRIBUTING.md, code style, PR template, first-issue labels
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** All three live; README links them
+**Criteria:** External PR merged via documented flow
 **Type:** manual
