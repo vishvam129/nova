@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #140 [Community] Contributor kit: CONTRIBUTING.md, code style, PR template, first-issue labels
-   Started: 2026-05-04T06:32:29.512832Z
+**In Progress:** #141 [Community] Plugin marketplace page listing curated MCP servers + one-click install links
+   Started: 2026-05-04T06:35:23.568585Z
 
 ## Summary
 
-Progress: █████████████████████████████░ 98.6%
+Progress: █████████████████████████████░ 99.3%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 142 | 98.6% |
+| Passed | 143 | 99.3% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 1 | 0.7% |
+| Pending | 0 | 0.0% |
 
 ## Session Statistics
 
-- **Sessions:** 143
-- **Last Started:** 2026-05-04T06:32:29.512852Z
+- **Sessions:** 144
+- **Last Started:** 2026-05-04T06:35:23.568603Z
 
 ## Categories
 
@@ -43,13 +43,14 @@ Progress: ███████████████████████�
 | Quality | ██████████ 100% | 5 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
 | DevOps | ██████████ 100% | 4 | 0 | 0 |
-| Community | ███░░░░░░░ 33% | 1 | 0 | 0 |
+| Community | ██████░░░░ 67% | 2 | 0 | 0 |
 | Demo | ██████████ 100% | 3 | 0 | 0 |
 
 ## Feature Metrics
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #140 | passed | 2m 53s | 19841 | 19417 | 424 | 11 | 0 | yes |
 | #139 | passed | 6m 30s | 19746 | 19366 | 380 | 10 | 0 | yes |
 | #138 | passed | 10h 15m 22s | 19670 | 19310 | 360 | 10 | 0 | yes |
 | #137 | passed | 15m 2s | 19813 | 19257 | 556 | 12 | 0 | yes |
@@ -199,6 +200,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-04T06:35 | #140 Contributor kit: CONTRIBUTING.md, code style, PR t | P | a47544c |
 | 2026-05-04T06:32 | #139 Community: Discord + GitHub Discussions + public r | P | 459c8a0 |
 | 2026-05-04T06:25 | #138 Nightly integration test running end-to-end voice  | P | baf6019 |
 | 2026-05-03T20:10 | #137 Telemetry (opt-in only, local-aggregated) with con | P | d9ccdcc |
@@ -208,8 +210,7 @@ Progress: ███████████████████████�
 | 2026-05-03T11:59 | #127 tau2-bench voice eval runner for end-to-end voice  | P | ce48ec9 |
 | 2026-05-03T08:14 | #126 GAIA-lite subset integration for objective benchma | P | 277da36 |
 | 2026-05-03T08:13 | #124 Docker Compose deployment for self-hosted brain on | P | 9881b7a |
-| 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
 
 ---
-*Last updated: 2026-05-04T06:32:29.576335Z*
-*Session 143*
+*Last updated: 2026-05-04T06:35:23.641954Z*
+*Session 144*

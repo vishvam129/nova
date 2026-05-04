@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #140
+# Implementation Plan: Feature #141
 
 **Category:** Community
-**Description:** Contributor kit: CONTRIBUTING.md, code style, PR template, first-issue labels
+**Description:** Plugin marketplace page listing curated MCP servers + one-click install links
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** External PR merged via documented flow
+**Criteria:** Marketplace page lists 10+ plugins
 **Type:** manual

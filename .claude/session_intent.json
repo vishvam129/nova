@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-143",
-      "text": "Implementing feature 140: Contributor kit: CONTRIBUTING.md, code style, PR template, first-issue labels",
+      "id": "f2d00bd75f7e-144",
+      "text": "Implementing feature 141: Plugin marketplace page listing curated MCP servers + one-click install links",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777876349.6128883,
-      "updated_at": 1777876349.6128886,
+      "created_at": 1777876523.690619,
+      "updated_at": 1777876523.6906192,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 140
+        "feature_id": 141
       },
       "keywords": []
     },
@@ -2164,9 +2164,24 @@
         "feature_id": 140
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-144",
+      "text": "Implementing feature 141: Plugin marketplace page listing curated MCP servers + one-click install links",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777876523.690619,
+      "updated_at": 1777876523.6906192,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 141
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 143,
+  "intent_counter": 144,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777876349.6128926
+  "updated_at": 1777876523.6906345
 }
