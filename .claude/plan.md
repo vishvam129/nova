@@ -1,7 +1,7 @@
-# Implementation Plan: Feature #138
+# Implementation Plan: Feature #139
 
-**Category:** DevOps
-**Description:** Nightly integration test running end-to-end voice pipeline headlessly
+**Category:** Community
+**Description:** Community: Discord + GitHub Discussions + public roadmap + issue triage SLA
 
 ## Approach
 
@@ -27,5 +27,5 @@
 
 ## Verification
 
-**Criteria:** CI job produces success rate report
+**Criteria:** All three live; README links them
 **Type:** manual

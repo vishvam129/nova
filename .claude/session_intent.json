@@ -3,17 +3,17 @@
   "stack": {
     "session": null,
     "task": {
-      "id": "f2d00bd75f7e-141",
-      "text": "Implementing feature 138: Nightly integration test running end-to-end voice pipeline headlessly",
+      "id": "f2d00bd75f7e-142",
+      "text": "Implementing feature 139: Community: Discord + GitHub Discussions + public roadmap + issue triage SLA",
       "level": "task",
       "status": "active",
       "confidence": 1.0,
-      "created_at": 1777839036.134891,
-      "updated_at": 1777839036.1348913,
+      "created_at": 1777875958.7983458,
+      "updated_at": 1777875958.798346,
       "completed_at": null,
       "parent_id": null,
       "metadata": {
-        "feature_id": 138
+        "feature_id": 139
       },
       "keywords": []
     },
@@ -2134,9 +2134,24 @@
         "feature_id": 138
       },
       "keywords": []
+    },
+    {
+      "id": "f2d00bd75f7e-142",
+      "text": "Implementing feature 139: Community: Discord + GitHub Discussions + public roadmap + issue triage SLA",
+      "level": "task",
+      "status": "active",
+      "confidence": 1.0,
+      "created_at": 1777875958.7983458,
+      "updated_at": 1777875958.798346,
+      "completed_at": null,
+      "parent_id": null,
+      "metadata": {
+        "feature_id": 139
+      },
+      "keywords": []
     }
   ],
-  "intent_counter": 141,
+  "intent_counter": 142,
   "created_at": 1776852316.1930206,
-  "updated_at": 1777839036.1348948
+  "updated_at": 1777875958.79835
 }

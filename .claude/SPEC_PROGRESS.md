@@ -2,26 +2,26 @@
 
 ## Current Status
 
-**In Progress:** #138 [DevOps] Nightly integration test running end-to-end voice pipeline headlessly
-   Started: 2026-05-03T20:10:36.037814Z
+**In Progress:** #139 [Community] Community: Discord + GitHub Discussions + public roadmap + issue triage SLA
+   Started: 2026-05-04T06:25:58.702631Z
 
 ## Summary
 
-Progress: █████████████████████████████░ 97.2%
+Progress: █████████████████████████████░ 97.9%
 
 | Metric | Count | Percentage |
 |--------|-------|------------|
 | **Total Features** | 144 | - |
-| Passed | 140 | 97.2% |
+| Passed | 141 | 97.9% |
 | Failed | 0 | 0.0% |
 | Skipped | 0 | 0.0% |
 | In Progress | 1 | - |
-| Pending | 3 | 2.1% |
+| Pending | 2 | 1.4% |
 
 ## Session Statistics
 
-- **Sessions:** 141
-- **Last Started:** 2026-05-03T20:10:36.037833Z
+- **Sessions:** 142
+- **Last Started:** 2026-05-04T06:25:58.702650Z
 
 ## Categories
 
@@ -42,7 +42,7 @@ Progress: ███████████████████████�
 | Packaging | ██████████ 100% | 6 | 0 | 0 |
 | Quality | ██████████ 100% | 5 | 0 | 0 |
 | Docs | ██████████ 100% | 5 | 0 | 0 |
-| DevOps | ███████░░░ 75% | 3 | 0 | 0 |
+| DevOps | ██████████ 100% | 4 | 0 | 0 |
 | Community | ░░░░░░░░░░ 0% | 0 | 0 | 0 |
 | Demo | ██████████ 100% | 3 | 0 | 0 |
 
@@ -50,6 +50,7 @@ Progress: ███████████████████████�
 
 | ID | Status | Duration | +Lines | -Lines | Net | Files | Clarifications | Verified |
 |----|--------|----------|--------|--------|-----|-------|----------------|----------|
+| #138 | passed | 10h 15m 22s | 19670 | 19310 | 360 | 10 | 0 | yes |
 | #137 | passed | 15m 2s | 19813 | 19257 | 556 | 12 | 0 | yes |
 | #136 | passed | 40m 25s | 19824 | 19208 | 616 | 13 | 0 | yes |
 | #129 | passed | 2m 7s | 257 | 2 | 255 | 4 | 0 | yes |
@@ -197,6 +198,7 @@ Progress: ███████████████████████�
 
 | Time | Feature | Status | Commit |
 |------|---------|--------|--------|
+| 2026-05-04T06:25 | #138 Nightly integration test running end-to-end voice  | P | baf6019 |
 | 2026-05-03T20:10 | #137 Telemetry (opt-in only, local-aggregated) with con | P | d9ccdcc |
 | 2026-05-03T19:55 | #136 Crash reporter (opt-in, sanitized, local-first dum | P | 6f0decd |
 | 2026-05-03T19:15 | #129 Chaos test harness: kills mic/STT/LLM mid-request  | P | 5fdaafb |
@@ -206,8 +208,7 @@ Progress: ███████████████████████�
 | 2026-05-03T08:13 | #124 Docker Compose deployment for self-hosted brain on | P | 9881b7a |
 | 2026-05-03T08:04 | #122 Auto-update channel with Ed25519 release signature | P | 7b1a7c3 |
 | 2026-05-03T08:03 | #118 Right-to-left language rendering in all UI surface | P | d462dd7 |
-| 2026-05-03T08:02 | #117 Translate tool: on-demand translate clipboard/sele | P | cbaa9de |
 
 ---
-*Last updated: 2026-05-03T20:10:36.103110Z*
-*Session 141*
+*Last updated: 2026-05-04T06:25:58.764458Z*
+*Session 142*
